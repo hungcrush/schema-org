@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * person, whether physically or mentally. Includes diseases, injuries,
  * disabilities, disorders, syndromes, etc.
  *
- * @see https://schema.org/MedicalCondition
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalCondition
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalCondition extends BaseType implements MedicalConditionContract, MedicalEntityContract, ThingContract
@@ -29,7 +29,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,8 +58,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/associatedAnatomy
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedAnatomy
+     * @see https://health-lifesci.schema.org
      */
     public function associatedAnatomy($associatedAnatomy)
     {
@@ -74,8 +74,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -89,7 +89,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -108,8 +108,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/differentialDiagnosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:differentialDiagnosis
+     * @see https://health-lifesci.schema.org
      */
     public function differentialDiagnosis($differentialDiagnosis)
     {
@@ -126,7 +126,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -134,14 +134,14 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
     }
 
     /**
-     * Specifying a drug or medicine used in a medication procedure
+     * Specifying a drug or medicine used in a medication procedure.
      *
      * @param \Spatie\SchemaOrg\Contracts\DrugContract|\Spatie\SchemaOrg\Contracts\DrugContract[] $drug
      *
      * @return static
      *
-     * @see https://schema.org/drug
-     * @see http://health-lifesci.schema.org
+     * @see schema:drug
+     * @see https://health-lifesci.schema.org
      */
     public function drug($drug)
     {
@@ -156,8 +156,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/epidemiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:epidemiology
+     * @see https://health-lifesci.schema.org
      */
     public function epidemiology($epidemiology)
     {
@@ -172,8 +172,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/expectedPrognosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:expectedPrognosis
+     * @see https://health-lifesci.schema.org
      */
     public function expectedPrognosis($expectedPrognosis)
     {
@@ -187,8 +187,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -206,7 +206,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -221,7 +221,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -236,8 +236,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -253,7 +253,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -268,8 +268,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -283,7 +283,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -298,8 +298,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/naturalProgression
-     * @see http://health-lifesci.schema.org
+     * @see schema:naturalProgression
+     * @see https://health-lifesci.schema.org
      */
     public function naturalProgression($naturalProgression)
     {
@@ -314,8 +314,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/pathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:pathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function pathophysiology($pathophysiology)
     {
@@ -331,8 +331,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/possibleComplication
-     * @see http://health-lifesci.schema.org
+     * @see schema:possibleComplication
+     * @see https://health-lifesci.schema.org
      */
     public function possibleComplication($possibleComplication)
     {
@@ -346,8 +346,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/possibleTreatment
-     * @see http://health-lifesci.schema.org
+     * @see schema:possibleTreatment
+     * @see https://health-lifesci.schema.org
      */
     public function possibleTreatment($possibleTreatment)
     {
@@ -362,7 +362,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -377,8 +377,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/primaryPrevention
-     * @see http://health-lifesci.schema.org
+     * @see schema:primaryPrevention
+     * @see https://health-lifesci.schema.org
      */
     public function primaryPrevention($primaryPrevention)
     {
@@ -393,8 +393,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -408,8 +408,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -424,8 +424,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/riskFactor
-     * @see http://health-lifesci.schema.org
+     * @see schema:riskFactor
+     * @see https://health-lifesci.schema.org
      */
     public function riskFactor($riskFactor)
     {
@@ -441,7 +441,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -456,8 +456,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/secondaryPrevention
-     * @see http://health-lifesci.schema.org
+     * @see schema:secondaryPrevention
+     * @see https://health-lifesci.schema.org
      */
     public function secondaryPrevention($secondaryPrevention)
     {
@@ -473,8 +473,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/signOrSymptom
-     * @see http://health-lifesci.schema.org
+     * @see schema:signOrSymptom
+     * @see https://health-lifesci.schema.org
      */
     public function signOrSymptom($signOrSymptom)
     {
@@ -488,8 +488,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/stage
-     * @see http://health-lifesci.schema.org
+     * @see schema:stage
+     * @see https://health-lifesci.schema.org
      */
     public function stage($stage)
     {
@@ -503,8 +503,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/status
-     * @see http://health-lifesci.schema.org
+     * @see schema:status
+     * @see https://health-lifesci.schema.org
      */
     public function status($status)
     {
@@ -518,8 +518,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -533,7 +533,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -548,8 +548,8 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/typicalTest
-     * @see http://health-lifesci.schema.org
+     * @see schema:typicalTest
+     * @see https://health-lifesci.schema.org
      */
     public function typicalTest($typicalTest)
     {
@@ -563,7 +563,7 @@ class MedicalCondition extends BaseType implements MedicalConditionContract, Med
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

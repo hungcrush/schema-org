@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Any rule set or interactive tool for estimating the risk of developing a
  * complication or condition.
  *
- * @see https://schema.org/MedicalRiskEstimator
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalRiskEstimator
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContract, MedicalEntityContract, ThingContract
@@ -28,7 +28,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -72,7 +72,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,7 +89,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -103,8 +103,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/estimatesRiskOf
-     * @see http://health-lifesci.schema.org
+     * @see schema:estimatesRiskOf
+     * @see https://health-lifesci.schema.org
      */
     public function estimatesRiskOf($estimatesRiskOf)
     {
@@ -118,8 +118,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -137,7 +137,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -152,7 +152,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -167,8 +167,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/includedRiskFactor
-     * @see http://health-lifesci.schema.org
+     * @see schema:includedRiskFactor
+     * @see https://health-lifesci.schema.org
      */
     public function includedRiskFactor($includedRiskFactor)
     {
@@ -183,8 +183,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -200,7 +200,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -215,8 +215,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -230,7 +230,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -245,7 +245,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -260,8 +260,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -275,8 +275,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -292,7 +292,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -306,8 +306,8 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -321,7 +321,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -336,7 +336,7 @@ class MedicalRiskEstimator extends BaseType implements MedicalRiskEstimatorContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

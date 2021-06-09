@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Nutritional information about the recipe.
  *
- * @see https://schema.org/NutritionInformation
+ * @see schema:NutritionInformation
  *
  */
 class NutritionInformation extends BaseType implements NutritionInformationContract, IntangibleContract, StructuredValueContract, ThingContract
@@ -27,7 +27,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/calories
+     * @see schema:calories
      */
     public function calories($calories)
     {
@@ -69,7 +69,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/carbohydrateContent
+     * @see schema:carbohydrateContent
      */
     public function carbohydrateContent($carbohydrateContent)
     {
@@ -83,7 +83,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/cholesterolContent
+     * @see schema:cholesterolContent
      */
     public function cholesterolContent($cholesterolContent)
     {
@@ -97,7 +97,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -114,7 +114,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -128,7 +128,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/fatContent
+     * @see schema:fatContent
      */
     public function fatContent($fatContent)
     {
@@ -142,7 +142,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/fiberContent
+     * @see schema:fiberContent
      */
     public function fiberContent($fiberContent)
     {
@@ -160,7 +160,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -175,7 +175,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -191,7 +191,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -205,7 +205,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -220,7 +220,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -234,7 +234,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/proteinContent
+     * @see schema:proteinContent
      */
     public function proteinContent($proteinContent)
     {
@@ -250,7 +250,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -264,7 +264,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/saturatedFatContent
+     * @see schema:saturatedFatContent
      */
     public function saturatedFatContent($saturatedFatContent)
     {
@@ -278,7 +278,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/servingSize
+     * @see schema:servingSize
      */
     public function servingSize($servingSize)
     {
@@ -292,7 +292,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/sodiumContent
+     * @see schema:sodiumContent
      */
     public function sodiumContent($sodiumContent)
     {
@@ -306,7 +306,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -321,7 +321,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/sugarContent
+     * @see schema:sugarContent
      */
     public function sugarContent($sugarContent)
     {
@@ -335,7 +335,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/transFatContent
+     * @see schema:transFatContent
      */
     public function transFatContent($transFatContent)
     {
@@ -349,7 +349,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/unsaturatedFatContent
+     * @see schema:unsaturatedFatContent
      */
     public function unsaturatedFatContent($unsaturatedFatContent)
     {
@@ -363,7 +363,7 @@ class NutritionInformation extends BaseType implements NutritionInformationContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

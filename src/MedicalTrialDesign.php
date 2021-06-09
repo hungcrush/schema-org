@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Design models for medical trials. Enumerated type.
  *
- * @see https://schema.org/MedicalTrialDesign
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalTrialDesign
+ * @see https://health-lifesci.schema.org
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_WikiDoc
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -23,78 +23,78 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      * A trial design in which neither the researcher nor the patient knows the
      * details of the treatment the patient was randomly assigned to.
      *
-     * @see https://schema.org/DoubleBlindedTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:DoubleBlindedTrial
+     * @see https://health-lifesci.schema.org
      */
-     const DoubleBlindedTrial = 'https://schema.org/DoubleBlindedTrial';
+     const DoubleBlindedTrial = 'schema:DoubleBlindedTrial';
 
     /**
      * An international trial.
      *
-     * @see https://schema.org/InternationalTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:InternationalTrial
+     * @see https://health-lifesci.schema.org
      */
-     const InternationalTrial = 'https://schema.org/InternationalTrial';
+     const InternationalTrial = 'schema:InternationalTrial';
 
     /**
      * A trial that takes place at multiple centers.
      *
-     * @see https://schema.org/MultiCenterTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:MultiCenterTrial
+     * @see https://health-lifesci.schema.org
      */
-     const MultiCenterTrial = 'https://schema.org/MultiCenterTrial';
+     const MultiCenterTrial = 'schema:MultiCenterTrial';
 
     /**
      * A trial design in which the researcher knows the full details of the
      * treatment, and so does the patient.
      *
-     * @see https://schema.org/OpenTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:OpenTrial
+     * @see https://health-lifesci.schema.org
      */
-     const OpenTrial = 'https://schema.org/OpenTrial';
+     const OpenTrial = 'schema:OpenTrial';
 
     /**
      * A placebo-controlled trial design.
      *
-     * @see https://schema.org/PlaceboControlledTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:PlaceboControlledTrial
+     * @see https://health-lifesci.schema.org
      */
-     const PlaceboControlledTrial = 'https://schema.org/PlaceboControlledTrial';
+     const PlaceboControlledTrial = 'schema:PlaceboControlledTrial';
 
     /**
      * A randomized trial design.
      *
-     * @see https://schema.org/RandomizedTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:RandomizedTrial
+     * @see https://health-lifesci.schema.org
      */
-     const RandomizedTrial = 'https://schema.org/RandomizedTrial';
+     const RandomizedTrial = 'schema:RandomizedTrial';
 
     /**
      * A trial design in which the researcher knows which treatment the patient
      * was randomly assigned to but the patient does not.
      *
-     * @see https://schema.org/SingleBlindedTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:SingleBlindedTrial
+     * @see https://health-lifesci.schema.org
      */
-     const SingleBlindedTrial = 'https://schema.org/SingleBlindedTrial';
+     const SingleBlindedTrial = 'schema:SingleBlindedTrial';
 
     /**
      * A trial that takes place at a single center.
      *
-     * @see https://schema.org/SingleCenterTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:SingleCenterTrial
+     * @see https://health-lifesci.schema.org
      */
-     const SingleCenterTrial = 'https://schema.org/SingleCenterTrial';
+     const SingleCenterTrial = 'schema:SingleCenterTrial';
 
     /**
      * A trial design in which neither the researcher, the person administering
      * the therapy nor the patient knows the details of the treatment the
      * patient was randomly assigned to.
      *
-     * @see https://schema.org/TripleBlindedTrial
-     * @see http://health-lifesci.schema.org
+     * @see schema:TripleBlindedTrial
+     * @see https://health-lifesci.schema.org
      */
-     const TripleBlindedTrial = 'https://schema.org/TripleBlindedTrial';
+     const TripleBlindedTrial = 'schema:TripleBlindedTrial';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -108,7 +108,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -122,7 +122,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -136,7 +136,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -153,7 +153,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -171,7 +171,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -186,7 +186,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -202,7 +202,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -216,7 +216,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -231,7 +231,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -247,7 +247,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -261,7 +261,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -276,7 +276,7 @@ class MedicalTrialDesign extends BaseType implements MedicalTrialDesignContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Any medical imaging modality typically used for diagnostic purposes.
  * Enumerated type.
  *
- * @see https://schema.org/MedicalImagingTechnique
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalImagingTechnique
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -22,42 +22,42 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
     /**
      * X-ray computed tomography imaging.
      *
-     * @see https://schema.org/CT
-     * @see http://health-lifesci.schema.org
+     * @see schema:CT
+     * @see https://health-lifesci.schema.org
      */
-     const CT = 'https://schema.org/CT';
+     const CT = 'schema:CT';
 
     /**
      * Magnetic resonance imaging.
      *
-     * @see https://schema.org/MRI
-     * @see http://health-lifesci.schema.org
+     * @see schema:MRI
+     * @see https://health-lifesci.schema.org
      */
-     const MRI = 'https://schema.org/MRI';
+     const MRI = 'schema:MRI';
 
     /**
      * Positron emission tomography imaging.
      *
-     * @see https://schema.org/PET
-     * @see http://health-lifesci.schema.org
+     * @see schema:PET
+     * @see https://health-lifesci.schema.org
      */
-     const PET = 'https://schema.org/PET';
+     const PET = 'schema:PET';
 
     /**
      * Ultrasound imaging.
      *
-     * @see https://schema.org/Ultrasound
-     * @see http://health-lifesci.schema.org
+     * @see schema:Ultrasound
+     * @see https://health-lifesci.schema.org
      */
-     const Ultrasound = 'https://schema.org/Ultrasound';
+     const Ultrasound = 'schema:Ultrasound';
 
     /**
      * X-ray imaging.
      *
-     * @see https://schema.org/XRay
-     * @see http://health-lifesci.schema.org
+     * @see schema:XRay
+     * @see https://health-lifesci.schema.org
      */
-     const XRay = 'https://schema.org/XRay';
+     const XRay = 'schema:XRay';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -71,7 +71,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -85,7 +85,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -99,7 +99,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -116,7 +116,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -134,7 +134,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -149,7 +149,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -165,7 +165,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -179,7 +179,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -194,7 +194,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -210,7 +210,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -224,7 +224,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -239,7 +239,7 @@ class MedicalImagingTechnique extends BaseType implements MedicalImagingTechniqu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

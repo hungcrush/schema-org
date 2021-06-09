@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * The delivery of a parcel either via the postal service or a commercial
  * service.
  *
- * @see https://schema.org/ParcelDelivery
+ * @see schema:ParcelDelivery
  *
  */
 class ParcelDelivery extends BaseType implements ParcelDeliveryContract, IntangibleContract, ThingContract
@@ -27,7 +27,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/carrier
+     * @see schema:carrier
      */
     public function carrier($carrier)
     {
@@ -70,7 +70,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/deliveryAddress
+     * @see schema:deliveryAddress
      */
     public function deliveryAddress($deliveryAddress)
     {
@@ -85,7 +85,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/deliveryStatus
+     * @see schema:deliveryStatus
      */
     public function deliveryStatus($deliveryStatus)
     {
@@ -99,7 +99,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -116,7 +116,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -130,7 +130,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/expectedArrivalFrom
+     * @see schema:expectedArrivalFrom
      */
     public function expectedArrivalFrom($expectedArrivalFrom)
     {
@@ -144,7 +144,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/expectedArrivalUntil
+     * @see schema:expectedArrivalUntil
      */
     public function expectedArrivalUntil($expectedArrivalUntil)
     {
@@ -158,7 +158,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/hasDeliveryMethod
+     * @see schema:hasDeliveryMethod
      */
     public function hasDeliveryMethod($hasDeliveryMethod)
     {
@@ -176,7 +176,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -191,7 +191,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -205,7 +205,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/itemShipped
+     * @see schema:itemShipped
      */
     public function itemShipped($itemShipped)
     {
@@ -221,7 +221,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -235,7 +235,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -249,7 +249,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/originAddress
+     * @see schema:originAddress
      */
     public function originAddress($originAddress)
     {
@@ -263,7 +263,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/partOfOrder
+     * @see schema:partOfOrder
      */
     public function partOfOrder($partOfOrder)
     {
@@ -278,7 +278,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -294,7 +294,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -311,7 +311,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -325,7 +325,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -340,7 +340,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/trackingNumber
+     * @see schema:trackingNumber
      */
     public function trackingNumber($trackingNumber)
     {
@@ -354,7 +354,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/trackingUrl
+     * @see schema:trackingUrl
      */
     public function trackingUrl($trackingUrl)
     {
@@ -368,7 +368,7 @@ class ParcelDelivery extends BaseType implements ParcelDeliveryContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

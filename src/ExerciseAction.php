@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * The act of participating in exertive activity for the purposes of improving
  * health and fitness.
  *
- * @see https://schema.org/ExerciseAction
+ * @see schema:ExerciseAction
  *
  */
 class ExerciseAction extends BaseType implements ExerciseActionContract, ActionContract, PlayActionContract, ThingContract
@@ -23,7 +23,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -42,7 +42,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -57,7 +57,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -71,7 +71,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -85,7 +85,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -99,7 +99,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/course
+     * @see schema:course
      */
     public function course($course)
     {
@@ -113,7 +113,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -127,8 +127,8 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/diet
-     * @see http://health-lifesci.schema.org
+     * @see schema:diet
+     * @see https://health-lifesci.schema.org
      */
     public function diet($diet)
     {
@@ -145,7 +145,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -159,7 +159,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/distance
+     * @see schema:distance
      */
     public function distance($distance)
     {
@@ -182,7 +182,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -197,7 +197,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -212,7 +212,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -226,7 +226,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/exerciseCourse
+     * @see schema:exerciseCourse
      */
     public function exerciseCourse($exerciseCourse)
     {
@@ -240,8 +240,8 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/exercisePlan
-     * @see http://health-lifesci.schema.org
+     * @see schema:exercisePlan
+     * @see https://health-lifesci.schema.org
      */
     public function exercisePlan($exercisePlan)
     {
@@ -255,8 +255,8 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/exerciseRelatedDiet
-     * @see http://health-lifesci.schema.org
+     * @see schema:exerciseRelatedDiet
+     * @see https://health-lifesci.schema.org
      */
     public function exerciseRelatedDiet($exerciseRelatedDiet)
     {
@@ -271,8 +271,8 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/exerciseType
-     * @see http://health-lifesci.schema.org
+     * @see schema:exerciseType
+     * @see https://health-lifesci.schema.org
      */
     public function exerciseType($exerciseType)
     {
@@ -287,7 +287,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/fromLocation
+     * @see schema:fromLocation
      */
     public function fromLocation($fromLocation)
     {
@@ -305,7 +305,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -320,7 +320,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -335,7 +335,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -343,14 +343,14 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -366,7 +366,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -380,7 +380,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -397,7 +397,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -411,7 +411,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/opponent
+     * @see schema:opponent
      */
     public function opponent($opponent)
     {
@@ -426,7 +426,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -441,7 +441,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -455,7 +455,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -471,7 +471,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -486,7 +486,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/sportsActivityLocation
+     * @see schema:sportsActivityLocation
      */
     public function sportsActivityLocation($sportsActivityLocation)
     {
@@ -500,7 +500,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/sportsEvent
+     * @see schema:sportsEvent
      */
     public function sportsEvent($sportsEvent)
     {
@@ -515,7 +515,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/sportsTeam
+     * @see schema:sportsTeam
      */
     public function sportsTeam($sportsTeam)
     {
@@ -538,7 +538,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -553,7 +553,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -568,7 +568,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -583,7 +583,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/toLocation
+     * @see schema:toLocation
      */
     public function toLocation($toLocation)
     {
@@ -597,7 +597,7 @@ class ExerciseAction extends BaseType implements ExerciseActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

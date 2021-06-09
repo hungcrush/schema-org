@@ -8,8 +8,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A StupidType for testing.
  *
- * @see https://schema.org/StupidType
- * @see http://attic.schema.org
+ * @see schema:StupidType
+ * @see https://attic.schema.org
  *
  */
 class StupidType extends BaseType implements StupidTypeContract, ThingContract
@@ -26,7 +26,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -54,7 +54,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -71,7 +71,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -89,7 +89,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -104,7 +104,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -120,7 +120,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -134,7 +134,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -149,7 +149,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -165,7 +165,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -179,8 +179,8 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/stupidProperty
-     * @see http://attic.schema.org
+     * @see schema:stupidProperty
+     * @see https://attic.schema.org
      */
     public function stupidProperty($stupidProperty)
     {
@@ -194,7 +194,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -209,7 +209,7 @@ class StupidType extends BaseType implements StupidTypeContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

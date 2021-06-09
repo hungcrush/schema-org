@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The act of asking someone to attend an event. Reciprocal of RsvpAction.
  *
- * @see https://schema.org/InviteAction
+ * @see schema:InviteAction
  *
  */
 class InviteAction extends BaseType implements InviteActionContract, ActionContract, CommunicateActionContract, InteractActionContract, ThingContract
@@ -23,7 +23,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -38,7 +38,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -57,7 +57,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -72,7 +72,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -86,7 +86,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -100,7 +100,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -117,7 +117,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -140,7 +140,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -155,7 +155,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -170,7 +170,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -188,7 +188,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -203,7 +203,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -220,7 +220,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -236,7 +236,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -250,7 +250,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/language
+     * @see schema:language
      */
     public function language($language)
     {
@@ -258,14 +258,14 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -281,7 +281,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -295,7 +295,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -312,7 +312,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -327,7 +327,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -342,7 +342,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -357,7 +357,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/recipient
+     * @see schema:recipient
      */
     public function recipient($recipient)
     {
@@ -371,7 +371,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -387,7 +387,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -410,7 +410,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -425,7 +425,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -440,7 +440,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -454,7 +454,7 @@ class InviteAction extends BaseType implements InviteActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

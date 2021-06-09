@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * functioning as the coordinating center of sensation and intellectual and
  * nervous activity.
  *
- * @see https://schema.org/BrainStructure
- * @see http://health-lifesci.schema.org
+ * @see schema:BrainStructure
+ * @see https://health-lifesci.schema.org
  *
  */
 class BrainStructure extends BaseType implements BrainStructureContract, AnatomicalStructureContract, MedicalEntityContract, ThingContract
@@ -30,7 +30,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,8 +60,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/associatedPathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedPathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function associatedPathophysiology($associatedPathophysiology)
     {
@@ -75,8 +75,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/bodyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:bodyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function bodyLocation($bodyLocation)
     {
@@ -91,8 +91,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -106,8 +106,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/connectedTo
-     * @see http://health-lifesci.schema.org
+     * @see schema:connectedTo
+     * @see https://health-lifesci.schema.org
      */
     public function connectedTo($connectedTo)
     {
@@ -121,7 +121,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -136,8 +136,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/diagram
-     * @see http://health-lifesci.schema.org
+     * @see schema:diagram
+     * @see https://health-lifesci.schema.org
      */
     public function diagram($diagram)
     {
@@ -154,7 +154,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -168,8 +168,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -187,7 +187,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -202,7 +202,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -217,8 +217,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -234,7 +234,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -249,8 +249,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -264,7 +264,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -278,8 +278,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/partOfSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:partOfSystem
+     * @see https://health-lifesci.schema.org
      */
     public function partOfSystem($partOfSystem)
     {
@@ -294,7 +294,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -309,8 +309,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -324,8 +324,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/relatedCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedCondition
+     * @see https://health-lifesci.schema.org
      */
     public function relatedCondition($relatedCondition)
     {
@@ -339,8 +339,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/relatedTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedTherapy
+     * @see https://health-lifesci.schema.org
      */
     public function relatedTherapy($relatedTherapy)
     {
@@ -354,8 +354,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -371,7 +371,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -385,8 +385,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -400,8 +400,8 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/subStructure
-     * @see http://health-lifesci.schema.org
+     * @see schema:subStructure
+     * @see https://health-lifesci.schema.org
      */
     public function subStructure($subStructure)
     {
@@ -415,7 +415,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -430,7 +430,7 @@ class BrainStructure extends BaseType implements BrainStructureContract, Anatomi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

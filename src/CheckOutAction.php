@@ -21,7 +21,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * * [[CancelAction]]: Unlike CancelAction, CheckOutAction implies that the
  * agent is informing/confirming the end of a previously reserved service.
  *
- * @see https://schema.org/CheckOutAction
+ * @see schema:CheckOutAction
  *
  */
 class CheckOutAction extends BaseType implements CheckOutActionContract, ActionContract, CommunicateActionContract, InteractActionContract, ThingContract
@@ -33,7 +33,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -48,7 +48,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -67,7 +67,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -82,7 +82,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -96,7 +96,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -110,7 +110,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -127,7 +127,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -150,7 +150,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -165,7 +165,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -183,7 +183,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -198,7 +198,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -215,7 +215,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -231,7 +231,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -245,7 +245,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/language
+     * @see schema:language
      */
     public function language($language)
     {
@@ -253,14 +253,14 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -276,7 +276,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -290,7 +290,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -307,7 +307,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -322,7 +322,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -337,7 +337,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -352,7 +352,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/recipient
+     * @see schema:recipient
      */
     public function recipient($recipient)
     {
@@ -366,7 +366,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -382,7 +382,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -405,7 +405,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -420,7 +420,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -435,7 +435,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -449,7 +449,7 @@ class CheckOutAction extends BaseType implements CheckOutActionContract, ActionC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

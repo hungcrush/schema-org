@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A subscription which allows a user to access media including audio, video,
  * books, etc.
  *
- * @see https://schema.org/MediaSubscription
+ * @see schema:MediaSubscription
  * @link https://github.com/schemaorg/schemaorg/issues/1741
  *
  */
@@ -28,7 +28,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,7 +58,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/authenticator
+     * @see schema:authenticator
      * @link https://github.com/schemaorg/schemaorg/issues/1741
      */
     public function authenticator($authenticator)
@@ -73,7 +73,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -90,7 +90,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -106,7 +106,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/expectsAcceptanceOf
+     * @see schema:expectsAcceptanceOf
      * @link https://github.com/schemaorg/schemaorg/issues/1741
      */
     public function expectsAcceptanceOf($expectsAcceptanceOf)
@@ -125,7 +125,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -140,7 +140,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -156,7 +156,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -170,7 +170,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -185,7 +185,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -201,7 +201,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -215,7 +215,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -230,7 +230,7 @@ class MediaSubscription extends BaseType implements MediaSubscriptionContract, I
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

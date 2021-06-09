@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * each of which might be described using [[hasHealthAspect]] and
  * [[HealthTopicContent]].
  *
- * @see https://schema.org/HealthAspectEnumeration
- * @see http://pending.schema.org
+ * @see schema:HealthAspectEnumeration
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2374
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -21,217 +21,282 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 class HealthAspectEnumeration extends BaseType implements HealthAspectEnumerationContract, EnumerationContract, IntangibleContract, ThingContract
 {
     /**
+     * Content about the allergy-related aspects of a health topic.
+     *
+     * @see schema:AllergiesHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const AllergiesHealthAspect = 'schema:AllergiesHealthAspect';
+
+    /**
      * Content about the benefits and advantages of usage or utilization of
      * topic.
      *
-     * @see https://schema.org/BenefitsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:BenefitsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const BenefitsHealthAspect = 'https://schema.org/BenefitsHealthAspect';
+     const BenefitsHealthAspect = 'schema:BenefitsHealthAspect';
 
     /**
      * Information about the causes and main actions that gave rise to the
      * topic.
      *
-     * @see https://schema.org/CausesHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:CausesHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const CausesHealthAspect = 'https://schema.org/CausesHealthAspect';
+     const CausesHealthAspect = 'schema:CausesHealthAspect';
 
     /**
      * Content about contagion mechanisms and contagiousness information over
      * the topic.
      *
-     * @see https://schema.org/ContagiousnessHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:ContagiousnessHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const ContagiousnessHealthAspect = 'https://schema.org/ContagiousnessHealthAspect';
+     const ContagiousnessHealthAspect = 'schema:ContagiousnessHealthAspect';
+
+    /**
+     * Content about the effectiveness-related aspects of a health topic.
+     *
+     * @see schema:EffectivenessHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const EffectivenessHealthAspect = 'schema:EffectivenessHealthAspect';
+
+    /**
+     * Content that discusses practical and policy aspects for getting access to
+     * specific kinds of healthcare (e.g. distribution mechanisms for vaccines).
+     *
+     * @see schema:GettingAccessHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const GettingAccessHealthAspect = 'schema:GettingAccessHealthAspect';
+
+    /**
+     * Content that discusses and explains how a particular health-related topic
+     * works, e.g. in terms of mechanisms and underlying science.
+     *
+     * @see schema:HowItWorksHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const HowItWorksHealthAspect = 'schema:HowItWorksHealthAspect';
 
     /**
      * Information about how or where to find a topic. Also may contain location
      * data that can be used for where to look for help if the topic is
      * observed.
      *
-     * @see https://schema.org/HowOrWhereHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:HowOrWhereHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const HowOrWhereHealthAspect = 'https://schema.org/HowOrWhereHealthAspect';
+     const HowOrWhereHealthAspect = 'schema:HowOrWhereHealthAspect';
+
+    /**
+     * Content discussing ingredients-related aspects of a health topic.
+     *
+     * @see schema:IngredientsHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const IngredientsHealthAspect = 'schema:IngredientsHealthAspect';
 
     /**
      * Information about coping or life related to the topic.
      *
-     * @see https://schema.org/LivingWithHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:LivingWithHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const LivingWithHealthAspect = 'https://schema.org/LivingWithHealthAspect';
+     const LivingWithHealthAspect = 'schema:LivingWithHealthAspect';
 
     /**
      * Related topics may be treated by a Topic.
      *
-     * @see https://schema.org/MayTreatHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:MayTreatHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const MayTreatHealthAspect = 'https://schema.org/MayTreatHealthAspect';
+     const MayTreatHealthAspect = 'schema:MayTreatHealthAspect';
 
     /**
      * Content about common misconceptions and myths that are related to a
      * topic.
      *
-     * @see https://schema.org/MisconceptionsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:MisconceptionsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const MisconceptionsHealthAspect = 'https://schema.org/MisconceptionsHealthAspect';
+     const MisconceptionsHealthAspect = 'schema:MisconceptionsHealthAspect';
 
     /**
      * Overview of the content. Contains a summarized view of the topic with the
      * most relevant information for an introduction.
      *
-     * @see https://schema.org/OverviewHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:OverviewHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const OverviewHealthAspect = 'https://schema.org/OverviewHealthAspect';
+     const OverviewHealthAspect = 'schema:OverviewHealthAspect';
 
     /**
      * Content about the real life experience of patients or people that have
      * lived a similar experience about the topic. May be forums, topics,
      * Q-and-A and related material.
      *
-     * @see https://schema.org/PatientExperienceHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:PatientExperienceHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const PatientExperienceHealthAspect = 'https://schema.org/PatientExperienceHealthAspect';
+     const PatientExperienceHealthAspect = 'schema:PatientExperienceHealthAspect';
+
+    /**
+     * Content discussing pregnancy-related aspects of a health topic.
+     *
+     * @see schema:PregnancyHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const PregnancyHealthAspect = 'schema:PregnancyHealthAspect';
 
     /**
      * Information about actions or measures that can be taken to avoid getting
      * the topic or reaching a critical situation related to the topic.
      *
-     * @see https://schema.org/PreventionHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:PreventionHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const PreventionHealthAspect = 'https://schema.org/PreventionHealthAspect';
+     const PreventionHealthAspect = 'schema:PreventionHealthAspect';
 
     /**
      * Typical progression and happenings of life course of the topic.
      *
-     * @see https://schema.org/PrognosisHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:PrognosisHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const PrognosisHealthAspect = 'https://schema.org/PrognosisHealthAspect';
+     const PrognosisHealthAspect = 'schema:PrognosisHealthAspect';
 
     /**
      * Other prominent or relevant topics tied to the main topic.
      *
-     * @see https://schema.org/RelatedTopicsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:RelatedTopicsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const RelatedTopicsHealthAspect = 'https://schema.org/RelatedTopicsHealthAspect';
+     const RelatedTopicsHealthAspect = 'schema:RelatedTopicsHealthAspect';
 
     /**
      * Information about the risk factors and possible complications that may
      * follow a topic.
      *
-     * @see https://schema.org/RisksOrComplicationsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:RisksOrComplicationsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const RisksOrComplicationsHealthAspect = 'https://schema.org/RisksOrComplicationsHealthAspect';
+     const RisksOrComplicationsHealthAspect = 'schema:RisksOrComplicationsHealthAspect';
+
+    /**
+     * Content about the safety-related aspects of a health topic.
+     *
+     * @see schema:SafetyHealthAspect
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2799
+     */
+     const SafetyHealthAspect = 'schema:SafetyHealthAspect';
 
     /**
      * Content about how to screen or further filter a topic.
      *
-     * @see https://schema.org/ScreeningHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:ScreeningHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const ScreeningHealthAspect = 'https://schema.org/ScreeningHealthAspect';
+     const ScreeningHealthAspect = 'schema:ScreeningHealthAspect';
 
     /**
      * Information about questions that may be asked, when to see a
      * professional, measures before seeing a doctor or content about the first
      * consultation.
      *
-     * @see https://schema.org/SeeDoctorHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:SeeDoctorHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const SeeDoctorHealthAspect = 'https://schema.org/SeeDoctorHealthAspect';
+     const SeeDoctorHealthAspect = 'schema:SeeDoctorHealthAspect';
 
     /**
      * Self care actions or measures that can be taken to sooth, health or avoid
      * a topic. This may be carried at home and can be carried/managed by the
      * person itself.
      *
-     * @see https://schema.org/SelfCareHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:SelfCareHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const SelfCareHealthAspect = 'https://schema.org/SelfCareHealthAspect';
+     const SelfCareHealthAspect = 'schema:SelfCareHealthAspect';
 
     /**
      * Side effects that can be observed from the usage of the topic.
      *
-     * @see https://schema.org/SideEffectsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:SideEffectsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const SideEffectsHealthAspect = 'https://schema.org/SideEffectsHealthAspect';
+     const SideEffectsHealthAspect = 'schema:SideEffectsHealthAspect';
 
     /**
      * Stages that can be observed from a topic.
      *
-     * @see https://schema.org/StagesHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:StagesHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const StagesHealthAspect = 'https://schema.org/StagesHealthAspect';
+     const StagesHealthAspect = 'schema:StagesHealthAspect';
 
     /**
      * Symptoms or related symptoms of a Topic.
      *
-     * @see https://schema.org/SymptomsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:SymptomsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const SymptomsHealthAspect = 'https://schema.org/SymptomsHealthAspect';
+     const SymptomsHealthAspect = 'schema:SymptomsHealthAspect';
 
     /**
      * Treatments or related therapies for a Topic.
      *
-     * @see https://schema.org/TreatmentsHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:TreatmentsHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const TreatmentsHealthAspect = 'https://schema.org/TreatmentsHealthAspect';
+     const TreatmentsHealthAspect = 'schema:TreatmentsHealthAspect';
 
     /**
      * Categorization and other types related to a topic.
      *
-     * @see https://schema.org/TypesHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:TypesHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const TypesHealthAspect = 'https://schema.org/TypesHealthAspect';
+     const TypesHealthAspect = 'schema:TypesHealthAspect';
 
     /**
      * Content about how, when, frequency and dosage of a topic.
      *
-     * @see https://schema.org/UsageOrScheduleHealthAspect
-     * @see http://pending.schema.org
+     * @see schema:UsageOrScheduleHealthAspect
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2374
      */
-     const UsageOrScheduleHealthAspect = 'https://schema.org/UsageOrScheduleHealthAspect';
+     const UsageOrScheduleHealthAspect = 'schema:UsageOrScheduleHealthAspect';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -245,7 +310,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -259,7 +324,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -273,7 +338,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -290,7 +355,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -308,7 +373,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -323,7 +388,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -339,7 +404,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -353,7 +418,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -368,7 +433,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -384,7 +449,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -398,7 +463,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -413,7 +478,7 @@ class HealthAspectEnumeration extends BaseType implements HealthAspectEnumeratio
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

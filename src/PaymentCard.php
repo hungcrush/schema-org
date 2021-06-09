@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A payment method using a credit, debit, store or other card to associate the
  * payment with an account.
  *
- * @see https://schema.org/PaymentCard
+ * @see schema:PaymentCard
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -33,7 +33,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -48,7 +48,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -62,7 +62,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -79,7 +79,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/annualPercentageRate
+     * @see schema:annualPercentageRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function annualPercentageRate($annualPercentageRate)
@@ -94,7 +94,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -108,7 +108,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -123,7 +123,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -137,7 +137,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -152,7 +152,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -169,7 +169,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -184,8 +184,8 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/cashBack
-     * @see http://pending.schema.org
+     * @see schema:cashBack
+     * @see https://pending.schema.org
      */
     public function cashBack($cashBack)
     {
@@ -200,7 +200,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -215,8 +215,8 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/contactlessPayment
-     * @see http://pending.schema.org
+     * @see schema:contactlessPayment
+     * @see https://pending.schema.org
      */
     public function contactlessPayment($contactlessPayment)
     {
@@ -230,7 +230,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -247,7 +247,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -262,7 +262,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/feesAndCommissionsSpecification
+     * @see schema:feesAndCommissionsSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function feesAndCommissionsSpecification($feesAndCommissionsSpecification)
@@ -278,8 +278,8 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/floorLimit
-     * @see http://pending.schema.org
+     * @see schema:floorLimit
+     * @see https://pending.schema.org
      */
     public function floorLimit($floorLimit)
     {
@@ -294,7 +294,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -308,7 +308,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -326,7 +326,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -341,7 +341,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -356,7 +356,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/interestRate
+     * @see schema:interestRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function interestRate($interestRate)
@@ -371,7 +371,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -387,7 +387,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -402,7 +402,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -419,7 +419,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -434,8 +434,8 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/monthlyMinimumRepaymentAmount
-     * @see http://pending.schema.org
+     * @see schema:monthlyMinimumRepaymentAmount
+     * @see https://pending.schema.org
      */
     public function monthlyMinimumRepaymentAmount($monthlyMinimumRepaymentAmount)
     {
@@ -449,7 +449,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -470,7 +470,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -486,7 +486,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -501,7 +501,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -517,7 +517,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -532,7 +532,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -546,7 +546,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -562,7 +562,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -576,7 +576,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -590,7 +590,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -605,7 +605,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -620,7 +620,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -634,7 +634,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -648,7 +648,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -663,8 +663,8 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -679,7 +679,7 @@ class PaymentCard extends BaseType implements PaymentCardContract, EnumerationCo
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

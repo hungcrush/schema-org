@@ -9,18 +9,11 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Intended audience for an item, i.e. the group for whom the item was created.
  *
- * @see https://schema.org/Audience
+ * @see schema:Audience
  *
  */
 class Audience extends BaseType implements AudienceContract, IntangibleContract, ThingContract
 {
-    /**
-     * Researchers.
-     *
-     * @see https://schema.org/Researcher
-     */
-     const Researcher = 'https://schema.org/Researcher';
-
     /**
      * An additional type for the item, typically used for adding more specific
      * types from external vocabularies in microdata syntax. This is a
@@ -33,7 +26,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,7 +40,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -62,7 +55,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/audienceType
+     * @see schema:audienceType
      */
     public function audienceType($audienceType)
     {
@@ -76,7 +69,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -93,7 +86,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -107,7 +100,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/geographicArea
+     * @see schema:geographicArea
      */
     public function geographicArea($geographicArea)
     {
@@ -125,7 +118,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -140,7 +133,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -156,7 +149,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -170,7 +163,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -185,7 +178,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -201,7 +194,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -215,7 +208,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -230,7 +223,7 @@ class Audience extends BaseType implements AudienceContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

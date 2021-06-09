@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A diet restricted to certain foods or preparations for cultural, religious,
  * health or lifestyle reasons.
  *
- * @see https://schema.org/RestrictedDiet
+ * @see schema:RestrictedDiet
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -20,79 +20,79 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
     /**
      * A diet appropriate for people with diabetes.
      *
-     * @see https://schema.org/DiabeticDiet
+     * @see schema:DiabeticDiet
      */
-     const DiabeticDiet = 'https://schema.org/DiabeticDiet';
+     const DiabeticDiet = 'schema:DiabeticDiet';
 
     /**
      * A diet exclusive of gluten.
      *
-     * @see https://schema.org/GlutenFreeDiet
+     * @see schema:GlutenFreeDiet
      */
-     const GlutenFreeDiet = 'https://schema.org/GlutenFreeDiet';
+     const GlutenFreeDiet = 'schema:GlutenFreeDiet';
 
     /**
      * A diet conforming to Islamic dietary practices.
      *
-     * @see https://schema.org/HalalDiet
+     * @see schema:HalalDiet
      */
-     const HalalDiet = 'https://schema.org/HalalDiet';
+     const HalalDiet = 'schema:HalalDiet';
 
     /**
      * A diet conforming to Hindu dietary practices, in particular, beef-free.
      *
-     * @see https://schema.org/HinduDiet
+     * @see schema:HinduDiet
      */
-     const HinduDiet = 'https://schema.org/HinduDiet';
+     const HinduDiet = 'schema:HinduDiet';
 
     /**
      * A diet conforming to Jewish dietary practices.
      *
-     * @see https://schema.org/KosherDiet
+     * @see schema:KosherDiet
      */
-     const KosherDiet = 'https://schema.org/KosherDiet';
+     const KosherDiet = 'schema:KosherDiet';
 
     /**
      * A diet focused on reduced calorie intake.
      *
-     * @see https://schema.org/LowCalorieDiet
+     * @see schema:LowCalorieDiet
      */
-     const LowCalorieDiet = 'https://schema.org/LowCalorieDiet';
+     const LowCalorieDiet = 'schema:LowCalorieDiet';
 
     /**
      * A diet focused on reduced fat and cholesterol intake.
      *
-     * @see https://schema.org/LowFatDiet
+     * @see schema:LowFatDiet
      */
-     const LowFatDiet = 'https://schema.org/LowFatDiet';
+     const LowFatDiet = 'schema:LowFatDiet';
 
     /**
      * A diet appropriate for people with lactose intolerance.
      *
-     * @see https://schema.org/LowLactoseDiet
+     * @see schema:LowLactoseDiet
      */
-     const LowLactoseDiet = 'https://schema.org/LowLactoseDiet';
+     const LowLactoseDiet = 'schema:LowLactoseDiet';
 
     /**
      * A diet focused on reduced sodium intake.
      *
-     * @see https://schema.org/LowSaltDiet
+     * @see schema:LowSaltDiet
      */
-     const LowSaltDiet = 'https://schema.org/LowSaltDiet';
+     const LowSaltDiet = 'schema:LowSaltDiet';
 
     /**
      * A diet exclusive of all animal products.
      *
-     * @see https://schema.org/VeganDiet
+     * @see schema:VeganDiet
      */
-     const VeganDiet = 'https://schema.org/VeganDiet';
+     const VeganDiet = 'schema:VeganDiet';
 
     /**
      * A diet exclusive of animal meat.
      *
-     * @see https://schema.org/VegetarianDiet
+     * @see schema:VegetarianDiet
      */
-     const VegetarianDiet = 'https://schema.org/VegetarianDiet';
+     const VegetarianDiet = 'schema:VegetarianDiet';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -106,7 +106,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -120,7 +120,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -134,7 +134,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -151,7 +151,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -169,7 +169,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -184,7 +184,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -200,7 +200,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -214,7 +214,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -229,7 +229,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -245,7 +245,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -259,7 +259,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -274,7 +274,7 @@ class RestrictedDiet extends BaseType implements RestrictedDietContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

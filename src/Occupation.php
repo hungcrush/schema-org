@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A profession, may involve prolonged training and/or a formal qualification.
  *
- * @see https://schema.org/Occupation
+ * @see schema:Occupation
  * @link https://github.com/schemaorg/schemaorg/issues/1698
  *
  */
@@ -27,7 +27,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -72,7 +72,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -86,8 +86,8 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/educationRequirements
-     * @see http://pending.schema.org
+     * @see schema:educationRequirements
+     * @see https://pending.schema.org
      */
     public function educationRequirements($educationRequirements)
     {
@@ -105,7 +105,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/estimatedSalary
+     * @see schema:estimatedSalary
      * @link https://github.com/schemaorg/schemaorg/issues/1698
      */
     public function estimatedSalary($estimatedSalary)
@@ -117,11 +117,11 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      * Description of skills and experience needed for the position or
      * Occupation.
      *
-     * @param string|string[] $experienceRequirements
+     * @param \Spatie\SchemaOrg\Contracts\OccupationalExperienceRequirementsContract|\Spatie\SchemaOrg\Contracts\OccupationalExperienceRequirementsContract[]|string|string[] $experienceRequirements
      *
      * @return static
      *
-     * @see https://schema.org/experienceRequirements
+     * @see schema:experienceRequirements
      * @link https://github.com/schemaorg/schemaorg/issues/1698
      */
     public function experienceRequirements($experienceRequirements)
@@ -140,7 +140,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -155,7 +155,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -171,7 +171,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -185,7 +185,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -193,7 +193,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
     }
 
     /**
-     * The region/country for which this occupational description is
+     *  The region/country for which this occupational description is
      * appropriate. Note that educational requirements and qualifications can
      * vary between jurisdictions.
      *
@@ -201,7 +201,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/occupationLocation
+     * @see schema:occupationLocation
      * @link https://github.com/schemaorg/schemaorg/issues/1698
      */
     public function occupationLocation($occupationLocation)
@@ -211,8 +211,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
 
     /**
      * A category describing the job, preferably using a term from a taxonomy
-     * such as <a href="http://www.onetcenter.org/taxonomy.html">BLS
-     * O*NET-SOC</a>,
+     * such as [BLS O*NET-SOC](http://www.onetcenter.org/taxonomy.html),
      * [ISCO-08](https://www.ilo.org/public/english/bureau/stat/isco/isco08/) or
      * similar, with the property repeated for each applicable value. Ideally
      * the taxonomy should be identified, and both the textual label and formal
@@ -225,8 +224,8 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/occupationalCategory
-     * @see http://pending.schema.org
+     * @see schema:occupationalCategory
+     * @see https://pending.schema.org
      */
     public function occupationalCategory($occupationalCategory)
     {
@@ -241,7 +240,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -255,8 +254,8 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/qualifications
-     * @see http://pending.schema.org
+     * @see schema:qualifications
+     * @see https://pending.schema.org
      */
     public function qualifications($qualifications)
     {
@@ -270,7 +269,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/responsibilities
+     * @see schema:responsibilities
      * @link https://github.com/schemaorg/schemaorg/issues/1698
      */
     public function responsibilities($responsibilities)
@@ -287,7 +286,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -303,7 +302,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/skills
+     * @see schema:skills
      */
     public function skills($skills)
     {
@@ -317,7 +316,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -332,7 +331,7 @@ class Occupation extends BaseType implements OccupationContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

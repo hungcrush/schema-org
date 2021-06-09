@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A ProductReturnPolicy provides information about product return policies
  * associated with an [[Organization]] or [[Product]].
  *
- * @see https://schema.org/ProductReturnPolicy
- * @see http://attic.schema.org
+ * @see schema:ProductReturnPolicy
+ * @see https://attic.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2288
  *
  */
@@ -29,7 +29,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -92,7 +92,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -107,7 +107,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -123,7 +123,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -137,7 +137,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -152,7 +152,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -167,8 +167,8 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/productReturnDays
-     * @see http://attic.schema.org
+     * @see schema:productReturnDays
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function productReturnDays($productReturnDays)
@@ -183,8 +183,8 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/productReturnLink
-     * @see http://attic.schema.org
+     * @see schema:productReturnLink
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function productReturnLink($productReturnLink)
@@ -201,7 +201,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -215,7 +215,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -230,7 +230,7 @@ class ProductReturnPolicy extends BaseType implements ProductReturnPolicyContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

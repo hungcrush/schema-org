@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Indicates whether this game is multi-player, co-op or single-player.
  *
- * @see https://schema.org/GamePlayMode
+ * @see schema:GamePlayMode
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -20,24 +20,24 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      * Play mode: CoOp. Co-operative games, where you play on the same team with
      * friends.
      *
-     * @see https://schema.org/CoOp
+     * @see schema:CoOp
      */
-     const CoOp = 'https://schema.org/CoOp';
+     const CoOp = 'schema:CoOp';
 
     /**
      * Play mode: MultiPlayer. Requiring or allowing multiple human players to
      * play simultaneously.
      *
-     * @see https://schema.org/MultiPlayer
+     * @see schema:MultiPlayer
      */
-     const MultiPlayer = 'https://schema.org/MultiPlayer';
+     const MultiPlayer = 'schema:MultiPlayer';
 
     /**
      * Play mode: SinglePlayer. Which is played by a lone player.
      *
-     * @see https://schema.org/SinglePlayer
+     * @see schema:SinglePlayer
      */
-     const SinglePlayer = 'https://schema.org/SinglePlayer';
+     const SinglePlayer = 'schema:SinglePlayer';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -51,7 +51,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -65,7 +65,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -79,7 +79,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -96,7 +96,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -114,7 +114,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -129,7 +129,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -145,7 +145,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -159,7 +159,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -174,7 +174,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -190,7 +190,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -204,7 +204,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -219,7 +219,7 @@ class GamePlayMode extends BaseType implements GamePlayModeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A web page element, like a table or an image.
  *
- * @see https://schema.org/WebPageElement
+ * @see schema:WebPageElement
  *
  */
 class WebPageElement extends BaseType implements WebPageElementContract, CreativeWorkContract, ThingContract
@@ -21,7 +21,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -36,8 +36,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/abstract
-     * @see http://pending.schema.org
+     * @see schema:abstract
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/276
      */
     public function abstract($abstract)
@@ -55,7 +55,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessMode
+     * @see schema:accessMode
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessMode($accessMode)
@@ -72,7 +72,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessModeSufficient
+     * @see schema:accessModeSufficient
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessModeSufficient($accessModeSufficient)
@@ -89,7 +89,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityAPI
+     * @see schema:accessibilityAPI
      */
     public function accessibilityAPI($accessibilityAPI)
     {
@@ -105,7 +105,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityControl
+     * @see schema:accessibilityControl
      */
     public function accessibilityControl($accessibilityControl)
     {
@@ -121,7 +121,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityFeature
+     * @see schema:accessibilityFeature
      */
     public function accessibilityFeature($accessibilityFeature)
     {
@@ -138,7 +138,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityHazard
+     * @see schema:accessibilityHazard
      */
     public function accessibilityHazard($accessibilityHazard)
     {
@@ -156,7 +156,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accessibilitySummary
+     * @see schema:accessibilitySummary
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessibilitySummary($accessibilitySummary)
@@ -171,7 +171,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/accountablePerson
+     * @see schema:accountablePerson
      */
     public function accountablePerson($accountablePerson)
     {
@@ -186,8 +186,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/acquireLicensePage
-     * @see http://pending.schema.org
+     * @see schema:acquireLicensePage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2454
      */
     public function acquireLicensePage($acquireLicensePage)
@@ -207,7 +207,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -222,7 +222,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -236,7 +236,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -250,7 +250,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/alternativeHeadline
+     * @see schema:alternativeHeadline
      */
     public function alternativeHeadline($alternativeHeadline)
     {
@@ -265,8 +265,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/assesses
-     * @see http://pending.schema.org
+     * @see schema:assesses
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2427
      */
     public function assesses($assesses)
@@ -282,7 +282,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/associatedMedia
+     * @see schema:associatedMedia
      */
     public function associatedMedia($associatedMedia)
     {
@@ -296,7 +296,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -310,7 +310,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/audio
+     * @see schema:audio
      * @link https://github.com/schemaorg/schemaorg/issues/2420
      */
     public function audio($audio)
@@ -327,7 +327,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/author
+     * @see schema:author
      */
     public function author($author)
     {
@@ -341,7 +341,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -355,7 +355,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -369,7 +369,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/character
+     * @see schema:character
      */
     public function character($character)
     {
@@ -384,7 +384,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/citation
+     * @see schema:citation
      */
     public function citation($citation)
     {
@@ -398,7 +398,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/comment
+     * @see schema:comment
      */
     public function comment($comment)
     {
@@ -414,7 +414,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/commentCount
+     * @see schema:commentCount
      */
     public function commentCount($commentCount)
     {
@@ -435,8 +435,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/conditionsOfAccess
-     * @see http://pending.schema.org
+     * @see schema:conditionsOfAccess
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2173
      */
     public function conditionsOfAccess($conditionsOfAccess)
@@ -452,7 +452,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/contentLocation
+     * @see schema:contentLocation
      */
     public function contentLocation($contentLocation)
     {
@@ -466,7 +466,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/contentRating
+     * @see schema:contentRating
      */
     public function contentRating($contentRating)
     {
@@ -481,8 +481,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/contentReferenceTime
-     * @see http://pending.schema.org
+     * @see schema:contentReferenceTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1050
      */
     public function contentReferenceTime($contentReferenceTime)
@@ -497,7 +497,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/contributor
+     * @see schema:contributor
      */
     public function contributor($contributor)
     {
@@ -511,11 +511,29 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/copyrightHolder
+     * @see schema:copyrightHolder
      */
     public function copyrightHolder($copyrightHolder)
     {
         return $this->setProperty('copyrightHolder', $copyrightHolder);
+    }
+
+    /**
+     * Text of a notice appropriate for describing the copyright aspects of this
+     * Creative Work, ideally indicating the owner of the copyright for the
+     * Work.
+     *
+     * @param string|string[] $copyrightNotice
+     *
+     * @return static
+     *
+     * @see schema:copyrightNotice
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2659
+     */
+    public function copyrightNotice($copyrightNotice)
+    {
+        return $this->setProperty('copyrightNotice', $copyrightNotice);
     }
 
     /**
@@ -526,7 +544,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/copyrightYear
+     * @see schema:copyrightYear
      */
     public function copyrightYear($copyrightYear)
     {
@@ -541,8 +559,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/correction
-     * @see http://pending.schema.org
+     * @see schema:correction
+     * @see https://pending.schema.org
      */
     public function correction($correction)
     {
@@ -559,8 +577,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/creativeWorkStatus
-     * @see http://pending.schema.org
+     * @see schema:creativeWorkStatus
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/987
      */
     public function creativeWorkStatus($creativeWorkStatus)
@@ -576,11 +594,28 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/creator
+     * @see schema:creator
      */
     public function creator($creator)
     {
         return $this->setProperty('creator', $creator);
+    }
+
+    /**
+     * Text that can be used to credit person(s) and/or organization(s)
+     * associated with a published Creative Work.
+     *
+     * @param string|string[] $creditText
+     *
+     * @return static
+     *
+     * @see schema:creditText
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2659
+     */
+    public function creditText($creditText)
+    {
+        return $this->setProperty('creditText', $creditText);
     }
 
     /**
@@ -592,7 +627,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/cssSelector
+     * @see schema:cssSelector
      * @link https://github.com/schemaorg/schemaorg/issues/1389
      */
     public function cssSelector($cssSelector)
@@ -608,7 +643,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/dateCreated
+     * @see schema:dateCreated
      */
     public function dateCreated($dateCreated)
     {
@@ -623,7 +658,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/dateModified
+     * @see schema:dateModified
      */
     public function dateModified($dateModified)
     {
@@ -637,7 +672,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/datePublished
+     * @see schema:datePublished
      */
     public function datePublished($datePublished)
     {
@@ -651,7 +686,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -668,7 +703,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -682,7 +717,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/discussionUrl
+     * @see schema:discussionUrl
      */
     public function discussionUrl($discussionUrl)
     {
@@ -708,8 +743,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/editEIDR
-     * @see http://pending.schema.org
+     * @see schema:editEIDR
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2469
      */
     public function editEIDR($editEIDR)
@@ -724,7 +759,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/editor
+     * @see schema:editor
      */
     public function editor($editor)
     {
@@ -742,7 +777,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/educationalAlignment
+     * @see schema:educationalAlignment
      */
     public function educationalAlignment($educationalAlignment)
     {
@@ -758,8 +793,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/educationalLevel
-     * @see http://pending.schema.org
+     * @see schema:educationalLevel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1779
      */
     public function educationalLevel($educationalLevel)
@@ -771,11 +806,11 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      * The purpose of a work in the context of education; for example,
      * 'assignment', 'group work'.
      *
-     * @param string|string[] $educationalUse
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $educationalUse
      *
      * @return static
      *
-     * @see https://schema.org/educationalUse
+     * @see schema:educationalUse
      */
     public function educationalUse($educationalUse)
     {
@@ -790,7 +825,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/encoding
+     * @see schema:encoding
      */
     public function encoding($encoding)
     {
@@ -817,7 +852,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/encodingFormat
+     * @see schema:encodingFormat
      */
     public function encodingFormat($encodingFormat)
     {
@@ -831,7 +866,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/encodings
+     * @see schema:encodings
      */
     public function encodings($encodings)
     {
@@ -846,7 +881,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/exampleOfWork
+     * @see schema:exampleOfWork
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function exampleOfWork($exampleOfWork)
@@ -865,7 +900,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/expires
+     * @see schema:expires
      */
     public function expires($expires)
     {
@@ -886,7 +921,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/fileFormat
+     * @see schema:fileFormat
      */
     public function fileFormat($fileFormat)
     {
@@ -901,7 +936,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -915,7 +950,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/genre
+     * @see schema:genre
      */
     public function genre($genre)
     {
@@ -930,7 +965,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/hasPart
+     * @see schema:hasPart
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function hasPart($hasPart)
@@ -945,7 +980,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/headline
+     * @see schema:headline
      */
     public function headline($headline)
     {
@@ -963,7 +998,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -978,7 +1013,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -995,7 +1030,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -1012,7 +1047,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -1028,7 +1063,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/interactivityType
+     * @see schema:interactivityType
      */
     public function interactivityType($interactivityType)
     {
@@ -1042,7 +1077,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -1057,7 +1092,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/isBasedOn
+     * @see schema:isBasedOn
      */
     public function isBasedOn($isBasedOn)
     {
@@ -1073,7 +1108,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/isBasedOnUrl
+     * @see schema:isBasedOnUrl
      */
     public function isBasedOnUrl($isBasedOnUrl)
     {
@@ -1087,7 +1122,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/isFamilyFriendly
+     * @see schema:isFamilyFriendly
      */
     public function isFamilyFriendly($isFamilyFriendly)
     {
@@ -1102,7 +1137,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/isPartOf
+     * @see schema:isPartOf
      */
     public function isPartOf($isPartOf)
     {
@@ -1113,11 +1148,11 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      * Keywords or tags used to describe this content. Multiple entries in a
      * keywords list are typically delimited by commas.
      *
-     * @param string|string[] $keywords
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $keywords
      *
      * @return static
      *
-     * @see https://schema.org/keywords
+     * @see schema:keywords
      */
     public function keywords($keywords)
     {
@@ -1128,11 +1163,11 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      * The predominant type or kind characterizing the learning resource. For
      * example, 'presentation', 'handout'.
      *
-     * @param string|string[] $learningResourceType
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $learningResourceType
      *
      * @return static
      *
-     * @see https://schema.org/learningResourceType
+     * @see schema:learningResourceType
      */
     public function learningResourceType($learningResourceType)
     {
@@ -1147,7 +1182,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/license
+     * @see schema:license
      */
     public function license($license)
     {
@@ -1162,7 +1197,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/locationCreated
+     * @see schema:locationCreated
      */
     public function locationCreated($locationCreated)
     {
@@ -1177,7 +1212,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/mainEntity
+     * @see schema:mainEntity
      */
     public function mainEntity($mainEntity)
     {
@@ -1193,7 +1228,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -1219,8 +1254,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/maintainer
-     * @see http://pending.schema.org
+     * @see schema:maintainer
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2311
      */
     public function maintainer($maintainer)
@@ -1236,7 +1271,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/material
+     * @see schema:material
      */
     public function material($material)
     {
@@ -1251,8 +1286,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/materialExtent
-     * @see http://pending.schema.org
+     * @see schema:materialExtent
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1759
      */
     public function materialExtent($materialExtent)
@@ -1268,7 +1303,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/mentions
+     * @see schema:mentions
      */
     public function mentions($mentions)
     {
@@ -1282,7 +1317,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -1303,7 +1338,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -1320,8 +1355,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/pattern
-     * @see http://pending.schema.org
+     * @see schema:pattern
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function pattern($pattern)
@@ -1336,7 +1371,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/position
+     * @see schema:position
      */
     public function position($position)
     {
@@ -1351,7 +1386,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -1366,7 +1401,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/producer
+     * @see schema:producer
      */
     public function producer($producer)
     {
@@ -1382,7 +1417,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -1397,7 +1432,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/publication
+     * @see schema:publication
      */
     public function publication($publication)
     {
@@ -1411,7 +1446,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/publisher
+     * @see schema:publisher
      */
     public function publisher($publisher)
     {
@@ -1425,8 +1460,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/publisherImprint
-     * @see http://bib.schema.org
+     * @see schema:publisherImprint
+     * @see https://bib.schema.org
      */
     public function publisherImprint($publisherImprint)
     {
@@ -1450,7 +1485,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -1465,7 +1500,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/recordedAt
+     * @see schema:recordedAt
      */
     public function recordedAt($recordedAt)
     {
@@ -1480,7 +1515,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/releasedEvent
+     * @see schema:releasedEvent
      */
     public function releasedEvent($releasedEvent)
     {
@@ -1494,7 +1529,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -1508,7 +1543,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1524,7 +1559,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1533,15 +1568,20 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
 
     /**
      * Indicates (by URL or string) a particular version of a schema used in
-     * some CreativeWork. For example, a document could declare a schemaVersion
-     * using an URL such as https://schema.org/version/2.0/ if precise
-     * indication of schema version was required by some application.
+     * some CreativeWork. This property was created primarily to
+     *     indicate the use of a specific schema.org release, e.g. ```10.0``` as
+     * a simple string, or more explicitly via URL,
+     * ```https://schema.org/docs/releases.html#v10.0```. There may be
+     * situations in which other schemas might usefully be referenced this way,
+     * e.g.
+     * ```http://dublincore.org/specifications/dublin-core/dces/1999-07-02/```
+     * but this has not been carefully explored in the community.
      *
      * @param string|string[] $schemaVersion
      *
      * @return static
      *
-     * @see https://schema.org/schemaVersion
+     * @see schema:schemaVersion
      */
     public function schemaVersion($schemaVersion)
     {
@@ -1556,8 +1596,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/sdDatePublished
-     * @see http://pending.schema.org
+     * @see schema:sdDatePublished
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdDatePublished($sdDatePublished)
@@ -1573,8 +1613,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/sdLicense
-     * @see http://pending.schema.org
+     * @see schema:sdLicense
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdLicense($sdLicense)
@@ -1595,8 +1635,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/sdPublisher
-     * @see http://pending.schema.org
+     * @see schema:sdPublisher
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdPublisher($sdPublisher)
@@ -1605,19 +1645,18 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
     }
 
     /**
-     * A standardized size of a product or creative work, often simplifying
-     * richer information into a simple textual string, either through referring
-     * to named sizes or (in the case of product markup), by adopting
-     * conventional simplifications. Use of QuantitativeValue with a unitCode or
-     * unitText can add more structure; in other cases, the /width, /height,
-     * /depth and /weight properties may be more applicable.
+     * A standardized size of a product or creative work, specified either
+     * through a simple textual string (for example 'XL', '32Wx34L'), a 
+     * QuantitativeValue with a unitCode, or a comprehensive and structured
+     * [[SizeSpecification]]; in other cases, the [[width]], [[height]],
+     * [[depth]] and [[weight]] properties may be more applicable.
      *
-     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|string|string[] $size
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract[]|string|string[] $size
      *
      * @return static
      *
-     * @see https://schema.org/size
-     * @see http://pending.schema.org
+     * @see schema:size
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function size($size)
@@ -1632,7 +1671,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/sourceOrganization
+     * @see schema:sourceOrganization
      */
     public function sourceOrganization($sourceOrganization)
     {
@@ -1648,7 +1687,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/spatial
+     * @see schema:spatial
      */
     public function spatial($spatial)
     {
@@ -1667,7 +1706,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/spatialCoverage
+     * @see schema:spatialCoverage
      */
     public function spatialCoverage($spatialCoverage)
     {
@@ -1683,7 +1722,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1697,7 +1736,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1713,8 +1752,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/teaches
-     * @see http://pending.schema.org
+     * @see schema:teaches
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2427
      */
     public function teaches($teaches)
@@ -1732,7 +1771,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/temporal
+     * @see schema:temporal
      */
     public function temporal($temporal)
     {
@@ -1762,7 +1801,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/temporalCoverage
+     * @see schema:temporalCoverage
      */
     public function temporalCoverage($temporalCoverage)
     {
@@ -1776,7 +1815,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/text
+     * @see schema:text
      */
     public function text($text)
     {
@@ -1790,7 +1829,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/thumbnailUrl
+     * @see schema:thumbnailUrl
      */
     public function thumbnailUrl($thumbnailUrl)
     {
@@ -1806,7 +1845,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/timeRequired
+     * @see schema:timeRequired
      */
     public function timeRequired($timeRequired)
     {
@@ -1821,8 +1860,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/translationOfWork
-     * @see http://bib.schema.org
+     * @see schema:translationOfWork
+     * @see https://bib.schema.org
      */
     public function translationOfWork($translationOfWork)
     {
@@ -1838,7 +1877,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/translator
+     * @see schema:translator
      */
     public function translator($translator)
     {
@@ -1852,7 +1891,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/typicalAgeRange
+     * @see schema:typicalAgeRange
      */
     public function typicalAgeRange($typicalAgeRange)
     {
@@ -1866,7 +1905,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1892,8 +1931,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/usageInfo
-     * @see http://pending.schema.org
+     * @see schema:usageInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2454
      */
     public function usageInfo($usageInfo)
@@ -1908,7 +1947,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/version
+     * @see schema:version
      */
     public function version($version)
     {
@@ -1922,7 +1961,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/video
+     * @see schema:video
      */
     public function video($video)
     {
@@ -1937,7 +1976,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/workExample
+     * @see schema:workExample
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function workExample($workExample)
@@ -1955,8 +1994,8 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/workTranslation
-     * @see http://bib.schema.org
+     * @see schema:workTranslation
+     * @see https://bib.schema.org
      */
     public function workTranslation($workTranslation)
     {
@@ -1972,7 +2011,7 @@ class WebPageElement extends BaseType implements WebPageElementContract, Creativ
      *
      * @return static
      *
-     * @see https://schema.org/xpath
+     * @see schema:xpath
      * @link https://github.com/schemaorg/schemaorg/issues/1389
      */
     public function xpath($xpath)

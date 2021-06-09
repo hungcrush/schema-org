@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A property, used to indicate attributes and relationships of some Thing;
  * equivalent to rdf:Property.
  *
- * @see https://schema.org/Property
- * @see http://meta.schema.org
+ * @see schema:Property
+ * @see https://meta.schema.org
  *
  * @method static domainIncludes($domainIncludes) The value should be instance of pending types Class|Class[]
  * @method static rangeIncludes($rangeIncludes) The value should be instance of pending types Class|Class[]
@@ -31,7 +31,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,7 +59,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -76,7 +76,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -94,7 +94,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -109,7 +109,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -127,8 +127,8 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/inverseOf
-     * @see http://meta.schema.org
+     * @see schema:inverseOf
+     * @see https://meta.schema.org
      */
     public function inverseOf($inverseOf)
     {
@@ -144,7 +144,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -158,7 +158,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -173,7 +173,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -189,7 +189,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -203,7 +203,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -218,7 +218,7 @@ class Property extends BaseType implements PropertyContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

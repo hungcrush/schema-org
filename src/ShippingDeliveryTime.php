@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * ShippingDeliveryTime provides various pieces of information about delivery
  * times for shipping.
  *
- * @see https://schema.org/ShippingDeliveryTime
- * @see http://pending.schema.org
+ * @see schema:ShippingDeliveryTime
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2506
  *
  */
@@ -30,7 +30,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,8 +59,8 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/businessDays
-     * @see http://pending.schema.org
+     * @see schema:businessDays
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function businessDays($businessDays)
@@ -82,8 +82,8 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/cutoffTime
-     * @see http://pending.schema.org
+     * @see schema:cutoffTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function cutoffTime($cutoffTime)
@@ -98,7 +98,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -115,7 +115,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -134,8 +134,8 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/handlingTime
-     * @see http://pending.schema.org
+     * @see schema:handlingTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function handlingTime($handlingTime)
@@ -154,7 +154,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -169,7 +169,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -185,7 +185,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -199,7 +199,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -214,7 +214,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -230,7 +230,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -244,7 +244,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -261,8 +261,8 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/transitTime
-     * @see http://pending.schema.org
+     * @see schema:transitTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function transitTime($transitTime)
@@ -277,7 +277,7 @@ class ShippingDeliveryTime extends BaseType implements ShippingDeliveryTimeContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The price asked for a given offer by the respective organization or person.
  *
- * @see https://schema.org/UnitPriceSpecification
+ * @see schema:UnitPriceSpecification
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -29,7 +29,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,11 +43,31 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
         return $this->setProperty('alternateName', $alternateName);
+    }
+
+    /**
+     * Specifies for how long this price (or price component) will be billed.
+     * Can be used, for example, to model the contractual duration of a
+     * subscription or payment plan. Type can be either a Duration or a Number
+     * (in which case the unit of measurement, for example month, is specified
+     * by the unitCode property).
+     *
+     * @param \Spatie\SchemaOrg\Contracts\DurationContract|\Spatie\SchemaOrg\Contracts\DurationContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|float|float[]|int|int[] $billingDuration
+     *
+     * @return static
+     *
+     * @see schema:billingDuration
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2689
+     */
+    public function billingDuration($billingDuration)
+    {
+        return $this->setProperty('billingDuration', $billingDuration);
     }
 
     /**
@@ -59,12 +79,31 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/billingIncrement
+     * @see schema:billingIncrement
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function billingIncrement($billingIncrement)
     {
         return $this->setProperty('billingIncrement', $billingIncrement);
+    }
+
+    /**
+     * Specifies after how much time this price (or price component) becomes
+     * valid and billing starts. Can be used, for example, to model a price
+     * increase after the first year of a subscription. The unit of measurement
+     * is specified by the unitCode property.
+     *
+     * @param float|float[]|int|int[] $billingStart
+     *
+     * @return static
+     *
+     * @see schema:billingStart
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2689
+     */
+    public function billingStart($billingStart)
+    {
+        return $this->setProperty('billingStart', $billingStart);
     }
 
     /**
@@ -74,7 +113,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -91,7 +130,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -107,7 +146,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -125,7 +164,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -144,7 +183,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -159,7 +198,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -175,7 +214,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -189,7 +228,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/maxPrice
+     * @see schema:maxPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxPrice($maxPrice)
@@ -204,7 +243,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/minPrice
+     * @see schema:minPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minPrice($minPrice)
@@ -219,7 +258,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -234,7 +273,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -271,11 +310,28 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
         return $this->setProperty('price', $price);
+    }
+
+    /**
+     * Identifies a price component (for example, a line item on an invoice),
+     * part of the total price for an offer.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\PriceComponentTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\PriceComponentTypeEnumerationContract[] $priceComponentType
+     *
+     * @return static
+     *
+     * @see schema:priceComponentType
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2689
+     */
+    public function priceComponentType($priceComponentType)
+    {
+        return $this->setProperty('priceComponentType', $priceComponentType);
     }
 
     /**
@@ -294,7 +350,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -302,15 +358,19 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
     }
 
     /**
-     * A short text or acronym indicating multiple price specifications for the
-     * same offer, e.g. SRP for the suggested retail price or INVOICE for the
-     * invoice price, mostly used in the car industry.
+     * Defines the type of a price specified for an offered product, for example
+     * a list price, a (temporary) sale price or a manufacturer suggested retail
+     * price. If multiple prices are specified for an offer the [[priceType]]
+     * property can be used to identify the type of each such specified price.
+     * The value of priceType can be specified as a value from enumeration
+     * PriceTypeEnumeration or as a free form text string for price types that
+     * are not already predefined in PriceTypeEnumeration.
      *
-     * @param string|string[] $priceType
+     * @param \Spatie\SchemaOrg\Contracts\PriceTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\PriceTypeEnumerationContract[]|string|string[] $priceType
      *
      * @return static
      *
-     * @see https://schema.org/priceType
+     * @see schema:priceType
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function priceType($priceType)
@@ -328,7 +388,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/referenceQuantity
+     * @see schema:referenceQuantity
      */
     public function referenceQuantity($referenceQuantity)
     {
@@ -344,7 +404,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -358,7 +418,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -375,7 +435,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/unitCode
+     * @see schema:unitCode
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function unitCode($unitCode)
@@ -392,7 +452,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/unitText
+     * @see schema:unitText
      */
     public function unitText($unitText)
     {
@@ -406,7 +466,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -420,7 +480,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -436,7 +496,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -452,7 +512,7 @@ class UnitPriceSpecification extends BaseType implements UnitPriceSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/valueAddedTaxIncluded
+     * @see schema:valueAddedTaxIncluded
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueAddedTaxIncluded($valueAddedTaxIncluded)

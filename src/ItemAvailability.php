@@ -10,75 +10,82 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A list of possible product availability options.
  *
- * @see https://schema.org/ItemAvailability
+ * @see schema:ItemAvailability
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
 class ItemAvailability extends BaseType implements ItemAvailabilityContract, EnumerationContract, IntangibleContract, ThingContract
 {
     /**
+     * Indicates that the item is available on back order.
+     *
+     * @see schema:BackOrder
+     */
+     const BackOrder = 'schema:BackOrder';
+
+    /**
      * Indicates that the item has been discontinued.
      *
-     * @see https://schema.org/Discontinued
+     * @see schema:Discontinued
      */
-     const Discontinued = 'https://schema.org/Discontinued';
+     const Discontinued = 'schema:Discontinued';
 
     /**
      * Indicates that the item is in stock.
      *
-     * @see https://schema.org/InStock
+     * @see schema:InStock
      */
-     const InStock = 'https://schema.org/InStock';
+     const InStock = 'schema:InStock';
 
     /**
      * Indicates that the item is available only at physical locations.
      *
-     * @see https://schema.org/InStoreOnly
+     * @see schema:InStoreOnly
      */
-     const InStoreOnly = 'https://schema.org/InStoreOnly';
+     const InStoreOnly = 'schema:InStoreOnly';
 
     /**
      * Indicates that the item has limited availability.
      *
-     * @see https://schema.org/LimitedAvailability
+     * @see schema:LimitedAvailability
      */
-     const LimitedAvailability = 'https://schema.org/LimitedAvailability';
+     const LimitedAvailability = 'schema:LimitedAvailability';
 
     /**
      * Indicates that the item is available only online.
      *
-     * @see https://schema.org/OnlineOnly
+     * @see schema:OnlineOnly
      */
-     const OnlineOnly = 'https://schema.org/OnlineOnly';
+     const OnlineOnly = 'schema:OnlineOnly';
 
     /**
      * Indicates that the item is out of stock.
      *
-     * @see https://schema.org/OutOfStock
+     * @see schema:OutOfStock
      */
-     const OutOfStock = 'https://schema.org/OutOfStock';
+     const OutOfStock = 'schema:OutOfStock';
 
     /**
      * Indicates that the item is available for pre-order.
      *
-     * @see https://schema.org/PreOrder
+     * @see schema:PreOrder
      */
-     const PreOrder = 'https://schema.org/PreOrder';
+     const PreOrder = 'schema:PreOrder';
 
     /**
      * Indicates that the item is available for ordering and delivery before
      * general availability.
      *
-     * @see https://schema.org/PreSale
+     * @see schema:PreSale
      */
-     const PreSale = 'https://schema.org/PreSale';
+     const PreSale = 'schema:PreSale';
 
     /**
      * Indicates that the item has sold out.
      *
-     * @see https://schema.org/SoldOut
+     * @see schema:SoldOut
      */
-     const SoldOut = 'https://schema.org/SoldOut';
+     const SoldOut = 'schema:SoldOut';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -92,7 +99,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -106,7 +113,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -120,7 +127,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -137,7 +144,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -155,7 +162,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -170,7 +177,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -186,7 +193,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -200,7 +207,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -215,7 +222,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -231,7 +238,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -245,7 +252,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -260,7 +267,7 @@ class ItemAvailability extends BaseType implements ItemAvailabilityContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -13,7 +13,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * specific period of time. __Note:__ This type has been superseded by
  * [[MonetaryAmount]] use of that type is recommended
  *
- * @see https://schema.org/DatedMoneySpecification
+ * @see schema:DatedMoneySpecification
  *
  */
 class DatedMoneySpecification extends BaseType implements DatedMoneySpecificationContract, IntangibleContract, StructuredValueContract, ThingContract
@@ -30,7 +30,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,7 +58,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -80,7 +80,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/currency
+     * @see schema:currency
      * @link https://github.com/schemaorg/schemaorg/issues/1253
      */
     public function currency($currency)
@@ -95,7 +95,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -112,7 +112,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -127,7 +127,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -146,7 +146,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -161,7 +161,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -177,7 +177,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -191,7 +191,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -206,7 +206,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -222,7 +222,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -237,7 +237,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -252,7 +252,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -267,7 +267,7 @@ class DatedMoneySpecification extends BaseType implements DatedMoneySpecificatio
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * An agent approves/certifies/likes/supports/sanction an object.
  *
- * @see https://schema.org/EndorseAction
+ * @see schema:EndorseAction
  *
  */
 class EndorseAction extends BaseType implements EndorseActionContract, ActionContract, AssessActionContract, ReactActionContract, ThingContract
@@ -23,7 +23,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -42,7 +42,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -57,7 +57,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -71,7 +71,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -85,7 +85,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -102,7 +102,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -125,7 +125,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -140,7 +140,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/endorsee
+     * @see schema:endorsee
      */
     public function endorsee($endorsee)
     {
@@ -154,7 +154,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -172,7 +172,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -187,7 +187,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -202,7 +202,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -210,14 +210,14 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -233,7 +233,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -247,7 +247,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -264,7 +264,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -279,7 +279,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -294,7 +294,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -308,7 +308,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -324,7 +324,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -347,7 +347,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -362,7 +362,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -377,7 +377,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -391,7 +391,7 @@ class EndorseAction extends BaseType implements EndorseActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

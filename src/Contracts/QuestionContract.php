@@ -72,6 +72,8 @@ interface QuestionContract
 
     public function copyrightHolder($copyrightHolder);
 
+    public function copyrightNotice($copyrightNotice);
+
     public function copyrightYear($copyrightYear);
 
     public function correction($correction);
@@ -79,6 +81,8 @@ interface QuestionContract
     public function creativeWorkStatus($creativeWorkStatus);
 
     public function creator($creator);
+
+    public function creditText($creditText);
 
     public function dateCreated($dateCreated);
 
@@ -97,6 +101,8 @@ interface QuestionContract
     public function editEIDR($editEIDR);
 
     public function editor($editor);
+
+    public function eduQuestionType($eduQuestionType);
 
     public function educationalAlignment($educationalAlignment);
 
@@ -167,6 +173,8 @@ interface QuestionContract
     public function name($name);
 
     public function offers($offers);
+
+    public function parentItem($parentItem);
 
     public function pattern($pattern);
 

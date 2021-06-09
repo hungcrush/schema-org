@@ -9,8 +9,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A US-style health insurance plan network.
  *
- * @see https://schema.org/HealthPlanNetwork
- * @see http://pending.schema.org
+ * @see schema:HealthPlanNetwork
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1062
  *
  */
@@ -28,7 +28,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -73,7 +73,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -88,8 +88,8 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanCostSharing
-     * @see http://pending.schema.org
+     * @see schema:healthPlanCostSharing
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanCostSharing($healthPlanCostSharing)
@@ -105,8 +105,8 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanNetworkId
-     * @see http://pending.schema.org
+     * @see schema:healthPlanNetworkId
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanNetworkId($healthPlanNetworkId)
@@ -121,8 +121,8 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanNetworkTier
-     * @see http://pending.schema.org
+     * @see schema:healthPlanNetworkTier
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanNetworkTier($healthPlanNetworkTier)
@@ -141,7 +141,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -156,7 +156,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -172,7 +172,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -186,7 +186,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -201,7 +201,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -217,7 +217,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -231,7 +231,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -246,7 +246,7 @@ class HealthPlanNetwork extends BaseType implements HealthPlanNetworkContract, I
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

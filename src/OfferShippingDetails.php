@@ -22,10 +22,10 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Two entities that are identical but differ in rate and time:
  * 
  * e.g. Cheaper and slower: $5 in 5-7days
- * or Fast and expensive: $15 in 1-2 days
+ * or Fast and expensive: $15 in 1-2 days.
  *
- * @see https://schema.org/OfferShippingDetails
- * @see http://pending.schema.org
+ * @see schema:OfferShippingDetails
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2506
  *
  */
@@ -43,7 +43,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -57,7 +57,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -72,8 +72,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/deliveryTime
-     * @see http://pending.schema.org
+     * @see schema:deliveryTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function deliveryTime($deliveryTime)
@@ -88,7 +88,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -105,7 +105,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -120,8 +120,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/doesNotShip
-     * @see http://pending.schema.org
+     * @see schema:doesNotShip
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function doesNotShip($doesNotShip)
@@ -140,7 +140,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -155,7 +155,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -171,7 +171,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -185,7 +185,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -200,7 +200,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -216,7 +216,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -231,8 +231,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingDestination
-     * @see http://pending.schema.org
+     * @see schema:shippingDestination
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingDestination($shippingDestination)
@@ -249,8 +249,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingLabel
-     * @see http://pending.schema.org
+     * @see schema:shippingLabel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingLabel($shippingLabel)
@@ -267,8 +267,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingRate
-     * @see http://pending.schema.org
+     * @see schema:shippingRate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingRate($shippingRate)
@@ -284,8 +284,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingSettingsLink
-     * @see http://pending.schema.org
+     * @see schema:shippingSettingsLink
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingSettingsLink($shippingSettingsLink)
@@ -300,7 +300,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -317,8 +317,8 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/transitTimeLabel
-     * @see http://pending.schema.org
+     * @see schema:transitTimeLabel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function transitTimeLabel($transitTimeLabel)
@@ -333,7 +333,7 @@ class OfferShippingDetails extends BaseType implements OfferShippingDetailsContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A delivery service through which content is provided via broadcast over the
  * air or online.
  *
- * @see https://schema.org/BroadcastService
+ * @see schema:BroadcastService
  *
  */
 class BroadcastService extends BaseType implements BroadcastServiceContract, IntangibleContract, ServiceContract, ThingContract
@@ -28,7 +28,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -57,7 +57,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -71,7 +71,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/area
+     * @see schema:area
      */
     public function area($area)
     {
@@ -85,7 +85,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -99,7 +99,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -114,7 +114,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -128,7 +128,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -143,7 +143,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -157,7 +157,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broadcastAffiliateOf
+     * @see schema:broadcastAffiliateOf
      */
     public function broadcastAffiliateOf($broadcastAffiliateOf)
     {
@@ -172,7 +172,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broadcastDisplayName
+     * @see schema:broadcastDisplayName
      */
     public function broadcastDisplayName($broadcastDisplayName)
     {
@@ -188,7 +188,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broadcastFrequency
+     * @see schema:broadcastFrequency
      * @link https://github.com/schemaorg/schemaorg/issues/1004
      */
     public function broadcastFrequency($broadcastFrequency)
@@ -204,7 +204,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broadcastTimezone
+     * @see schema:broadcastTimezone
      */
     public function broadcastTimezone($broadcastTimezone)
     {
@@ -218,7 +218,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broadcaster
+     * @see schema:broadcaster
      */
     public function broadcaster($broadcaster)
     {
@@ -235,7 +235,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -251,8 +251,8 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/callSign
-     * @see http://pending.schema.org
+     * @see schema:callSign
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2109
      */
     public function callSign($callSign)
@@ -268,7 +268,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -282,7 +282,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -299,7 +299,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -313,7 +313,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hasBroadcastChannel
+     * @see schema:hasBroadcastChannel
      * @link https://github.com/schemaorg/schemaorg/issues/1004
      */
     public function hasBroadcastChannel($hasBroadcastChannel)
@@ -329,7 +329,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -343,7 +343,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -361,7 +361,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -376,7 +376,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -393,7 +393,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -408,7 +408,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -424,7 +424,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -439,7 +439,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -456,7 +456,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -470,7 +470,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -491,7 +491,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -507,7 +507,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/parentService
+     * @see schema:parentService
      */
     public function parentService($parentService)
     {
@@ -522,7 +522,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -537,7 +537,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -553,7 +553,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -568,7 +568,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -582,7 +582,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -598,7 +598,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -612,7 +612,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -626,7 +626,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -641,7 +641,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -656,7 +656,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -670,7 +670,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -684,7 +684,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -699,8 +699,8 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -715,7 +715,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -730,7 +730,7 @@ class BroadcastService extends BaseType implements BroadcastServiceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/videoFormat
+     * @see schema:videoFormat
      */
     public function videoFormat($videoFormat)
     {

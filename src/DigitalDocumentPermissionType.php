@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A type of permission which can be granted for accessing a digital document.
  *
- * @see https://schema.org/DigitalDocumentPermissionType
+ * @see schema:DigitalDocumentPermissionType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -19,23 +19,23 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
     /**
      * Permission to add comments to the document.
      *
-     * @see https://schema.org/CommentPermission
+     * @see schema:CommentPermission
      */
-     const CommentPermission = 'https://schema.org/CommentPermission';
+     const CommentPermission = 'schema:CommentPermission';
 
     /**
      * Permission to read or view the document.
      *
-     * @see https://schema.org/ReadPermission
+     * @see schema:ReadPermission
      */
-     const ReadPermission = 'https://schema.org/ReadPermission';
+     const ReadPermission = 'schema:ReadPermission';
 
     /**
      * Permission to write or edit the document.
      *
-     * @see https://schema.org/WritePermission
+     * @see schema:WritePermission
      */
-     const WritePermission = 'https://schema.org/WritePermission';
+     const WritePermission = 'schema:WritePermission';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -49,7 +49,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -63,7 +63,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -77,7 +77,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -94,7 +94,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -112,7 +112,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -127,7 +127,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -143,7 +143,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -157,7 +157,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -172,7 +172,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -188,7 +188,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -202,7 +202,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -217,7 +217,7 @@ class DigitalDocumentPermissionType extends BaseType implements DigitalDocumentP
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

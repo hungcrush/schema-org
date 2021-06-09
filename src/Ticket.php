@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Used to describe a ticket to an event, a flight, a bus ride, etc.
  *
- * @see https://schema.org/Ticket
+ * @see schema:Ticket
  *
  */
 class Ticket extends BaseType implements TicketContract, IntangibleContract, ThingContract
@@ -26,7 +26,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -54,7 +54,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/dateIssued
+     * @see schema:dateIssued
      */
     public function dateIssued($dateIssued)
     {
@@ -68,7 +68,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -85,7 +85,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -103,7 +103,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -118,7 +118,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -132,7 +132,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/issuedBy
+     * @see schema:issuedBy
      */
     public function issuedBy($issuedBy)
     {
@@ -148,7 +148,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -162,7 +162,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -177,7 +177,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -200,7 +200,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -216,7 +216,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -230,7 +230,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -245,7 +245,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/ticketNumber
+     * @see schema:ticketNumber
      */
     public function ticketNumber($ticketNumber)
     {
@@ -260,7 +260,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/ticketToken
+     * @see schema:ticketToken
      */
     public function ticketToken($ticketToken)
     {
@@ -274,7 +274,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/ticketedSeat
+     * @see schema:ticketedSeat
      */
     public function ticketedSeat($ticketedSeat)
     {
@@ -296,7 +296,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/totalPrice
+     * @see schema:totalPrice
      */
     public function totalPrice($totalPrice)
     {
@@ -310,7 +310,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/underName
+     * @see schema:underName
      */
     public function underName($underName)
     {
@@ -324,7 +324,7 @@ class Ticket extends BaseType implements TicketContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

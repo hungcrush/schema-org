@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A permission for a particular person or group to access a particular file.
  *
- * @see https://schema.org/DigitalDocumentPermission
+ * @see schema:DigitalDocumentPermission
  *
  */
 class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermissionContract, IntangibleContract, ThingContract
@@ -26,7 +26,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -54,7 +54,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -71,7 +71,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -86,7 +86,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/grantee
+     * @see schema:grantee
      */
     public function grantee($grantee)
     {
@@ -104,7 +104,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -119,7 +119,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -135,7 +135,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -149,7 +149,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -163,7 +163,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/permissionType
+     * @see schema:permissionType
      */
     public function permissionType($permissionType)
     {
@@ -178,7 +178,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -194,7 +194,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -208,7 +208,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -223,7 +223,7 @@ class DigitalDocumentPermission extends BaseType implements DigitalDocumentPermi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

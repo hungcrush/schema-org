@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A component of the human body circulatory system comprised of an intricate
  * network of hollow tubes that transport blood throughout the entire body.
  *
- * @see https://schema.org/Vessel
- * @see http://health-lifesci.schema.org
+ * @see schema:Vessel
+ * @see https://health-lifesci.schema.org
  *
  */
 class Vessel extends BaseType implements VesselContract, AnatomicalStructureContract, MedicalEntityContract, ThingContract
@@ -29,7 +29,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,8 +59,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/associatedPathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedPathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function associatedPathophysiology($associatedPathophysiology)
     {
@@ -74,8 +74,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/bodyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:bodyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function bodyLocation($bodyLocation)
     {
@@ -90,8 +90,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -105,8 +105,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/connectedTo
-     * @see http://health-lifesci.schema.org
+     * @see schema:connectedTo
+     * @see https://health-lifesci.schema.org
      */
     public function connectedTo($connectedTo)
     {
@@ -120,7 +120,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -135,8 +135,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/diagram
-     * @see http://health-lifesci.schema.org
+     * @see schema:diagram
+     * @see https://health-lifesci.schema.org
      */
     public function diagram($diagram)
     {
@@ -153,7 +153,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -167,8 +167,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -186,7 +186,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -201,7 +201,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -216,8 +216,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -233,7 +233,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -248,8 +248,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -263,7 +263,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -277,8 +277,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/partOfSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:partOfSystem
+     * @see https://health-lifesci.schema.org
      */
     public function partOfSystem($partOfSystem)
     {
@@ -293,7 +293,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -308,8 +308,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -323,8 +323,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/relatedCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedCondition
+     * @see https://health-lifesci.schema.org
      */
     public function relatedCondition($relatedCondition)
     {
@@ -338,8 +338,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/relatedTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedTherapy
+     * @see https://health-lifesci.schema.org
      */
     public function relatedTherapy($relatedTherapy)
     {
@@ -353,8 +353,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -370,7 +370,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -384,8 +384,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -399,8 +399,8 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/subStructure
-     * @see http://health-lifesci.schema.org
+     * @see schema:subStructure
+     * @see https://health-lifesci.schema.org
      */
     public function subStructure($subStructure)
     {
@@ -414,7 +414,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -429,7 +429,7 @@ class Vessel extends BaseType implements VesselContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A brand is a name used by an organization or business person for labeling a
  * product, product group, or similar.
  *
- * @see https://schema.org/Brand
+ * @see schema:Brand
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -28,7 +28,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -57,7 +57,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -71,7 +71,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -88,7 +88,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -106,7 +106,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -121,7 +121,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -135,7 +135,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -152,7 +152,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -166,7 +166,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -181,7 +181,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -195,7 +195,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -211,7 +211,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -225,7 +225,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -239,7 +239,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -254,7 +254,7 @@ class Brand extends BaseType implements BrandContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

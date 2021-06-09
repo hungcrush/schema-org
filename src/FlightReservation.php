@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * confirmation emails or HTML pages with individual confirmations of
  * reservations. For offers of tickets, use [[Offer]].
  *
- * @see https://schema.org/FlightReservation
+ * @see schema:FlightReservation
  *
  */
 class FlightReservation extends BaseType implements FlightReservationContract, IntangibleContract, ReservationContract, ThingContract
@@ -31,7 +31,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,7 +59,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/boardingGroup
+     * @see schema:boardingGroup
      */
     public function boardingGroup($boardingGroup)
     {
@@ -74,7 +74,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/bookingAgent
+     * @see schema:bookingAgent
      */
     public function bookingAgent($bookingAgent)
     {
@@ -88,7 +88,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/bookingTime
+     * @see schema:bookingTime
      */
     public function bookingTime($bookingTime)
     {
@@ -105,7 +105,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -119,7 +119,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -136,7 +136,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -154,7 +154,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -169,7 +169,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -185,7 +185,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -199,7 +199,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/modifiedTime
+     * @see schema:modifiedTime
      */
     public function modifiedTime($modifiedTime)
     {
@@ -213,7 +213,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -228,7 +228,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/passengerPriorityStatus
+     * @see schema:passengerPriorityStatus
      */
     public function passengerPriorityStatus($passengerPriorityStatus)
     {
@@ -242,7 +242,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/passengerSequenceNumber
+     * @see schema:passengerSequenceNumber
      */
     public function passengerSequenceNumber($passengerSequenceNumber)
     {
@@ -257,7 +257,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -280,7 +280,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -295,7 +295,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/programMembershipUsed
+     * @see schema:programMembershipUsed
      */
     public function programMembershipUsed($programMembershipUsed)
     {
@@ -311,7 +311,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -326,7 +326,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/reservationFor
+     * @see schema:reservationFor
      */
     public function reservationFor($reservationFor)
     {
@@ -340,7 +340,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/reservationId
+     * @see schema:reservationId
      */
     public function reservationId($reservationId)
     {
@@ -354,7 +354,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/reservationStatus
+     * @see schema:reservationStatus
      */
     public function reservationStatus($reservationStatus)
     {
@@ -368,7 +368,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/reservedTicket
+     * @see schema:reservedTicket
      */
     public function reservedTicket($reservedTicket)
     {
@@ -384,7 +384,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -398,7 +398,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/securityScreening
+     * @see schema:securityScreening
      */
     public function securityScreening($securityScreening)
     {
@@ -412,7 +412,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -435,7 +435,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/totalPrice
+     * @see schema:totalPrice
      */
     public function totalPrice($totalPrice)
     {
@@ -449,7 +449,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/underName
+     * @see schema:underName
      */
     public function underName($underName)
     {
@@ -463,7 +463,7 @@ class FlightReservation extends BaseType implements FlightReservationContract, I
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

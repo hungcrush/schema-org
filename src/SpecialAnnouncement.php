@@ -18,15 +18,15 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * For work in progress guidelines on Coronavirus-related markup see [this
  * doc](https://docs.google.com/document/d/14ikaGCKxo50rRM7nvKSlbUpjyIk2WMQd3IkB1lItlrM/edit#).
  * 
- * The motivating scenario for SpecialAnnouncement is the <a
- * href="https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic">Coronavirus
- * pandemic</a>, and the initial vocabulary is oriented to this urgent
- * situation. Schema.org
+ * The motivating scenario for SpecialAnnouncement is the [Coronavirus
+ * pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic),
+ * and the initial vocabulary is oriented to this urgent situation. Schema.org
  * expect to improve the markup iteratively as it is deployed and as feedback
  * emerges from use. In addition to our
  * usual [Github entry](https://github.com/schemaorg/schemaorg/issues/2490),
  * feedback comments can also be provided in [this
  * document](https://docs.google.com/document/d/1fpdFFxk8s87CWwACs53SGkYv3aafSxz_DTtOQxMrBJQ/edit#).
+ * 
  * 
  * While this schema is designed to communicate urgent crisis-related
  * information, it is not the same as an emergency warning technology like
@@ -43,8 +43,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * where possible, most ideally as a well known
  * URL from Wikipedia or Wikidata. In the case of the 2019-2020 Coronavirus
  * pandemic, this should be
- * "https://en.wikipedia.org/w/index.php?title=2019-20_coronavirus_pandemic" or
- * "https://www.wikidata.org/wiki/Q81068910".
+ * "https://en.wikipedia.org/w/index.php?title=2019-20\_coronavirus\_pandemic"
+ * or "https://www.wikidata.org/wiki/Q81068910".
  * 
  * For many of the possible properties, values can either be simple links or an
  * inline description, depending on whether a summary is available. For a link,
@@ -65,7 +65,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Many [[SpecialAnnouncement]]s will relate to particular regions and to
  * identifiable local organizations. Use [[spatialCoverage]] for the region, and
  * [[announcementLocation]] to indicate specific [[LocalBusiness]]es and
- * [[CivicStructures]]. If the announcement affects both a particular region and
+ * [[CivicStructure]]s. If the announcement affects both a particular region and
  * a specific location (for example, a library closure that serves an entire
  * region), use both [[spatialCoverage]] and [[announcementLocation]].
  * 
@@ -77,8 +77,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * initial design encouraged the use of /about for locations too.
  * 
  * The basic content of [[SpecialAnnouncement]] is similar to that of an
- * [RSS](https://en.wikipedia.org/wiki/RSS) or <a
- * href="https://en.wikipedia.org/wiki/Atom_(Web_standard)">Atom</a> feed. For
+ * [RSS](https://en.wikipedia.org/wiki/RSS) or
+ * [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) feed. For
  * publishers without such feeds, basic feed-like information can be shared by
  * posting
  * [[SpecialAnnouncement]] updates in a page, e.g. using JSON-LD. For sites with
@@ -87,8 +87,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * [[DataFeed]] object, with [[encodingFormat]] providing
  * media type information e.g. "application/rss+xml" or "application/atom+xml".
  *
- * @see https://schema.org/SpecialAnnouncement
- * @see http://pending.schema.org
+ * @see schema:SpecialAnnouncement
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2490
  *
  */
@@ -101,7 +101,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -116,8 +116,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/abstract
-     * @see http://pending.schema.org
+     * @see schema:abstract
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/276
      */
     public function abstract($abstract)
@@ -135,7 +135,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessMode
+     * @see schema:accessMode
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessMode($accessMode)
@@ -152,7 +152,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessModeSufficient
+     * @see schema:accessModeSufficient
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessModeSufficient($accessModeSufficient)
@@ -169,7 +169,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityAPI
+     * @see schema:accessibilityAPI
      */
     public function accessibilityAPI($accessibilityAPI)
     {
@@ -185,7 +185,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityControl
+     * @see schema:accessibilityControl
      */
     public function accessibilityControl($accessibilityControl)
     {
@@ -201,7 +201,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityFeature
+     * @see schema:accessibilityFeature
      */
     public function accessibilityFeature($accessibilityFeature)
     {
@@ -218,7 +218,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityHazard
+     * @see schema:accessibilityHazard
      */
     public function accessibilityHazard($accessibilityHazard)
     {
@@ -236,7 +236,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accessibilitySummary
+     * @see schema:accessibilitySummary
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessibilitySummary($accessibilitySummary)
@@ -251,7 +251,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/accountablePerson
+     * @see schema:accountablePerson
      */
     public function accountablePerson($accountablePerson)
     {
@@ -266,8 +266,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/acquireLicensePage
-     * @see http://pending.schema.org
+     * @see schema:acquireLicensePage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2454
      */
     public function acquireLicensePage($acquireLicensePage)
@@ -287,7 +287,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -302,7 +302,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -316,7 +316,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -330,7 +330,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternativeHeadline
+     * @see schema:alternativeHeadline
      */
     public function alternativeHeadline($alternativeHeadline)
     {
@@ -347,8 +347,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/announcementLocation
-     * @see http://pending.schema.org
+     * @see schema:announcementLocation
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2514
      */
     public function announcementLocation($announcementLocation)
@@ -364,8 +364,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/assesses
-     * @see http://pending.schema.org
+     * @see schema:assesses
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2427
      */
     public function assesses($assesses)
@@ -381,7 +381,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/associatedMedia
+     * @see schema:associatedMedia
      */
     public function associatedMedia($associatedMedia)
     {
@@ -395,7 +395,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -409,7 +409,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/audio
+     * @see schema:audio
      * @link https://github.com/schemaorg/schemaorg/issues/2420
      */
     public function audio($audio)
@@ -426,7 +426,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/author
+     * @see schema:author
      */
     public function author($author)
     {
@@ -440,7 +440,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -454,7 +454,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -469,7 +469,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -483,7 +483,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/character
+     * @see schema:character
      */
     public function character($character)
     {
@@ -498,7 +498,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/citation
+     * @see schema:citation
      */
     public function citation($citation)
     {
@@ -512,7 +512,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/comment
+     * @see schema:comment
      */
     public function comment($comment)
     {
@@ -528,7 +528,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/commentCount
+     * @see schema:commentCount
      */
     public function commentCount($commentCount)
     {
@@ -549,8 +549,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/conditionsOfAccess
-     * @see http://pending.schema.org
+     * @see schema:conditionsOfAccess
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2173
      */
     public function conditionsOfAccess($conditionsOfAccess)
@@ -566,7 +566,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/contentLocation
+     * @see schema:contentLocation
      */
     public function contentLocation($contentLocation)
     {
@@ -580,7 +580,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/contentRating
+     * @see schema:contentRating
      */
     public function contentRating($contentRating)
     {
@@ -595,8 +595,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/contentReferenceTime
-     * @see http://pending.schema.org
+     * @see schema:contentReferenceTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1050
      */
     public function contentReferenceTime($contentReferenceTime)
@@ -611,7 +611,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/contributor
+     * @see schema:contributor
      */
     public function contributor($contributor)
     {
@@ -625,11 +625,29 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/copyrightHolder
+     * @see schema:copyrightHolder
      */
     public function copyrightHolder($copyrightHolder)
     {
         return $this->setProperty('copyrightHolder', $copyrightHolder);
+    }
+
+    /**
+     * Text of a notice appropriate for describing the copyright aspects of this
+     * Creative Work, ideally indicating the owner of the copyright for the
+     * Work.
+     *
+     * @param string|string[] $copyrightNotice
+     *
+     * @return static
+     *
+     * @see schema:copyrightNotice
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2659
+     */
+    public function copyrightNotice($copyrightNotice)
+    {
+        return $this->setProperty('copyrightNotice', $copyrightNotice);
     }
 
     /**
@@ -640,7 +658,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/copyrightYear
+     * @see schema:copyrightYear
      */
     public function copyrightYear($copyrightYear)
     {
@@ -655,8 +673,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/correction
-     * @see http://pending.schema.org
+     * @see schema:correction
+     * @see https://pending.schema.org
      */
     public function correction($correction)
     {
@@ -673,8 +691,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/creativeWorkStatus
-     * @see http://pending.schema.org
+     * @see schema:creativeWorkStatus
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/987
      */
     public function creativeWorkStatus($creativeWorkStatus)
@@ -690,11 +708,28 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/creator
+     * @see schema:creator
      */
     public function creator($creator)
     {
         return $this->setProperty('creator', $creator);
+    }
+
+    /**
+     * Text that can be used to credit person(s) and/or organization(s)
+     * associated with a published Creative Work.
+     *
+     * @param string|string[] $creditText
+     *
+     * @return static
+     *
+     * @see schema:creditText
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2659
+     */
+    public function creditText($creditText)
+    {
+        return $this->setProperty('creditText', $creditText);
     }
 
     /**
@@ -705,7 +740,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/dateCreated
+     * @see schema:dateCreated
      */
     public function dateCreated($dateCreated)
     {
@@ -720,7 +755,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/dateModified
+     * @see schema:dateModified
      */
     public function dateModified($dateModified)
     {
@@ -734,7 +769,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/datePosted
+     * @see schema:datePosted
      */
     public function datePosted($datePosted)
     {
@@ -748,7 +783,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/datePublished
+     * @see schema:datePublished
      */
     public function datePublished($datePublished)
     {
@@ -762,7 +797,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -779,7 +814,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -793,7 +828,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/discussionUrl
+     * @see schema:discussionUrl
      */
     public function discussionUrl($discussionUrl)
     {
@@ -807,8 +842,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/diseasePreventionInfo
-     * @see http://pending.schema.org
+     * @see schema:diseasePreventionInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function diseasePreventionInfo($diseasePreventionInfo)
@@ -827,8 +862,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/diseaseSpreadStatistics
-     * @see http://pending.schema.org
+     * @see schema:diseaseSpreadStatistics
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function diseaseSpreadStatistics($diseaseSpreadStatistics)
@@ -855,8 +890,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/editEIDR
-     * @see http://pending.schema.org
+     * @see schema:editEIDR
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2469
      */
     public function editEIDR($editEIDR)
@@ -871,7 +906,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/editor
+     * @see schema:editor
      */
     public function editor($editor)
     {
@@ -889,7 +924,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/educationalAlignment
+     * @see schema:educationalAlignment
      */
     public function educationalAlignment($educationalAlignment)
     {
@@ -905,8 +940,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/educationalLevel
-     * @see http://pending.schema.org
+     * @see schema:educationalLevel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1779
      */
     public function educationalLevel($educationalLevel)
@@ -918,11 +953,11 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      * The purpose of a work in the context of education; for example,
      * 'assignment', 'group work'.
      *
-     * @param string|string[] $educationalUse
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $educationalUse
      *
      * @return static
      *
-     * @see https://schema.org/educationalUse
+     * @see schema:educationalUse
      */
     public function educationalUse($educationalUse)
     {
@@ -937,7 +972,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/encoding
+     * @see schema:encoding
      */
     public function encoding($encoding)
     {
@@ -964,7 +999,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/encodingFormat
+     * @see schema:encodingFormat
      */
     public function encodingFormat($encodingFormat)
     {
@@ -978,7 +1013,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/encodings
+     * @see schema:encodings
      */
     public function encodings($encodings)
     {
@@ -993,7 +1028,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/exampleOfWork
+     * @see schema:exampleOfWork
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function exampleOfWork($exampleOfWork)
@@ -1012,7 +1047,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/expires
+     * @see schema:expires
      */
     public function expires($expires)
     {
@@ -1033,7 +1068,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/fileFormat
+     * @see schema:fileFormat
      */
     public function fileFormat($fileFormat)
     {
@@ -1048,7 +1083,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -1062,7 +1097,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/genre
+     * @see schema:genre
      */
     public function genre($genre)
     {
@@ -1077,8 +1112,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/gettingTestedInfo
-     * @see http://pending.schema.org
+     * @see schema:gettingTestedInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function gettingTestedInfo($gettingTestedInfo)
@@ -1094,8 +1129,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/governmentBenefitsInfo
-     * @see http://pending.schema.org
+     * @see schema:governmentBenefitsInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
     public function governmentBenefitsInfo($governmentBenefitsInfo)
@@ -1111,7 +1146,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/hasPart
+     * @see schema:hasPart
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function hasPart($hasPart)
@@ -1126,7 +1161,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/headline
+     * @see schema:headline
      */
     public function headline($headline)
     {
@@ -1144,7 +1179,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -1159,7 +1194,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -1176,7 +1211,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -1193,7 +1228,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -1209,7 +1244,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/interactivityType
+     * @see schema:interactivityType
      */
     public function interactivityType($interactivityType)
     {
@@ -1223,7 +1258,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -1238,7 +1273,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/isBasedOn
+     * @see schema:isBasedOn
      */
     public function isBasedOn($isBasedOn)
     {
@@ -1254,7 +1289,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/isBasedOnUrl
+     * @see schema:isBasedOnUrl
      */
     public function isBasedOnUrl($isBasedOnUrl)
     {
@@ -1268,7 +1303,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/isFamilyFriendly
+     * @see schema:isFamilyFriendly
      */
     public function isFamilyFriendly($isFamilyFriendly)
     {
@@ -1283,7 +1318,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/isPartOf
+     * @see schema:isPartOf
      */
     public function isPartOf($isPartOf)
     {
@@ -1294,11 +1329,11 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      * Keywords or tags used to describe this content. Multiple entries in a
      * keywords list are typically delimited by commas.
      *
-     * @param string|string[] $keywords
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $keywords
      *
      * @return static
      *
-     * @see https://schema.org/keywords
+     * @see schema:keywords
      */
     public function keywords($keywords)
     {
@@ -1309,11 +1344,11 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      * The predominant type or kind characterizing the learning resource. For
      * example, 'presentation', 'handout'.
      *
-     * @param string|string[] $learningResourceType
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $learningResourceType
      *
      * @return static
      *
-     * @see https://schema.org/learningResourceType
+     * @see schema:learningResourceType
      */
     public function learningResourceType($learningResourceType)
     {
@@ -1328,7 +1363,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/license
+     * @see schema:license
      */
     public function license($license)
     {
@@ -1343,7 +1378,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/locationCreated
+     * @see schema:locationCreated
      */
     public function locationCreated($locationCreated)
     {
@@ -1358,7 +1393,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntity
+     * @see schema:mainEntity
      */
     public function mainEntity($mainEntity)
     {
@@ -1374,7 +1409,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -1400,8 +1435,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/maintainer
-     * @see http://pending.schema.org
+     * @see schema:maintainer
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2311
      */
     public function maintainer($maintainer)
@@ -1417,7 +1452,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/material
+     * @see schema:material
      */
     public function material($material)
     {
@@ -1432,8 +1467,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/materialExtent
-     * @see http://pending.schema.org
+     * @see schema:materialExtent
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1759
      */
     public function materialExtent($materialExtent)
@@ -1449,7 +1484,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/mentions
+     * @see schema:mentions
      */
     public function mentions($mentions)
     {
@@ -1463,7 +1498,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -1479,8 +1514,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/newsUpdatesAndGuidelines
-     * @see http://pending.schema.org
+     * @see schema:newsUpdatesAndGuidelines
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function newsUpdatesAndGuidelines($newsUpdatesAndGuidelines)
@@ -1502,7 +1537,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -1519,8 +1554,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/pattern
-     * @see http://pending.schema.org
+     * @see schema:pattern
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function pattern($pattern)
@@ -1535,7 +1570,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/position
+     * @see schema:position
      */
     public function position($position)
     {
@@ -1550,7 +1585,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -1565,7 +1600,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/producer
+     * @see schema:producer
      */
     public function producer($producer)
     {
@@ -1581,7 +1616,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -1596,8 +1631,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/publicTransportClosuresInfo
-     * @see http://pending.schema.org
+     * @see schema:publicTransportClosuresInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function publicTransportClosuresInfo($publicTransportClosuresInfo)
@@ -1612,7 +1647,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/publication
+     * @see schema:publication
      */
     public function publication($publication)
     {
@@ -1626,7 +1661,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/publisher
+     * @see schema:publisher
      */
     public function publisher($publisher)
     {
@@ -1640,8 +1675,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/publisherImprint
-     * @see http://bib.schema.org
+     * @see schema:publisherImprint
+     * @see https://bib.schema.org
      */
     public function publisherImprint($publisherImprint)
     {
@@ -1665,7 +1700,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -1679,8 +1714,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/quarantineGuidelines
-     * @see http://pending.schema.org
+     * @see schema:quarantineGuidelines
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function quarantineGuidelines($quarantineGuidelines)
@@ -1696,7 +1731,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/recordedAt
+     * @see schema:recordedAt
      */
     public function recordedAt($recordedAt)
     {
@@ -1711,7 +1746,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/releasedEvent
+     * @see schema:releasedEvent
      */
     public function releasedEvent($releasedEvent)
     {
@@ -1725,7 +1760,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -1739,7 +1774,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1755,7 +1790,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1764,15 +1799,20 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
 
     /**
      * Indicates (by URL or string) a particular version of a schema used in
-     * some CreativeWork. For example, a document could declare a schemaVersion
-     * using an URL such as https://schema.org/version/2.0/ if precise
-     * indication of schema version was required by some application.
+     * some CreativeWork. This property was created primarily to
+     *     indicate the use of a specific schema.org release, e.g. ```10.0``` as
+     * a simple string, or more explicitly via URL,
+     * ```https://schema.org/docs/releases.html#v10.0```. There may be
+     * situations in which other schemas might usefully be referenced this way,
+     * e.g.
+     * ```http://dublincore.org/specifications/dublin-core/dces/1999-07-02/```
+     * but this has not been carefully explored in the community.
      *
      * @param string|string[] $schemaVersion
      *
      * @return static
      *
-     * @see https://schema.org/schemaVersion
+     * @see schema:schemaVersion
      */
     public function schemaVersion($schemaVersion)
     {
@@ -1786,8 +1826,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/schoolClosuresInfo
-     * @see http://pending.schema.org
+     * @see schema:schoolClosuresInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function schoolClosuresInfo($schoolClosuresInfo)
@@ -1803,8 +1843,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/sdDatePublished
-     * @see http://pending.schema.org
+     * @see schema:sdDatePublished
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdDatePublished($sdDatePublished)
@@ -1820,8 +1860,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/sdLicense
-     * @see http://pending.schema.org
+     * @see schema:sdLicense
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdLicense($sdLicense)
@@ -1842,8 +1882,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/sdPublisher
-     * @see http://pending.schema.org
+     * @see schema:sdPublisher
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdPublisher($sdPublisher)
@@ -1852,19 +1892,18 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
     }
 
     /**
-     * A standardized size of a product or creative work, often simplifying
-     * richer information into a simple textual string, either through referring
-     * to named sizes or (in the case of product markup), by adopting
-     * conventional simplifications. Use of QuantitativeValue with a unitCode or
-     * unitText can add more structure; in other cases, the /width, /height,
-     * /depth and /weight properties may be more applicable.
+     * A standardized size of a product or creative work, specified either
+     * through a simple textual string (for example 'XL', '32Wx34L'), a 
+     * QuantitativeValue with a unitCode, or a comprehensive and structured
+     * [[SizeSpecification]]; in other cases, the [[width]], [[height]],
+     * [[depth]] and [[weight]] properties may be more applicable.
      *
-     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|string|string[] $size
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract[]|string|string[] $size
      *
      * @return static
      *
-     * @see https://schema.org/size
-     * @see http://pending.schema.org
+     * @see schema:size
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function size($size)
@@ -1879,7 +1918,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/sourceOrganization
+     * @see schema:sourceOrganization
      */
     public function sourceOrganization($sourceOrganization)
     {
@@ -1895,7 +1934,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/spatial
+     * @see schema:spatial
      */
     public function spatial($spatial)
     {
@@ -1914,7 +1953,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/spatialCoverage
+     * @see schema:spatialCoverage
      */
     public function spatialCoverage($spatialCoverage)
     {
@@ -1930,7 +1969,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1944,7 +1983,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1960,8 +1999,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/teaches
-     * @see http://pending.schema.org
+     * @see schema:teaches
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2427
      */
     public function teaches($teaches)
@@ -1979,7 +2018,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/temporal
+     * @see schema:temporal
      */
     public function temporal($temporal)
     {
@@ -2009,7 +2048,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/temporalCoverage
+     * @see schema:temporalCoverage
      */
     public function temporalCoverage($temporalCoverage)
     {
@@ -2023,7 +2062,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/text
+     * @see schema:text
      */
     public function text($text)
     {
@@ -2037,7 +2076,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/thumbnailUrl
+     * @see schema:thumbnailUrl
      */
     public function thumbnailUrl($thumbnailUrl)
     {
@@ -2053,7 +2092,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/timeRequired
+     * @see schema:timeRequired
      */
     public function timeRequired($timeRequired)
     {
@@ -2068,8 +2107,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/translationOfWork
-     * @see http://bib.schema.org
+     * @see schema:translationOfWork
+     * @see https://bib.schema.org
      */
     public function translationOfWork($translationOfWork)
     {
@@ -2085,7 +2124,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/translator
+     * @see schema:translator
      */
     public function translator($translator)
     {
@@ -2099,8 +2138,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/travelBans
-     * @see http://pending.schema.org
+     * @see schema:travelBans
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function travelBans($travelBans)
@@ -2115,7 +2154,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/typicalAgeRange
+     * @see schema:typicalAgeRange
      */
     public function typicalAgeRange($typicalAgeRange)
     {
@@ -2129,7 +2168,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -2155,8 +2194,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/usageInfo
-     * @see http://pending.schema.org
+     * @see schema:usageInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2454
      */
     public function usageInfo($usageInfo)
@@ -2171,7 +2210,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/version
+     * @see schema:version
      */
     public function version($version)
     {
@@ -2185,7 +2224,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/video
+     * @see schema:video
      */
     public function video($video)
     {
@@ -2200,8 +2239,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/webFeed
-     * @see http://pending.schema.org
+     * @see schema:webFeed
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/373
      */
     public function webFeed($webFeed)
@@ -2217,7 +2256,7 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/workExample
+     * @see schema:workExample
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function workExample($workExample)
@@ -2235,8 +2274,8 @@ class SpecialAnnouncement extends BaseType implements SpecialAnnouncementContrac
      *
      * @return static
      *
-     * @see https://schema.org/workTranslation
-     * @see http://bib.schema.org
+     * @see schema:workTranslation
+     * @see https://bib.schema.org
      */
     public function workTranslation($workTranslation)
     {

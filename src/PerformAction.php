@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The act of participating in performance arts.
  *
- * @see https://schema.org/PerformAction
+ * @see schema:PerformAction
  *
  */
 class PerformAction extends BaseType implements PerformActionContract, ActionContract, PlayActionContract, ThingContract
@@ -22,7 +22,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -41,7 +41,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -56,7 +56,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -70,7 +70,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -84,7 +84,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -98,7 +98,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -115,7 +115,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -138,7 +138,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -154,7 +154,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/entertainmentBusiness
+     * @see schema:entertainmentBusiness
      */
     public function entertainmentBusiness($entertainmentBusiness)
     {
@@ -168,7 +168,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -183,7 +183,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -201,7 +201,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -216,7 +216,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -231,7 +231,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -239,14 +239,14 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -262,7 +262,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -276,7 +276,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -293,7 +293,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -308,7 +308,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -323,7 +323,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -337,7 +337,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -353,7 +353,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -376,7 +376,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -391,7 +391,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -406,7 +406,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -420,7 +420,7 @@ class PerformAction extends BaseType implements PerformActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

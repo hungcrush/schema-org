@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Used to describe membership in a loyalty programs (e.g. "StarAliance"),
  * traveler clubs (e.g. "AAA"), purchase clubs ("Safeway Club"), etc.
  *
- * @see https://schema.org/ProgramMembership
+ * @see schema:ProgramMembership
  *
  */
 class ProgramMembership extends BaseType implements ProgramMembershipContract, IntangibleContract, ThingContract
@@ -27,7 +27,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -72,7 +72,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -87,7 +87,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/hostingOrganization
+     * @see schema:hostingOrganization
      */
     public function hostingOrganization($hostingOrganization)
     {
@@ -105,7 +105,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -120,7 +120,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -136,7 +136,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -151,7 +151,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/member
+     * @see schema:member
      */
     public function member($member)
     {
@@ -165,7 +165,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/members
+     * @see schema:members
      */
     public function members($members)
     {
@@ -179,7 +179,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/membershipNumber
+     * @see schema:membershipNumber
      */
     public function membershipNumber($membershipNumber)
     {
@@ -195,8 +195,8 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/membershipPointsEarned
-     * @see http://pending.schema.org
+     * @see schema:membershipPointsEarned
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2085
      */
     public function membershipPointsEarned($membershipPointsEarned)
@@ -211,7 +211,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -226,7 +226,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -240,7 +240,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/programName
+     * @see schema:programName
      */
     public function programName($programName)
     {
@@ -256,7 +256,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -270,7 +270,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -285,7 +285,7 @@ class ProgramMembership extends BaseType implements ProgramMembershipContract, I
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

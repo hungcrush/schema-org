@@ -9,10 +9,10 @@ use \Spatie\SchemaOrg\Contracts\ServiceContract;
 use \Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
- * A financial product for the loaning of an amount of money under agreed terms
- * and charges.
+ * A financial product for the loaning of an amount of money, or line of credit,
+ * under agreed terms and charges.
  *
- * @see https://schema.org/LoanOrCredit
+ * @see schema:LoanOrCredit
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
  *
  */
@@ -30,7 +30,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -59,7 +59,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -73,7 +73,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -90,7 +90,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/annualPercentageRate
+     * @see schema:annualPercentageRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function annualPercentageRate($annualPercentageRate)
@@ -105,7 +105,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -119,7 +119,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -134,7 +134,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -148,7 +148,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -163,7 +163,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -180,7 +180,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -195,7 +195,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -217,7 +217,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/currency
+     * @see schema:currency
      * @link https://github.com/schemaorg/schemaorg/issues/1253
      */
     public function currency($currency)
@@ -232,7 +232,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -249,7 +249,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -264,7 +264,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/feesAndCommissionsSpecification
+     * @see schema:feesAndCommissionsSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function feesAndCommissionsSpecification($feesAndCommissionsSpecification)
@@ -280,8 +280,8 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/gracePeriod
-     * @see http://pending.schema.org
+     * @see schema:gracePeriod
+     * @see https://pending.schema.org
      */
     public function gracePeriod($gracePeriod)
     {
@@ -296,7 +296,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -310,7 +310,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -328,7 +328,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -343,7 +343,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -358,7 +358,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/interestRate
+     * @see schema:interestRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function interestRate($interestRate)
@@ -373,7 +373,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -389,7 +389,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -406,8 +406,8 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanRepaymentForm
-     * @see http://pending.schema.org
+     * @see schema:loanRepaymentForm
+     * @see https://pending.schema.org
      */
     public function loanRepaymentForm($loanRepaymentForm)
     {
@@ -421,7 +421,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanTerm
+     * @see schema:loanTerm
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function loanTerm($loanTerm)
@@ -436,8 +436,8 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanType
-     * @see http://pending.schema.org
+     * @see schema:loanType
+     * @see https://pending.schema.org
      */
     public function loanType($loanType)
     {
@@ -451,7 +451,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -468,7 +468,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -482,7 +482,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -503,7 +503,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -519,7 +519,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -534,7 +534,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -550,7 +550,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -565,7 +565,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -581,8 +581,8 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/recourseLoan
-     * @see http://pending.schema.org
+     * @see schema:recourseLoan
+     * @see https://pending.schema.org
      */
     public function recourseLoan($recourseLoan)
     {
@@ -597,8 +597,8 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/renegotiableLoan
-     * @see http://pending.schema.org
+     * @see schema:renegotiableLoan
+     * @see https://pending.schema.org
      */
     public function renegotiableLoan($renegotiableLoan)
     {
@@ -613,7 +613,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/requiredCollateral
+     * @see schema:requiredCollateral
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function requiredCollateral($requiredCollateral)
@@ -628,7 +628,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -644,7 +644,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -658,7 +658,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -672,7 +672,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -687,7 +687,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -702,7 +702,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -716,7 +716,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -730,7 +730,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -745,8 +745,8 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -761,7 +761,7 @@ class LoanOrCredit extends BaseType implements LoanOrCreditContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

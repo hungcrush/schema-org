@@ -15,7 +15,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * 
  * * [[ReplyAction]]: Appears generally as a response to AskAction.
  *
- * @see https://schema.org/AskAction
+ * @see schema:AskAction
  *
  */
 class AskAction extends BaseType implements AskActionContract, ActionContract, CommunicateActionContract, InteractActionContract, ThingContract
@@ -27,7 +27,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -42,7 +42,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -61,7 +61,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -76,7 +76,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -90,7 +90,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -104,7 +104,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -121,7 +121,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -144,7 +144,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -159,7 +159,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -177,7 +177,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -192,7 +192,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -209,7 +209,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -225,7 +225,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -239,7 +239,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/language
+     * @see schema:language
      */
     public function language($language)
     {
@@ -247,14 +247,14 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -270,7 +270,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -284,7 +284,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -301,7 +301,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -316,7 +316,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -331,7 +331,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -345,7 +345,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/question
+     * @see schema:question
      */
     public function question($question)
     {
@@ -360,7 +360,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/recipient
+     * @see schema:recipient
      */
     public function recipient($recipient)
     {
@@ -374,7 +374,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -390,7 +390,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -413,7 +413,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -428,7 +428,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -443,7 +443,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -457,7 +457,7 @@ class AskAction extends BaseType implements AskActionContract, ActionContract, C
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

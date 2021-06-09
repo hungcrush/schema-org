@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A structured value representing exchange rate.
  *
- * @see https://schema.org/ExchangeRateSpecification
- * @see http://pending.schema.org
+ * @see schema:ExchangeRateSpecification
+ * @see https://pending.schema.org
  *
  */
 class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecificationContract, IntangibleContract, StructuredValueContract, ThingContract
@@ -28,7 +28,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -64,7 +64,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/currency
+     * @see schema:currency
      * @link https://github.com/schemaorg/schemaorg/issues/1253
      */
     public function currency($currency)
@@ -79,8 +79,8 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/currentExchangeRate
-     * @see http://pending.schema.org
+     * @see schema:currentExchangeRate
+     * @see https://pending.schema.org
      */
     public function currentExchangeRate($currentExchangeRate)
     {
@@ -94,7 +94,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -111,7 +111,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -126,8 +126,8 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/exchangeRateSpread
-     * @see http://pending.schema.org
+     * @see schema:exchangeRateSpread
+     * @see https://pending.schema.org
      */
     public function exchangeRateSpread($exchangeRateSpread)
     {
@@ -145,7 +145,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -160,7 +160,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -176,7 +176,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -190,7 +190,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -205,7 +205,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -221,7 +221,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -235,7 +235,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -250,7 +250,7 @@ class ExchangeRateSpecification extends BaseType implements ExchangeRateSpecific
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

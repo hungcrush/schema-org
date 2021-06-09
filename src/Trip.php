@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A trip or journey. An itinerary of visits to one or more places.
  *
- * @see https://schema.org/Trip
+ * @see schema:Trip
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
  *
  */
@@ -27,7 +27,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/arrivalTime
+     * @see schema:arrivalTime
      */
     public function arrivalTime($arrivalTime)
     {
@@ -69,7 +69,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/departureTime
+     * @see schema:departureTime
      */
     public function departureTime($departureTime)
     {
@@ -83,7 +83,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -100,7 +100,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -118,7 +118,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -133,7 +133,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -149,9 +149,8 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/itinerary
-     * @see http://pending.schema.org
-     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
+     * @see schema:itinerary
+     * @see https://pending.schema.org
      */
     public function itinerary($itinerary)
     {
@@ -167,7 +166,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -181,7 +180,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -202,7 +201,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -218,9 +217,8 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/partOfTrip
-     * @see http://pending.schema.org
-     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
+     * @see schema:partOfTrip
+     * @see https://pending.schema.org
      */
     public function partOfTrip($partOfTrip)
     {
@@ -235,7 +233,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -251,7 +249,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -268,7 +266,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -283,9 +281,8 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/subTrip
-     * @see http://pending.schema.org
-     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
+     * @see schema:subTrip
+     * @see https://pending.schema.org
      */
     public function subTrip($subTrip)
     {
@@ -299,7 +296,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -314,7 +311,7 @@ class Trip extends BaseType implements TripContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

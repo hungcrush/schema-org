@@ -13,7 +13,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A middle school (typically for children aged around 11-14, although this
  * varies somewhat).
  *
- * @see https://schema.org/MiddleSchool
+ * @see schema:MiddleSchool
  *
  */
 class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStructureContract, EducationalOrganizationContract, OrganizationContract, PlaceContract, ThingContract
@@ -28,8 +28,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/actionableFeedbackPolicy
-     * @see http://pending.schema.org
+     * @see schema:actionableFeedbackPolicy
+     * @see https://pending.schema.org
      */
     public function actionableFeedbackPolicy($actionableFeedbackPolicy)
     {
@@ -51,7 +51,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -70,7 +70,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -84,7 +84,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -99,7 +99,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -113,7 +113,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -127,7 +127,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/alumni
+     * @see schema:alumni
      */
     public function alumni($alumni)
     {
@@ -144,7 +144,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/amenityFeature
+     * @see schema:amenityFeature
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function amenityFeature($amenityFeature)
@@ -159,7 +159,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -173,7 +173,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -187,7 +187,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -207,7 +207,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/branchCode
+     * @see schema:branchCode
      */
     public function branchCode($branchCode)
     {
@@ -222,7 +222,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -236,7 +236,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/contactPoint
+     * @see schema:contactPoint
      */
     public function contactPoint($contactPoint)
     {
@@ -250,7 +250,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/contactPoints
+     * @see schema:contactPoints
      */
     public function contactPoints($contactPoints)
     {
@@ -264,7 +264,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/containedIn
+     * @see schema:containedIn
      */
     public function containedIn($containedIn)
     {
@@ -278,7 +278,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/containedInPlace
+     * @see schema:containedInPlace
      */
     public function containedInPlace($containedInPlace)
     {
@@ -293,7 +293,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/containsPlace
+     * @see schema:containsPlace
      */
     public function containsPlace($containsPlace)
     {
@@ -309,8 +309,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/correctionsPolicy
-     * @see http://pending.schema.org
+     * @see schema:correctionsPolicy
+     * @see https://pending.schema.org
      */
     public function correctionsPolicy($correctionsPolicy)
     {
@@ -327,7 +327,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/department
+     * @see schema:department
      */
     public function department($department)
     {
@@ -341,7 +341,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -358,7 +358,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -372,7 +372,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/dissolutionDate
+     * @see schema:dissolutionDate
      */
     public function dissolutionDate($dissolutionDate)
     {
@@ -389,8 +389,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/diversityPolicy
-     * @see http://pending.schema.org
+     * @see schema:diversityPolicy
+     * @see https://pending.schema.org
      */
     public function diversityPolicy($diversityPolicy)
     {
@@ -407,8 +407,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/diversityStaffingReport
-     * @see http://pending.schema.org
+     * @see schema:diversityStaffingReport
+     * @see https://pending.schema.org
      */
     public function diversityStaffingReport($diversityStaffingReport)
     {
@@ -423,7 +423,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/duns
+     * @see schema:duns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function duns($duns)
@@ -438,7 +438,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/email
+     * @see schema:email
      */
     public function email($email)
     {
@@ -452,7 +452,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/employee
+     * @see schema:employee
      */
     public function employee($employee)
     {
@@ -466,7 +466,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/employees
+     * @see schema:employees
      */
     public function employees($employees)
     {
@@ -485,8 +485,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/ethicsPolicy
-     * @see http://pending.schema.org
+     * @see schema:ethicsPolicy
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1525
      */
     public function ethicsPolicy($ethicsPolicy)
@@ -502,7 +502,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -516,7 +516,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/events
+     * @see schema:events
      */
     public function events($events)
     {
@@ -530,7 +530,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -544,7 +544,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/founder
+     * @see schema:founder
      */
     public function founder($founder)
     {
@@ -558,7 +558,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/founders
+     * @see schema:founders
      */
     public function founders($founders)
     {
@@ -572,7 +572,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/foundingDate
+     * @see schema:foundingDate
      */
     public function foundingDate($foundingDate)
     {
@@ -586,7 +586,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/foundingLocation
+     * @see schema:foundingLocation
      */
     public function foundingLocation($foundingLocation)
     {
@@ -601,7 +601,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -615,7 +615,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geo
+     * @see schema:geo
      */
     public function geo($geo)
     {
@@ -633,7 +633,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoContains
+     * @see schema:geoContains
      */
     public function geoContains($geoContains)
     {
@@ -649,7 +649,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoCoveredBy
+     * @see schema:geoCoveredBy
      */
     public function geoCoveredBy($geoCoveredBy)
     {
@@ -666,7 +666,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoCovers
+     * @see schema:geoCovers
      */
     public function geoCovers($geoCovers)
     {
@@ -684,7 +684,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoCrosses
+     * @see schema:geoCrosses
      */
     public function geoCrosses($geoCrosses)
     {
@@ -701,7 +701,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoDisjoint
+     * @see schema:geoDisjoint
      */
     public function geoDisjoint($geoDisjoint)
     {
@@ -720,7 +720,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoEquals
+     * @see schema:geoEquals
      */
     public function geoEquals($geoEquals)
     {
@@ -736,7 +736,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoIntersects
+     * @see schema:geoIntersects
      */
     public function geoIntersects($geoIntersects)
     {
@@ -753,7 +753,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoOverlaps
+     * @see schema:geoOverlaps
      */
     public function geoOverlaps($geoOverlaps)
     {
@@ -770,7 +770,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoTouches
+     * @see schema:geoTouches
      */
     public function geoTouches($geoTouches)
     {
@@ -787,7 +787,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/geoWithin
+     * @see schema:geoWithin
      */
     public function geoWithin($geoWithin)
     {
@@ -804,7 +804,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -819,8 +819,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasCredential
-     * @see http://pending.schema.org
+     * @see schema:hasCredential
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function hasCredential($hasCredential)
@@ -839,8 +839,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasDriveThroughService
-     * @see http://pending.schema.org
+     * @see schema:hasDriveThroughService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function hasDriveThroughService($hasDriveThroughService)
@@ -855,7 +855,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasMap
+     * @see schema:hasMap
      */
     public function hasMap($hasMap)
     {
@@ -869,8 +869,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasMerchantReturnPolicy
-     * @see http://pending.schema.org
+     * @see schema:hasMerchantReturnPolicy
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function hasMerchantReturnPolicy($hasMerchantReturnPolicy)
@@ -886,7 +886,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -900,7 +900,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasPOS
+     * @see schema:hasPOS
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function hasPOS($hasPOS)
@@ -915,8 +915,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/hasProductReturnPolicy
-     * @see http://attic.schema.org
+     * @see schema:hasProductReturnPolicy
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function hasProductReturnPolicy($hasProductReturnPolicy)
@@ -935,7 +935,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -950,7 +950,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -966,7 +966,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -981,7 +981,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -997,7 +997,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -1015,8 +1015,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/knowsAbout
-     * @see http://pending.schema.org
+     * @see schema:knowsAbout
+     * @see https://pending.schema.org
      */
     public function knowsAbout($knowsAbout)
     {
@@ -1033,8 +1033,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/knowsLanguage
-     * @see http://pending.schema.org
+     * @see schema:knowsLanguage
+     * @see https://pending.schema.org
      */
     public function knowsLanguage($knowsLanguage)
     {
@@ -1049,7 +1049,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/latitude
+     * @see schema:latitude
      */
     public function latitude($latitude)
     {
@@ -1063,7 +1063,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/legalName
+     * @see schema:legalName
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function legalName($legalName)
@@ -1079,7 +1079,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/leiCode
+     * @see schema:leiCode
      */
     public function leiCode($leiCode)
     {
@@ -1087,14 +1087,14 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -1108,7 +1108,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -1124,7 +1124,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/longitude
+     * @see schema:longitude
      */
     public function longitude($longitude)
     {
@@ -1140,7 +1140,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -1154,7 +1154,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/makesOffer
+     * @see schema:makesOffer
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function makesOffer($makesOffer)
@@ -1169,7 +1169,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/map
+     * @see schema:map
      */
     public function map($map)
     {
@@ -1183,7 +1183,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/maps
+     * @see schema:maps
      */
     public function maps($maps)
     {
@@ -1197,7 +1197,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/maximumAttendeeCapacity
+     * @see schema:maximumAttendeeCapacity
      */
     public function maximumAttendeeCapacity($maximumAttendeeCapacity)
     {
@@ -1212,7 +1212,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/member
+     * @see schema:member
      */
     public function member($member)
     {
@@ -1227,7 +1227,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/memberOf
+     * @see schema:memberOf
      */
     public function memberOf($memberOf)
     {
@@ -1241,7 +1241,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/members
+     * @see schema:members
      */
     public function members($members)
     {
@@ -1256,7 +1256,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/naics
+     * @see schema:naics
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function naics($naics)
@@ -1271,7 +1271,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -1286,8 +1286,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/nonprofitStatus
-     * @see http://pending.schema.org
+     * @see schema:nonprofitStatus
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
     public function nonprofitStatus($nonprofitStatus)
@@ -1302,7 +1302,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/numberOfEmployees
+     * @see schema:numberOfEmployees
      */
     public function numberOfEmployees($numberOfEmployees)
     {
@@ -1317,8 +1317,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      * 
      * * Days are specified using the following two-letter combinations:
      * ```Mo```, ```Tu```, ```We```, ```Th```, ```Fr```, ```Sa```, ```Su```.
-     * * Times are specified using 24:00 time. For example, 3pm is specified as
-     * ```15:00```. 
+     * * Times are specified using 24:00 format. For example, 3pm is specified
+     * as ```15:00```, 10am as ```10:00```. 
      * * Here is an example: ```<time itemprop="openingHours" datetime="Tu,Th
      * 16:00-20:00">Tuesdays and Thursdays 4-8pm</time>```.
      * * If a business is open 7 days a week, then it can be specified as
@@ -1329,7 +1329,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/openingHours
+     * @see schema:openingHours
      */
     public function openingHours($openingHours)
     {
@@ -1343,7 +1343,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/openingHoursSpecification
+     * @see schema:openingHoursSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function openingHoursSpecification($openingHoursSpecification)
@@ -1363,8 +1363,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/ownershipFundingInfo
-     * @see http://pending.schema.org
+     * @see schema:ownershipFundingInfo
+     * @see https://pending.schema.org
      */
     public function ownershipFundingInfo($ownershipFundingInfo)
     {
@@ -1378,7 +1378,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/owns
+     * @see schema:owns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function owns($owns)
@@ -1394,7 +1394,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/parentOrganization
+     * @see schema:parentOrganization
      */
     public function parentOrganization($parentOrganization)
     {
@@ -1408,7 +1408,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/photo
+     * @see schema:photo
      */
     public function photo($photo)
     {
@@ -1422,7 +1422,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/photos
+     * @see schema:photos
      */
     public function photos($photos)
     {
@@ -1437,7 +1437,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -1452,7 +1452,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/publicAccess
+     * @see schema:publicAccess
      */
     public function publicAccess($publicAccess)
     {
@@ -1476,7 +1476,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -1490,7 +1490,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -1504,7 +1504,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1520,7 +1520,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1535,7 +1535,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/seeks
+     * @see schema:seeks
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function seeks($seeks)
@@ -1550,7 +1550,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -1564,7 +1564,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -1579,7 +1579,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/smokingAllowed
+     * @see schema:smokingAllowed
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function smokingAllowed($smokingAllowed)
@@ -1597,7 +1597,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/specialOpeningHoursSpecification
+     * @see schema:specialOpeningHoursSpecification
      */
     public function specialOpeningHoursSpecification($specialOpeningHoursSpecification)
     {
@@ -1613,7 +1613,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1629,7 +1629,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/subOrganization
+     * @see schema:subOrganization
      */
     public function subOrganization($subOrganization)
     {
@@ -1643,7 +1643,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1659,7 +1659,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/taxID
+     * @see schema:taxID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function taxID($taxID)
@@ -1674,7 +1674,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -1690,8 +1690,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/tourBookingPage
-     * @see http://pending.schema.org
+     * @see schema:tourBookingPage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function tourBookingPage($tourBookingPage)
@@ -1708,8 +1708,8 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/unnamedSourcesPolicy
-     * @see http://pending.schema.org
+     * @see schema:unnamedSourcesPolicy
+     * @see https://pending.schema.org
      */
     public function unnamedSourcesPolicy($unnamedSourcesPolicy)
     {
@@ -1723,7 +1723,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1737,7 +1737,7 @@ class MiddleSchool extends BaseType implements MiddleSchoolContract, CivicStruct
      *
      * @return static
      *
-     * @see https://schema.org/vatID
+     * @see schema:vatID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function vatID($vatID)

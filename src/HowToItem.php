@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * An item used as either a tool or supply when performing the instructions for
  * how to to achieve a result.
  *
- * @see https://schema.org/HowToItem
+ * @see schema:HowToItem
  *
  */
 class HowToItem extends BaseType implements HowToItemContract, IntangibleContract, ListItemContract, ThingContract
@@ -28,7 +28,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -73,7 +73,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -91,7 +91,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -106,7 +106,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -121,7 +121,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/item
+     * @see schema:item
      */
     public function item($item)
     {
@@ -137,7 +137,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -151,7 +151,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -165,7 +165,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/nextItem
+     * @see schema:nextItem
      */
     public function nextItem($nextItem)
     {
@@ -179,7 +179,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/position
+     * @see schema:position
      */
     public function position($position)
     {
@@ -194,7 +194,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -208,7 +208,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/previousItem
+     * @see schema:previousItem
      */
     public function previousItem($previousItem)
     {
@@ -222,7 +222,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/requiredQuantity
+     * @see schema:requiredQuantity
      */
     public function requiredQuantity($requiredQuantity)
     {
@@ -238,7 +238,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -252,7 +252,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -267,7 +267,7 @@ class HowToItem extends BaseType implements HowToItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

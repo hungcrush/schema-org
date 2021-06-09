@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The status of a medical study. Enumerated type.
  *
- * @see https://schema.org/MedicalStudyStatus
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalStudyStatus
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,82 +21,82 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
     /**
      * Active, but not recruiting new participants.
      *
-     * @see https://schema.org/ActiveNotRecruiting
-     * @see http://health-lifesci.schema.org
+     * @see schema:ActiveNotRecruiting
+     * @see https://health-lifesci.schema.org
      */
-     const ActiveNotRecruiting = 'https://schema.org/ActiveNotRecruiting';
+     const ActiveNotRecruiting = 'schema:ActiveNotRecruiting';
 
     /**
      * Completed.
      *
-     * @see https://schema.org/Completed
-     * @see http://health-lifesci.schema.org
+     * @see schema:Completed
+     * @see https://health-lifesci.schema.org
      */
-     const Completed = 'https://schema.org/Completed';
+     const Completed = 'schema:Completed';
 
     /**
      * Enrolling participants by invitation only.
      *
-     * @see https://schema.org/EnrollingByInvitation
-     * @see http://health-lifesci.schema.org
+     * @see schema:EnrollingByInvitation
+     * @see https://health-lifesci.schema.org
      */
-     const EnrollingByInvitation = 'https://schema.org/EnrollingByInvitation';
+     const EnrollingByInvitation = 'schema:EnrollingByInvitation';
 
     /**
      * Not yet recruiting.
      *
-     * @see https://schema.org/NotYetRecruiting
-     * @see http://health-lifesci.schema.org
+     * @see schema:NotYetRecruiting
+     * @see https://health-lifesci.schema.org
      */
-     const NotYetRecruiting = 'https://schema.org/NotYetRecruiting';
+     const NotYetRecruiting = 'schema:NotYetRecruiting';
 
     /**
      * Recruiting participants.
      *
-     * @see https://schema.org/Recruiting
-     * @see http://health-lifesci.schema.org
+     * @see schema:Recruiting
+     * @see https://health-lifesci.schema.org
      */
-     const Recruiting = 'https://schema.org/Recruiting';
+     const Recruiting = 'schema:Recruiting';
 
     /**
      * Results are available.
      *
-     * @see https://schema.org/ResultsAvailable
-     * @see http://health-lifesci.schema.org
+     * @see schema:ResultsAvailable
+     * @see https://health-lifesci.schema.org
      */
-     const ResultsAvailable = 'https://schema.org/ResultsAvailable';
+     const ResultsAvailable = 'schema:ResultsAvailable';
 
     /**
      * Results are not available.
      *
-     * @see https://schema.org/ResultsNotAvailable
-     * @see http://health-lifesci.schema.org
+     * @see schema:ResultsNotAvailable
+     * @see https://health-lifesci.schema.org
      */
-     const ResultsNotAvailable = 'https://schema.org/ResultsNotAvailable';
+     const ResultsNotAvailable = 'schema:ResultsNotAvailable';
 
     /**
      * Suspended.
      *
-     * @see https://schema.org/Suspended
-     * @see http://health-lifesci.schema.org
+     * @see schema:Suspended
+     * @see https://health-lifesci.schema.org
      */
-     const Suspended = 'https://schema.org/Suspended';
+     const Suspended = 'schema:Suspended';
 
     /**
      * Terminated.
      *
-     * @see https://schema.org/Terminated
-     * @see http://health-lifesci.schema.org
+     * @see schema:Terminated
+     * @see https://health-lifesci.schema.org
      */
-     const Terminated = 'https://schema.org/Terminated';
+     const Terminated = 'schema:Terminated';
 
     /**
      * Withdrawn.
      *
-     * @see https://schema.org/Withdrawn
-     * @see http://health-lifesci.schema.org
+     * @see schema:Withdrawn
+     * @see https://health-lifesci.schema.org
      */
-     const Withdrawn = 'https://schema.org/Withdrawn';
+     const Withdrawn = 'schema:Withdrawn';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -110,7 +110,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -124,7 +124,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -138,7 +138,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -155,7 +155,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -173,7 +173,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -188,7 +188,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -204,7 +204,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -218,7 +218,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -233,7 +233,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -249,7 +249,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -263,7 +263,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -278,7 +278,7 @@ class MedicalStudyStatus extends BaseType implements MedicalStudyStatusContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

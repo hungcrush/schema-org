@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\TripContract;
 /**
  * A trip on a commercial train line.
  *
- * @see https://schema.org/TrainTrip
+ * @see schema:TrainTrip
  *
  */
 class TrainTrip extends BaseType implements TrainTripContract, IntangibleContract, ThingContract, TripContract
@@ -27,7 +27,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/arrivalPlatform
+     * @see schema:arrivalPlatform
      */
     public function arrivalPlatform($arrivalPlatform)
     {
@@ -69,7 +69,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/arrivalStation
+     * @see schema:arrivalStation
      */
     public function arrivalStation($arrivalStation)
     {
@@ -83,7 +83,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/arrivalTime
+     * @see schema:arrivalTime
      */
     public function arrivalTime($arrivalTime)
     {
@@ -97,7 +97,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/departurePlatform
+     * @see schema:departurePlatform
      */
     public function departurePlatform($departurePlatform)
     {
@@ -111,7 +111,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/departureStation
+     * @see schema:departureStation
      */
     public function departureStation($departureStation)
     {
@@ -125,7 +125,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/departureTime
+     * @see schema:departureTime
      */
     public function departureTime($departureTime)
     {
@@ -139,7 +139,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -156,7 +156,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -174,7 +174,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -189,7 +189,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -205,9 +205,8 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/itinerary
-     * @see http://pending.schema.org
-     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
+     * @see schema:itinerary
+     * @see https://pending.schema.org
      */
     public function itinerary($itinerary)
     {
@@ -223,7 +222,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -237,7 +236,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -258,7 +257,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -274,9 +273,8 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/partOfTrip
-     * @see http://pending.schema.org
-     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
+     * @see schema:partOfTrip
+     * @see https://pending.schema.org
      */
     public function partOfTrip($partOfTrip)
     {
@@ -291,7 +289,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -307,7 +305,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -324,7 +322,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -339,9 +337,8 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/subTrip
-     * @see http://pending.schema.org
-     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism
+     * @see schema:subTrip
+     * @see https://pending.schema.org
      */
     public function subTrip($subTrip)
     {
@@ -355,7 +352,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -370,7 +367,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/trainName
+     * @see schema:trainName
      */
     public function trainName($trainName)
     {
@@ -384,7 +381,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/trainNumber
+     * @see schema:trainNumber
      */
     public function trainNumber($trainNumber)
     {
@@ -398,7 +395,7 @@ class TrainTrip extends BaseType implements TrainTripContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

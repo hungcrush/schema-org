@@ -11,10 +11,10 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
  * A loan in which property or real estate is used as collateral. (A loan
- * securitized against some real estate.)
+ * securitized against some real estate).
  *
- * @see https://schema.org/MortgageLoan
- * @see http://pending.schema.org
+ * @see schema:MortgageLoan
+ * @see https://pending.schema.org
  *
  */
 class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialProductContract, IntangibleContract, LoanOrCreditContract, ServiceContract, ThingContract
@@ -31,7 +31,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -60,7 +60,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -74,7 +74,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -91,7 +91,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/annualPercentageRate
+     * @see schema:annualPercentageRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function annualPercentageRate($annualPercentageRate)
@@ -106,7 +106,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -120,7 +120,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -135,7 +135,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -149,7 +149,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -164,7 +164,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -181,7 +181,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -196,7 +196,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -218,7 +218,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/currency
+     * @see schema:currency
      * @link https://github.com/schemaorg/schemaorg/issues/1253
      */
     public function currency($currency)
@@ -233,7 +233,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -250,7 +250,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -265,8 +265,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/domiciledMortgage
-     * @see http://pending.schema.org
+     * @see schema:domiciledMortgage
+     * @see https://pending.schema.org
      */
     public function domiciledMortgage($domiciledMortgage)
     {
@@ -281,7 +281,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/feesAndCommissionsSpecification
+     * @see schema:feesAndCommissionsSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function feesAndCommissionsSpecification($feesAndCommissionsSpecification)
@@ -297,8 +297,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/gracePeriod
-     * @see http://pending.schema.org
+     * @see schema:gracePeriod
+     * @see https://pending.schema.org
      */
     public function gracePeriod($gracePeriod)
     {
@@ -313,7 +313,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -327,7 +327,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -345,7 +345,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -360,7 +360,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -375,7 +375,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/interestRate
+     * @see schema:interestRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function interestRate($interestRate)
@@ -390,7 +390,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -406,7 +406,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -422,8 +422,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanMortgageMandateAmount
-     * @see http://pending.schema.org
+     * @see schema:loanMortgageMandateAmount
+     * @see https://pending.schema.org
      */
     public function loanMortgageMandateAmount($loanMortgageMandateAmount)
     {
@@ -439,8 +439,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanRepaymentForm
-     * @see http://pending.schema.org
+     * @see schema:loanRepaymentForm
+     * @see https://pending.schema.org
      */
     public function loanRepaymentForm($loanRepaymentForm)
     {
@@ -454,7 +454,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanTerm
+     * @see schema:loanTerm
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function loanTerm($loanTerm)
@@ -469,8 +469,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/loanType
-     * @see http://pending.schema.org
+     * @see schema:loanType
+     * @see https://pending.schema.org
      */
     public function loanType($loanType)
     {
@@ -484,7 +484,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -501,7 +501,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -515,7 +515,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -536,7 +536,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -552,7 +552,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -567,7 +567,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -583,7 +583,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -598,7 +598,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -614,8 +614,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/recourseLoan
-     * @see http://pending.schema.org
+     * @see schema:recourseLoan
+     * @see https://pending.schema.org
      */
     public function recourseLoan($recourseLoan)
     {
@@ -630,8 +630,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/renegotiableLoan
-     * @see http://pending.schema.org
+     * @see schema:renegotiableLoan
+     * @see https://pending.schema.org
      */
     public function renegotiableLoan($renegotiableLoan)
     {
@@ -646,7 +646,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/requiredCollateral
+     * @see schema:requiredCollateral
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function requiredCollateral($requiredCollateral)
@@ -661,7 +661,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -677,7 +677,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -691,7 +691,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -705,7 +705,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -720,7 +720,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -735,7 +735,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -749,7 +749,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -763,7 +763,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -778,8 +778,8 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -794,7 +794,7 @@ class MortgageLoan extends BaseType implements MortgageLoanContract, FinancialPr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

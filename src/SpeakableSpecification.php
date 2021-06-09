@@ -12,7 +12,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * [[speakable]]. Instances of this type are expected to be used primarily as
  * values of the [[speakable]] property.
  *
- * @see https://schema.org/SpeakableSpecification
+ * @see schema:SpeakableSpecification
  * @link https://github.com/schemaorg/schemaorg/issues/1389
  *
  */
@@ -30,7 +30,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,7 +60,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/cssSelector
+     * @see schema:cssSelector
      * @link https://github.com/schemaorg/schemaorg/issues/1389
      */
     public function cssSelector($cssSelector)
@@ -75,7 +75,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -92,7 +92,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -110,7 +110,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -125,7 +125,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -141,7 +141,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -155,7 +155,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -170,7 +170,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -186,7 +186,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -200,7 +200,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -215,7 +215,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -231,7 +231,7 @@ class SpeakableSpecification extends BaseType implements SpeakableSpecificationC
      *
      * @return static
      *
-     * @see https://schema.org/xpath
+     * @see schema:xpath
      * @link https://github.com/schemaorg/schemaorg/issues/1389
      */
     public function xpath($xpath)

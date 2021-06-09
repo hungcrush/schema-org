@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Categories that represent an assessment of the risk of fetal injury due to a
  * drug or pharmaceutical used as directed by the mother during pregnancy.
  *
- * @see https://schema.org/DrugPregnancyCategory
- * @see http://health-lifesci.schema.org
+ * @see schema:DrugPregnancyCategory
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -25,20 +25,20 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      * trimester of pregnancy (and there is no evidence of risk in later
      * trimesters).
      *
-     * @see https://schema.org/FDAcategoryA
-     * @see http://health-lifesci.schema.org
+     * @see schema:FDAcategoryA
+     * @see https://health-lifesci.schema.org
      */
-     const FDAcategoryA = 'https://schema.org/FDAcategoryA';
+     const FDAcategoryA = 'schema:FDAcategoryA';
 
     /**
      * A designation by the US FDA signifying that animal reproduction studies
      * have failed to demonstrate a risk to the fetus and there are no adequate
      * and well-controlled studies in pregnant women.
      *
-     * @see https://schema.org/FDAcategoryB
-     * @see http://health-lifesci.schema.org
+     * @see schema:FDAcategoryB
+     * @see https://health-lifesci.schema.org
      */
-     const FDAcategoryB = 'https://schema.org/FDAcategoryB';
+     const FDAcategoryB = 'schema:FDAcategoryB';
 
     /**
      * A designation by the US FDA signifying that animal reproduction studies
@@ -46,10 +46,10 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      * well-controlled studies in humans, but potential benefits may warrant use
      * of the drug in pregnant women despite potential risks.
      *
-     * @see https://schema.org/FDAcategoryC
-     * @see http://health-lifesci.schema.org
+     * @see schema:FDAcategoryC
+     * @see https://health-lifesci.schema.org
      */
-     const FDAcategoryC = 'https://schema.org/FDAcategoryC';
+     const FDAcategoryC = 'schema:FDAcategoryC';
 
     /**
      * A designation by the US FDA signifying that there is positive evidence of
@@ -57,10 +57,10 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      * marketing experience or studies in humans, but potential benefits may
      * warrant use of the drug in pregnant women despite potential risks.
      *
-     * @see https://schema.org/FDAcategoryD
-     * @see http://health-lifesci.schema.org
+     * @see schema:FDAcategoryD
+     * @see https://health-lifesci.schema.org
      */
-     const FDAcategoryD = 'https://schema.org/FDAcategoryD';
+     const FDAcategoryD = 'schema:FDAcategoryD';
 
     /**
      * A designation by the US FDA signifying that studies in animals or humans
@@ -69,19 +69,19 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      * or marketing experience, and the risks involved in use of the drug in
      * pregnant women clearly outweigh potential benefits.
      *
-     * @see https://schema.org/FDAcategoryX
-     * @see http://health-lifesci.schema.org
+     * @see schema:FDAcategoryX
+     * @see https://health-lifesci.schema.org
      */
-     const FDAcategoryX = 'https://schema.org/FDAcategoryX';
+     const FDAcategoryX = 'schema:FDAcategoryX';
 
     /**
      * A designation that the drug in question has not been assigned a pregnancy
      * category designation by the US FDA.
      *
-     * @see https://schema.org/FDAnotEvaluated
-     * @see http://health-lifesci.schema.org
+     * @see schema:FDAnotEvaluated
+     * @see https://health-lifesci.schema.org
      */
-     const FDAnotEvaluated = 'https://schema.org/FDAnotEvaluated';
+     const FDAnotEvaluated = 'schema:FDAnotEvaluated';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -95,7 +95,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -109,7 +109,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -123,7 +123,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -140,7 +140,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -158,7 +158,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -173,7 +173,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -189,7 +189,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -203,7 +203,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -218,7 +218,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -234,7 +234,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -248,7 +248,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -263,7 +263,7 @@ class DrugPregnancyCategory extends BaseType implements DrugPregnancyCategoryCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

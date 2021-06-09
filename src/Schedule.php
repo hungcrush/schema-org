@@ -17,8 +17,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  *       have start and end dates to indicate when they are active, e.g. to
  * define a limited calendar of events.
  *
- * @see https://schema.org/Schedule
- * @see http://pending.schema.org
+ * @see schema:Schedule
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1457
  *
  */
@@ -36,7 +36,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -50,7 +50,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,14 +60,14 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
     /**
      * Defines the day(s) of the week on which a recurring [[Event]] takes
      * place. May be specified using either [[DayOfWeek]], or alternatively
-     * [[Text]] conforming to iCal's syntax for byDay recurrence rules
+     * [[Text]] conforming to iCal's syntax for byDay recurrence rules.
      *
      * @param \Spatie\SchemaOrg\Contracts\DayOfWeekContract|\Spatie\SchemaOrg\Contracts\DayOfWeekContract[]|string|string[] $byDay
      *
      * @return static
      *
-     * @see https://schema.org/byDay
-     * @see http://pending.schema.org
+     * @see schema:byDay
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function byDay($byDay)
@@ -83,8 +83,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/byMonth
-     * @see http://pending.schema.org
+     * @see schema:byMonth
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function byMonth($byMonth)
@@ -100,8 +100,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/byMonthDay
-     * @see http://pending.schema.org
+     * @see schema:byMonthDay
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function byMonthDay($byMonthDay)
@@ -119,8 +119,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/byMonthWeek
-     * @see http://pending.schema.org
+     * @see schema:byMonthWeek
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2599
      */
     public function byMonthWeek($byMonthWeek)
@@ -135,7 +135,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -152,7 +152,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -167,7 +167,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/duration
+     * @see schema:duration
      */
     public function duration($duration)
     {
@@ -182,7 +182,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -206,7 +206,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -230,8 +230,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/exceptDate
-     * @see http://pending.schema.org
+     * @see schema:exceptDate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function exceptDate($exceptDate)
@@ -250,7 +250,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -265,7 +265,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -281,7 +281,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -295,7 +295,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -310,7 +310,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -324,8 +324,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/repeatCount
-     * @see http://pending.schema.org
+     * @see schema:repeatCount
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function repeatCount($repeatCount)
@@ -334,7 +334,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
     }
 
     /**
-     * Defines the frequency at which [[Events]] will occur according to a
+     * Defines the frequency at which [[Event]]s will occur according to a
      * schedule [[Schedule]]. The intervals between
      *       events should be defined as a [[Duration]] of time.
      *
@@ -342,8 +342,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/repeatFrequency
-     * @see http://pending.schema.org
+     * @see schema:repeatFrequency
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function repeatFrequency($repeatFrequency)
@@ -360,7 +360,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -376,8 +376,8 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/scheduleTimezone
-     * @see http://pending.schema.org
+     * @see schema:scheduleTimezone
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function scheduleTimezone($scheduleTimezone)
@@ -393,7 +393,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -417,7 +417,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -432,7 +432,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -447,7 +447,7 @@ class Schedule extends BaseType implements ScheduleContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

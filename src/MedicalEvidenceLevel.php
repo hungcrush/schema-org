@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Level of evidence for a medical guideline. Enumerated type.
  *
- * @see https://schema.org/MedicalEvidenceLevel
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalEvidenceLevel
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,26 +21,26 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
     /**
      * Data derived from multiple randomized clinical trials or meta-analyses.
      *
-     * @see https://schema.org/EvidenceLevelA
-     * @see http://health-lifesci.schema.org
+     * @see schema:EvidenceLevelA
+     * @see https://health-lifesci.schema.org
      */
-     const EvidenceLevelA = 'https://schema.org/EvidenceLevelA';
+     const EvidenceLevelA = 'schema:EvidenceLevelA';
 
     /**
      * Data derived from a single randomized trial, or nonrandomized studies.
      *
-     * @see https://schema.org/EvidenceLevelB
-     * @see http://health-lifesci.schema.org
+     * @see schema:EvidenceLevelB
+     * @see https://health-lifesci.schema.org
      */
-     const EvidenceLevelB = 'https://schema.org/EvidenceLevelB';
+     const EvidenceLevelB = 'schema:EvidenceLevelB';
 
     /**
      * Only consensus opinion of experts, case studies, or standard-of-care.
      *
-     * @see https://schema.org/EvidenceLevelC
-     * @see http://health-lifesci.schema.org
+     * @see schema:EvidenceLevelC
+     * @see https://health-lifesci.schema.org
      */
-     const EvidenceLevelC = 'https://schema.org/EvidenceLevelC';
+     const EvidenceLevelC = 'schema:EvidenceLevelC';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -54,7 +54,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -68,7 +68,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -82,7 +82,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -99,7 +99,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -117,7 +117,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -132,7 +132,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -148,7 +148,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -162,7 +162,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -177,7 +177,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -193,7 +193,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -207,7 +207,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -222,7 +222,7 @@ class MedicalEvidenceLevel extends BaseType implements MedicalEvidenceLevelContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

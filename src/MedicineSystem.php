@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Systems of medical practice.
  *
- * @see https://schema.org/MedicineSystem
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicineSystem
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -22,37 +22,37 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      * A system of medicine that originated in India over thousands of years and
      * that focuses on integrating and balancing the body, mind, and spirit.
      *
-     * @see https://schema.org/Ayurvedic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Ayurvedic
+     * @see https://health-lifesci.schema.org
      */
-     const Ayurvedic = 'https://schema.org/Ayurvedic';
+     const Ayurvedic = 'schema:Ayurvedic';
 
     /**
      * A system of medicine focused on the relationship between the body's
      * structure, mainly the spine, and its functioning.
      *
-     * @see https://schema.org/Chiropractic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Chiropractic
+     * @see https://health-lifesci.schema.org
      */
-     const Chiropractic = 'https://schema.org/Chiropractic';
+     const Chiropractic = 'schema:Chiropractic';
 
     /**
      * A system of medicine based on the principle that a disease can be cured
      * by a substance that produces similar symptoms in healthy people.
      *
-     * @see https://schema.org/Homeopathic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Homeopathic
+     * @see https://health-lifesci.schema.org
      */
-     const Homeopathic = 'https://schema.org/Homeopathic';
+     const Homeopathic = 'schema:Homeopathic';
 
     /**
      * A system of medicine focused on promoting the body's innate ability to
      * heal itself.
      *
-     * @see https://schema.org/Osteopathic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Osteopathic
+     * @see https://health-lifesci.schema.org
      */
-     const Osteopathic = 'https://schema.org/Osteopathic';
+     const Osteopathic = 'schema:Osteopathic';
 
     /**
      * A system of medicine based on common theoretical concepts that originated
@@ -60,20 +60,20 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      * acupuncture, exercise, massage, dietary therapy, and other methods to
      * treat a wide range of conditions.
      *
-     * @see https://schema.org/TraditionalChinese
-     * @see http://health-lifesci.schema.org
+     * @see schema:TraditionalChinese
+     * @see https://health-lifesci.schema.org
      */
-     const TraditionalChinese = 'https://schema.org/TraditionalChinese';
+     const TraditionalChinese = 'schema:TraditionalChinese';
 
     /**
      * The conventional Western system of medicine, that aims to apply the best
      * available evidence gained from the scientific method to clinical decision
      * making. Also known as conventional or Western medicine.
      *
-     * @see https://schema.org/WesternConventional
-     * @see http://health-lifesci.schema.org
+     * @see schema:WesternConventional
+     * @see https://health-lifesci.schema.org
      */
-     const WesternConventional = 'https://schema.org/WesternConventional';
+     const WesternConventional = 'schema:WesternConventional';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -87,7 +87,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -101,7 +101,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -115,7 +115,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -132,7 +132,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -150,7 +150,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -165,7 +165,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -181,7 +181,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -195,7 +195,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -210,7 +210,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -226,7 +226,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -240,7 +240,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -255,7 +255,7 @@ class MedicineSystem extends BaseType implements MedicineSystemContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

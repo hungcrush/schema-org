@@ -15,8 +15,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Relations](https://en.wikipedia.org/wiki/GoodRelations) for
  *   background on the underlying concepts.
  *
- * @see https://schema.org/OfferForLease
- * @see http://pending.schema.org
+ * @see schema:OfferForLease
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2348
  *
  */
@@ -29,7 +29,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/acceptedPaymentMethod
+     * @see schema:acceptedPaymentMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function acceptedPaymentMethod($acceptedPaymentMethod)
@@ -46,7 +46,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/addOn
+     * @see schema:addOn
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function addOn($addOn)
@@ -66,7 +66,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -81,7 +81,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/advanceBookingRequirement
+     * @see schema:advanceBookingRequirement
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function advanceBookingRequirement($advanceBookingRequirement)
@@ -97,7 +97,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -111,7 +111,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -125,7 +125,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -140,7 +140,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/availability
+     * @see schema:availability
      */
     public function availability($availability)
     {
@@ -155,7 +155,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/availabilityEnds
+     * @see schema:availabilityEnds
      */
     public function availabilityEnds($availabilityEnds)
     {
@@ -170,7 +170,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/availabilityStarts
+     * @see schema:availabilityStarts
      */
     public function availabilityStarts($availabilityStarts)
     {
@@ -184,7 +184,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/availableAtOrFrom
+     * @see schema:availableAtOrFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function availableAtOrFrom($availableAtOrFrom)
@@ -199,7 +199,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/availableDeliveryMethod
+     * @see schema:availableDeliveryMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function availableDeliveryMethod($availableDeliveryMethod)
@@ -216,7 +216,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/businessFunction
+     * @see schema:businessFunction
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function businessFunction($businessFunction)
@@ -232,7 +232,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -248,7 +248,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/deliveryLeadTime
+     * @see schema:deliveryLeadTime
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function deliveryLeadTime($deliveryLeadTime)
@@ -263,7 +263,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -280,7 +280,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -294,7 +294,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/eligibleCustomerType
+     * @see schema:eligibleCustomerType
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleCustomerType($eligibleCustomerType)
@@ -309,7 +309,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/eligibleDuration
+     * @see schema:eligibleDuration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleDuration($eligibleDuration)
@@ -326,7 +326,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -345,7 +345,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/eligibleRegion
+     * @see schema:eligibleRegion
      */
     public function eligibleRegion($eligibleRegion)
     {
@@ -362,7 +362,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -374,21 +374,17 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      * A Global Trade Item Number
      * ([GTIN](https://www.gs1.org/standards/id-keys/gtin)). GTINs identify
      * trade items, including products and services, using numeric
-     * identification codes. The [[gtin]] property generalizes the earlier <a
-     * class="localLink" href="https://schema.org/gtin8">gtin8</a>, <a
-     * class="localLink" href="https://schema.org/gtin12">gtin12</a>, <a
-     * class="localLink" href="https://schema.org/gtin13">gtin13</a>, and <a
-     * class="localLink" href="https://schema.org/gtin14">gtin14</a> properties.
-     * The GS1 [digital link
+     * identification codes. The [[gtin]] property generalizes the earlier
+     * [[gtin8]], [[gtin12]], [[gtin13]], and [[gtin14]] properties. The GS1
+     * [digital link
      * specifications](https://www.gs1.org/standards/Digital-Link/) express
      * GTINs as URLs. A correct [[gtin]] value should be a valid GTIN, which
      * means that it should be an all-numeric string of either 8, 12, 13 or 14
      * digits, or a "GS1 Digital Link" URL based on such a string. The numeric
      * component should also have a [valid GS1 check
      * digit](https://www.gs1.org/services/check-digit-calculator) and meet the
-     * other rules for valid GTINs. See also <a
-     * href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1's GTIN
-     * Summary</a> and
+     * other rules for valid GTINs. See also [GS1's GTIN
+     * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) and
      * [Wikipedia](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) for
      * more details. Left-padding of the gtin values is not required or
      * encouraged.
@@ -397,8 +393,8 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/gtin
-     * @see http://pending.schema.org
+     * @see schema:gtin
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function gtin($gtin)
@@ -418,7 +414,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/gtin12
+     * @see schema:gtin12
      */
     public function gtin12($gtin12)
     {
@@ -429,7 +425,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      * The GTIN-13 code of the product, or the product to which the offer
      * refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former
      * 12-digit UPC codes can be converted into a GTIN-13 code by simply adding
-     * a preceeding zero. See [GS1 GTIN
+     * a preceding zero. See [GS1 GTIN
      * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more
      * details.
      *
@@ -437,7 +433,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/gtin13
+     * @see schema:gtin13
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin13($gtin13)
@@ -455,7 +451,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/gtin14
+     * @see schema:gtin14
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin14($gtin14)
@@ -464,9 +460,8 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
     }
 
     /**
-     * The [GTIN-8](http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx) code of
-     * the product, or the product to which the offer refers. This code is also
-     * known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN
+     * The GTIN-8 code of the product, or the product to which the offer refers.
+     * This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN
      * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more
      * details.
      *
@@ -474,12 +469,31 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/gtin8
+     * @see schema:gtin8
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin8($gtin8)
     {
         return $this->setProperty('gtin8', $gtin8);
+    }
+
+    /**
+     * A product measurement, for example the inseam of pants, the wheel size of
+     * a bicycle, or the gauge of a screw. Usually an exact measurement, but can
+     * also be a range of measurements for adjustable products, for example
+     * belts and ski bindings.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $hasMeasurement
+     *
+     * @return static
+     *
+     * @see schema:hasMeasurement
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2811
+     */
+    public function hasMeasurement($hasMeasurement)
+    {
+        return $this->setProperty('hasMeasurement', $hasMeasurement);
     }
 
     /**
@@ -493,7 +507,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -508,7 +522,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -523,7 +537,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/includesObject
+     * @see schema:includesObject
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function includesObject($includesObject)
@@ -543,8 +557,8 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/ineligibleRegion
-     * @see http://pending.schema.org
+     * @see schema:ineligibleRegion
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2242
      */
     public function ineligibleRegion($ineligibleRegion)
@@ -559,7 +573,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/inventoryLevel
+     * @see schema:inventoryLevel
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function inventoryLevel($inventoryLevel)
@@ -576,7 +590,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/itemCondition
+     * @see schema:itemCondition
      */
     public function itemCondition($itemCondition)
     {
@@ -594,7 +608,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/itemOffered
+     * @see schema:itemOffered
      */
     public function itemOffered($itemOffered)
     {
@@ -609,8 +623,8 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/leaseLength
-     * @see http://pending.schema.org
+     * @see schema:leaseLength
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function leaseLength($leaseLength)
@@ -627,7 +641,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -642,7 +656,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/mpn
+     * @see schema:mpn
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function mpn($mpn)
@@ -657,7 +671,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -671,7 +685,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/offeredBy
+     * @see schema:offeredBy
      */
     public function offeredBy($offeredBy)
     {
@@ -686,7 +700,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -723,7 +737,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
@@ -746,7 +760,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -761,7 +775,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/priceSpecification
+     * @see schema:priceSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function priceSpecification($priceSpecification)
@@ -776,7 +790,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/priceValidUntil
+     * @see schema:priceValidUntil
      */
     public function priceValidUntil($priceValidUntil)
     {
@@ -790,7 +804,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -804,7 +818,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -820,7 +834,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -835,7 +849,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/seller
+     * @see schema:seller
      */
     public function seller($seller)
     {
@@ -851,7 +865,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/serialNumber
+     * @see schema:serialNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function serialNumber($serialNumber)
@@ -867,8 +881,8 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/shippingDetails
-     * @see http://pending.schema.org
+     * @see schema:shippingDetails
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingDetails($shippingDetails)
@@ -884,7 +898,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/sku
+     * @see schema:sku
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function sku($sku)
@@ -899,7 +913,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -914,7 +928,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -928,7 +942,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -944,7 +958,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -959,7 +973,7 @@ class OfferForLease extends BaseType implements OfferForLeaseContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/warranty
+     * @see schema:warranty
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function warranty($warranty)

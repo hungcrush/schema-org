@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A contact point&#x2014;for example, a Customer Complaints department.
  *
- * @see https://schema.org/ContactPoint
+ * @see schema:ContactPoint
  *
  */
 class ContactPoint extends BaseType implements ContactPointContract, IntangibleContract, StructuredValueContract, ThingContract
@@ -27,7 +27,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -71,7 +71,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/availableLanguage
+     * @see schema:availableLanguage
      */
     public function availableLanguage($availableLanguage)
     {
@@ -86,7 +86,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/contactOption
+     * @see schema:contactOption
      */
     public function contactOption($contactOption)
     {
@@ -102,7 +102,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/contactType
+     * @see schema:contactType
      */
     public function contactType($contactType)
     {
@@ -116,7 +116,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -133,7 +133,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -147,7 +147,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/email
+     * @see schema:email
      */
     public function email($email)
     {
@@ -161,7 +161,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -175,7 +175,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -193,7 +193,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -208,7 +208,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -224,7 +224,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -238,7 +238,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -253,7 +253,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -270,7 +270,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/productSupported
+     * @see schema:productSupported
      */
     public function productSupported($productSupported)
     {
@@ -286,7 +286,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -300,7 +300,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -314,7 +314,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -329,7 +329,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -343,7 +343,7 @@ class ContactPoint extends BaseType implements ContactPointContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

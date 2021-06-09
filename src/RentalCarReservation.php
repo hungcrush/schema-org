@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * confirmation emails or HTML pages with individual confirmations of
  * reservations.
  *
- * @see https://schema.org/RentalCarReservation
+ * @see schema:RentalCarReservation
  *
  */
 class RentalCarReservation extends BaseType implements RentalCarReservationContract, IntangibleContract, ReservationContract, ThingContract
@@ -31,7 +31,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,7 +60,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/bookingAgent
+     * @see schema:bookingAgent
      */
     public function bookingAgent($bookingAgent)
     {
@@ -74,7 +74,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/bookingTime
+     * @see schema:bookingTime
      */
     public function bookingTime($bookingTime)
     {
@@ -91,7 +91,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -105,7 +105,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -122,7 +122,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -136,7 +136,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/dropoffLocation
+     * @see schema:dropoffLocation
      */
     public function dropoffLocation($dropoffLocation)
     {
@@ -150,7 +150,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/dropoffTime
+     * @see schema:dropoffTime
      */
     public function dropoffTime($dropoffTime)
     {
@@ -168,7 +168,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -183,7 +183,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -199,7 +199,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -213,7 +213,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/modifiedTime
+     * @see schema:modifiedTime
      */
     public function modifiedTime($modifiedTime)
     {
@@ -227,7 +227,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -241,7 +241,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/pickupLocation
+     * @see schema:pickupLocation
      */
     public function pickupLocation($pickupLocation)
     {
@@ -255,7 +255,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/pickupTime
+     * @see schema:pickupTime
      */
     public function pickupTime($pickupTime)
     {
@@ -270,7 +270,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -293,7 +293,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -308,7 +308,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/programMembershipUsed
+     * @see schema:programMembershipUsed
      */
     public function programMembershipUsed($programMembershipUsed)
     {
@@ -324,7 +324,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -339,7 +339,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/reservationFor
+     * @see schema:reservationFor
      */
     public function reservationFor($reservationFor)
     {
@@ -353,7 +353,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/reservationId
+     * @see schema:reservationId
      */
     public function reservationId($reservationId)
     {
@@ -367,7 +367,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/reservationStatus
+     * @see schema:reservationStatus
      */
     public function reservationStatus($reservationStatus)
     {
@@ -381,7 +381,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/reservedTicket
+     * @see schema:reservedTicket
      */
     public function reservedTicket($reservedTicket)
     {
@@ -397,7 +397,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -411,7 +411,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -434,7 +434,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/totalPrice
+     * @see schema:totalPrice
      */
     public function totalPrice($totalPrice)
     {
@@ -448,7 +448,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/underName
+     * @see schema:underName
      */
     public function underName($underName)
     {
@@ -462,7 +462,7 @@ class RentalCarReservation extends BaseType implements RentalCarReservationContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

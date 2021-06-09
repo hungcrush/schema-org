@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A statement of the money due for goods or services; a bill.
  *
- * @see https://schema.org/Invoice
+ * @see schema:Invoice
  *
  */
 class Invoice extends BaseType implements InvoiceContract, IntangibleContract, ThingContract
@@ -21,7 +21,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/accountId
+     * @see schema:accountId
      */
     public function accountId($accountId)
     {
@@ -40,7 +40,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -54,7 +54,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -68,7 +68,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/billingPeriod
+     * @see schema:billingPeriod
      */
     public function billingPeriod($billingPeriod)
     {
@@ -85,7 +85,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -100,7 +100,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -114,7 +114,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/confirmationNumber
+     * @see schema:confirmationNumber
      */
     public function confirmationNumber($confirmationNumber)
     {
@@ -128,7 +128,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/customer
+     * @see schema:customer
      */
     public function customer($customer)
     {
@@ -142,7 +142,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -159,7 +159,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -177,7 +177,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -192,7 +192,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -208,7 +208,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -222,7 +222,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/minimumPaymentDue
+     * @see schema:minimumPaymentDue
      */
     public function minimumPaymentDue($minimumPaymentDue)
     {
@@ -236,7 +236,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -250,7 +250,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/paymentDue
+     * @see schema:paymentDue
      */
     public function paymentDue($paymentDue)
     {
@@ -264,7 +264,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/paymentDueDate
+     * @see schema:paymentDueDate
      */
     public function paymentDueDate($paymentDueDate)
     {
@@ -278,7 +278,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/paymentMethod
+     * @see schema:paymentMethod
      */
     public function paymentMethod($paymentMethod)
     {
@@ -293,7 +293,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/paymentMethodId
+     * @see schema:paymentMethodId
      */
     public function paymentMethodId($paymentMethodId)
     {
@@ -307,7 +307,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/paymentStatus
+     * @see schema:paymentStatus
      */
     public function paymentStatus($paymentStatus)
     {
@@ -322,7 +322,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -338,7 +338,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -354,7 +354,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/referencesOrder
+     * @see schema:referencesOrder
      */
     public function referencesOrder($referencesOrder)
     {
@@ -370,7 +370,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -384,7 +384,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/scheduledPaymentDate
+     * @see schema:scheduledPaymentDate
      */
     public function scheduledPaymentDate($scheduledPaymentDate)
     {
@@ -398,7 +398,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -413,7 +413,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/totalPaymentDue
+     * @see schema:totalPaymentDue
      */
     public function totalPaymentDue($totalPaymentDue)
     {
@@ -427,7 +427,7 @@ class Invoice extends BaseType implements InvoiceContract, IntangibleContract, T
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

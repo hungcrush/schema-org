@@ -16,7 +16,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * [[Saturday]], [[Sunday]] plus a special entry for [[PublicHolidays]]); these
  * have now been integrated directly into schema.org.
  *
- * @see https://schema.org/DayOfWeek
+ * @see schema:DayOfWeek
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -26,16 +26,16 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
     /**
      * The day of the week between Thursday and Saturday.
      *
-     * @see https://schema.org/Friday
+     * @see schema:Friday
      */
-     const Friday = 'https://schema.org/Friday';
+     const Friday = 'schema:Friday';
 
     /**
      * The day of the week between Sunday and Tuesday.
      *
-     * @see https://schema.org/Monday
+     * @see schema:Monday
      */
-     const Monday = 'https://schema.org/Monday';
+     const Monday = 'schema:Monday';
 
     /**
      * This stands for any day that is a public holiday; it is a placeholder for
@@ -46,45 +46,45 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      * holidays, overriding general opening hours for the day of the week on
      * which a public holiday occurs.
      *
-     * @see https://schema.org/PublicHolidays
+     * @see schema:PublicHolidays
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
      */
-     const PublicHolidays = 'https://schema.org/PublicHolidays';
+     const PublicHolidays = 'schema:PublicHolidays';
 
     /**
      * The day of the week between Friday and Sunday.
      *
-     * @see https://schema.org/Saturday
+     * @see schema:Saturday
      */
-     const Saturday = 'https://schema.org/Saturday';
+     const Saturday = 'schema:Saturday';
 
     /**
      * The day of the week between Saturday and Monday.
      *
-     * @see https://schema.org/Sunday
+     * @see schema:Sunday
      */
-     const Sunday = 'https://schema.org/Sunday';
+     const Sunday = 'schema:Sunday';
 
     /**
      * The day of the week between Wednesday and Friday.
      *
-     * @see https://schema.org/Thursday
+     * @see schema:Thursday
      */
-     const Thursday = 'https://schema.org/Thursday';
+     const Thursday = 'schema:Thursday';
 
     /**
      * The day of the week between Monday and Wednesday.
      *
-     * @see https://schema.org/Tuesday
+     * @see schema:Tuesday
      */
-     const Tuesday = 'https://schema.org/Tuesday';
+     const Tuesday = 'schema:Tuesday';
 
     /**
      * The day of the week between Tuesday and Thursday.
      *
-     * @see https://schema.org/Wednesday
+     * @see schema:Wednesday
      */
-     const Wednesday = 'https://schema.org/Wednesday';
+     const Wednesday = 'schema:Wednesday';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -98,7 +98,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -112,7 +112,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -126,7 +126,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -143,7 +143,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -161,7 +161,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -176,7 +176,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -192,7 +192,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -206,7 +206,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -221,7 +221,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -237,7 +237,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -251,7 +251,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -266,7 +266,7 @@ class DayOfWeek extends BaseType implements DayOfWeekContract, EnumerationContra
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

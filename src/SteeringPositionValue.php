@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A value indicating a steering position.
  *
- * @see https://schema.org/SteeringPositionValue
+ * @see schema:SteeringPositionValue
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -22,19 +22,19 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      * The steering position is on the left side of the vehicle (viewed from the
      * main direction of driving).
      *
-     * @see https://schema.org/LeftHandDriving
+     * @see schema:LeftHandDriving
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const LeftHandDriving = 'https://schema.org/LeftHandDriving';
+     const LeftHandDriving = 'schema:LeftHandDriving';
 
     /**
      * The steering position is on the right side of the vehicle (viewed from
      * the main direction of driving).
      *
-     * @see https://schema.org/RightHandDriving
+     * @see schema:RightHandDriving
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const RightHandDriving = 'https://schema.org/RightHandDriving';
+     const RightHandDriving = 'schema:RightHandDriving';
 
     /**
      * A property-value pair representing an additional characteristics of the
@@ -51,7 +51,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -70,7 +70,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -84,7 +84,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -98,7 +98,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -115,7 +115,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -130,7 +130,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/equal
+     * @see schema:equal
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function equal($equal)
@@ -146,7 +146,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/greater
+     * @see schema:greater
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function greater($greater)
@@ -162,7 +162,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/greaterOrEqual
+     * @see schema:greaterOrEqual
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function greaterOrEqual($greaterOrEqual)
@@ -181,7 +181,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -196,7 +196,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -211,7 +211,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/lesser
+     * @see schema:lesser
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function lesser($lesser)
@@ -227,7 +227,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/lesserOrEqual
+     * @see schema:lesserOrEqual
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function lesserOrEqual($lesserOrEqual)
@@ -244,7 +244,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -258,7 +258,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -273,7 +273,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/nonEqual
+     * @see schema:nonEqual
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function nonEqual($nonEqual)
@@ -289,7 +289,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -305,7 +305,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -319,7 +319,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -334,7 +334,7 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -342,14 +342,14 @@ class SteeringPositionValue extends BaseType implements SteeringPositionValueCon
     }
 
     /**
-     * A pointer to a secondary value that provides additional information on
-     * the original value, e.g. a reference temperature.
+     * A secondary value that provides additional information on the original
+     * value, e.g. a reference temperature or a type of measurement.
      *
-     * @param \Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[] $valueReference
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[]|string|string[] $valueReference
      *
      * @return static
      *
-     * @see https://schema.org/valueReference
+     * @see schema:valueReference
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueReference($valueReference)

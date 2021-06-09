@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Enumerated categories of medical drug costs.
  *
- * @see https://schema.org/DrugCostCategory
- * @see http://health-lifesci.schema.org
+ * @see schema:DrugCostCategory
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -22,26 +22,26 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      * The drug's cost represents the maximum reimbursement paid by an insurer
      * for the drug.
      *
-     * @see https://schema.org/ReimbursementCap
-     * @see http://health-lifesci.schema.org
+     * @see schema:ReimbursementCap
+     * @see https://health-lifesci.schema.org
      */
-     const ReimbursementCap = 'https://schema.org/ReimbursementCap';
+     const ReimbursementCap = 'schema:ReimbursementCap';
 
     /**
      * The drug's cost represents the retail cost of the drug.
      *
-     * @see https://schema.org/Retail
-     * @see http://health-lifesci.schema.org
+     * @see schema:Retail
+     * @see https://health-lifesci.schema.org
      */
-     const Retail = 'https://schema.org/Retail';
+     const Retail = 'schema:Retail';
 
     /**
      * The drug's cost represents the wholesale acquisition cost of the drug.
      *
-     * @see https://schema.org/Wholesale
-     * @see http://health-lifesci.schema.org
+     * @see schema:Wholesale
+     * @see https://health-lifesci.schema.org
      */
-     const Wholesale = 'https://schema.org/Wholesale';
+     const Wholesale = 'schema:Wholesale';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -55,7 +55,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -69,7 +69,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -83,7 +83,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -100,7 +100,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -118,7 +118,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -133,7 +133,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -149,7 +149,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -163,7 +163,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -178,7 +178,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -194,7 +194,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -208,7 +208,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -223,7 +223,7 @@ class DrugCostCategory extends BaseType implements DrugCostCategoryContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

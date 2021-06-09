@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The status of an Action.
  *
- * @see https://schema.org/ActionStatusType
+ * @see schema:ActionStatusType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,31 +21,31 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      * An in-progress action (e.g, while watching the movie, or driving to a
      * location).
      *
-     * @see https://schema.org/ActiveActionStatus
+     * @see schema:ActiveActionStatus
      */
-     const ActiveActionStatus = 'https://schema.org/ActiveActionStatus';
+     const ActiveActionStatus = 'schema:ActiveActionStatus';
 
     /**
      * An action that has already taken place.
      *
-     * @see https://schema.org/CompletedActionStatus
+     * @see schema:CompletedActionStatus
      */
-     const CompletedActionStatus = 'https://schema.org/CompletedActionStatus';
+     const CompletedActionStatus = 'schema:CompletedActionStatus';
 
     /**
      * An action that failed to complete. The action's error property and the
      * HTTP return code contain more information about the failure.
      *
-     * @see https://schema.org/FailedActionStatus
+     * @see schema:FailedActionStatus
      */
-     const FailedActionStatus = 'https://schema.org/FailedActionStatus';
+     const FailedActionStatus = 'schema:FailedActionStatus';
 
     /**
      * A description of an action that is supported.
      *
-     * @see https://schema.org/PotentialActionStatus
+     * @see schema:PotentialActionStatus
      */
-     const PotentialActionStatus = 'https://schema.org/PotentialActionStatus';
+     const PotentialActionStatus = 'schema:PotentialActionStatus';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -59,7 +59,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -73,7 +73,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -87,7 +87,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -104,7 +104,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -122,7 +122,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -137,7 +137,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -153,7 +153,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -167,7 +167,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -182,7 +182,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -198,7 +198,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -212,7 +212,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -227,7 +227,7 @@ class ActionStatusType extends BaseType implements ActionStatusTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

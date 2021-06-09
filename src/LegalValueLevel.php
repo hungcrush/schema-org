@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A list of possible levels for the legal validity of a legislation.
  *
- * @see https://schema.org/LegalValueLevel
- * @see http://pending.schema.org
+ * @see schema:LegalValueLevel
+ * @see https://pending.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -24,10 +24,10 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      * Publications). Something "Authoritative" is considered to be also
      * [[OfficialLegalValue]]".
      *
-     * @see https://schema.org/AuthoritativeLegalValue
-     * @see http://pending.schema.org
+     * @see schema:AuthoritativeLegalValue
+     * @see https://pending.schema.org
      */
-     const AuthoritativeLegalValue = 'https://schema.org/AuthoritativeLegalValue';
+     const AuthoritativeLegalValue = 'schema:AuthoritativeLegalValue';
 
     /**
      * Indicates a document for which the text is conclusively what the law says
@@ -36,10 +36,10 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *   Something "Definitive" is considered to be also
      * [[AuthoritativeLegalValue]].
      *
-     * @see https://schema.org/DefinitiveLegalValue
-     * @see http://pending.schema.org
+     * @see schema:DefinitiveLegalValue
+     * @see https://pending.schema.org
      */
-     const DefinitiveLegalValue = 'https://schema.org/DefinitiveLegalValue';
+     const DefinitiveLegalValue = 'schema:DefinitiveLegalValue';
 
     /**
      * All the documents published by an official publisher should have at least
@@ -48,19 +48,19 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      * it available (e.g. a consolidated version of a EU directive published by
      * the EU Office of Publications).
      *
-     * @see https://schema.org/OfficialLegalValue
-     * @see http://pending.schema.org
+     * @see schema:OfficialLegalValue
+     * @see https://pending.schema.org
      */
-     const OfficialLegalValue = 'https://schema.org/OfficialLegalValue';
+     const OfficialLegalValue = 'schema:OfficialLegalValue';
 
     /**
      * Indicates that a document has no particular or special standing (e.g. a
      * republication of a law by a private publisher).
      *
-     * @see https://schema.org/UnofficialLegalValue
-     * @see http://pending.schema.org
+     * @see schema:UnofficialLegalValue
+     * @see https://pending.schema.org
      */
-     const UnofficialLegalValue = 'https://schema.org/UnofficialLegalValue';
+     const UnofficialLegalValue = 'schema:UnofficialLegalValue';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -74,7 +74,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -88,7 +88,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -102,7 +102,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -119,7 +119,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -137,7 +137,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -152,7 +152,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -168,7 +168,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -182,7 +182,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -197,7 +197,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -213,7 +213,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -227,7 +227,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -242,7 +242,7 @@ class LegalValueLevel extends BaseType implements LegalValueLevelContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

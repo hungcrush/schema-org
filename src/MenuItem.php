@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A food or drink item listed in a menu or menu section.
  *
- * @see https://schema.org/MenuItem
+ * @see schema:MenuItem
  *
  */
 class MenuItem extends BaseType implements MenuItemContract, IntangibleContract, ThingContract
@@ -26,7 +26,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -54,7 +54,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -71,7 +71,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -89,7 +89,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -104,7 +104,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -120,7 +120,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -136,7 +136,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/menuAddOn
+     * @see schema:menuAddOn
      * @link https://github.com/schemaorg/schemaorg/issues/1541
      */
     public function menuAddOn($menuAddOn)
@@ -151,7 +151,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -165,7 +165,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/nutrition
+     * @see schema:nutrition
      */
     public function nutrition($nutrition)
     {
@@ -186,7 +186,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -202,7 +202,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -218,7 +218,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -232,7 +232,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -248,7 +248,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/suitableForDiet
+     * @see schema:suitableForDiet
      */
     public function suitableForDiet($suitableForDiet)
     {
@@ -262,7 +262,7 @@ class MenuItem extends BaseType implements MenuItemContract, IntangibleContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

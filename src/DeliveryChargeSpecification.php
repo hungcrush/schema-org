@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The price for the delivery of an offer using a particular delivery method.
  *
- * @see https://schema.org/DeliveryChargeSpecification
+ * @see schema:DeliveryChargeSpecification
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -29,7 +29,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,7 +58,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/appliesToDeliveryMethod
+     * @see schema:appliesToDeliveryMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function appliesToDeliveryMethod($appliesToDeliveryMethod)
@@ -73,7 +73,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -87,7 +87,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -104,7 +104,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -120,7 +120,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -139,7 +139,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/eligibleRegion
+     * @see schema:eligibleRegion
      */
     public function eligibleRegion($eligibleRegion)
     {
@@ -156,7 +156,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -175,7 +175,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -190,7 +190,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -209,8 +209,8 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/ineligibleRegion
-     * @see http://pending.schema.org
+     * @see schema:ineligibleRegion
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2242
      */
     public function ineligibleRegion($ineligibleRegion)
@@ -227,7 +227,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -241,7 +241,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/maxPrice
+     * @see schema:maxPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxPrice($maxPrice)
@@ -256,7 +256,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/minPrice
+     * @see schema:minPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minPrice($minPrice)
@@ -271,7 +271,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -286,7 +286,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -323,7 +323,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
@@ -346,7 +346,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -362,7 +362,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -376,7 +376,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -391,7 +391,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -405,7 +405,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -421,7 +421,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -437,7 +437,7 @@ class DeliveryChargeSpecification extends BaseType implements DeliveryChargeSpec
      *
      * @return static
      *
-     * @see https://schema.org/valueAddedTaxIncluded
+     * @see schema:valueAddedTaxIncluded
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueAddedTaxIncluded($valueAddedTaxIncluded)

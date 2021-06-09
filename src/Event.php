@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * lecture, or festival. Ticketing information may be added via the [[offers]]
  * property. Repeated events may be structured as separate Event objects.
  *
- * @see https://schema.org/Event
+ * @see schema:Event
  *
  */
 class Event extends BaseType implements EventContract, ThingContract
@@ -22,7 +22,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -39,7 +39,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/actor
+     * @see schema:actor
      */
     public function actor($actor)
     {
@@ -58,7 +58,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -73,7 +73,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -87,7 +87,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -101,7 +101,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/attendee
+     * @see schema:attendee
      */
     public function attendee($attendee)
     {
@@ -115,7 +115,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/attendees
+     * @see schema:attendees
      */
     public function attendees($attendees)
     {
@@ -129,7 +129,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -144,7 +144,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/composer
+     * @see schema:composer
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
     public function composer($composer)
@@ -159,7 +159,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/contributor
+     * @see schema:contributor
      */
     public function contributor($contributor)
     {
@@ -173,7 +173,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -189,7 +189,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/director
+     * @see schema:director
      */
     public function director($director)
     {
@@ -206,7 +206,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -220,7 +220,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/doorTime
+     * @see schema:doorTime
      */
     public function doorTime($doorTime)
     {
@@ -235,7 +235,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/duration
+     * @see schema:duration
      */
     public function duration($duration)
     {
@@ -250,7 +250,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -266,8 +266,8 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/eventAttendanceMode
-     * @see http://pending.schema.org
+     * @see schema:eventAttendanceMode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1842
      */
     public function eventAttendanceMode($eventAttendanceMode)
@@ -296,8 +296,8 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/eventSchedule
-     * @see http://pending.schema.org
+     * @see schema:eventSchedule
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1457
      */
     public function eventSchedule($eventSchedule)
@@ -313,7 +313,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/eventStatus
+     * @see schema:eventStatus
      */
     public function eventStatus($eventStatus)
     {
@@ -328,7 +328,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -346,7 +346,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -361,7 +361,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -378,7 +378,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -393,7 +393,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -401,14 +401,14 @@ class Event extends BaseType implements EventContract, ThingContract
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -424,7 +424,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -438,7 +438,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/maximumAttendeeCapacity
+     * @see schema:maximumAttendeeCapacity
      */
     public function maximumAttendeeCapacity($maximumAttendeeCapacity)
     {
@@ -454,8 +454,8 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/maximumPhysicalAttendeeCapacity
-     * @see http://pending.schema.org
+     * @see schema:maximumPhysicalAttendeeCapacity
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1842
      */
     public function maximumPhysicalAttendeeCapacity($maximumPhysicalAttendeeCapacity)
@@ -472,8 +472,8 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/maximumVirtualAttendeeCapacity
-     * @see http://pending.schema.org
+     * @see schema:maximumVirtualAttendeeCapacity
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1842
      */
     public function maximumVirtualAttendeeCapacity($maximumVirtualAttendeeCapacity)
@@ -488,7 +488,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -509,7 +509,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -524,7 +524,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/organizer
+     * @see schema:organizer
      */
     public function organizer($organizer)
     {
@@ -539,7 +539,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/performer
+     * @see schema:performer
      */
     public function performer($performer)
     {
@@ -554,7 +554,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/performers
+     * @see schema:performers
      */
     public function performers($performers)
     {
@@ -569,7 +569,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -587,7 +587,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/previousStartDate
+     * @see schema:previousStartDate
      */
     public function previousStartDate($previousStartDate)
     {
@@ -601,7 +601,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/recordedIn
+     * @see schema:recordedIn
      */
     public function recordedIn($recordedIn)
     {
@@ -615,7 +615,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/remainingAttendeeCapacity
+     * @see schema:remainingAttendeeCapacity
      */
     public function remainingAttendeeCapacity($remainingAttendeeCapacity)
     {
@@ -629,7 +629,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -645,7 +645,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -661,7 +661,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -676,7 +676,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -693,7 +693,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/subEvent
+     * @see schema:subEvent
      */
     public function subEvent($subEvent)
     {
@@ -708,7 +708,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/subEvents
+     * @see schema:subEvents
      */
     public function subEvents($subEvents)
     {
@@ -722,7 +722,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -739,7 +739,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/superEvent
+     * @see schema:superEvent
      */
     public function superEvent($superEvent)
     {
@@ -755,7 +755,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/translator
+     * @see schema:translator
      */
     public function translator($translator)
     {
@@ -769,7 +769,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/typicalAgeRange
+     * @see schema:typicalAgeRange
      */
     public function typicalAgeRange($typicalAgeRange)
     {
@@ -783,7 +783,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -799,7 +799,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/workFeatured
+     * @see schema:workFeatured
      */
     public function workFeatured($workFeatured)
     {
@@ -814,7 +814,7 @@ class Event extends BaseType implements EventContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/workPerformed
+     * @see schema:workPerformed
      */
     public function workPerformed($workPerformed)
     {

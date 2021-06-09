@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * UKNonprofitType: Non-profit organization type originating from the United
  * Kingdom.
  *
- * @see https://schema.org/UKNonprofitType
- * @see http://pending.schema.org
+ * @see schema:UKNonprofitType
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2543
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -24,40 +24,40 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      * CharitableIncorporatedOrganization: Non-profit type referring to a
      * Charitable Incorporated Organization (UK).
      *
-     * @see https://schema.org/CharitableIncorporatedOrganization
-     * @see http://pending.schema.org
+     * @see schema:CharitableIncorporatedOrganization
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
-     const CharitableIncorporatedOrganization = 'https://schema.org/CharitableIncorporatedOrganization';
+     const CharitableIncorporatedOrganization = 'schema:CharitableIncorporatedOrganization';
 
     /**
      * LimitedByGuaranteeCharity: Non-profit type referring to a charitable
      * company that is limited by guarantee (UK).
      *
-     * @see https://schema.org/LimitedByGuaranteeCharity
-     * @see http://pending.schema.org
+     * @see schema:LimitedByGuaranteeCharity
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
-     const LimitedByGuaranteeCharity = 'https://schema.org/LimitedByGuaranteeCharity';
+     const LimitedByGuaranteeCharity = 'schema:LimitedByGuaranteeCharity';
 
     /**
      * UKTrust: Non-profit type referring to a UK trust.
      *
-     * @see https://schema.org/UKTrust
-     * @see http://pending.schema.org
+     * @see schema:UKTrust
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
-     const UKTrust = 'https://schema.org/UKTrust';
+     const UKTrust = 'schema:UKTrust';
 
     /**
      * UnincorporatedAssociationCharity: Non-profit type referring to a
      * charitable company that is not incorporated (UK).
      *
-     * @see https://schema.org/UnincorporatedAssociationCharity
-     * @see http://pending.schema.org
+     * @see schema:UnincorporatedAssociationCharity
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
-     const UnincorporatedAssociationCharity = 'https://schema.org/UnincorporatedAssociationCharity';
+     const UnincorporatedAssociationCharity = 'schema:UnincorporatedAssociationCharity';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -71,7 +71,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -85,7 +85,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -99,7 +99,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -116,7 +116,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -134,7 +134,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -149,7 +149,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -165,7 +165,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -179,7 +179,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -194,7 +194,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -210,7 +210,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -224,7 +224,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -239,7 +239,7 @@ class UKNonprofitType extends BaseType implements UKNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

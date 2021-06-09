@@ -26,7 +26,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * * http://purl.org/goodrelations/v1#MasterCard
  * * http://purl.org/goodrelations/v1#VISA
  *
- * @see https://schema.org/CreditCard
+ * @see schema:CreditCard
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -44,7 +44,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -59,7 +59,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -73,7 +73,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -87,7 +87,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -104,7 +104,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/annualPercentageRate
+     * @see schema:annualPercentageRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function annualPercentageRate($annualPercentageRate)
@@ -119,7 +119,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -133,7 +133,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -148,7 +148,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -162,7 +162,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -177,7 +177,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -194,7 +194,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -209,8 +209,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/cashBack
-     * @see http://pending.schema.org
+     * @see schema:cashBack
+     * @see https://pending.schema.org
      */
     public function cashBack($cashBack)
     {
@@ -225,7 +225,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -240,8 +240,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/contactlessPayment
-     * @see http://pending.schema.org
+     * @see schema:contactlessPayment
+     * @see https://pending.schema.org
      */
     public function contactlessPayment($contactlessPayment)
     {
@@ -263,7 +263,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/currency
+     * @see schema:currency
      * @link https://github.com/schemaorg/schemaorg/issues/1253
      */
     public function currency($currency)
@@ -278,7 +278,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -295,7 +295,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -310,7 +310,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/feesAndCommissionsSpecification
+     * @see schema:feesAndCommissionsSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function feesAndCommissionsSpecification($feesAndCommissionsSpecification)
@@ -326,8 +326,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/floorLimit
-     * @see http://pending.schema.org
+     * @see schema:floorLimit
+     * @see https://pending.schema.org
      */
     public function floorLimit($floorLimit)
     {
@@ -342,8 +342,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/gracePeriod
-     * @see http://pending.schema.org
+     * @see schema:gracePeriod
+     * @see https://pending.schema.org
      */
     public function gracePeriod($gracePeriod)
     {
@@ -358,7 +358,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -372,7 +372,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -390,7 +390,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -405,7 +405,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -420,7 +420,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/interestRate
+     * @see schema:interestRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function interestRate($interestRate)
@@ -435,7 +435,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -451,7 +451,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -468,8 +468,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/loanRepaymentForm
-     * @see http://pending.schema.org
+     * @see schema:loanRepaymentForm
+     * @see https://pending.schema.org
      */
     public function loanRepaymentForm($loanRepaymentForm)
     {
@@ -483,7 +483,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/loanTerm
+     * @see schema:loanTerm
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function loanTerm($loanTerm)
@@ -498,8 +498,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/loanType
-     * @see http://pending.schema.org
+     * @see schema:loanType
+     * @see https://pending.schema.org
      */
     public function loanType($loanType)
     {
@@ -513,7 +513,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -530,7 +530,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -545,8 +545,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/monthlyMinimumRepaymentAmount
-     * @see http://pending.schema.org
+     * @see schema:monthlyMinimumRepaymentAmount
+     * @see https://pending.schema.org
      */
     public function monthlyMinimumRepaymentAmount($monthlyMinimumRepaymentAmount)
     {
@@ -560,7 +560,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -581,7 +581,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -597,7 +597,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -612,7 +612,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -628,7 +628,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -643,7 +643,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -659,8 +659,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/recourseLoan
-     * @see http://pending.schema.org
+     * @see schema:recourseLoan
+     * @see https://pending.schema.org
      */
     public function recourseLoan($recourseLoan)
     {
@@ -675,8 +675,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/renegotiableLoan
-     * @see http://pending.schema.org
+     * @see schema:renegotiableLoan
+     * @see https://pending.schema.org
      */
     public function renegotiableLoan($renegotiableLoan)
     {
@@ -691,7 +691,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/requiredCollateral
+     * @see schema:requiredCollateral
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function requiredCollateral($requiredCollateral)
@@ -706,7 +706,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -722,7 +722,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -736,7 +736,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -750,7 +750,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -765,7 +765,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -780,7 +780,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -794,7 +794,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -808,7 +808,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -823,8 +823,8 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -839,7 +839,7 @@ class CreditCard extends BaseType implements CreditCardContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

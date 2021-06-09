@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Enumerated status values for Reservation.
  *
- * @see https://schema.org/ReservationStatusType
+ * @see schema:ReservationStatusType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -20,32 +20,32 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
     /**
      * The status for a previously confirmed reservation that is now cancelled.
      *
-     * @see https://schema.org/ReservationCancelled
+     * @see schema:ReservationCancelled
      */
-     const ReservationCancelled = 'https://schema.org/ReservationCancelled';
+     const ReservationCancelled = 'schema:ReservationCancelled';
 
     /**
      * The status of a confirmed reservation.
      *
-     * @see https://schema.org/ReservationConfirmed
+     * @see schema:ReservationConfirmed
      */
-     const ReservationConfirmed = 'https://schema.org/ReservationConfirmed';
+     const ReservationConfirmed = 'schema:ReservationConfirmed';
 
     /**
      * The status of a reservation on hold pending an update like credit card
      * number or flight changes.
      *
-     * @see https://schema.org/ReservationHold
+     * @see schema:ReservationHold
      */
-     const ReservationHold = 'https://schema.org/ReservationHold';
+     const ReservationHold = 'schema:ReservationHold';
 
     /**
      * The status of a reservation when a request has been sent, but not
      * confirmed.
      *
-     * @see https://schema.org/ReservationPending
+     * @see schema:ReservationPending
      */
-     const ReservationPending = 'https://schema.org/ReservationPending';
+     const ReservationPending = 'schema:ReservationPending';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -59,7 +59,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -73,7 +73,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -87,7 +87,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -104,7 +104,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -122,7 +122,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -137,7 +137,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -153,7 +153,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -167,7 +167,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -182,7 +182,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -198,7 +198,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -212,7 +212,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -227,7 +227,7 @@ class ReservationStatusType extends BaseType implements ReservationStatusTypeCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

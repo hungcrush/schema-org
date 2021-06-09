@@ -12,7 +12,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A supply consumed when performing the instructions for how to achieve a
  * result.
  *
- * @see https://schema.org/HowToSupply
+ * @see schema:HowToSupply
  *
  */
 class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemContract, IntangibleContract, ListItemContract, ThingContract
@@ -29,7 +29,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -89,7 +89,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/estimatedCost
+     * @see schema:estimatedCost
      */
     public function estimatedCost($estimatedCost)
     {
@@ -107,7 +107,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -122,7 +122,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -137,7 +137,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/item
+     * @see schema:item
      */
     public function item($item)
     {
@@ -153,7 +153,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -167,7 +167,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -181,7 +181,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/nextItem
+     * @see schema:nextItem
      */
     public function nextItem($nextItem)
     {
@@ -195,7 +195,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/position
+     * @see schema:position
      */
     public function position($position)
     {
@@ -210,7 +210,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -224,7 +224,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/previousItem
+     * @see schema:previousItem
      */
     public function previousItem($previousItem)
     {
@@ -238,7 +238,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/requiredQuantity
+     * @see schema:requiredQuantity
      */
     public function requiredQuantity($requiredQuantity)
     {
@@ -254,7 +254,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -268,7 +268,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -283,7 +283,7 @@ class HowToSupply extends BaseType implements HowToSupplyContract, HowToItemCont
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

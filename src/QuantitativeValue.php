@@ -8,9 +8,9 @@ use \Spatie\SchemaOrg\Contracts\StructuredValueContract;
 use \Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
- * A point value or interval for product characteristics and other purposes.
+ *  A point value or interval for product characteristics and other purposes.
  *
- * @see https://schema.org/QuantitativeValue
+ * @see schema:QuantitativeValue
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -31,7 +31,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -50,7 +50,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -64,7 +64,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -78,7 +78,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -95,7 +95,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -113,7 +113,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -128,7 +128,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -144,7 +144,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -158,7 +158,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/maxValue
+     * @see schema:maxValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxValue($maxValue)
@@ -173,7 +173,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/minValue
+     * @see schema:minValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minValue($minValue)
@@ -188,7 +188,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -203,7 +203,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -219,7 +219,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -233,7 +233,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -250,7 +250,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/unitCode
+     * @see schema:unitCode
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function unitCode($unitCode)
@@ -267,7 +267,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/unitText
+     * @see schema:unitText
      */
     public function unitText($unitText)
     {
@@ -281,7 +281,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -304,7 +304,7 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
      *
      * @return static
      *
-     * @see https://schema.org/value
+     * @see schema:value
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function value($value)
@@ -313,14 +313,14 @@ class QuantitativeValue extends BaseType implements QuantitativeValueContract, I
     }
 
     /**
-     * A pointer to a secondary value that provides additional information on
-     * the original value, e.g. a reference temperature.
+     * A secondary value that provides additional information on the original
+     * value, e.g. a reference temperature or a type of measurement.
      *
-     * @param \Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[] $valueReference
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[]|string|string[] $valueReference
      *
      * @return static
      *
-     * @see https://schema.org/valueReference
+     * @see schema:valueReference
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueReference($valueReference)

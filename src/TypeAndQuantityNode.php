@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A structured value indicating the quantity, unit of measurement, and business
  * function of goods included in a bundle offer.
  *
- * @see https://schema.org/TypeAndQuantityNode
+ * @see schema:TypeAndQuantityNode
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -29,7 +29,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/amountOfThisGood
+     * @see schema:amountOfThisGood
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function amountOfThisGood($amountOfThisGood)
@@ -74,7 +74,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/businessFunction
+     * @see schema:businessFunction
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function businessFunction($businessFunction)
@@ -89,7 +89,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -106,7 +106,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -124,7 +124,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -139,7 +139,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -155,7 +155,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -169,7 +169,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -184,7 +184,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -200,7 +200,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -214,7 +214,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -229,7 +229,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/typeOfGood
+     * @see schema:typeOfGood
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function typeOfGood($typeOfGood)
@@ -246,7 +246,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/unitCode
+     * @see schema:unitCode
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function unitCode($unitCode)
@@ -263,7 +263,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/unitText
+     * @see schema:unitText
      */
     public function unitText($unitText)
     {
@@ -277,7 +277,7 @@ class TypeAndQuantityNode extends BaseType implements TypeAndQuantityNodeContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

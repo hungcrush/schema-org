@@ -13,11 +13,11 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * human-readable version of the value, put that into the 'description'
  * property.
  * 
- * Always use specific schema.org properties when a) they exist and b) you can
+ *  Always use specific schema.org properties when a) they exist and b) you can
  * populate them. Using PropertyValue as a substitute will typically not trigger
  * the same effect as using the original, specific property.
  *
- * @see https://schema.org/PropertyValue
+ * @see schema:PropertyValue
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -35,7 +35,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -49,7 +49,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -63,7 +63,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -80,7 +80,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -98,7 +98,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -113,7 +113,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -129,7 +129,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -143,7 +143,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/maxValue
+     * @see schema:maxValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxValue($maxValue)
@@ -176,8 +176,8 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/measurementTechnique
-     * @see http://pending.schema.org
+     * @see schema:measurementTechnique
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1425
      */
     public function measurementTechnique($measurementTechnique)
@@ -192,7 +192,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/minValue
+     * @see schema:minValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minValue($minValue)
@@ -207,7 +207,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -222,7 +222,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -246,7 +246,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/propertyID
+     * @see schema:propertyID
      */
     public function propertyID($propertyID)
     {
@@ -262,7 +262,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -276,7 +276,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -293,7 +293,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/unitCode
+     * @see schema:unitCode
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function unitCode($unitCode)
@@ -310,7 +310,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/unitText
+     * @see schema:unitText
      */
     public function unitText($unitText)
     {
@@ -324,7 +324,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -347,7 +347,7 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/value
+     * @see schema:value
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function value($value)
@@ -356,14 +356,14 @@ class PropertyValue extends BaseType implements PropertyValueContract, Intangibl
     }
 
     /**
-     * A pointer to a secondary value that provides additional information on
-     * the original value, e.g. a reference temperature.
+     * A secondary value that provides additional information on the original
+     * value, e.g. a reference temperature or a type of measurement.
      *
-     * @param \Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[] $valueReference
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[]|string|string[] $valueReference
      *
      * @return static
      *
-     * @see https://schema.org/valueReference
+     * @see schema:valueReference
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueReference($valueReference)

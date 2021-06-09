@@ -10,9 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A monetary grant.
  *
- * @see https://schema.org/MonetaryGrant
- * @see http://pending.schema.org
- * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FundInfoCollab
+ * @see schema:MonetaryGrant
+ * @see https://pending.schema.org
  *
  */
 class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantContract, IntangibleContract, ThingContract
@@ -29,7 +28,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +42,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +56,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -71,7 +70,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -88,7 +87,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -102,8 +101,8 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/fundedItem
-     * @see http://pending.schema.org
+     * @see schema:fundedItem
+     * @see https://pending.schema.org
      */
     public function fundedItem($fundedItem)
     {
@@ -118,7 +117,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -136,7 +135,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -151,7 +150,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -167,7 +166,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -181,7 +180,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -196,7 +195,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -212,7 +211,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -228,7 +227,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -242,7 +241,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -257,7 +256,7 @@ class MonetaryGrant extends BaseType implements MonetaryGrantContract, GrantCont
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Design models for observational medical studies. Enumerated type.
  *
- * @see https://schema.org/MedicalObservationalStudyDesign
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalObservationalStudyDesign
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -28,10 +28,10 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      * depending on whether all cases presenting to the reporting authors over a
      * period of time were included, or only a selection.
      *
-     * @see https://schema.org/CaseSeries
-     * @see http://health-lifesci.schema.org
+     * @see schema:CaseSeries
+     * @see https://health-lifesci.schema.org
      */
-     const CaseSeries = 'https://schema.org/CaseSeries';
+     const CaseSeries = 'schema:CaseSeries';
 
     /**
      * Also known as a panel study. A cohort study is a form of longitudinal
@@ -45,20 +45,20 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      * investigation, but otherwise similar. Alternatively, subgroups within the
      * cohort may be compared with each other.
      *
-     * @see https://schema.org/CohortStudy
-     * @see http://health-lifesci.schema.org
+     * @see schema:CohortStudy
+     * @see https://health-lifesci.schema.org
      */
-     const CohortStudy = 'https://schema.org/CohortStudy';
+     const CohortStudy = 'schema:CohortStudy';
 
     /**
      * Studies carried out on pre-existing data (usually from 'snapshot'
      * surveys), such as that collected by the Census Bureau. Sometimes called
      * Prevalence Studies.
      *
-     * @see https://schema.org/CrossSectional
-     * @see http://health-lifesci.schema.org
+     * @see schema:CrossSectional
+     * @see https://health-lifesci.schema.org
      */
-     const CrossSectional = 'https://schema.org/CrossSectional';
+     const CrossSectional = 'schema:CrossSectional';
 
     /**
      * Unlike cross-sectional studies, longitudinal studies track the same
@@ -67,26 +67,26 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      * Longitudinal studies are also used in medicine to uncover predictors of
      * certain diseases.
      *
-     * @see https://schema.org/Longitudinal
-     * @see http://health-lifesci.schema.org
+     * @see schema:Longitudinal
+     * @see https://health-lifesci.schema.org
      */
-     const Longitudinal = 'https://schema.org/Longitudinal';
+     const Longitudinal = 'schema:Longitudinal';
 
     /**
      * An observational study design.
      *
-     * @see https://schema.org/Observational
-     * @see http://health-lifesci.schema.org
+     * @see schema:Observational
+     * @see https://health-lifesci.schema.org
      */
-     const Observational = 'https://schema.org/Observational';
+     const Observational = 'schema:Observational';
 
     /**
      * A registry-based study design.
      *
-     * @see https://schema.org/Registry
-     * @see http://health-lifesci.schema.org
+     * @see schema:Registry
+     * @see https://health-lifesci.schema.org
      */
-     const Registry = 'https://schema.org/Registry';
+     const Registry = 'schema:Registry';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -100,7 +100,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -114,7 +114,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -128,7 +128,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -145,7 +145,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -163,7 +163,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -178,7 +178,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -194,7 +194,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -208,7 +208,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -223,7 +223,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -239,7 +239,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -253,7 +253,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -268,7 +268,7 @@ class MedicalObservationalStudyDesign extends BaseType implements MedicalObserva
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

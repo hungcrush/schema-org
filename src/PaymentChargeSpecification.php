@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The costs of settling the payment using a particular payment method.
  *
- * @see https://schema.org/PaymentChargeSpecification
+ * @see schema:PaymentChargeSpecification
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -29,7 +29,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,7 +58,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/appliesToDeliveryMethod
+     * @see schema:appliesToDeliveryMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function appliesToDeliveryMethod($appliesToDeliveryMethod)
@@ -73,7 +73,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/appliesToPaymentMethod
+     * @see schema:appliesToPaymentMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function appliesToPaymentMethod($appliesToPaymentMethod)
@@ -88,7 +88,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -105,7 +105,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -121,7 +121,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -139,7 +139,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -158,7 +158,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -173,7 +173,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -189,7 +189,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -203,7 +203,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/maxPrice
+     * @see schema:maxPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxPrice($maxPrice)
@@ -218,7 +218,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/minPrice
+     * @see schema:minPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minPrice($minPrice)
@@ -233,7 +233,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -248,7 +248,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -285,7 +285,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
@@ -308,7 +308,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -324,7 +324,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -338,7 +338,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -353,7 +353,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -367,7 +367,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -383,7 +383,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -399,7 +399,7 @@ class PaymentChargeSpecification extends BaseType implements PaymentChargeSpecif
      *
      * @return static
      *
-     * @see https://schema.org/valueAddedTaxIncluded
+     * @see schema:valueAddedTaxIncluded
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueAddedTaxIncluded($valueAddedTaxIncluded)

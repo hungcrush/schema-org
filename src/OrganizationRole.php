@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A subclass of Role used to describe roles within organizations.
  *
- * @see https://schema.org/OrganizationRole
+ * @see schema:OrganizationRole
  *
  */
 class OrganizationRole extends BaseType implements OrganizationRoleContract, IntangibleContract, RoleContract, ThingContract
@@ -27,7 +27,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -72,7 +72,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -87,7 +87,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -106,7 +106,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -121,7 +121,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -137,7 +137,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -151,7 +151,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -167,7 +167,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/namedPosition
+     * @see schema:namedPosition
      */
     public function namedPosition($namedPosition)
     {
@@ -182,7 +182,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/numberedPosition
+     * @see schema:numberedPosition
      */
     public function numberedPosition($numberedPosition)
     {
@@ -197,7 +197,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -214,7 +214,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/roleName
+     * @see schema:roleName
      */
     public function roleName($roleName)
     {
@@ -230,7 +230,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -245,7 +245,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -260,7 +260,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -275,7 +275,7 @@ class OrganizationRole extends BaseType implements OrganizationRoleContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

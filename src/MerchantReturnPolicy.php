@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A MerchantReturnPolicy provides information about product return policies
  * associated with an [[Organization]] or [[Product]].
  *
- * @see https://schema.org/MerchantReturnPolicy
- * @see http://pending.schema.org
+ * @see schema:MerchantReturnPolicy
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2288
  *
  */
@@ -29,7 +29,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -92,7 +92,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -107,7 +107,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -121,8 +121,8 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/inStoreReturnsOffered
-     * @see http://pending.schema.org
+     * @see schema:inStoreReturnsOffered
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function inStoreReturnsOffered($inStoreReturnsOffered)
@@ -139,7 +139,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -154,8 +154,8 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/merchantReturnDays
-     * @see http://pending.schema.org
+     * @see schema:merchantReturnDays
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function merchantReturnDays($merchantReturnDays)
@@ -170,8 +170,8 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/merchantReturnLink
-     * @see http://pending.schema.org
+     * @see schema:merchantReturnLink
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function merchantReturnLink($merchantReturnLink)
@@ -186,7 +186,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -201,7 +201,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -215,8 +215,8 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/refundType
-     * @see http://pending.schema.org
+     * @see schema:refundType
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function refundType($refundType)
@@ -232,8 +232,8 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/returnFees
-     * @see http://pending.schema.org
+     * @see schema:returnFees
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function returnFees($returnFees)
@@ -249,8 +249,8 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/returnPolicyCategory
-     * @see http://pending.schema.org
+     * @see schema:returnPolicyCategory
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function returnPolicyCategory($returnPolicyCategory)
@@ -267,7 +267,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -281,7 +281,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -296,7 +296,7 @@ class MerchantReturnPolicy extends BaseType implements MerchantReturnPolicyContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

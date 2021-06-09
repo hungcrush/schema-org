@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * * [[TransferAction]]: Unlike TransferAction, the subject of the move is a
  * living Person or Organization rather than an inanimate object.
  *
- * @see https://schema.org/MoveAction
+ * @see schema:MoveAction
  *
  */
 class MoveAction extends BaseType implements MoveActionContract, ActionContract, ThingContract
@@ -26,7 +26,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -45,7 +45,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -60,7 +60,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -74,7 +74,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -88,7 +88,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -105,7 +105,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -128,7 +128,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -143,7 +143,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -158,7 +158,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/fromLocation
+     * @see schema:fromLocation
      */
     public function fromLocation($fromLocation)
     {
@@ -176,7 +176,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -191,7 +191,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -206,7 +206,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -214,14 +214,14 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -237,7 +237,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -251,7 +251,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -268,7 +268,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -283,7 +283,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -298,7 +298,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -312,7 +312,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -328,7 +328,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -351,7 +351,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -366,7 +366,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -381,7 +381,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -396,7 +396,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/toLocation
+     * @see schema:toLocation
      */
     public function toLocation($toLocation)
     {
@@ -410,7 +410,7 @@ class MoveAction extends BaseType implements MoveActionContract, ActionContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -18,8 +18,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * See also [[StatisticalPopulation]], and the [data and
  * datasets](/docs/data-and-datasets.html) overview for more details.
  *
- * @see https://schema.org/Observation
- * @see http://pending.schema.org
+ * @see schema:Observation
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2291
  *
  * @method static measuredValue($measuredValue) The value should be instance of pending types DataType|DataType[]
@@ -38,7 +38,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -52,7 +52,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -66,7 +66,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -83,7 +83,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -101,7 +101,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -116,7 +116,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -132,7 +132,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -142,12 +142,12 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
     /**
      * A marginOfError for an [[Observation]].
      *
-     * @param \DateTimeInterface|\DateTimeInterface[] $marginOfError
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $marginOfError
      *
      * @return static
      *
-     * @see https://schema.org/marginOfError
-     * @see http://pending.schema.org
+     * @see schema:marginOfError
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2291
      */
     public function marginOfError($marginOfError)
@@ -158,15 +158,15 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
     /**
      * The measuredProperty of an [[Observation]], either a schema.org property,
      * a property from other RDF-compatible systems e.g. W3C RDF Data Cube, or
-     * schema.org extensions such as <a
-     * href="https://www.gs1.org/voc/?show=properties">GS1's</a>.
+     * schema.org extensions such as
+     * [GS1's](https://www.gs1.org/voc/?show=properties).
      *
      * @param \Spatie\SchemaOrg\Contracts\PropertyContract|\Spatie\SchemaOrg\Contracts\PropertyContract[] $measuredProperty
      *
      * @return static
      *
-     * @see https://schema.org/measuredProperty
-     * @see http://pending.schema.org
+     * @see schema:measuredProperty
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2291
      */
     public function measuredProperty($measuredProperty)
@@ -181,7 +181,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -195,8 +195,8 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/observationDate
-     * @see http://pending.schema.org
+     * @see schema:observationDate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2291
      */
     public function observationDate($observationDate)
@@ -212,8 +212,8 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/observedNode
-     * @see http://pending.schema.org
+     * @see schema:observedNode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2291
      */
     public function observedNode($observedNode)
@@ -229,7 +229,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -245,7 +245,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -259,7 +259,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -274,7 +274,7 @@ class Observation extends BaseType implements ObservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

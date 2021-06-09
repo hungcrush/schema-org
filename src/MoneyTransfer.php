@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\TransferActionContract;
  * The act of transferring money from one place to another place. This may occur
  * electronically or physically.
  *
- * @see https://schema.org/MoneyTransfer
- * @see http://pending.schema.org
+ * @see schema:MoneyTransfer
+ * @see https://pending.schema.org
  *
  */
 class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionContract, ThingContract, TransferActionContract
@@ -24,7 +24,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -43,7 +43,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -58,7 +58,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -72,7 +72,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -86,7 +86,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -96,14 +96,14 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
     /**
      * A bank or bank’s branch, financial institution or international
      * financial institution operating the beneficiary’s bank account or
-     * releasing funds for the beneficiary
+     * releasing funds for the beneficiary.
      *
      * @param \Spatie\SchemaOrg\Contracts\BankOrCreditUnionContract|\Spatie\SchemaOrg\Contracts\BankOrCreditUnionContract[]|string|string[] $beneficiaryBank
      *
      * @return static
      *
-     * @see https://schema.org/beneficiaryBank
-     * @see http://pending.schema.org
+     * @see schema:beneficiaryBank
+     * @see https://pending.schema.org
      */
     public function beneficiaryBank($beneficiaryBank)
     {
@@ -117,7 +117,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -134,7 +134,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -157,7 +157,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -172,7 +172,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -187,7 +187,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/fromLocation
+     * @see schema:fromLocation
      */
     public function fromLocation($fromLocation)
     {
@@ -205,7 +205,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -220,7 +220,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -235,7 +235,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -243,14 +243,14 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -266,7 +266,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -280,7 +280,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -297,7 +297,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -312,7 +312,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -327,7 +327,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -341,7 +341,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -357,7 +357,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -380,7 +380,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -395,7 +395,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -410,7 +410,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -425,7 +425,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/toLocation
+     * @see schema:toLocation
      */
     public function toLocation($toLocation)
     {
@@ -439,7 +439,7 @@ class MoneyTransfer extends BaseType implements MoneyTransferContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

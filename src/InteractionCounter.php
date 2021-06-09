@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A summary of how users have interacted with this CreativeWork. In most cases,
  * authors will use a subtype to specify the specific type of interaction.
  *
- * @see https://schema.org/InteractionCounter
+ * @see schema:InteractionCounter
  *
  */
 class InteractionCounter extends BaseType implements InteractionCounterContract, IntangibleContract, StructuredValueContract, ThingContract
@@ -28,7 +28,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -73,7 +73,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -91,7 +91,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -106,7 +106,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -120,7 +120,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/interactionService
+     * @see schema:interactionService
      */
     public function interactionService($interactionService)
     {
@@ -136,7 +136,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/interactionType
+     * @see schema:interactionType
      */
     public function interactionType($interactionType)
     {
@@ -152,7 +152,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -166,7 +166,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -181,7 +181,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -197,7 +197,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -211,7 +211,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -226,7 +226,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -241,7 +241,7 @@ class InteractionCounter extends BaseType implements InteractionCounterContract,
      *
      * @return static
      *
-     * @see https://schema.org/userInteractionCount
+     * @see schema:userInteractionCount
      */
     public function userInteractionCount($userInteractionCount)
     {

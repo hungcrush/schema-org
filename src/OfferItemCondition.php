@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A list of possible conditions for the item.
  *
- * @see https://schema.org/OfferItemCondition
+ * @see schema:OfferItemCondition
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -19,30 +19,30 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
     /**
      * Indicates that the item is damaged.
      *
-     * @see https://schema.org/DamagedCondition
+     * @see schema:DamagedCondition
      */
-     const DamagedCondition = 'https://schema.org/DamagedCondition';
+     const DamagedCondition = 'schema:DamagedCondition';
 
     /**
      * Indicates that the item is new.
      *
-     * @see https://schema.org/NewCondition
+     * @see schema:NewCondition
      */
-     const NewCondition = 'https://schema.org/NewCondition';
+     const NewCondition = 'schema:NewCondition';
 
     /**
      * Indicates that the item is refurbished.
      *
-     * @see https://schema.org/RefurbishedCondition
+     * @see schema:RefurbishedCondition
      */
-     const RefurbishedCondition = 'https://schema.org/RefurbishedCondition';
+     const RefurbishedCondition = 'schema:RefurbishedCondition';
 
     /**
      * Indicates that the item is used.
      *
-     * @see https://schema.org/UsedCondition
+     * @see schema:UsedCondition
      */
-     const UsedCondition = 'https://schema.org/UsedCondition';
+     const UsedCondition = 'schema:UsedCondition';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -56,7 +56,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -70,7 +70,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -84,7 +84,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -101,7 +101,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -119,7 +119,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -134,7 +134,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -150,7 +150,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -164,7 +164,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -179,7 +179,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -195,7 +195,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -209,7 +209,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -224,7 +224,7 @@ class OfferItemCondition extends BaseType implements OfferItemConditionContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

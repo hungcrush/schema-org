@@ -8,7 +8,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A person (alive, dead, undead, or fictional).
  *
- * @see https://schema.org/Person
+ * @see schema:Person
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_rNews
  *
  */
@@ -21,7 +21,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/additionalName
+     * @see schema:additionalName
      */
     public function additionalName($additionalName)
     {
@@ -40,7 +40,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -54,7 +54,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -69,7 +69,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/affiliation
+     * @see schema:affiliation
      */
     public function affiliation($affiliation)
     {
@@ -83,7 +83,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -97,7 +97,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/alumniOf
+     * @see schema:alumniOf
      */
     public function alumniOf($alumniOf)
     {
@@ -111,7 +111,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -125,7 +125,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -139,7 +139,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/birthDate
+     * @see schema:birthDate
      */
     public function birthDate($birthDate)
     {
@@ -153,7 +153,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/birthPlace
+     * @see schema:birthPlace
      */
     public function birthPlace($birthPlace)
     {
@@ -168,7 +168,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -184,8 +184,8 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/callSign
-     * @see http://pending.schema.org
+     * @see schema:callSign
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2109
      */
     public function callSign($callSign)
@@ -200,7 +200,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/children
+     * @see schema:children
      */
     public function children($children)
     {
@@ -214,7 +214,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/colleague
+     * @see schema:colleague
      */
     public function colleague($colleague)
     {
@@ -228,7 +228,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/colleagues
+     * @see schema:colleagues
      */
     public function colleagues($colleagues)
     {
@@ -242,7 +242,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/contactPoint
+     * @see schema:contactPoint
      */
     public function contactPoint($contactPoint)
     {
@@ -256,7 +256,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/contactPoints
+     * @see schema:contactPoints
      */
     public function contactPoints($contactPoints)
     {
@@ -270,7 +270,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/deathDate
+     * @see schema:deathDate
      */
     public function deathDate($deathDate)
     {
@@ -284,7 +284,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/deathPlace
+     * @see schema:deathPlace
      */
     public function deathPlace($deathPlace)
     {
@@ -298,7 +298,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -315,7 +315,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -330,7 +330,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/duns
+     * @see schema:duns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function duns($duns)
@@ -345,7 +345,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/email
+     * @see schema:email
      */
     public function email($email)
     {
@@ -353,14 +353,13 @@ class Person extends BaseType implements PersonContract, ThingContract
     }
 
     /**
-     * Family name. In the U.S., the last name of an Person. This can be used
-     * along with givenName instead of the name property.
+     * Family name. In the U.S., the last name of a Person.
      *
      * @param string|string[] $familyName
      *
      * @return static
      *
-     * @see https://schema.org/familyName
+     * @see schema:familyName
      */
     public function familyName($familyName)
     {
@@ -374,7 +373,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -388,7 +387,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/follows
+     * @see schema:follows
      */
     public function follows($follows)
     {
@@ -403,7 +402,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -424,8 +423,8 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/gender
-     * @see http://pending.schema.org
+     * @see schema:gender
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2341
      */
     public function gender($gender)
@@ -434,14 +433,13 @@ class Person extends BaseType implements PersonContract, ThingContract
     }
 
     /**
-     * Given name. In the U.S., the first name of a Person. This can be used
-     * along with familyName instead of the name property.
+     * Given name. In the U.S., the first name of a Person.
      *
      * @param string|string[] $givenName
      *
      * @return static
      *
-     * @see https://schema.org/givenName
+     * @see schema:givenName
      */
     public function givenName($givenName)
     {
@@ -458,7 +456,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -473,8 +471,8 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/hasCredential
-     * @see http://pending.schema.org
+     * @see schema:hasCredential
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function hasCredential($hasCredential)
@@ -490,7 +488,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/hasOccupation
+     * @see schema:hasOccupation
      * @link https://github.com/schemaorg/schemaorg/issues/1698
      */
     public function hasOccupation($hasOccupation)
@@ -506,7 +504,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -520,7 +518,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/hasPOS
+     * @see schema:hasPOS
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function hasPOS($hasPOS)
@@ -535,7 +533,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/height
+     * @see schema:height
      */
     public function height($height)
     {
@@ -549,7 +547,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/homeLocation
+     * @see schema:homeLocation
      */
     public function homeLocation($homeLocation)
     {
@@ -563,7 +561,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/honorificPrefix
+     * @see schema:honorificPrefix
      */
     public function honorificPrefix($honorificPrefix)
     {
@@ -571,13 +569,13 @@ class Person extends BaseType implements PersonContract, ThingContract
     }
 
     /**
-     * An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW.
+     * An honorific suffix following a Person's name such as M.D. /PhD/MSCSW.
      *
      * @param string|string[] $honorificSuffix
      *
      * @return static
      *
-     * @see https://schema.org/honorificSuffix
+     * @see schema:honorificSuffix
      */
     public function honorificSuffix($honorificSuffix)
     {
@@ -595,7 +593,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -610,7 +608,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -626,7 +624,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -643,7 +641,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -658,8 +656,8 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/jobTitle
-     * @see http://pending.schema.org
+     * @see schema:jobTitle
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2192
      */
     public function jobTitle($jobTitle)
@@ -674,7 +672,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/knows
+     * @see schema:knows
      */
     public function knows($knows)
     {
@@ -691,8 +689,8 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/knowsAbout
-     * @see http://pending.schema.org
+     * @see schema:knowsAbout
+     * @see https://pending.schema.org
      */
     public function knowsAbout($knowsAbout)
     {
@@ -709,8 +707,8 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/knowsLanguage
-     * @see http://pending.schema.org
+     * @see schema:knowsLanguage
+     * @see https://pending.schema.org
      */
     public function knowsLanguage($knowsLanguage)
     {
@@ -726,7 +724,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -740,7 +738,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/makesOffer
+     * @see schema:makesOffer
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function makesOffer($makesOffer)
@@ -756,7 +754,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/memberOf
+     * @see schema:memberOf
      */
     public function memberOf($memberOf)
     {
@@ -771,7 +769,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/naics
+     * @see schema:naics
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function naics($naics)
@@ -786,7 +784,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -800,7 +798,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/nationality
+     * @see schema:nationality
      */
     public function nationality($nationality)
     {
@@ -815,7 +813,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/netWorth
+     * @see schema:netWorth
      */
     public function netWorth($netWorth)
     {
@@ -829,7 +827,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/owns
+     * @see schema:owns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function owns($owns)
@@ -844,7 +842,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/parent
+     * @see schema:parent
      */
     public function parent($parent)
     {
@@ -858,7 +856,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/parents
+     * @see schema:parents
      */
     public function parents($parents)
     {
@@ -872,7 +870,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/performerIn
+     * @see schema:performerIn
      */
     public function performerIn($performerIn)
     {
@@ -887,7 +885,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -911,7 +909,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -925,7 +923,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/relatedTo
+     * @see schema:relatedTo
      */
     public function relatedTo($relatedTo)
     {
@@ -941,7 +939,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -956,7 +954,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/seeks
+     * @see schema:seeks
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function seeks($seeks)
@@ -971,7 +969,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/sibling
+     * @see schema:sibling
      */
     public function sibling($sibling)
     {
@@ -985,7 +983,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/siblings
+     * @see schema:siblings
      */
     public function siblings($siblings)
     {
@@ -1001,7 +999,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1015,7 +1013,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/spouse
+     * @see schema:spouse
      */
     public function spouse($spouse)
     {
@@ -1029,7 +1027,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1045,7 +1043,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/taxID
+     * @see schema:taxID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function taxID($taxID)
@@ -1060,7 +1058,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -1074,7 +1072,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1088,7 +1086,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/vatID
+     * @see schema:vatID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function vatID($vatID)
@@ -1103,7 +1101,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/weight
+     * @see schema:weight
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function weight($weight)
@@ -1118,7 +1116,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/workLocation
+     * @see schema:workLocation
      */
     public function workLocation($workLocation)
     {
@@ -1132,7 +1130,7 @@ class Person extends BaseType implements PersonContract, ThingContract
      *
      * @return static
      *
-     * @see https://schema.org/worksFor
+     * @see schema:worksFor
      */
     public function worksFor($worksFor)
     {

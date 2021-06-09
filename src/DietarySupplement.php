@@ -13,8 +13,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * herbs or other botanicals, amino acids, and substances such as enzymes, organ
  * tissues, glandulars and metabolites.
  *
- * @see https://schema.org/DietarySupplement
- * @see http://health-lifesci.schema.org
+ * @see schema:DietarySupplement
+ * @see https://health-lifesci.schema.org
  *
  */
 class DietarySupplement extends BaseType implements DietarySupplementContract, MedicalEntityContract, SubstanceContract, ThingContract
@@ -27,8 +27,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/activeIngredient
-     * @see http://health-lifesci.schema.org
+     * @see schema:activeIngredient
+     * @see https://health-lifesci.schema.org
      */
     public function activeIngredient($activeIngredient)
     {
@@ -47,7 +47,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -61,7 +61,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -76,8 +76,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -91,7 +91,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -108,7 +108,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -122,8 +122,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -141,7 +141,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -156,7 +156,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -170,8 +170,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/isProprietary
-     * @see http://health-lifesci.schema.org
+     * @see schema:isProprietary
+     * @see https://health-lifesci.schema.org
      */
     public function isProprietary($isProprietary)
     {
@@ -186,8 +186,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -203,7 +203,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -217,7 +217,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/manufacturer
+     * @see schema:manufacturer
      */
     public function manufacturer($manufacturer)
     {
@@ -232,8 +232,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/maximumIntake
-     * @see http://health-lifesci.schema.org
+     * @see schema:maximumIntake
+     * @see https://health-lifesci.schema.org
      */
     public function maximumIntake($maximumIntake)
     {
@@ -248,8 +248,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/mechanismOfAction
-     * @see http://health-lifesci.schema.org
+     * @see schema:mechanismOfAction
+     * @see https://health-lifesci.schema.org
      */
     public function mechanismOfAction($mechanismOfAction)
     {
@@ -264,8 +264,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -279,7 +279,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -293,8 +293,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/nonProprietaryName
-     * @see http://health-lifesci.schema.org
+     * @see schema:nonProprietaryName
+     * @see https://health-lifesci.schema.org
      */
     public function nonProprietaryName($nonProprietaryName)
     {
@@ -309,7 +309,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -324,8 +324,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/proprietaryName
-     * @see http://health-lifesci.schema.org
+     * @see schema:proprietaryName
+     * @see https://health-lifesci.schema.org
      */
     public function proprietaryName($proprietaryName)
     {
@@ -340,8 +340,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -356,8 +356,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/recommendedIntake
-     * @see http://health-lifesci.schema.org
+     * @see schema:recommendedIntake
+     * @see https://health-lifesci.schema.org
      */
     public function recommendedIntake($recommendedIntake)
     {
@@ -371,8 +371,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -388,8 +388,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/safetyConsideration
-     * @see http://health-lifesci.schema.org
+     * @see schema:safetyConsideration
+     * @see https://health-lifesci.schema.org
      */
     public function safetyConsideration($safetyConsideration)
     {
@@ -405,7 +405,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -419,8 +419,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -434,7 +434,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -450,8 +450,8 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/targetPopulation
-     * @see http://health-lifesci.schema.org
+     * @see schema:targetPopulation
+     * @see https://health-lifesci.schema.org
      */
     public function targetPopulation($targetPopulation)
     {
@@ -465,7 +465,7 @@ class DietarySupplement extends BaseType implements DietarySupplementContract, M
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

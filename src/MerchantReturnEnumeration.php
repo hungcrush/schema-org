@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * MerchantReturnEnumeration enumerates several kinds of product return policy.
  * Note that this structure may not capture all aspects of the policy.
  *
- * @see https://schema.org/MerchantReturnEnumeration
- * @see http://pending.schema.org
+ * @see schema:MerchantReturnEnumeration
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2288
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -23,39 +23,39 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      * MerchantReturnFiniteReturnWindow: there is a finite window for product
      * returns.
      *
-     * @see https://schema.org/MerchantReturnFiniteReturnWindow
-     * @see http://pending.schema.org
+     * @see schema:MerchantReturnFiniteReturnWindow
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const MerchantReturnFiniteReturnWindow = 'https://schema.org/MerchantReturnFiniteReturnWindow';
+     const MerchantReturnFiniteReturnWindow = 'schema:MerchantReturnFiniteReturnWindow';
 
     /**
      * MerchantReturnNotPermitted: product returns are not permitted.
      *
-     * @see https://schema.org/MerchantReturnNotPermitted
-     * @see http://pending.schema.org
+     * @see schema:MerchantReturnNotPermitted
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const MerchantReturnNotPermitted = 'https://schema.org/MerchantReturnNotPermitted';
+     const MerchantReturnNotPermitted = 'schema:MerchantReturnNotPermitted';
 
     /**
      * MerchantReturnUnlimitedWindow: there is an unlimited window for product
      * returns.
      *
-     * @see https://schema.org/MerchantReturnUnlimitedWindow
-     * @see http://pending.schema.org
+     * @see schema:MerchantReturnUnlimitedWindow
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const MerchantReturnUnlimitedWindow = 'https://schema.org/MerchantReturnUnlimitedWindow';
+     const MerchantReturnUnlimitedWindow = 'schema:MerchantReturnUnlimitedWindow';
 
     /**
      * MerchantReturnUnspecified: a product return policy is not specified here.
      *
-     * @see https://schema.org/MerchantReturnUnspecified
-     * @see http://pending.schema.org
+     * @see schema:MerchantReturnUnspecified
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const MerchantReturnUnspecified = 'https://schema.org/MerchantReturnUnspecified';
+     const MerchantReturnUnspecified = 'schema:MerchantReturnUnspecified';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -69,7 +69,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -83,7 +83,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -97,7 +97,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -114,7 +114,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -132,7 +132,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -147,7 +147,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -163,7 +163,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -177,7 +177,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -192,7 +192,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -208,7 +208,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -222,7 +222,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -237,7 +237,7 @@ class MerchantReturnEnumeration extends BaseType implements MerchantReturnEnumer
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

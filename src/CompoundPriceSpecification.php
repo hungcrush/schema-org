@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * property of the attached unit price specification for indicating the
  * dimension of a price component (e.g. "electricity" or "final cleaning").
  *
- * @see https://schema.org/CompoundPriceSpecification
+ * @see schema:CompoundPriceSpecification
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -32,7 +32,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,7 +60,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -77,7 +77,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -93,7 +93,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -111,7 +111,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -130,7 +130,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -145,7 +145,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -161,7 +161,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -175,7 +175,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/maxPrice
+     * @see schema:maxPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxPrice($maxPrice)
@@ -190,7 +190,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/minPrice
+     * @see schema:minPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minPrice($minPrice)
@@ -205,7 +205,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -220,7 +220,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -257,7 +257,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
@@ -272,7 +272,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/priceComponent
+     * @see schema:priceComponent
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function priceComponent($priceComponent)
@@ -296,11 +296,32 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
         return $this->setProperty('priceCurrency', $priceCurrency);
+    }
+
+    /**
+     * Defines the type of a price specified for an offered product, for example
+     * a list price, a (temporary) sale price or a manufacturer suggested retail
+     * price. If multiple prices are specified for an offer the [[priceType]]
+     * property can be used to identify the type of each such specified price.
+     * The value of priceType can be specified as a value from enumeration
+     * PriceTypeEnumeration or as a free form text string for price types that
+     * are not already predefined in PriceTypeEnumeration.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\PriceTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\PriceTypeEnumerationContract[]|string|string[] $priceType
+     *
+     * @return static
+     *
+     * @see schema:priceType
+     * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
+     */
+    public function priceType($priceType)
+    {
+        return $this->setProperty('priceType', $priceType);
     }
 
     /**
@@ -312,7 +333,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -326,7 +347,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -341,7 +362,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -355,7 +376,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -371,7 +392,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -387,7 +408,7 @@ class CompoundPriceSpecification extends BaseType implements CompoundPriceSpecif
      *
      * @return static
      *
-     * @see https://schema.org/valueAddedTaxIncluded
+     * @see schema:valueAddedTaxIncluded
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueAddedTaxIncluded($valueAddedTaxIncluded)

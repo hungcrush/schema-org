@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * The act of expressing a preference from a set of options or a large or
  * unbounded set of choices/options.
  *
- * @see https://schema.org/ChooseAction
+ * @see schema:ChooseAction
  *
  */
 class ChooseAction extends BaseType implements ChooseActionContract, ActionContract, AssessActionContract, ThingContract
@@ -23,7 +23,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/actionOption
+     * @see schema:actionOption
      */
     public function actionOption($actionOption)
     {
@@ -37,7 +37,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -56,7 +56,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -71,7 +71,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -85,7 +85,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -99,7 +99,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -116,7 +116,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -139,7 +139,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -154,7 +154,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -172,7 +172,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -187,7 +187,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -202,7 +202,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -210,14 +210,14 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -233,7 +233,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -247,7 +247,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -264,7 +264,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -278,7 +278,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/option
+     * @see schema:option
      */
     public function option($option)
     {
@@ -293,7 +293,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -308,7 +308,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -322,7 +322,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -338,7 +338,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -361,7 +361,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -376,7 +376,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -391,7 +391,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -405,7 +405,7 @@ class ChooseAction extends BaseType implements ChooseActionContract, ActionContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

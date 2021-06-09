@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Categories of physical activity, organized by physiologic classification.
  *
- * @see https://schema.org/PhysicalActivityCategory
- * @see http://health-lifesci.schema.org
+ * @see schema:PhysicalActivityCategory
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -22,64 +22,64 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      * the aerobic energy-generating process; during activity, the aerobic
      * metabolism uses oxygen to adequately meet energy demands during exercise.
      *
-     * @see https://schema.org/AerobicActivity
-     * @see http://health-lifesci.schema.org
+     * @see schema:AerobicActivity
+     * @see https://health-lifesci.schema.org
      */
-     const AerobicActivity = 'https://schema.org/AerobicActivity';
+     const AerobicActivity = 'schema:AerobicActivity';
 
     /**
      * Physical activity that is of high-intensity which utilizes the anaerobic
      * metabolism of the body.
      *
-     * @see https://schema.org/AnaerobicActivity
-     * @see http://health-lifesci.schema.org
+     * @see schema:AnaerobicActivity
+     * @see https://health-lifesci.schema.org
      */
-     const AnaerobicActivity = 'https://schema.org/AnaerobicActivity';
+     const AnaerobicActivity = 'schema:AnaerobicActivity';
 
     /**
      * Physical activity that is engaged to help maintain posture and balance.
      *
-     * @see https://schema.org/Balance
-     * @see http://health-lifesci.schema.org
+     * @see schema:Balance
+     * @see https://health-lifesci.schema.org
      */
-     const Balance = 'https://schema.org/Balance';
+     const Balance = 'schema:Balance';
 
     /**
      * Physical activity that is engaged in to improve joint and muscle
      * flexibility.
      *
-     * @see https://schema.org/Flexibility
-     * @see http://health-lifesci.schema.org
+     * @see schema:Flexibility
+     * @see https://health-lifesci.schema.org
      */
-     const Flexibility = 'https://schema.org/Flexibility';
+     const Flexibility = 'schema:Flexibility';
 
     /**
      * Any physical activity engaged in for recreational purposes. Examples may
      * include ballroom dancing, roller skating, canoeing, fishing, etc.
      *
-     * @see https://schema.org/LeisureTimeActivity
-     * @see http://health-lifesci.schema.org
+     * @see schema:LeisureTimeActivity
+     * @see https://health-lifesci.schema.org
      */
-     const LeisureTimeActivity = 'https://schema.org/LeisureTimeActivity';
+     const LeisureTimeActivity = 'schema:LeisureTimeActivity';
 
     /**
      * Any physical activity engaged in for job-related purposes. Examples may
      * include waiting tables, maid service, carrying a mailbag, picking fruits
      * or vegetables, construction work, etc.
      *
-     * @see https://schema.org/OccupationalActivity
-     * @see http://health-lifesci.schema.org
+     * @see schema:OccupationalActivity
+     * @see https://health-lifesci.schema.org
      */
-     const OccupationalActivity = 'https://schema.org/OccupationalActivity';
+     const OccupationalActivity = 'schema:OccupationalActivity';
 
     /**
      * Physical activity that is engaged in to improve muscle and bone strength.
      * Also referred to as resistance training.
      *
-     * @see https://schema.org/StrengthTraining
-     * @see http://health-lifesci.schema.org
+     * @see schema:StrengthTraining
+     * @see https://health-lifesci.schema.org
      */
-     const StrengthTraining = 'https://schema.org/StrengthTraining';
+     const StrengthTraining = 'schema:StrengthTraining';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -93,7 +93,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -107,7 +107,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -121,7 +121,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -138,7 +138,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -156,7 +156,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -171,7 +171,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -187,7 +187,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -201,7 +201,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -216,7 +216,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -232,7 +232,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -246,7 +246,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -261,7 +261,7 @@ class PhysicalActivityCategory extends BaseType implements PhysicalActivityCateg
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

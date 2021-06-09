@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * NLNonprofitType: Non-profit organization type originating from the
  * Netherlands.
  *
- * @see https://schema.org/NLNonprofitType
- * @see http://pending.schema.org
+ * @see schema:NLNonprofitType
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2543
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -24,21 +24,21 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      * NonprofitANBI: Non-profit type referring to a Public Benefit Organization
      * (NL).
      *
-     * @see https://schema.org/NonprofitANBI
-     * @see http://pending.schema.org
+     * @see schema:NonprofitANBI
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
-     const NonprofitANBI = 'https://schema.org/NonprofitANBI';
+     const NonprofitANBI = 'schema:NonprofitANBI';
 
     /**
      * NonprofitSBBI: Non-profit type referring to a Social Interest Promoting
      * Institution (NL).
      *
-     * @see https://schema.org/NonprofitSBBI
-     * @see http://pending.schema.org
+     * @see schema:NonprofitSBBI
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
-     const NonprofitSBBI = 'https://schema.org/NonprofitSBBI';
+     const NonprofitSBBI = 'schema:NonprofitSBBI';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -52,7 +52,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -66,7 +66,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -80,7 +80,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -97,7 +97,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -115,7 +115,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -130,7 +130,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -146,7 +146,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -160,7 +160,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -175,7 +175,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -191,7 +191,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -205,7 +205,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -220,7 +220,7 @@ class NLNonprofitType extends BaseType implements NLNonprofitTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -9,8 +9,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A US-style health insurance plan, including PPOs, EPOs, and HMOs.
  *
- * @see https://schema.org/HealthInsurancePlan
- * @see http://pending.schema.org
+ * @see schema:HealthInsurancePlan
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1062
  *
  */
@@ -28,7 +28,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/benefitsSummaryUrl
-     * @see http://pending.schema.org
+     * @see schema:benefitsSummaryUrl
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function benefitsSummaryUrl($benefitsSummaryUrl)
@@ -73,7 +73,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/contactPoint
+     * @see schema:contactPoint
      */
     public function contactPoint($contactPoint)
     {
@@ -87,7 +87,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -104,7 +104,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -118,8 +118,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanDrugOption
-     * @see http://pending.schema.org
+     * @see schema:healthPlanDrugOption
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanDrugOption($healthPlanDrugOption)
@@ -134,8 +134,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanDrugTier
-     * @see http://pending.schema.org
+     * @see schema:healthPlanDrugTier
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanDrugTier($healthPlanDrugTier)
@@ -151,8 +151,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanId
-     * @see http://pending.schema.org
+     * @see schema:healthPlanId
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanId($healthPlanId)
@@ -168,8 +168,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanMarketingUrl
-     * @see http://pending.schema.org
+     * @see schema:healthPlanMarketingUrl
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanMarketingUrl($healthPlanMarketingUrl)
@@ -188,7 +188,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -203,7 +203,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -217,8 +217,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/includesHealthPlanFormulary
-     * @see http://pending.schema.org
+     * @see schema:includesHealthPlanFormulary
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function includesHealthPlanFormulary($includesHealthPlanFormulary)
@@ -233,8 +233,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/includesHealthPlanNetwork
-     * @see http://pending.schema.org
+     * @see schema:includesHealthPlanNetwork
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function includesHealthPlanNetwork($includesHealthPlanNetwork)
@@ -251,7 +251,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -265,7 +265,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -280,7 +280,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -296,7 +296,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -310,7 +310,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -325,7 +325,7 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -340,8 +340,8 @@ class HealthInsurancePlan extends BaseType implements HealthInsurancePlanContrac
      *
      * @return static
      *
-     * @see https://schema.org/usesHealthPlanIdStandard
-     * @see http://pending.schema.org
+     * @see schema:usesHealthPlanIdStandard
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function usesHealthPlanIdStandard($usesHealthPlanIdStandard)

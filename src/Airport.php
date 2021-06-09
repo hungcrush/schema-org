@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * An airport.
  *
- * @see https://schema.org/Airport
+ * @see schema:Airport
  *
  */
 class Airport extends BaseType implements AirportContract, CivicStructureContract, PlaceContract, ThingContract
@@ -30,7 +30,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -49,7 +49,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -63,7 +63,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -78,7 +78,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -92,7 +92,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -109,7 +109,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/amenityFeature
+     * @see schema:amenityFeature
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function amenityFeature($amenityFeature)
@@ -130,7 +130,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/branchCode
+     * @see schema:branchCode
      */
     public function branchCode($branchCode)
     {
@@ -144,7 +144,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/containedIn
+     * @see schema:containedIn
      */
     public function containedIn($containedIn)
     {
@@ -158,7 +158,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/containedInPlace
+     * @see schema:containedInPlace
      */
     public function containedInPlace($containedInPlace)
     {
@@ -173,7 +173,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/containsPlace
+     * @see schema:containsPlace
      */
     public function containsPlace($containsPlace)
     {
@@ -187,7 +187,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -204,7 +204,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -219,7 +219,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -233,7 +233,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/events
+     * @see schema:events
      */
     public function events($events)
     {
@@ -247,7 +247,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -261,7 +261,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geo
+     * @see schema:geo
      */
     public function geo($geo)
     {
@@ -279,7 +279,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoContains
+     * @see schema:geoContains
      */
     public function geoContains($geoContains)
     {
@@ -295,7 +295,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoCoveredBy
+     * @see schema:geoCoveredBy
      */
     public function geoCoveredBy($geoCoveredBy)
     {
@@ -312,7 +312,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoCovers
+     * @see schema:geoCovers
      */
     public function geoCovers($geoCovers)
     {
@@ -330,7 +330,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoCrosses
+     * @see schema:geoCrosses
      */
     public function geoCrosses($geoCrosses)
     {
@@ -347,7 +347,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoDisjoint
+     * @see schema:geoDisjoint
      */
     public function geoDisjoint($geoDisjoint)
     {
@@ -366,7 +366,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoEquals
+     * @see schema:geoEquals
      */
     public function geoEquals($geoEquals)
     {
@@ -382,7 +382,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoIntersects
+     * @see schema:geoIntersects
      */
     public function geoIntersects($geoIntersects)
     {
@@ -399,7 +399,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoOverlaps
+     * @see schema:geoOverlaps
      */
     public function geoOverlaps($geoOverlaps)
     {
@@ -416,7 +416,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoTouches
+     * @see schema:geoTouches
      */
     public function geoTouches($geoTouches)
     {
@@ -433,7 +433,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/geoWithin
+     * @see schema:geoWithin
      */
     public function geoWithin($geoWithin)
     {
@@ -450,7 +450,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -469,8 +469,8 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/hasDriveThroughService
-     * @see http://pending.schema.org
+     * @see schema:hasDriveThroughService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function hasDriveThroughService($hasDriveThroughService)
@@ -485,7 +485,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/hasMap
+     * @see schema:hasMap
      */
     public function hasMap($hasMap)
     {
@@ -499,7 +499,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/iataCode
+     * @see schema:iataCode
      */
     public function iataCode($iataCode)
     {
@@ -513,7 +513,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/icaoCode
+     * @see schema:icaoCode
      */
     public function icaoCode($icaoCode)
     {
@@ -531,7 +531,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -546,7 +546,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -560,7 +560,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -576,7 +576,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -592,7 +592,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/latitude
+     * @see schema:latitude
      */
     public function latitude($latitude)
     {
@@ -606,7 +606,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -622,7 +622,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/longitude
+     * @see schema:longitude
      */
     public function longitude($longitude)
     {
@@ -638,7 +638,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -652,7 +652,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/map
+     * @see schema:map
      */
     public function map($map)
     {
@@ -666,7 +666,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/maps
+     * @see schema:maps
      */
     public function maps($maps)
     {
@@ -680,7 +680,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/maximumAttendeeCapacity
+     * @see schema:maximumAttendeeCapacity
      */
     public function maximumAttendeeCapacity($maximumAttendeeCapacity)
     {
@@ -694,7 +694,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -709,8 +709,8 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      * 
      * * Days are specified using the following two-letter combinations:
      * ```Mo```, ```Tu```, ```We```, ```Th```, ```Fr```, ```Sa```, ```Su```.
-     * * Times are specified using 24:00 time. For example, 3pm is specified as
-     * ```15:00```. 
+     * * Times are specified using 24:00 format. For example, 3pm is specified
+     * as ```15:00```, 10am as ```10:00```. 
      * * Here is an example: ```<time itemprop="openingHours" datetime="Tu,Th
      * 16:00-20:00">Tuesdays and Thursdays 4-8pm</time>```.
      * * If a business is open 7 days a week, then it can be specified as
@@ -721,7 +721,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/openingHours
+     * @see schema:openingHours
      */
     public function openingHours($openingHours)
     {
@@ -735,7 +735,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/openingHoursSpecification
+     * @see schema:openingHoursSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function openingHoursSpecification($openingHoursSpecification)
@@ -750,7 +750,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/photo
+     * @see schema:photo
      */
     public function photo($photo)
     {
@@ -764,7 +764,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/photos
+     * @see schema:photos
      */
     public function photos($photos)
     {
@@ -779,7 +779,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -794,7 +794,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/publicAccess
+     * @see schema:publicAccess
      */
     public function publicAccess($publicAccess)
     {
@@ -808,7 +808,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -822,7 +822,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -838,7 +838,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -852,7 +852,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -867,7 +867,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/smokingAllowed
+     * @see schema:smokingAllowed
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function smokingAllowed($smokingAllowed)
@@ -885,7 +885,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/specialOpeningHoursSpecification
+     * @see schema:specialOpeningHoursSpecification
      */
     public function specialOpeningHoursSpecification($specialOpeningHoursSpecification)
     {
@@ -899,7 +899,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -914,7 +914,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -930,8 +930,8 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/tourBookingPage
-     * @see http://pending.schema.org
+     * @see schema:tourBookingPage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function tourBookingPage($tourBookingPage)
@@ -946,7 +946,7 @@ class Airport extends BaseType implements AirportContract, CivicStructureContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

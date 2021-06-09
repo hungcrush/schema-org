@@ -15,7 +15,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * [[homeLocation]] of East Podunk California, would be described by applying
  * the appropriate [[homeLocation]] and [[populationType]] properties to a
  * [[StatisticalPopulation]] item that stands for that set of people.
- * The properties [[numConstraints]] and [[constrainingProperties]] are used to
+ * The properties [[numConstraints]] and [[constrainingProperty]] are used to
  * specify which of the populations properties are used to specify the
  * population. Note that the sense of "population" used here is the general
  * sense of a statistical
@@ -24,8 +24,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * See also [[Observation]], and the [data and
  * datasets](/docs/data-and-datasets.html) overview for more details.
  *
- * @see https://schema.org/StatisticalPopulation
- * @see http://pending.schema.org
+ * @see schema:StatisticalPopulation
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2291
  *
  * @method static populationType($populationType) The value should be instance of pending types Class|Class[]
@@ -44,7 +44,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -58,7 +58,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -74,8 +74,8 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/constrainingProperty
-     * @see http://pending.schema.org
+     * @see schema:constrainingProperty
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2291
      */
     public function constrainingProperty($constrainingProperty)
@@ -90,7 +90,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -107,7 +107,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -125,7 +125,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -140,7 +140,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -156,7 +156,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -170,7 +170,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -187,8 +187,8 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/numConstraints
-     * @see http://pending.schema.org
+     * @see schema:numConstraints
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2291
      */
     public function numConstraints($numConstraints)
@@ -204,7 +204,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -220,7 +220,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -234,7 +234,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -249,7 +249,7 @@ class StatisticalPopulation extends BaseType implements StatisticalPopulationCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

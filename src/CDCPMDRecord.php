@@ -15,8 +15,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * materials for authoritative
  *       definitions used as the source here.
  *
- * @see https://schema.org/CDCPMDRecord
- * @see http://pending.schema.org
+ * @see schema:CDCPMDRecord
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2521
  *
  */
@@ -34,7 +34,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -48,7 +48,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -62,8 +62,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdCollectionDate
-     * @see http://pending.schema.org
+     * @see schema:cvdCollectionDate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdCollectionDate($cvdCollectionDate)
@@ -80,8 +80,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdFacilityCounty
-     * @see http://pending.schema.org
+     * @see schema:cvdFacilityCounty
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdFacilityCounty($cvdFacilityCounty)
@@ -98,8 +98,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdFacilityId
-     * @see http://pending.schema.org
+     * @see schema:cvdFacilityId
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdFacilityId($cvdFacilityId)
@@ -115,8 +115,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumBeds
-     * @see http://pending.schema.org
+     * @see schema:cvdNumBeds
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumBeds($cvdNumBeds)
@@ -132,8 +132,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumBedsOcc
-     * @see http://pending.schema.org
+     * @see schema:cvdNumBedsOcc
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumBedsOcc($cvdNumBedsOcc)
@@ -149,8 +149,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumC19Died
-     * @see http://pending.schema.org
+     * @see schema:cvdNumC19Died
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumC19Died($cvdNumC19Died)
@@ -167,8 +167,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumC19HOPats
-     * @see http://pending.schema.org
+     * @see schema:cvdNumC19HOPats
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumC19HOPats($cvdNumC19HOPats)
@@ -184,8 +184,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumC19HospPats
-     * @see http://pending.schema.org
+     * @see schema:cvdNumC19HospPats
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumC19HospPats($cvdNumC19HospPats)
@@ -202,8 +202,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumC19MechVentPats
-     * @see http://pending.schema.org
+     * @see schema:cvdNumC19MechVentPats
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumC19MechVentPats($cvdNumC19MechVentPats)
@@ -220,8 +220,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumC19OFMechVentPats
-     * @see http://pending.schema.org
+     * @see schema:cvdNumC19OFMechVentPats
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumC19OFMechVentPats($cvdNumC19OFMechVentPats)
@@ -238,8 +238,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumC19OverflowPats
-     * @see http://pending.schema.org
+     * @see schema:cvdNumC19OverflowPats
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumC19OverflowPats($cvdNumC19OverflowPats)
@@ -255,8 +255,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumICUBeds
-     * @see http://pending.schema.org
+     * @see schema:cvdNumICUBeds
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumICUBeds($cvdNumICUBeds)
@@ -272,8 +272,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumICUBedsOcc
-     * @see http://pending.schema.org
+     * @see schema:cvdNumICUBedsOcc
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumICUBedsOcc($cvdNumICUBedsOcc)
@@ -290,8 +290,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumTotBeds
-     * @see http://pending.schema.org
+     * @see schema:cvdNumTotBeds
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumTotBeds($cvdNumTotBeds)
@@ -306,8 +306,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumVent
-     * @see http://pending.schema.org
+     * @see schema:cvdNumVent
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumVent($cvdNumVent)
@@ -323,8 +323,8 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/cvdNumVentUse
-     * @see http://pending.schema.org
+     * @see schema:cvdNumVentUse
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2521
      */
     public function cvdNumVentUse($cvdNumVentUse)
@@ -339,7 +339,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/datePosted
+     * @see schema:datePosted
      */
     public function datePosted($datePosted)
     {
@@ -353,7 +353,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -370,7 +370,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -388,7 +388,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -403,7 +403,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -419,7 +419,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -433,7 +433,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -448,7 +448,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -464,7 +464,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -478,7 +478,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -493,7 +493,7 @@ class CDCPMDRecord extends BaseType implements CDCPMDRecordContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

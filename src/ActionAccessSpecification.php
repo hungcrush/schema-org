@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A set of requirements that a must be fulfilled in order to perform an Action.
  *
- * @see https://schema.org/ActionAccessSpecification
+ * @see schema:ActionAccessSpecification
  * @link https://github.com/schemaorg/schemaorg/issues/1741
  *
  */
@@ -27,7 +27,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/availabilityEnds
+     * @see schema:availabilityEnds
      */
     public function availabilityEnds($availabilityEnds)
     {
@@ -71,7 +71,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/availabilityStarts
+     * @see schema:availabilityStarts
      */
     public function availabilityStarts($availabilityStarts)
     {
@@ -86,7 +86,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -100,7 +100,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -117,7 +117,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -135,7 +135,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/eligibleRegion
+     * @see schema:eligibleRegion
      */
     public function eligibleRegion($eligibleRegion)
     {
@@ -151,7 +151,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/expectsAcceptanceOf
+     * @see schema:expectsAcceptanceOf
      * @link https://github.com/schemaorg/schemaorg/issues/1741
      */
     public function expectsAcceptanceOf($expectsAcceptanceOf)
@@ -170,7 +170,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -185,7 +185,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -204,8 +204,8 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/ineligibleRegion
-     * @see http://pending.schema.org
+     * @see schema:ineligibleRegion
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2242
      */
     public function ineligibleRegion($ineligibleRegion)
@@ -222,7 +222,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -236,7 +236,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -251,7 +251,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -267,7 +267,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/requiresSubscription
+     * @see schema:requiresSubscription
      * @link https://github.com/schemaorg/schemaorg/issues/1741
      */
     public function requiresSubscription($requiresSubscription)
@@ -284,7 +284,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -298,7 +298,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -313,7 +313,7 @@ class ActionAccessSpecification extends BaseType implements ActionAccessSpecific
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * An enumeration of several kinds of Map.
  *
- * @see https://schema.org/MapCategoryType
+ * @see schema:MapCategoryType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -19,30 +19,30 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
     /**
      * A parking map.
      *
-     * @see https://schema.org/ParkingMap
+     * @see schema:ParkingMap
      */
-     const ParkingMap = 'https://schema.org/ParkingMap';
+     const ParkingMap = 'schema:ParkingMap';
 
     /**
      * A seating map.
      *
-     * @see https://schema.org/SeatingMap
+     * @see schema:SeatingMap
      */
-     const SeatingMap = 'https://schema.org/SeatingMap';
+     const SeatingMap = 'schema:SeatingMap';
 
     /**
      * A transit map.
      *
-     * @see https://schema.org/TransitMap
+     * @see schema:TransitMap
      */
-     const TransitMap = 'https://schema.org/TransitMap';
+     const TransitMap = 'schema:TransitMap';
 
     /**
      * A venue map (e.g. for malls, auditoriums, museums, etc.).
      *
-     * @see https://schema.org/VenueMap
+     * @see schema:VenueMap
      */
-     const VenueMap = 'https://schema.org/VenueMap';
+     const VenueMap = 'schema:VenueMap';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -56,7 +56,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -70,7 +70,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -84,7 +84,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -101,7 +101,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -119,7 +119,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -134,7 +134,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -150,7 +150,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -164,7 +164,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -179,7 +179,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -195,7 +195,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -209,7 +209,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -224,7 +224,7 @@ class MapCategoryType extends BaseType implements MapCategoryTypeContract, Enume
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

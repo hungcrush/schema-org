@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * support the COVID-19 situation. Note that this structure may not capture all
  * benefits offered.
  *
- * @see https://schema.org/GovernmentBenefitsType
- * @see http://pending.schema.org
+ * @see schema:GovernmentBenefitsType
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2534
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -23,74 +23,74 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
     /**
      * BasicIncome: this is a benefit for basic income.
      *
-     * @see https://schema.org/BasicIncome
-     * @see http://pending.schema.org
+     * @see schema:BasicIncome
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const BasicIncome = 'https://schema.org/BasicIncome';
+     const BasicIncome = 'schema:BasicIncome';
 
     /**
      * BusinessSupport: this is a benefit for supporting businesses.
      *
-     * @see https://schema.org/BusinessSupport
-     * @see http://pending.schema.org
+     * @see schema:BusinessSupport
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const BusinessSupport = 'https://schema.org/BusinessSupport';
+     const BusinessSupport = 'schema:BusinessSupport';
 
     /**
      * DisabilitySupport: this is a benefit for disability support.
      *
-     * @see https://schema.org/DisabilitySupport
-     * @see http://pending.schema.org
+     * @see schema:DisabilitySupport
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const DisabilitySupport = 'https://schema.org/DisabilitySupport';
+     const DisabilitySupport = 'schema:DisabilitySupport';
 
     /**
      * HealthCare: this is a benefit for health care.
      *
-     * @see https://schema.org/HealthCare
-     * @see http://pending.schema.org
+     * @see schema:HealthCare
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const HealthCare = 'https://schema.org/HealthCare';
+     const HealthCare = 'schema:HealthCare';
 
     /**
      * OneTimePayments: this is a benefit for one-time payments for individuals.
      *
-     * @see https://schema.org/OneTimePayments
-     * @see http://pending.schema.org
+     * @see schema:OneTimePayments
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const OneTimePayments = 'https://schema.org/OneTimePayments';
+     const OneTimePayments = 'schema:OneTimePayments';
 
     /**
      * PaidLeave: this is a benefit for paid leave.
      *
-     * @see https://schema.org/PaidLeave
-     * @see http://pending.schema.org
+     * @see schema:PaidLeave
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const PaidLeave = 'https://schema.org/PaidLeave';
+     const PaidLeave = 'schema:PaidLeave';
 
     /**
      * ParentalSupport: this is a benefit for parental support.
      *
-     * @see https://schema.org/ParentalSupport
-     * @see http://pending.schema.org
+     * @see schema:ParentalSupport
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const ParentalSupport = 'https://schema.org/ParentalSupport';
+     const ParentalSupport = 'schema:ParentalSupport';
 
     /**
      * UnemploymentSupport: this is a benefit for unemployment support.
      *
-     * @see https://schema.org/UnemploymentSupport
-     * @see http://pending.schema.org
+     * @see schema:UnemploymentSupport
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2534
      */
-     const UnemploymentSupport = 'https://schema.org/UnemploymentSupport';
+     const UnemploymentSupport = 'schema:UnemploymentSupport';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -104,7 +104,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -118,7 +118,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -132,7 +132,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -149,7 +149,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -167,7 +167,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -182,7 +182,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -198,7 +198,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -212,7 +212,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -227,7 +227,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -243,7 +243,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -257,7 +257,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -272,7 +272,7 @@ class GovernmentBenefitsType extends BaseType implements GovernmentBenefitsTypeC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

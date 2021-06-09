@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * salary, etc. It is recommended to use [[PriceSpecification]] Types to
  * describe the price of an Offer, Invoice, etc.
  *
- * @see https://schema.org/MonetaryAmount
+ * @see schema:MonetaryAmount
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
  *
  */
@@ -32,7 +32,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -68,7 +68,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/currency
+     * @see schema:currency
      * @link https://github.com/schemaorg/schemaorg/issues/1253
      */
     public function currency($currency)
@@ -83,7 +83,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -100,7 +100,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -118,7 +118,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -133,7 +133,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -149,7 +149,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -163,7 +163,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/maxValue
+     * @see schema:maxValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxValue($maxValue)
@@ -178,7 +178,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/minValue
+     * @see schema:minValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minValue($minValue)
@@ -193,7 +193,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -208,7 +208,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -224,7 +224,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -238,7 +238,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -253,7 +253,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -267,7 +267,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -283,7 +283,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -307,7 +307,7 @@ class MonetaryAmount extends BaseType implements MonetaryAmountContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/value
+     * @see schema:value
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function value($value)

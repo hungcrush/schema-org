@@ -17,7 +17,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * unregistering from a service you werer previously registered, rather than
  * leaving a team/group of people.
  *
- * @see https://schema.org/UnRegisterAction
+ * @see schema:UnRegisterAction
  *
  */
 class UnRegisterAction extends BaseType implements UnRegisterActionContract, ActionContract, InteractActionContract, ThingContract
@@ -29,7 +29,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -48,7 +48,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -63,7 +63,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -77,7 +77,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -91,7 +91,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -108,7 +108,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -131,7 +131,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -146,7 +146,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -164,7 +164,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -179,7 +179,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -194,7 +194,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -202,14 +202,14 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -225,7 +225,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -239,7 +239,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -256,7 +256,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -271,7 +271,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -286,7 +286,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -300,7 +300,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -316,7 +316,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -339,7 +339,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -354,7 +354,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -369,7 +369,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -383,7 +383,7 @@ class UnRegisterAction extends BaseType implements UnRegisterActionContract, Act
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

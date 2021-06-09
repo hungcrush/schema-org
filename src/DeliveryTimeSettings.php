@@ -15,8 +15,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * (and identified/referenced) by their different values for
  * [[transitTimeLabel]].
  *
- * @see https://schema.org/DeliveryTimeSettings
- * @see http://pending.schema.org
+ * @see schema:DeliveryTimeSettings
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2506
  *
  */
@@ -34,7 +34,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -48,7 +48,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -63,8 +63,8 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/deliveryTime
-     * @see http://pending.schema.org
+     * @see schema:deliveryTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function deliveryTime($deliveryTime)
@@ -79,7 +79,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -96,7 +96,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -114,7 +114,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -129,7 +129,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -150,8 +150,8 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/isUnlabelledFallback
-     * @see http://pending.schema.org
+     * @see schema:isUnlabelledFallback
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function isUnlabelledFallback($isUnlabelledFallback)
@@ -168,7 +168,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -182,7 +182,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -197,7 +197,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -213,7 +213,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -228,8 +228,8 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingDestination
-     * @see http://pending.schema.org
+     * @see schema:shippingDestination
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingDestination($shippingDestination)
@@ -244,7 +244,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -261,8 +261,8 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/transitTimeLabel
-     * @see http://pending.schema.org
+     * @see schema:transitTimeLabel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function transitTimeLabel($transitTimeLabel)
@@ -277,7 +277,7 @@ class DeliveryTimeSettings extends BaseType implements DeliveryTimeSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

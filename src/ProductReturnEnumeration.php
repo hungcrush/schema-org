@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * ProductReturnEnumeration enumerates several kinds of product return policy.
  * Note that this structure may not capture all aspects of the policy.
  *
- * @see https://schema.org/ProductReturnEnumeration
- * @see http://attic.schema.org
+ * @see schema:ProductReturnEnumeration
+ * @see https://attic.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2288
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -23,39 +23,39 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      * ProductReturnFiniteReturnWindow: there is a finite window for product
      * returns.
      *
-     * @see https://schema.org/ProductReturnFiniteReturnWindow
-     * @see http://attic.schema.org
+     * @see schema:ProductReturnFiniteReturnWindow
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const ProductReturnFiniteReturnWindow = 'https://schema.org/ProductReturnFiniteReturnWindow';
+     const ProductReturnFiniteReturnWindow = 'schema:ProductReturnFiniteReturnWindow';
 
     /**
      * ProductReturnNotPermitted: product returns are not permitted.
      *
-     * @see https://schema.org/ProductReturnNotPermitted
-     * @see http://attic.schema.org
+     * @see schema:ProductReturnNotPermitted
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const ProductReturnNotPermitted = 'https://schema.org/ProductReturnNotPermitted';
+     const ProductReturnNotPermitted = 'schema:ProductReturnNotPermitted';
 
     /**
      * ProductReturnUnlimitedWindow: there is an unlimited window for product
      * returns.
      *
-     * @see https://schema.org/ProductReturnUnlimitedWindow
-     * @see http://attic.schema.org
+     * @see schema:ProductReturnUnlimitedWindow
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const ProductReturnUnlimitedWindow = 'https://schema.org/ProductReturnUnlimitedWindow';
+     const ProductReturnUnlimitedWindow = 'schema:ProductReturnUnlimitedWindow';
 
     /**
      * ProductReturnUnspecified: a product return policy is not specified here.
      *
-     * @see https://schema.org/ProductReturnUnspecified
-     * @see http://attic.schema.org
+     * @see schema:ProductReturnUnspecified
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const ProductReturnUnspecified = 'https://schema.org/ProductReturnUnspecified';
+     const ProductReturnUnspecified = 'schema:ProductReturnUnspecified';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -69,7 +69,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -83,7 +83,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -97,7 +97,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -114,7 +114,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -132,7 +132,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -147,7 +147,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -163,7 +163,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -177,7 +177,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -192,7 +192,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -208,7 +208,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -222,7 +222,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -237,7 +237,7 @@ class ProductReturnEnumeration extends BaseType implements ProductReturnEnumerat
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

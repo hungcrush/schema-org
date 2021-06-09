@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * differential diagnosis process along with the signs that are used to
  * distinguish it.
  *
- * @see https://schema.org/DDxElement
- * @see http://health-lifesci.schema.org
+ * @see schema:DDxElement
+ * @see https://health-lifesci.schema.org
  *
  */
 class DDxElement extends BaseType implements DDxElementContract, MedicalEntityContract, MedicalIntangibleContract, ThingContract
@@ -30,7 +30,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,8 +59,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -74,7 +74,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,8 +89,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/diagnosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:diagnosis
+     * @see https://health-lifesci.schema.org
      */
     public function diagnosis($diagnosis)
     {
@@ -107,7 +107,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -122,8 +122,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/distinguishingSign
-     * @see http://health-lifesci.schema.org
+     * @see schema:distinguishingSign
+     * @see https://health-lifesci.schema.org
      */
     public function distinguishingSign($distinguishingSign)
     {
@@ -137,8 +137,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -156,7 +156,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -171,7 +171,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -186,8 +186,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -203,7 +203,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -218,8 +218,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -233,7 +233,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -248,7 +248,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -263,8 +263,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -278,8 +278,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -295,7 +295,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -309,8 +309,8 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -324,7 +324,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -339,7 +339,7 @@ class DDxElement extends BaseType implements DDxElementContract, MedicalEntityCo
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

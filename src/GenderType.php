@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * An enumeration of genders.
  *
- * @see https://schema.org/GenderType
+ * @see schema:GenderType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -19,16 +19,16 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
     /**
      * The female gender.
      *
-     * @see https://schema.org/Female
+     * @see schema:Female
      */
-     const Female = 'https://schema.org/Female';
+     const Female = 'schema:Female';
 
     /**
      * The male gender.
      *
-     * @see https://schema.org/Male
+     * @see schema:Male
      */
-     const Male = 'https://schema.org/Male';
+     const Male = 'schema:Male';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -42,7 +42,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -56,7 +56,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -70,7 +70,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -87,7 +87,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -105,7 +105,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -120,7 +120,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -136,7 +136,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -150,7 +150,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -165,7 +165,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -181,7 +181,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -195,7 +195,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -210,7 +210,7 @@ class GenderType extends BaseType implements GenderTypeContract, EnumerationCont
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -16,8 +16,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * nutrition for example), or detoxification (e.g. hemodialysis) aimed at
  * improving or preventing a health condition.
  *
- * @see https://schema.org/MedicalTherapy
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalTherapy
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalTherapy extends BaseType implements MedicalTherapyContract, MedicalEntityContract, MedicalProcedureContract, TherapeuticProcedureContract, ThingContract
@@ -34,7 +34,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -52,8 +52,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/adverseOutcome
-     * @see http://health-lifesci.schema.org
+     * @see schema:adverseOutcome
+     * @see https://health-lifesci.schema.org
      */
     public function adverseOutcome($adverseOutcome)
     {
@@ -67,7 +67,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -81,8 +81,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/bodyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:bodyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function bodyLocation($bodyLocation)
     {
@@ -97,8 +97,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -112,8 +112,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/contraindication
-     * @see http://health-lifesci.schema.org
+     * @see schema:contraindication
+     * @see https://health-lifesci.schema.org
      */
     public function contraindication($contraindication)
     {
@@ -127,7 +127,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -144,7 +144,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -159,8 +159,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/doseSchedule
-     * @see http://health-lifesci.schema.org
+     * @see schema:doseSchedule
+     * @see https://health-lifesci.schema.org
      */
     public function doseSchedule($doseSchedule)
     {
@@ -168,14 +168,14 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
     }
 
     /**
-     * Specifying a drug or medicine used in a medication procedure
+     * Specifying a drug or medicine used in a medication procedure.
      *
      * @param \Spatie\SchemaOrg\Contracts\DrugContract|\Spatie\SchemaOrg\Contracts\DrugContract[] $drug
      *
      * @return static
      *
-     * @see https://schema.org/drug
-     * @see http://health-lifesci.schema.org
+     * @see schema:drug
+     * @see https://health-lifesci.schema.org
      */
     public function drug($drug)
     {
@@ -189,8 +189,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/duplicateTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:duplicateTherapy
+     * @see https://health-lifesci.schema.org
      */
     public function duplicateTherapy($duplicateTherapy)
     {
@@ -204,8 +204,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/followup
-     * @see http://health-lifesci.schema.org
+     * @see schema:followup
+     * @see https://health-lifesci.schema.org
      */
     public function followup($followup)
     {
@@ -219,8 +219,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -234,8 +234,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/howPerformed
-     * @see http://health-lifesci.schema.org
+     * @see schema:howPerformed
+     * @see https://health-lifesci.schema.org
      */
     public function howPerformed($howPerformed)
     {
@@ -253,7 +253,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -268,7 +268,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -283,8 +283,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -300,7 +300,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -315,8 +315,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -330,7 +330,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -345,7 +345,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -360,8 +360,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/preparation
-     * @see http://health-lifesci.schema.org
+     * @see schema:preparation
+     * @see https://health-lifesci.schema.org
      */
     public function preparation($preparation)
     {
@@ -376,8 +376,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/procedureType
-     * @see http://health-lifesci.schema.org
+     * @see schema:procedureType
+     * @see https://health-lifesci.schema.org
      */
     public function procedureType($procedureType)
     {
@@ -392,8 +392,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -407,8 +407,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -424,7 +424,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -444,8 +444,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/seriousAdverseOutcome
-     * @see http://health-lifesci.schema.org
+     * @see schema:seriousAdverseOutcome
+     * @see https://health-lifesci.schema.org
      */
     public function seriousAdverseOutcome($seriousAdverseOutcome)
     {
@@ -459,8 +459,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/status
-     * @see http://health-lifesci.schema.org
+     * @see schema:status
+     * @see https://health-lifesci.schema.org
      */
     public function status($status)
     {
@@ -474,8 +474,8 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -489,7 +489,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -504,7 +504,7 @@ class MedicalTherapy extends BaseType implements MedicalTherapyContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

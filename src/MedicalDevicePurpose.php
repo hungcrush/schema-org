@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Categories of medical devices, organized by the purpose or intended use of
  * the device.
  *
- * @see https://schema.org/MedicalDevicePurpose
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalDevicePurpose
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -22,18 +22,18 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
     /**
      * A medical device used for diagnostic purposes.
      *
-     * @see https://schema.org/Diagnostic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Diagnostic
+     * @see https://health-lifesci.schema.org
      */
-     const Diagnostic = 'https://schema.org/Diagnostic';
+     const Diagnostic = 'schema:Diagnostic';
 
     /**
      * A medical device used for therapeutic purposes.
      *
-     * @see https://schema.org/Therapeutic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Therapeutic
+     * @see https://health-lifesci.schema.org
      */
-     const Therapeutic = 'https://schema.org/Therapeutic';
+     const Therapeutic = 'schema:Therapeutic';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -47,7 +47,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -61,7 +61,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -75,7 +75,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -92,7 +92,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -110,7 +110,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -125,7 +125,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -141,7 +141,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -155,7 +155,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -170,7 +170,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -186,7 +186,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -200,7 +200,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -215,7 +215,7 @@ class MedicalDevicePurpose extends BaseType implements MedicalDevicePurposeContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

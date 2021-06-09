@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\VehicleContract;
 /**
  * A car is a wheeled, self-powered motor vehicle used for transportation.
  *
- * @see https://schema.org/Car
+ * @see schema:Car
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
  *
  */
@@ -32,8 +32,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/accelerationTime
-     * @see http://auto.schema.org
+     * @see schema:accelerationTime
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function accelerationTime($accelerationTime)
@@ -50,8 +50,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/acrissCode
-     * @see http://auto.schema.org
+     * @see schema:acrissCode
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function acrissCode($acrissCode)
@@ -74,7 +74,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -93,7 +93,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -108,7 +108,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -122,7 +122,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -136,7 +136,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -150,7 +150,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -164,7 +164,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -179,8 +179,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/bodyType
-     * @see http://auto.schema.org
+     * @see schema:bodyType
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function bodyType($bodyType)
@@ -196,7 +196,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -212,8 +212,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/callSign
-     * @see http://pending.schema.org
+     * @see schema:callSign
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2109
      */
     public function callSign($callSign)
@@ -233,7 +233,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/cargoVolume
+     * @see schema:cargoVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function cargoVolume($cargoVolume)
@@ -249,7 +249,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -263,7 +263,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/color
+     * @see schema:color
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function color($color)
@@ -279,7 +279,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/dateVehicleFirstRegistered
+     * @see schema:dateVehicleFirstRegistered
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function dateVehicleFirstRegistered($dateVehicleFirstRegistered)
@@ -294,7 +294,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/depth
+     * @see schema:depth
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function depth($depth)
@@ -309,7 +309,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -326,7 +326,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -341,7 +341,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/driveWheelConfiguration
+     * @see schema:driveWheelConfiguration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function driveWheelConfiguration($driveWheelConfiguration)
@@ -358,8 +358,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/emissionsCO2
-     * @see http://auto.schema.org
+     * @see schema:emissionsCO2
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function emissionsCO2($emissionsCO2)
@@ -379,8 +379,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/fuelCapacity
-     * @see http://auto.schema.org
+     * @see schema:fuelCapacity
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function fuelCapacity($fuelCapacity)
@@ -407,7 +407,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/fuelConsumption
+     * @see schema:fuelConsumption
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function fuelConsumption($fuelConsumption)
@@ -434,7 +434,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/fuelEfficiency
+     * @see schema:fuelEfficiency
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function fuelEfficiency($fuelEfficiency)
@@ -451,7 +451,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/fuelType
+     * @see schema:fuelType
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function fuelType($fuelType)
@@ -463,21 +463,17 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      * A Global Trade Item Number
      * ([GTIN](https://www.gs1.org/standards/id-keys/gtin)). GTINs identify
      * trade items, including products and services, using numeric
-     * identification codes. The [[gtin]] property generalizes the earlier <a
-     * class="localLink" href="https://schema.org/gtin8">gtin8</a>, <a
-     * class="localLink" href="https://schema.org/gtin12">gtin12</a>, <a
-     * class="localLink" href="https://schema.org/gtin13">gtin13</a>, and <a
-     * class="localLink" href="https://schema.org/gtin14">gtin14</a> properties.
-     * The GS1 [digital link
+     * identification codes. The [[gtin]] property generalizes the earlier
+     * [[gtin8]], [[gtin12]], [[gtin13]], and [[gtin14]] properties. The GS1
+     * [digital link
      * specifications](https://www.gs1.org/standards/Digital-Link/) express
      * GTINs as URLs. A correct [[gtin]] value should be a valid GTIN, which
      * means that it should be an all-numeric string of either 8, 12, 13 or 14
      * digits, or a "GS1 Digital Link" URL based on such a string. The numeric
      * component should also have a [valid GS1 check
      * digit](https://www.gs1.org/services/check-digit-calculator) and meet the
-     * other rules for valid GTINs. See also <a
-     * href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1's GTIN
-     * Summary</a> and
+     * other rules for valid GTINs. See also [GS1's GTIN
+     * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) and
      * [Wikipedia](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) for
      * more details. Left-padding of the gtin values is not required or
      * encouraged.
@@ -486,8 +482,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/gtin
-     * @see http://pending.schema.org
+     * @see schema:gtin
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function gtin($gtin)
@@ -507,7 +503,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/gtin12
+     * @see schema:gtin12
      */
     public function gtin12($gtin12)
     {
@@ -518,7 +514,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      * The GTIN-13 code of the product, or the product to which the offer
      * refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former
      * 12-digit UPC codes can be converted into a GTIN-13 code by simply adding
-     * a preceeding zero. See [GS1 GTIN
+     * a preceding zero. See [GS1 GTIN
      * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more
      * details.
      *
@@ -526,7 +522,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/gtin13
+     * @see schema:gtin13
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin13($gtin13)
@@ -544,7 +540,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/gtin14
+     * @see schema:gtin14
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin14($gtin14)
@@ -553,9 +549,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
     }
 
     /**
-     * The [GTIN-8](http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx) code of
-     * the product, or the product to which the offer refers. This code is also
-     * known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN
+     * The GTIN-8 code of the product, or the product to which the offer refers.
+     * This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN
      * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more
      * details.
      *
@@ -563,12 +558,49 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/gtin8
+     * @see schema:gtin8
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin8($gtin8)
     {
         return $this->setProperty('gtin8', $gtin8);
+    }
+
+    /**
+     * Defines the energy efficiency Category (also known as "class" or
+     * "rating") for a product according to an international energy efficiency
+     * standard.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\EnergyConsumptionDetailsContract|\Spatie\SchemaOrg\Contracts\EnergyConsumptionDetailsContract[] $hasEnergyConsumptionDetails
+     *
+     * @return static
+     *
+     * @see schema:hasEnergyConsumptionDetails
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2670
+     */
+    public function hasEnergyConsumptionDetails($hasEnergyConsumptionDetails)
+    {
+        return $this->setProperty('hasEnergyConsumptionDetails', $hasEnergyConsumptionDetails);
+    }
+
+    /**
+     * A product measurement, for example the inseam of pants, the wheel size of
+     * a bicycle, or the gauge of a screw. Usually an exact measurement, but can
+     * also be a range of measurements for adjustable products, for example
+     * belts and ski bindings.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $hasMeasurement
+     *
+     * @return static
+     *
+     * @see schema:hasMeasurement
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2811
+     */
+    public function hasMeasurement($hasMeasurement)
+    {
+        return $this->setProperty('hasMeasurement', $hasMeasurement);
     }
 
     /**
@@ -578,8 +610,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/hasMerchantReturnPolicy
-     * @see http://pending.schema.org
+     * @see schema:hasMerchantReturnPolicy
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function hasMerchantReturnPolicy($hasMerchantReturnPolicy)
@@ -594,8 +626,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/hasProductReturnPolicy
-     * @see http://attic.schema.org
+     * @see schema:hasProductReturnPolicy
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function hasProductReturnPolicy($hasProductReturnPolicy)
@@ -610,7 +642,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/height
+     * @see schema:height
      */
     public function height($height)
     {
@@ -628,7 +660,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -643,7 +675,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -658,8 +690,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/inProductGroupWithID
-     * @see http://pending.schema.org
+     * @see schema:inProductGroupWithID
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function inProductGroupWithID($inProductGroupWithID)
@@ -675,7 +707,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/isAccessoryOrSparePartFor
+     * @see schema:isAccessoryOrSparePartFor
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isAccessoryOrSparePartFor($isAccessoryOrSparePartFor)
@@ -691,7 +723,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/isConsumableFor
+     * @see schema:isConsumableFor
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isConsumableFor($isConsumableFor)
@@ -706,7 +738,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -722,7 +754,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -747,7 +779,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/isVariantOf
+     * @see schema:isVariantOf
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isVariantOf($isVariantOf)
@@ -764,7 +796,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/itemCondition
+     * @see schema:itemCondition
      */
     public function itemCondition($itemCondition)
     {
@@ -778,7 +810,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/knownVehicleDamages
+     * @see schema:knownVehicleDamages
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function knownVehicleDamages($knownVehicleDamages)
@@ -793,7 +825,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -810,7 +842,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -824,7 +856,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/manufacturer
+     * @see schema:manufacturer
      */
     public function manufacturer($manufacturer)
     {
@@ -839,7 +871,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/material
+     * @see schema:material
      */
     public function material($material)
     {
@@ -853,8 +885,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/meetsEmissionStandard
-     * @see http://auto.schema.org
+     * @see schema:meetsEmissionStandard
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function meetsEmissionStandard($meetsEmissionStandard)
@@ -872,7 +904,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/mileageFromOdometer
+     * @see schema:mileageFromOdometer
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function mileageFromOdometer($mileageFromOdometer)
@@ -891,7 +923,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/model
+     * @see schema:model
      */
     public function model($model)
     {
@@ -906,8 +938,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/modelDate
-     * @see http://auto.schema.org
+     * @see schema:modelDate
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function modelDate($modelDate)
@@ -923,7 +955,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/mpn
+     * @see schema:mpn
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function mpn($mpn)
@@ -938,7 +970,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -954,8 +986,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/nsn
-     * @see http://pending.schema.org
+     * @see schema:nsn
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2126
      */
     public function nsn($nsn)
@@ -970,7 +1002,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/numberOfAirbags
+     * @see schema:numberOfAirbags
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function numberOfAirbags($numberOfAirbags)
@@ -987,7 +1019,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/numberOfAxles
+     * @see schema:numberOfAxles
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function numberOfAxles($numberOfAxles)
@@ -1004,7 +1036,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/numberOfDoors
+     * @see schema:numberOfDoors
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function numberOfDoors($numberOfDoors)
@@ -1022,7 +1054,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/numberOfForwardGears
+     * @see schema:numberOfForwardGears
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function numberOfForwardGears($numberOfForwardGears)
@@ -1039,7 +1071,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/numberOfPreviousOwners
+     * @see schema:numberOfPreviousOwners
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function numberOfPreviousOwners($numberOfPreviousOwners)
@@ -1061,7 +1093,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -1078,8 +1110,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/pattern
-     * @see http://pending.schema.org
+     * @see schema:pattern
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function pattern($pattern)
@@ -1106,8 +1138,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/payload
-     * @see http://auto.schema.org
+     * @see schema:payload
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function payload($payload)
@@ -1123,7 +1155,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -1131,14 +1163,14 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
     }
 
     /**
-     * The product identifier, such as ISBN. For example: ```meta
-     * itemprop="productID" content="isbn:123-456-789"```.
+     * The product identifier, such as ISBN. For example: ``` meta
+     * itemprop="productID" content="isbn:123-456-789" ```.
      *
      * @param string|string[] $productID
      *
      * @return static
      *
-     * @see https://schema.org/productID
+     * @see schema:productID
      */
     public function productID($productID)
     {
@@ -1152,7 +1184,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/productionDate
+     * @see schema:productionDate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function productionDate($productionDate)
@@ -1167,7 +1199,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/purchaseDate
+     * @see schema:purchaseDate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function purchaseDate($purchaseDate)
@@ -1183,7 +1215,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/releaseDate
+     * @see schema:releaseDate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function releaseDate($releaseDate)
@@ -1198,7 +1230,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -1212,7 +1244,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1236,8 +1268,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/roofLoad
-     * @see http://auto.schema.org
+     * @see schema:roofLoad
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function roofLoad($roofLoad)
@@ -1254,7 +1286,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1272,8 +1304,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/seatingCapacity
-     * @see http://auto.schema.org
+     * @see schema:seatingCapacity
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function seatingCapacity($seatingCapacity)
@@ -1282,19 +1314,18 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
     }
 
     /**
-     * A standardized size of a product or creative work, often simplifying
-     * richer information into a simple textual string, either through referring
-     * to named sizes or (in the case of product markup), by adopting
-     * conventional simplifications. Use of QuantitativeValue with a unitCode or
-     * unitText can add more structure; in other cases, the /width, /height,
-     * /depth and /weight properties may be more applicable.
+     * A standardized size of a product or creative work, specified either
+     * through a simple textual string (for example 'XL', '32Wx34L'), a 
+     * QuantitativeValue with a unitCode, or a comprehensive and structured
+     * [[SizeSpecification]]; in other cases, the [[width]], [[height]],
+     * [[depth]] and [[weight]] properties may be more applicable.
      *
-     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|string|string[] $size
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract[]|string|string[] $size
      *
      * @return static
      *
-     * @see https://schema.org/size
-     * @see http://pending.schema.org
+     * @see schema:size
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function size($size)
@@ -1310,7 +1341,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/sku
+     * @see schema:sku
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function sku($sku)
@@ -1325,7 +1356,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -1350,8 +1381,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/speed
-     * @see http://auto.schema.org
+     * @see schema:speed
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function speed($speed)
@@ -1366,7 +1397,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/steeringPosition
+     * @see schema:steeringPosition
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function steeringPosition($steeringPosition)
@@ -1381,8 +1412,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/stupidProperty
-     * @see http://attic.schema.org
+     * @see schema:stupidProperty
+     * @see https://attic.schema.org
      */
     public function stupidProperty($stupidProperty)
     {
@@ -1396,7 +1427,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1422,8 +1453,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/tongueWeight
-     * @see http://auto.schema.org
+     * @see schema:tongueWeight
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function tongueWeight($tongueWeight)
@@ -1446,8 +1477,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/trailerWeight
-     * @see http://auto.schema.org
+     * @see schema:trailerWeight
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function trailerWeight($trailerWeight)
@@ -1462,7 +1493,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1477,7 +1508,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleConfiguration
+     * @see schema:vehicleConfiguration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleConfiguration($vehicleConfiguration)
@@ -1492,7 +1523,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleEngine
+     * @see schema:vehicleEngine
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleEngine($vehicleEngine)
@@ -1508,7 +1539,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleIdentificationNumber
+     * @see schema:vehicleIdentificationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleIdentificationNumber($vehicleIdentificationNumber)
@@ -1523,7 +1554,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleInteriorColor
+     * @see schema:vehicleInteriorColor
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleInteriorColor($vehicleInteriorColor)
@@ -1541,7 +1572,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleInteriorType
+     * @see schema:vehicleInteriorType
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleInteriorType($vehicleInteriorType)
@@ -1557,7 +1588,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleModelDate
+     * @see schema:vehicleModelDate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleModelDate($vehicleModelDate)
@@ -1575,7 +1606,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleSeatingCapacity
+     * @see schema:vehicleSeatingCapacity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleSeatingCapacity($vehicleSeatingCapacity)
@@ -1593,8 +1624,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleSpecialUsage
-     * @see http://auto.schema.org
+     * @see schema:vehicleSpecialUsage
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleSpecialUsage($vehicleSpecialUsage)
@@ -1611,7 +1642,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/vehicleTransmission
+     * @see schema:vehicleTransmission
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function vehicleTransmission($vehicleTransmission)
@@ -1626,7 +1657,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/weight
+     * @see schema:weight
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function weight($weight)
@@ -1651,8 +1682,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/weightTotal
-     * @see http://auto.schema.org
+     * @see schema:weightTotal
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function weightTotal($weightTotal)
@@ -1670,8 +1701,8 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/wheelbase
-     * @see http://auto.schema.org
+     * @see schema:wheelbase
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function wheelbase($wheelbase)
@@ -1686,7 +1717,7 @@ class Car extends BaseType implements CarContract, ProductContract, ThingContrac
      *
      * @return static
      *
-     * @see https://schema.org/width
+     * @see schema:width
      */
     public function width($width)
     {

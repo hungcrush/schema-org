@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Indicates a range of postalcodes, usually defined as the set of valid codes
  * between [[postalCodeBegin]] and [[postalCodeEnd]], inclusively.
  *
- * @see https://schema.org/PostalCodeRangeSpecification
- * @see http://pending.schema.org
+ * @see schema:PostalCodeRangeSpecification
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2506
  *
  */
@@ -30,7 +30,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,7 +58,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -75,7 +75,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -93,7 +93,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -108,7 +108,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -124,7 +124,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -138,7 +138,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -152,8 +152,8 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/postalCodeBegin
-     * @see http://pending.schema.org
+     * @see schema:postalCodeBegin
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function postalCodeBegin($postalCodeBegin)
@@ -169,8 +169,8 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/postalCodeEnd
-     * @see http://pending.schema.org
+     * @see schema:postalCodeEnd
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function postalCodeEnd($postalCodeEnd)
@@ -186,7 +186,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -202,7 +202,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -216,7 +216,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -231,7 +231,7 @@ class PostalCodeRangeSpecification extends BaseType implements PostalCodeRangeSp
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

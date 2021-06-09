@@ -20,7 +20,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * values of 'position' are not assigned meaning for a BreadcrumbList, but they
  * should be integers, e.g. beginning with '1' for the first item in the list.
  *
- * @see https://schema.org/BreadcrumbList
+ * @see schema:BreadcrumbList
  *
  */
 class BreadcrumbList extends BaseType implements BreadcrumbListContract, IntangibleContract, ItemListContract, ThingContract
@@ -37,7 +37,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -51,7 +51,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -65,7 +65,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -82,7 +82,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -100,7 +100,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -115,7 +115,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -140,7 +140,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/itemListElement
+     * @see schema:itemListElement
      */
     public function itemListElement($itemListElement)
     {
@@ -154,7 +154,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/itemListOrder
+     * @see schema:itemListOrder
      */
     public function itemListOrder($itemListOrder)
     {
@@ -170,7 +170,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -184,7 +184,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -200,7 +200,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/numberOfItems
+     * @see schema:numberOfItems
      */
     public function numberOfItems($numberOfItems)
     {
@@ -215,7 +215,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -231,7 +231,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -245,7 +245,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -260,7 +260,7 @@ class BreadcrumbList extends BaseType implements BreadcrumbListContract, Intangi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

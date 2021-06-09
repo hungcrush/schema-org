@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A value indicating which roadwheels will receive torque.
  *
- * @see https://schema.org/DriveWheelConfigurationValue
+ * @see schema:DriveWheelConfigurationValue
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -22,37 +22,37 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      * All-wheel Drive is a transmission layout where the engine drives all four
      * wheels.
      *
-     * @see https://schema.org/AllWheelDriveConfiguration
+     * @see schema:AllWheelDriveConfiguration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const AllWheelDriveConfiguration = 'https://schema.org/AllWheelDriveConfiguration';
+     const AllWheelDriveConfiguration = 'schema:AllWheelDriveConfiguration';
 
     /**
      * Four-wheel drive is a transmission layout where the engine primarily
      * drives two wheels with a part-time four-wheel drive capability.
      *
-     * @see https://schema.org/FourWheelDriveConfiguration
+     * @see schema:FourWheelDriveConfiguration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const FourWheelDriveConfiguration = 'https://schema.org/FourWheelDriveConfiguration';
+     const FourWheelDriveConfiguration = 'schema:FourWheelDriveConfiguration';
 
     /**
      * Front-wheel drive is a transmission layout where the engine drives the
      * front wheels.
      *
-     * @see https://schema.org/FrontWheelDriveConfiguration
+     * @see schema:FrontWheelDriveConfiguration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const FrontWheelDriveConfiguration = 'https://schema.org/FrontWheelDriveConfiguration';
+     const FrontWheelDriveConfiguration = 'schema:FrontWheelDriveConfiguration';
 
     /**
      * Real-wheel drive is a transmission layout where the engine drives the
      * rear wheels.
      *
-     * @see https://schema.org/RearWheelDriveConfiguration
+     * @see schema:RearWheelDriveConfiguration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const RearWheelDriveConfiguration = 'https://schema.org/RearWheelDriveConfiguration';
+     const RearWheelDriveConfiguration = 'schema:RearWheelDriveConfiguration';
 
     /**
      * A property-value pair representing an additional characteristics of the
@@ -69,7 +69,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -88,7 +88,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -102,7 +102,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -116,7 +116,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -133,7 +133,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -148,7 +148,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/equal
+     * @see schema:equal
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function equal($equal)
@@ -164,7 +164,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/greater
+     * @see schema:greater
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function greater($greater)
@@ -180,7 +180,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/greaterOrEqual
+     * @see schema:greaterOrEqual
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function greaterOrEqual($greaterOrEqual)
@@ -199,7 +199,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -214,7 +214,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -229,7 +229,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/lesser
+     * @see schema:lesser
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function lesser($lesser)
@@ -245,7 +245,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/lesserOrEqual
+     * @see schema:lesserOrEqual
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function lesserOrEqual($lesserOrEqual)
@@ -262,7 +262,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -276,7 +276,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -291,7 +291,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/nonEqual
+     * @see schema:nonEqual
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function nonEqual($nonEqual)
@@ -307,7 +307,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -323,7 +323,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -337,7 +337,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -352,7 +352,7 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -360,14 +360,14 @@ class DriveWheelConfigurationValue extends BaseType implements DriveWheelConfigu
     }
 
     /**
-     * A pointer to a secondary value that provides additional information on
-     * the original value, e.g. a reference temperature.
+     * A secondary value that provides additional information on the original
+     * value, e.g. a reference temperature or a type of measurement.
      *
-     * @param \Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[] $valueReference
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[]|string|string[] $valueReference
      *
      * @return static
      *
-     * @see https://schema.org/valueReference
+     * @see schema:valueReference
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueReference($valueReference)

@@ -13,7 +13,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * [[MonetaryAmount]] to describe independent amounts of money such as a salary,
  * credit card limits, etc.
  *
- * @see https://schema.org/PriceSpecification
+ * @see schema:PriceSpecification
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -31,7 +31,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,7 +59,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -76,7 +76,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -92,7 +92,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -110,7 +110,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -129,7 +129,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -144,7 +144,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -160,7 +160,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -174,7 +174,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/maxPrice
+     * @see schema:maxPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxPrice($maxPrice)
@@ -189,7 +189,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/minPrice
+     * @see schema:minPrice
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minPrice($minPrice)
@@ -204,7 +204,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -219,7 +219,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -256,7 +256,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
@@ -279,7 +279,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -295,7 +295,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -309,7 +309,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -324,7 +324,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -338,7 +338,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -354,7 +354,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -370,7 +370,7 @@ class PriceSpecification extends BaseType implements PriceSpecificationContract,
      *
      * @return static
      *
-     * @see https://schema.org/valueAddedTaxIncluded
+     * @see schema:valueAddedTaxIncluded
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueAddedTaxIncluded($valueAddedTaxIncluded)

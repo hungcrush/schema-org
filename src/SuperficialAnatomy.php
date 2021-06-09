@@ -26,8 +26,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * visible edges of the scapula, implying the underlying dislocation of the
  * joint (the related anatomical structure).
  *
- * @see https://schema.org/SuperficialAnatomy
- * @see http://health-lifesci.schema.org
+ * @see schema:SuperficialAnatomy
+ * @see https://health-lifesci.schema.org
  *
  */
 class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract, MedicalEntityContract, ThingContract
@@ -44,7 +44,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -58,7 +58,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -74,8 +74,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/associatedPathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedPathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function associatedPathophysiology($associatedPathophysiology)
     {
@@ -90,8 +90,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -105,7 +105,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -122,7 +122,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -136,8 +136,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -155,7 +155,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -170,7 +170,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -185,8 +185,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -202,7 +202,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -217,8 +217,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -232,7 +232,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -247,7 +247,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -262,8 +262,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -277,8 +277,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/relatedAnatomy
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedAnatomy
+     * @see https://health-lifesci.schema.org
      */
     public function relatedAnatomy($relatedAnatomy)
     {
@@ -292,8 +292,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/relatedCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedCondition
+     * @see https://health-lifesci.schema.org
      */
     public function relatedCondition($relatedCondition)
     {
@@ -307,8 +307,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/relatedTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedTherapy
+     * @see https://health-lifesci.schema.org
      */
     public function relatedTherapy($relatedTherapy)
     {
@@ -322,8 +322,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -339,7 +339,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -355,8 +355,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/significance
-     * @see http://health-lifesci.schema.org
+     * @see schema:significance
+     * @see https://health-lifesci.schema.org
      */
     public function significance($significance)
     {
@@ -370,8 +370,8 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -385,7 +385,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -400,7 +400,7 @@ class SuperficialAnatomy extends BaseType implements SuperficialAnatomyContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

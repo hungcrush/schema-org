@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Any complaint sensed and expressed by the patient (therefore defined as
  * subjective)  like stomachache, lower-back pain, or fatigue.
  *
- * @see https://schema.org/MedicalSymptom
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalSymptom
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalSymptom extends BaseType implements MedicalSymptomContract, MedicalConditionContract, MedicalEntityContract, MedicalSignOrSymptomContract, ThingContract
@@ -30,7 +30,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,8 +59,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/associatedAnatomy
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedAnatomy
+     * @see https://health-lifesci.schema.org
      */
     public function associatedAnatomy($associatedAnatomy)
     {
@@ -75,8 +75,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -90,7 +90,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -109,8 +109,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/differentialDiagnosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:differentialDiagnosis
+     * @see https://health-lifesci.schema.org
      */
     public function differentialDiagnosis($differentialDiagnosis)
     {
@@ -127,7 +127,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -135,14 +135,14 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
     }
 
     /**
-     * Specifying a drug or medicine used in a medication procedure
+     * Specifying a drug or medicine used in a medication procedure.
      *
      * @param \Spatie\SchemaOrg\Contracts\DrugContract|\Spatie\SchemaOrg\Contracts\DrugContract[] $drug
      *
      * @return static
      *
-     * @see https://schema.org/drug
-     * @see http://health-lifesci.schema.org
+     * @see schema:drug
+     * @see https://health-lifesci.schema.org
      */
     public function drug($drug)
     {
@@ -157,8 +157,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/epidemiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:epidemiology
+     * @see https://health-lifesci.schema.org
      */
     public function epidemiology($epidemiology)
     {
@@ -173,8 +173,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/expectedPrognosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:expectedPrognosis
+     * @see https://health-lifesci.schema.org
      */
     public function expectedPrognosis($expectedPrognosis)
     {
@@ -188,8 +188,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -207,7 +207,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -222,7 +222,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -237,8 +237,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -254,7 +254,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -269,8 +269,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -284,7 +284,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -299,8 +299,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/naturalProgression
-     * @see http://health-lifesci.schema.org
+     * @see schema:naturalProgression
+     * @see https://health-lifesci.schema.org
      */
     public function naturalProgression($naturalProgression)
     {
@@ -315,8 +315,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/pathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:pathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function pathophysiology($pathophysiology)
     {
@@ -332,8 +332,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/possibleComplication
-     * @see http://health-lifesci.schema.org
+     * @see schema:possibleComplication
+     * @see https://health-lifesci.schema.org
      */
     public function possibleComplication($possibleComplication)
     {
@@ -347,8 +347,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/possibleTreatment
-     * @see http://health-lifesci.schema.org
+     * @see schema:possibleTreatment
+     * @see https://health-lifesci.schema.org
      */
     public function possibleTreatment($possibleTreatment)
     {
@@ -363,7 +363,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -378,8 +378,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/primaryPrevention
-     * @see http://health-lifesci.schema.org
+     * @see schema:primaryPrevention
+     * @see https://health-lifesci.schema.org
      */
     public function primaryPrevention($primaryPrevention)
     {
@@ -394,8 +394,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -409,8 +409,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -425,8 +425,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/riskFactor
-     * @see http://health-lifesci.schema.org
+     * @see schema:riskFactor
+     * @see https://health-lifesci.schema.org
      */
     public function riskFactor($riskFactor)
     {
@@ -442,7 +442,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -457,8 +457,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/secondaryPrevention
-     * @see http://health-lifesci.schema.org
+     * @see schema:secondaryPrevention
+     * @see https://health-lifesci.schema.org
      */
     public function secondaryPrevention($secondaryPrevention)
     {
@@ -474,8 +474,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/signOrSymptom
-     * @see http://health-lifesci.schema.org
+     * @see schema:signOrSymptom
+     * @see https://health-lifesci.schema.org
      */
     public function signOrSymptom($signOrSymptom)
     {
@@ -489,8 +489,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/stage
-     * @see http://health-lifesci.schema.org
+     * @see schema:stage
+     * @see https://health-lifesci.schema.org
      */
     public function stage($stage)
     {
@@ -504,8 +504,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/status
-     * @see http://health-lifesci.schema.org
+     * @see schema:status
+     * @see https://health-lifesci.schema.org
      */
     public function status($status)
     {
@@ -519,8 +519,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -534,7 +534,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -549,8 +549,8 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/typicalTest
-     * @see http://health-lifesci.schema.org
+     * @see schema:typicalTest
+     * @see https://health-lifesci.schema.org
      */
     public function typicalTest($typicalTest)
     {
@@ -564,7 +564,7 @@ class MedicalSymptom extends BaseType implements MedicalSymptomContract, Medical
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

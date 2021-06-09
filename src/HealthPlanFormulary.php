@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * For a given health insurance plan, the specification for costs and coverage
  * of prescription drugs.
  *
- * @see https://schema.org/HealthPlanFormulary
- * @see http://pending.schema.org
+ * @see schema:HealthPlanFormulary
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1062
  *
  */
@@ -29,7 +29,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -89,8 +89,8 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanCostSharing
-     * @see http://pending.schema.org
+     * @see schema:healthPlanCostSharing
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanCostSharing($healthPlanCostSharing)
@@ -105,8 +105,8 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanDrugTier
-     * @see http://pending.schema.org
+     * @see schema:healthPlanDrugTier
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanDrugTier($healthPlanDrugTier)
@@ -125,7 +125,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -140,7 +140,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -156,7 +156,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -170,7 +170,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -184,8 +184,8 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/offersPrescriptionByMail
-     * @see http://pending.schema.org
+     * @see schema:offersPrescriptionByMail
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function offersPrescriptionByMail($offersPrescriptionByMail)
@@ -201,7 +201,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -217,7 +217,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -231,7 +231,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -246,7 +246,7 @@ class HealthPlanFormulary extends BaseType implements HealthPlanFormularyContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

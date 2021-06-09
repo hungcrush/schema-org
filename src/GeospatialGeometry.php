@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * (Eventually to be defined as) a supertype of GeoShape designed to accommodate
  * definitions from Geo-Spatial best practices.
  *
- * @see https://schema.org/GeospatialGeometry
- * @see http://pending.schema.org
+ * @see schema:GeospatialGeometry
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1375
  *
  */
@@ -29,7 +29,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -92,7 +92,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoContains
+     * @see schema:geoContains
      */
     public function geoContains($geoContains)
     {
@@ -108,7 +108,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoCoveredBy
+     * @see schema:geoCoveredBy
      */
     public function geoCoveredBy($geoCoveredBy)
     {
@@ -125,7 +125,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoCovers
+     * @see schema:geoCovers
      */
     public function geoCovers($geoCovers)
     {
@@ -143,7 +143,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoCrosses
+     * @see schema:geoCrosses
      */
     public function geoCrosses($geoCrosses)
     {
@@ -160,7 +160,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoDisjoint
+     * @see schema:geoDisjoint
      */
     public function geoDisjoint($geoDisjoint)
     {
@@ -179,7 +179,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoEquals
+     * @see schema:geoEquals
      */
     public function geoEquals($geoEquals)
     {
@@ -195,7 +195,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoIntersects
+     * @see schema:geoIntersects
      */
     public function geoIntersects($geoIntersects)
     {
@@ -212,7 +212,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoOverlaps
+     * @see schema:geoOverlaps
      */
     public function geoOverlaps($geoOverlaps)
     {
@@ -229,7 +229,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoTouches
+     * @see schema:geoTouches
      */
     public function geoTouches($geoTouches)
     {
@@ -246,7 +246,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoWithin
+     * @see schema:geoWithin
      */
     public function geoWithin($geoWithin)
     {
@@ -264,7 +264,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -279,7 +279,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -295,7 +295,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -309,7 +309,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -324,7 +324,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -340,7 +340,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -354,7 +354,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -369,7 +369,7 @@ class GeospatialGeometry extends BaseType implements GeospatialGeometryContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

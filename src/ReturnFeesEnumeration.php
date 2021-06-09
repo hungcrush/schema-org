@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * ReturnFeesEnumeration expresses policies for return fees.
  *
- * @see https://schema.org/ReturnFeesEnumeration
- * @see http://pending.schema.org
+ * @see schema:ReturnFeesEnumeration
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2288
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -21,29 +21,29 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
     /**
      * OriginalShippingFees ...
      *
-     * @see https://schema.org/OriginalShippingFees
-     * @see http://pending.schema.org
+     * @see schema:OriginalShippingFees
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const OriginalShippingFees = 'https://schema.org/OriginalShippingFees';
+     const OriginalShippingFees = 'schema:OriginalShippingFees';
 
     /**
      * RestockingFees ...
      *
-     * @see https://schema.org/RestockingFees
-     * @see http://pending.schema.org
+     * @see schema:RestockingFees
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const RestockingFees = 'https://schema.org/RestockingFees';
+     const RestockingFees = 'schema:RestockingFees';
 
     /**
      * ReturnShippingFees ...
      *
-     * @see https://schema.org/ReturnShippingFees
-     * @see http://pending.schema.org
+     * @see schema:ReturnShippingFees
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const ReturnShippingFees = 'https://schema.org/ReturnShippingFees';
+     const ReturnShippingFees = 'schema:ReturnShippingFees';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -57,7 +57,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -71,7 +71,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -85,7 +85,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -102,7 +102,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -120,7 +120,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -135,7 +135,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -151,7 +151,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -165,7 +165,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -180,7 +180,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -196,7 +196,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -210,7 +210,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -225,7 +225,7 @@ class ReturnFeesEnumeration extends BaseType implements ReturnFeesEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

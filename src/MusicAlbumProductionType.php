@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Classification of the album by it's type of content: soundtrack, live album,
  * studio album, etc.
  *
- * @see https://schema.org/MusicAlbumProductionType
+ * @see schema:MusicAlbumProductionType
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -21,74 +21,74 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
     /**
      * CompilationAlbum.
      *
-     * @see https://schema.org/CompilationAlbum
+     * @see schema:CompilationAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const CompilationAlbum = 'https://schema.org/CompilationAlbum';
+     const CompilationAlbum = 'schema:CompilationAlbum';
 
     /**
      * DJMixAlbum.
      *
-     * @see https://schema.org/DJMixAlbum
+     * @see schema:DJMixAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const DJMixAlbum = 'https://schema.org/DJMixAlbum';
+     const DJMixAlbum = 'schema:DJMixAlbum';
 
     /**
      * DemoAlbum.
      *
-     * @see https://schema.org/DemoAlbum
+     * @see schema:DemoAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const DemoAlbum = 'https://schema.org/DemoAlbum';
+     const DemoAlbum = 'schema:DemoAlbum';
 
     /**
      * LiveAlbum.
      *
-     * @see https://schema.org/LiveAlbum
+     * @see schema:LiveAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const LiveAlbum = 'https://schema.org/LiveAlbum';
+     const LiveAlbum = 'schema:LiveAlbum';
 
     /**
      * MixtapeAlbum.
      *
-     * @see https://schema.org/MixtapeAlbum
+     * @see schema:MixtapeAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const MixtapeAlbum = 'https://schema.org/MixtapeAlbum';
+     const MixtapeAlbum = 'schema:MixtapeAlbum';
 
     /**
      * RemixAlbum.
      *
-     * @see https://schema.org/RemixAlbum
+     * @see schema:RemixAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const RemixAlbum = 'https://schema.org/RemixAlbum';
+     const RemixAlbum = 'schema:RemixAlbum';
 
     /**
      * SoundtrackAlbum.
      *
-     * @see https://schema.org/SoundtrackAlbum
+     * @see schema:SoundtrackAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const SoundtrackAlbum = 'https://schema.org/SoundtrackAlbum';
+     const SoundtrackAlbum = 'schema:SoundtrackAlbum';
 
     /**
      * SpokenWordAlbum.
      *
-     * @see https://schema.org/SpokenWordAlbum
+     * @see schema:SpokenWordAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const SpokenWordAlbum = 'https://schema.org/SpokenWordAlbum';
+     const SpokenWordAlbum = 'schema:SpokenWordAlbum';
 
     /**
      * StudioAlbum.
      *
-     * @see https://schema.org/StudioAlbum
+     * @see schema:StudioAlbum
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ
      */
-     const StudioAlbum = 'https://schema.org/StudioAlbum';
+     const StudioAlbum = 'schema:StudioAlbum';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -102,7 +102,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -116,7 +116,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -130,7 +130,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -147,7 +147,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -165,7 +165,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -180,7 +180,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -196,7 +196,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -210,7 +210,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -225,7 +225,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -241,7 +241,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -255,7 +255,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -270,7 +270,7 @@ class MusicAlbumProductionType extends BaseType implements MusicAlbumProductionT
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

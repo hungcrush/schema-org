@@ -17,8 +17,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * is randomly assigned to a treatment group or a control group before the start
  * of the treatment.
  *
- * @see https://schema.org/MedicalObservationalStudy
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalObservationalStudy
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalObservationalStudy extends BaseType implements MedicalObservationalStudyContract, MedicalEntityContract, MedicalStudyContract, ThingContract
@@ -35,7 +35,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -49,7 +49,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -64,8 +64,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -79,7 +79,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -96,7 +96,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -110,8 +110,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -126,8 +126,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/healthCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:healthCondition
+     * @see https://health-lifesci.schema.org
      */
     public function healthCondition($healthCondition)
     {
@@ -145,7 +145,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -160,7 +160,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -175,8 +175,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -192,7 +192,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -207,8 +207,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -222,7 +222,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -237,7 +237,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -252,8 +252,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -267,8 +267,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -284,7 +284,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -300,7 +300,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -314,8 +314,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/status
-     * @see http://health-lifesci.schema.org
+     * @see schema:status
+     * @see https://health-lifesci.schema.org
      */
     public function status($status)
     {
@@ -329,8 +329,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -344,8 +344,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/studyDesign
-     * @see http://health-lifesci.schema.org
+     * @see schema:studyDesign
+     * @see https://health-lifesci.schema.org
      */
     public function studyDesign($studyDesign)
     {
@@ -359,8 +359,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/studyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:studyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function studyLocation($studyLocation)
     {
@@ -375,8 +375,8 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/studySubject
-     * @see http://health-lifesci.schema.org
+     * @see schema:studySubject
+     * @see https://health-lifesci.schema.org
      */
     public function studySubject($studySubject)
     {
@@ -390,7 +390,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -405,7 +405,7 @@ class MedicalObservationalStudy extends BaseType implements MedicalObservational
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

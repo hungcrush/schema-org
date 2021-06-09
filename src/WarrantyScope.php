@@ -17,7 +17,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * * http://purl.org/goodrelations/v1#PartsAndLabor-BringIn
  * * http://purl.org/goodrelations/v1#PartsAndLabor-PickUp
  *
- * @see https://schema.org/WarrantyScope
+ * @see schema:WarrantyScope
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -36,7 +36,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -50,7 +50,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -64,7 +64,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -81,7 +81,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -99,7 +99,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -114,7 +114,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -130,7 +130,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -144,7 +144,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -159,7 +159,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -175,7 +175,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -189,7 +189,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -204,7 +204,7 @@ class WarrantyScope extends BaseType implements WarrantyScopeContract, Enumerati
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

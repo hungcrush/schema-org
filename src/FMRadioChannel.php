@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A radio channel that uses FM.
  *
- * @see https://schema.org/FMRadioChannel
+ * @see schema:FMRadioChannel
  * @link https://github.com/schemaorg/schemaorg/issues/1004
  *
  */
@@ -29,7 +29,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,7 +58,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/broadcastChannelId
+     * @see schema:broadcastChannelId
      */
     public function broadcastChannelId($broadcastChannelId)
     {
@@ -74,7 +74,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/broadcastFrequency
+     * @see schema:broadcastFrequency
      * @link https://github.com/schemaorg/schemaorg/issues/1004
      */
     public function broadcastFrequency($broadcastFrequency)
@@ -90,7 +90,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/broadcastServiceTier
+     * @see schema:broadcastServiceTier
      */
     public function broadcastServiceTier($broadcastServiceTier)
     {
@@ -104,7 +104,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -121,7 +121,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -135,7 +135,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/genre
+     * @see schema:genre
      */
     public function genre($genre)
     {
@@ -153,7 +153,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -168,7 +168,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -182,7 +182,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/inBroadcastLineup
+     * @see schema:inBroadcastLineup
      */
     public function inBroadcastLineup($inBroadcastLineup)
     {
@@ -198,7 +198,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -212,7 +212,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -227,7 +227,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -241,7 +241,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/providesBroadcastService
+     * @see schema:providesBroadcastService
      */
     public function providesBroadcastService($providesBroadcastService)
     {
@@ -257,7 +257,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -271,7 +271,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -286,7 +286,7 @@ class FMRadioChannel extends BaseType implements FMRadioChannelContract, Broadca
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

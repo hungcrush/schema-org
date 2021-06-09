@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * RefundTypeEnumeration enumerates several kinds of product return refund
  * types.
  *
- * @see https://schema.org/RefundTypeEnumeration
- * @see http://pending.schema.org
+ * @see schema:RefundTypeEnumeration
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2288
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -22,29 +22,29 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
     /**
      * A ExchangeRefund ...
      *
-     * @see https://schema.org/ExchangeRefund
-     * @see http://pending.schema.org
+     * @see schema:ExchangeRefund
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const ExchangeRefund = 'https://schema.org/ExchangeRefund';
+     const ExchangeRefund = 'schema:ExchangeRefund';
 
     /**
      * A FullRefund ...
      *
-     * @see https://schema.org/FullRefund
-     * @see http://pending.schema.org
+     * @see schema:FullRefund
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const FullRefund = 'https://schema.org/FullRefund';
+     const FullRefund = 'schema:FullRefund';
 
     /**
      * A StoreCreditRefund ...
      *
-     * @see https://schema.org/StoreCreditRefund
-     * @see http://pending.schema.org
+     * @see schema:StoreCreditRefund
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
-     const StoreCreditRefund = 'https://schema.org/StoreCreditRefund';
+     const StoreCreditRefund = 'schema:StoreCreditRefund';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -58,7 +58,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -72,7 +72,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -86,7 +86,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -103,7 +103,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -121,7 +121,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -136,7 +136,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -152,7 +152,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -166,7 +166,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -181,7 +181,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -197,7 +197,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -211,7 +211,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -226,7 +226,7 @@ class RefundTypeEnumeration extends BaseType implements RefundTypeEnumerationCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

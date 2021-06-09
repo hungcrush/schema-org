@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The anatomical location at which two or more bones make contact.
  *
- * @see https://schema.org/Joint
- * @see http://health-lifesci.schema.org
+ * @see schema:Joint
+ * @see https://health-lifesci.schema.org
  *
  */
 class Joint extends BaseType implements JointContract, AnatomicalStructureContract, MedicalEntityContract, ThingContract
@@ -28,7 +28,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,8 +58,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/associatedPathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedPathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function associatedPathophysiology($associatedPathophysiology)
     {
@@ -73,8 +73,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/biomechnicalClass
-     * @see http://health-lifesci.schema.org
+     * @see schema:biomechnicalClass
+     * @see https://health-lifesci.schema.org
      */
     public function biomechnicalClass($biomechnicalClass)
     {
@@ -88,8 +88,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/bodyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:bodyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function bodyLocation($bodyLocation)
     {
@@ -104,8 +104,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -119,8 +119,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/connectedTo
-     * @see http://health-lifesci.schema.org
+     * @see schema:connectedTo
+     * @see https://health-lifesci.schema.org
      */
     public function connectedTo($connectedTo)
     {
@@ -134,7 +134,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -149,8 +149,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/diagram
-     * @see http://health-lifesci.schema.org
+     * @see schema:diagram
+     * @see https://health-lifesci.schema.org
      */
     public function diagram($diagram)
     {
@@ -167,7 +167,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -181,8 +181,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/functionalClass
-     * @see http://health-lifesci.schema.org
+     * @see schema:functionalClass
+     * @see https://health-lifesci.schema.org
      */
     public function functionalClass($functionalClass)
     {
@@ -196,8 +196,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -215,7 +215,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -230,7 +230,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -245,8 +245,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -262,7 +262,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -277,8 +277,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -292,7 +292,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -306,8 +306,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/partOfSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:partOfSystem
+     * @see https://health-lifesci.schema.org
      */
     public function partOfSystem($partOfSystem)
     {
@@ -322,7 +322,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -337,8 +337,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -352,8 +352,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/relatedCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedCondition
+     * @see https://health-lifesci.schema.org
      */
     public function relatedCondition($relatedCondition)
     {
@@ -367,8 +367,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/relatedTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedTherapy
+     * @see https://health-lifesci.schema.org
      */
     public function relatedTherapy($relatedTherapy)
     {
@@ -382,8 +382,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -399,7 +399,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -413,8 +413,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/structuralClass
-     * @see http://health-lifesci.schema.org
+     * @see schema:structuralClass
+     * @see https://health-lifesci.schema.org
      */
     public function structuralClass($structuralClass)
     {
@@ -428,8 +428,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -443,8 +443,8 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/subStructure
-     * @see http://health-lifesci.schema.org
+     * @see schema:subStructure
+     * @see https://health-lifesci.schema.org
      */
     public function subStructure($subStructure)
     {
@@ -458,7 +458,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -473,7 +473,7 @@ class Joint extends BaseType implements JointContract, AnatomicalStructureContra
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

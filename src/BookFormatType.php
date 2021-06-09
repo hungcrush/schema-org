@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The publication format of the book.
  *
- * @see https://schema.org/BookFormatType
+ * @see schema:BookFormatType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,39 +21,39 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      * bookFormat property. There is also a type 'Audiobook' in the bib
      * extension which includes Audiobook specific properties.
      *
-     * @see https://schema.org/AudiobookFormat
+     * @see schema:AudiobookFormat
      */
-     const AudiobookFormat = 'https://schema.org/AudiobookFormat';
+     const AudiobookFormat = 'schema:AudiobookFormat';
 
     /**
      * Book format: Ebook.
      *
-     * @see https://schema.org/EBook
+     * @see schema:EBook
      */
-     const EBook = 'https://schema.org/EBook';
+     const EBook = 'schema:EBook';
 
     /**
      * Book format: GraphicNovel. May represent a bound collection of ComicIssue
      * instances.
      *
-     * @see https://schema.org/GraphicNovel
-     * @see http://bib.schema.org
+     * @see schema:GraphicNovel
+     * @see https://bib.schema.org
      */
-     const GraphicNovel = 'https://schema.org/GraphicNovel';
+     const GraphicNovel = 'schema:GraphicNovel';
 
     /**
      * Book format: Hardcover.
      *
-     * @see https://schema.org/Hardcover
+     * @see schema:Hardcover
      */
-     const Hardcover = 'https://schema.org/Hardcover';
+     const Hardcover = 'schema:Hardcover';
 
     /**
      * Book format: Paperback.
      *
-     * @see https://schema.org/Paperback
+     * @see schema:Paperback
      */
-     const Paperback = 'https://schema.org/Paperback';
+     const Paperback = 'schema:Paperback';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -67,7 +67,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -81,7 +81,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -95,7 +95,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -112,7 +112,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -130,7 +130,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -145,7 +145,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -161,7 +161,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -175,7 +175,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -190,7 +190,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -206,7 +206,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -220,7 +220,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -235,7 +235,7 @@ class BookFormatType extends BaseType implements BookFormatTypeContract, Enumera
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

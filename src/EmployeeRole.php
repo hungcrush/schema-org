@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A subclass of OrganizationRole used to describe employee relationships.
  *
- * @see https://schema.org/EmployeeRole
+ * @see schema:EmployeeRole
  *
  */
 class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleContract, OrganizationRoleContract, RoleContract, ThingContract
@@ -28,7 +28,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/baseSalary
+     * @see schema:baseSalary
      */
     public function baseSalary($baseSalary)
     {
@@ -70,7 +70,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -87,7 +87,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -102,7 +102,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -121,7 +121,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -136,7 +136,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -152,7 +152,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -166,7 +166,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -182,7 +182,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/namedPosition
+     * @see schema:namedPosition
      */
     public function namedPosition($namedPosition)
     {
@@ -197,7 +197,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/numberedPosition
+     * @see schema:numberedPosition
      */
     public function numberedPosition($numberedPosition)
     {
@@ -212,7 +212,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -229,7 +229,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/roleName
+     * @see schema:roleName
      */
     public function roleName($roleName)
     {
@@ -245,7 +245,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/salaryCurrency
+     * @see schema:salaryCurrency
      */
     public function salaryCurrency($salaryCurrency)
     {
@@ -261,7 +261,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -276,7 +276,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -291,7 +291,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -306,7 +306,7 @@ class EmployeeRole extends BaseType implements EmployeeRoleContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

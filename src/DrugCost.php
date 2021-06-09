@@ -15,8 +15,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * captures some of the variables, costs should be used with caution by
  * consumers of this schema's markup.
  *
- * @see https://schema.org/DrugCost
- * @see http://health-lifesci.schema.org
+ * @see schema:DrugCost
+ * @see https://health-lifesci.schema.org
  *
  */
 class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContract, ThingContract
@@ -33,7 +33,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,7 +47,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -61,8 +61,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/applicableLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:applicableLocation
+     * @see https://health-lifesci.schema.org
      */
     public function applicableLocation($applicableLocation)
     {
@@ -77,8 +77,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -92,8 +92,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/costCategory
-     * @see http://health-lifesci.schema.org
+     * @see schema:costCategory
+     * @see https://health-lifesci.schema.org
      */
     public function costCategory($costCategory)
     {
@@ -102,14 +102,14 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
 
     /**
      * The currency (in 3-letter of the drug cost. See:
-     * http://en.wikipedia.org/wiki/ISO_4217
+     * http://en.wikipedia.org/wiki/ISO_4217.
      *
      * @param string|string[] $costCurrency
      *
      * @return static
      *
-     * @see https://schema.org/costCurrency
-     * @see http://health-lifesci.schema.org
+     * @see schema:costCurrency
+     * @see https://health-lifesci.schema.org
      */
     public function costCurrency($costCurrency)
     {
@@ -124,8 +124,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/costOrigin
-     * @see http://health-lifesci.schema.org
+     * @see schema:costOrigin
+     * @see https://health-lifesci.schema.org
      */
     public function costOrigin($costOrigin)
     {
@@ -139,8 +139,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/costPerUnit
-     * @see http://health-lifesci.schema.org
+     * @see schema:costPerUnit
+     * @see https://health-lifesci.schema.org
      */
     public function costPerUnit($costPerUnit)
     {
@@ -154,7 +154,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -171,7 +171,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -185,8 +185,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/drugUnit
-     * @see http://health-lifesci.schema.org
+     * @see schema:drugUnit
+     * @see https://health-lifesci.schema.org
      */
     public function drugUnit($drugUnit)
     {
@@ -200,8 +200,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -219,7 +219,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -234,7 +234,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -249,8 +249,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -266,7 +266,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -281,8 +281,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -296,7 +296,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -311,7 +311,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -326,8 +326,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -341,8 +341,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -358,7 +358,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -372,8 +372,8 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -387,7 +387,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -402,7 +402,7 @@ class DrugCost extends BaseType implements DrugCostContract, MedicalEntityContra
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

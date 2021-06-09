@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * The average rating based on multiple ratings or reviews.
  *
- * @see https://schema.org/AggregateRating
+ * @see schema:AggregateRating
  *
  */
 class AggregateRating extends BaseType implements AggregateRatingContract, IntangibleContract, RatingContract, ThingContract
@@ -27,7 +27,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/author
+     * @see schema:author
      */
     public function author($author)
     {
@@ -72,7 +72,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/bestRating
+     * @see schema:bestRating
      */
     public function bestRating($bestRating)
     {
@@ -86,7 +86,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -103,7 +103,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -121,7 +121,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -136,7 +136,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -150,7 +150,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/itemReviewed
+     * @see schema:itemReviewed
      */
     public function itemReviewed($itemReviewed)
     {
@@ -166,7 +166,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -180,7 +180,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -195,7 +195,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -209,7 +209,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/ratingCount
+     * @see schema:ratingCount
      */
     public function ratingCount($ratingCount)
     {
@@ -226,8 +226,8 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/ratingExplanation
-     * @see http://pending.schema.org
+     * @see schema:ratingExplanation
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2300
      */
     public function ratingExplanation($ratingExplanation)
@@ -249,7 +249,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/ratingValue
+     * @see schema:ratingValue
      */
     public function ratingValue($ratingValue)
     {
@@ -264,7 +264,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/reviewAspect
+     * @see schema:reviewAspect
      * @link https://github.com/schemaorg/schemaorg/issues/1689
      */
     public function reviewAspect($reviewAspect)
@@ -279,7 +279,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/reviewCount
+     * @see schema:reviewCount
      */
     public function reviewCount($reviewCount)
     {
@@ -295,7 +295,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -309,7 +309,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -324,7 +324,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -339,7 +339,7 @@ class AggregateRating extends BaseType implements AggregateRatingContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/worstRating
+     * @see schema:worstRating
      */
     public function worstRating($worstRating)
     {

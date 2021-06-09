@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A Category Code.
  *
- * @see https://schema.org/CategoryCode
- * @see http://pending.schema.org
+ * @see schema:CategoryCode
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/894
  *
  */
@@ -29,7 +29,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/codeValue
-     * @see http://pending.schema.org
+     * @see schema:codeValue
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/894
      */
     public function codeValue($codeValue)
@@ -73,7 +73,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -90,7 +90,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -108,7 +108,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -123,7 +123,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -137,8 +137,8 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/inCodeSet
-     * @see http://pending.schema.org
+     * @see schema:inCodeSet
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/894
      */
     public function inCodeSet($inCodeSet)
@@ -153,8 +153,8 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/inDefinedTermSet
-     * @see http://pending.schema.org
+     * @see schema:inDefinedTermSet
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/894
      */
     public function inDefinedTermSet($inDefinedTermSet)
@@ -171,7 +171,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -185,7 +185,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -200,7 +200,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -216,7 +216,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -230,7 +230,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -245,8 +245,8 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/termCode
-     * @see http://pending.schema.org
+     * @see schema:termCode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/894
      */
     public function termCode($termCode)
@@ -261,7 +261,7 @@ class CategoryCode extends BaseType implements CategoryCodeContract, DefinedTerm
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

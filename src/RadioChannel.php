@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A unique instance of a radio BroadcastService on a CableOrSatelliteService
  * lineup.
  *
- * @see https://schema.org/RadioChannel
+ * @see schema:RadioChannel
  *
  */
 class RadioChannel extends BaseType implements RadioChannelContract, BroadcastChannelContract, IntangibleContract, ThingContract
@@ -28,7 +28,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/broadcastChannelId
+     * @see schema:broadcastChannelId
      */
     public function broadcastChannelId($broadcastChannelId)
     {
@@ -73,7 +73,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/broadcastFrequency
+     * @see schema:broadcastFrequency
      * @link https://github.com/schemaorg/schemaorg/issues/1004
      */
     public function broadcastFrequency($broadcastFrequency)
@@ -89,7 +89,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/broadcastServiceTier
+     * @see schema:broadcastServiceTier
      */
     public function broadcastServiceTier($broadcastServiceTier)
     {
@@ -103,7 +103,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -120,7 +120,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -134,7 +134,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/genre
+     * @see schema:genre
      */
     public function genre($genre)
     {
@@ -152,7 +152,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -167,7 +167,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -181,7 +181,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/inBroadcastLineup
+     * @see schema:inBroadcastLineup
      */
     public function inBroadcastLineup($inBroadcastLineup)
     {
@@ -197,7 +197,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -211,7 +211,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -226,7 +226,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -240,7 +240,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/providesBroadcastService
+     * @see schema:providesBroadcastService
      */
     public function providesBroadcastService($providesBroadcastService)
     {
@@ -256,7 +256,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -270,7 +270,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -285,7 +285,7 @@ class RadioChannel extends BaseType implements RadioChannelContract, BroadcastCh
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

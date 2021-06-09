@@ -9,8 +9,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A description of costs to the patient under a given network or formulary.
  *
- * @see https://schema.org/HealthPlanCostSharingSpecification
- * @see http://pending.schema.org
+ * @see schema:HealthPlanCostSharingSpecification
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1062
  *
  */
@@ -28,7 +28,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -73,7 +73,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -88,8 +88,8 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanCoinsuranceOption
-     * @see http://pending.schema.org
+     * @see schema:healthPlanCoinsuranceOption
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanCoinsuranceOption($healthPlanCoinsuranceOption)
@@ -105,8 +105,8 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanCoinsuranceRate
-     * @see http://pending.schema.org
+     * @see schema:healthPlanCoinsuranceRate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanCoinsuranceRate($healthPlanCoinsuranceRate)
@@ -121,8 +121,8 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanCopay
-     * @see http://pending.schema.org
+     * @see schema:healthPlanCopay
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanCopay($healthPlanCopay)
@@ -138,8 +138,8 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanCopayOption
-     * @see http://pending.schema.org
+     * @see schema:healthPlanCopayOption
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanCopayOption($healthPlanCopayOption)
@@ -154,8 +154,8 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/healthPlanPharmacyCategory
-     * @see http://pending.schema.org
+     * @see schema:healthPlanPharmacyCategory
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1062
      */
     public function healthPlanPharmacyCategory($healthPlanPharmacyCategory)
@@ -174,7 +174,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -189,7 +189,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -205,7 +205,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -219,7 +219,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -234,7 +234,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -250,7 +250,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -264,7 +264,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -279,7 +279,7 @@ class HealthPlanCostSharingSpecification extends BaseType implements HealthPlanC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

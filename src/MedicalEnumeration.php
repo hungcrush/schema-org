@@ -13,8 +13,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * collection of items or a listing of all of the elements of a set in medicine
  * practice.
  *
- * @see https://schema.org/MedicalEnumeration
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalEnumeration
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -32,7 +32,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,7 +60,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -77,7 +77,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -95,7 +95,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -110,7 +110,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -126,7 +126,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -140,7 +140,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -155,7 +155,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -171,7 +171,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -185,7 +185,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -200,7 +200,7 @@ class MedicalEnumeration extends BaseType implements MedicalEnumerationContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

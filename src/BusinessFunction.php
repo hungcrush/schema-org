@@ -25,7 +25,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * * http://purl.org/goodrelations/v1#Sell
  * * http://purl.org/goodrelations/v1#Buy
  *
- * @see https://schema.org/BusinessFunction
+ * @see schema:BusinessFunction
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -44,7 +44,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -58,7 +58,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -72,7 +72,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,7 +89,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -107,7 +107,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -122,7 +122,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -138,7 +138,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -152,7 +152,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -167,7 +167,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -183,7 +183,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -197,7 +197,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -212,7 +212,7 @@ class BusinessFunction extends BaseType implements BusinessFunctionContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A medical procedure intended primarily for therapeutic purposes, aimed at
  * improving a health condition.
  *
- * @see https://schema.org/TherapeuticProcedure
- * @see http://health-lifesci.schema.org
+ * @see schema:TherapeuticProcedure
+ * @see https://health-lifesci.schema.org
  *
  */
 class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContract, MedicalEntityContract, MedicalProcedureContract, ThingContract
@@ -29,7 +29,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,8 +47,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/adverseOutcome
-     * @see http://health-lifesci.schema.org
+     * @see schema:adverseOutcome
+     * @see https://health-lifesci.schema.org
      */
     public function adverseOutcome($adverseOutcome)
     {
@@ -62,7 +62,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -76,8 +76,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/bodyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:bodyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function bodyLocation($bodyLocation)
     {
@@ -92,8 +92,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -107,7 +107,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -124,7 +124,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -139,8 +139,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/doseSchedule
-     * @see http://health-lifesci.schema.org
+     * @see schema:doseSchedule
+     * @see https://health-lifesci.schema.org
      */
     public function doseSchedule($doseSchedule)
     {
@@ -148,14 +148,14 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
     }
 
     /**
-     * Specifying a drug or medicine used in a medication procedure
+     * Specifying a drug or medicine used in a medication procedure.
      *
      * @param \Spatie\SchemaOrg\Contracts\DrugContract|\Spatie\SchemaOrg\Contracts\DrugContract[] $drug
      *
      * @return static
      *
-     * @see https://schema.org/drug
-     * @see http://health-lifesci.schema.org
+     * @see schema:drug
+     * @see https://health-lifesci.schema.org
      */
     public function drug($drug)
     {
@@ -169,8 +169,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/followup
-     * @see http://health-lifesci.schema.org
+     * @see schema:followup
+     * @see https://health-lifesci.schema.org
      */
     public function followup($followup)
     {
@@ -184,8 +184,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -199,8 +199,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/howPerformed
-     * @see http://health-lifesci.schema.org
+     * @see schema:howPerformed
+     * @see https://health-lifesci.schema.org
      */
     public function howPerformed($howPerformed)
     {
@@ -218,7 +218,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -233,7 +233,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -248,8 +248,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -265,7 +265,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -280,8 +280,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -295,7 +295,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -310,7 +310,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -325,8 +325,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/preparation
-     * @see http://health-lifesci.schema.org
+     * @see schema:preparation
+     * @see https://health-lifesci.schema.org
      */
     public function preparation($preparation)
     {
@@ -341,8 +341,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/procedureType
-     * @see http://health-lifesci.schema.org
+     * @see schema:procedureType
+     * @see https://health-lifesci.schema.org
      */
     public function procedureType($procedureType)
     {
@@ -357,8 +357,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -372,8 +372,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -389,7 +389,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -403,8 +403,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/status
-     * @see http://health-lifesci.schema.org
+     * @see schema:status
+     * @see https://health-lifesci.schema.org
      */
     public function status($status)
     {
@@ -418,8 +418,8 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -433,7 +433,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -448,7 +448,7 @@ class TherapeuticProcedure extends BaseType implements TherapeuticProcedureContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

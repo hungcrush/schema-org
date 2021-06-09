@@ -62,6 +62,10 @@ interface VehicleContract
 
     public function gtin8($gtin8);
 
+    public function hasEnergyConsumptionDetails($hasEnergyConsumptionDetails);
+
+    public function hasMeasurement($hasMeasurement);
+
     public function hasMerchantReturnPolicy($hasMerchantReturnPolicy);
 
     public function hasProductReturnPolicy($hasProductReturnPolicy);

@@ -17,7 +17,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * 
  * * [[CancelAction]]: The antonym of ConfirmAction.
  *
- * @see https://schema.org/ConfirmAction
+ * @see schema:ConfirmAction
  *
  */
 class ConfirmAction extends BaseType implements ConfirmActionContract, ActionContract, CommunicateActionContract, InformActionContract, InteractActionContract, ThingContract
@@ -29,7 +29,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -44,7 +44,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -63,7 +63,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -78,7 +78,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -92,7 +92,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -106,7 +106,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -123,7 +123,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -146,7 +146,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -161,7 +161,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -176,7 +176,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -194,7 +194,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -209,7 +209,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -226,7 +226,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -242,7 +242,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -256,7 +256,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/language
+     * @see schema:language
      */
     public function language($language)
     {
@@ -264,14 +264,14 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -287,7 +287,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -301,7 +301,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -318,7 +318,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -333,7 +333,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -348,7 +348,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -363,7 +363,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/recipient
+     * @see schema:recipient
      */
     public function recipient($recipient)
     {
@@ -377,7 +377,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -393,7 +393,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -416,7 +416,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -431,7 +431,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -446,7 +446,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -460,7 +460,7 @@ class ConfirmAction extends BaseType implements ConfirmActionContract, ActionCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

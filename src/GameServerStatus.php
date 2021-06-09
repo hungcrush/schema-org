@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Status of a game server.
  *
- * @see https://schema.org/GameServerStatus
+ * @see schema:GameServerStatus
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,32 +21,32 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      * Game server status: OfflinePermanently. Server is offline and not
      * available.
      *
-     * @see https://schema.org/OfflinePermanently
+     * @see schema:OfflinePermanently
      */
-     const OfflinePermanently = 'https://schema.org/OfflinePermanently';
+     const OfflinePermanently = 'schema:OfflinePermanently';
 
     /**
      * Game server status: OfflineTemporarily. Server is offline now but it can
      * be online soon.
      *
-     * @see https://schema.org/OfflineTemporarily
+     * @see schema:OfflineTemporarily
      */
-     const OfflineTemporarily = 'https://schema.org/OfflineTemporarily';
+     const OfflineTemporarily = 'schema:OfflineTemporarily';
 
     /**
      * Game server status: Online. Server is available.
      *
-     * @see https://schema.org/Online
+     * @see schema:Online
      */
-     const Online = 'https://schema.org/Online';
+     const Online = 'schema:Online';
 
     /**
      * Game server status: OnlineFull. Server is online but unavailable. The
      * maximum number of players has reached.
      *
-     * @see https://schema.org/OnlineFull
+     * @see schema:OnlineFull
      */
-     const OnlineFull = 'https://schema.org/OnlineFull';
+     const OnlineFull = 'schema:OnlineFull';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -60,7 +60,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -74,7 +74,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -88,7 +88,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -105,7 +105,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -123,7 +123,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -138,7 +138,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -154,7 +154,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -168,7 +168,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -183,7 +183,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -199,7 +199,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -213,7 +213,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -228,7 +228,7 @@ class GameServerStatus extends BaseType implements GameServerStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

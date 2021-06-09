@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A stage of a medical condition, such as 'Stage IIIa'.
  *
- * @see https://schema.org/MedicalConditionStage
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalConditionStage
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalConditionStage extends BaseType implements MedicalConditionStageContract, MedicalEntityContract, MedicalIntangibleContract, ThingContract
@@ -28,7 +28,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -72,7 +72,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,7 +89,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -103,8 +103,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -122,7 +122,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -137,7 +137,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -152,8 +152,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -169,7 +169,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -184,8 +184,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -199,7 +199,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -214,7 +214,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -229,8 +229,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -244,8 +244,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -261,7 +261,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -275,8 +275,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/stageAsNumber
-     * @see http://health-lifesci.schema.org
+     * @see schema:stageAsNumber
+     * @see https://health-lifesci.schema.org
      */
     public function stageAsNumber($stageAsNumber)
     {
@@ -290,8 +290,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -305,8 +305,8 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/subStageSuffix
-     * @see http://health-lifesci.schema.org
+     * @see schema:subStageSuffix
+     * @see https://health-lifesci.schema.org
      */
     public function subStageSuffix($subStageSuffix)
     {
@@ -320,7 +320,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -335,7 +335,7 @@ class MedicalConditionStage extends BaseType implements MedicalConditionStageCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

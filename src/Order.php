@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * multiple line items, each represented by an Offer that has been accepted by
  * the customer.
  *
- * @see https://schema.org/Order
+ * @see schema:Order
  *
  */
 class Order extends BaseType implements OrderContract, IntangibleContract, ThingContract
@@ -24,7 +24,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/acceptedOffer
+     * @see schema:acceptedOffer
      */
     public function acceptedOffer($acceptedOffer)
     {
@@ -43,7 +43,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -57,7 +57,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -71,7 +71,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/billingAddress
+     * @see schema:billingAddress
      */
     public function billingAddress($billingAddress)
     {
@@ -88,7 +88,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -102,7 +102,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/confirmationNumber
+     * @see schema:confirmationNumber
      */
     public function confirmationNumber($confirmationNumber)
     {
@@ -116,7 +116,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/customer
+     * @see schema:customer
      */
     public function customer($customer)
     {
@@ -130,7 +130,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -147,7 +147,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -161,7 +161,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/discount
+     * @see schema:discount
      */
     public function discount($discount)
     {
@@ -175,7 +175,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/discountCode
+     * @see schema:discountCode
      */
     public function discountCode($discountCode)
     {
@@ -197,7 +197,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/discountCurrency
+     * @see schema:discountCurrency
      */
     public function discountCurrency($discountCurrency)
     {
@@ -215,7 +215,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -230,7 +230,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -244,7 +244,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/isGift
+     * @see schema:isGift
      */
     public function isGift($isGift)
     {
@@ -260,7 +260,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -274,7 +274,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/merchant
+     * @see schema:merchant
      */
     public function merchant($merchant)
     {
@@ -288,7 +288,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -302,7 +302,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/orderDate
+     * @see schema:orderDate
      */
     public function orderDate($orderDate)
     {
@@ -316,7 +316,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/orderDelivery
+     * @see schema:orderDelivery
      */
     public function orderDelivery($orderDelivery)
     {
@@ -330,7 +330,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/orderNumber
+     * @see schema:orderNumber
      */
     public function orderNumber($orderNumber)
     {
@@ -344,7 +344,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/orderStatus
+     * @see schema:orderStatus
      */
     public function orderStatus($orderStatus)
     {
@@ -358,7 +358,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/orderedItem
+     * @see schema:orderedItem
      */
     public function orderedItem($orderedItem)
     {
@@ -372,7 +372,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/partOfInvoice
+     * @see schema:partOfInvoice
      */
     public function partOfInvoice($partOfInvoice)
     {
@@ -386,7 +386,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/paymentDue
+     * @see schema:paymentDue
      */
     public function paymentDue($paymentDue)
     {
@@ -400,7 +400,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/paymentDueDate
+     * @see schema:paymentDueDate
      */
     public function paymentDueDate($paymentDueDate)
     {
@@ -414,7 +414,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/paymentMethod
+     * @see schema:paymentMethod
      */
     public function paymentMethod($paymentMethod)
     {
@@ -429,7 +429,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/paymentMethodId
+     * @see schema:paymentMethodId
      */
     public function paymentMethodId($paymentMethodId)
     {
@@ -443,7 +443,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/paymentUrl
+     * @see schema:paymentUrl
      */
     public function paymentUrl($paymentUrl)
     {
@@ -458,7 +458,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -474,7 +474,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -489,7 +489,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/seller
+     * @see schema:seller
      */
     public function seller($seller)
     {
@@ -503,7 +503,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -518,7 +518,7 @@ class Order extends BaseType implements OrderContract, IntangibleContract, Thing
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

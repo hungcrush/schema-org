@@ -15,7 +15,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * reservations. For offers of tickets, restaurant reservations, flights, or
  * rental cars, use [[Offer]].
  *
- * @see https://schema.org/Reservation
+ * @see schema:Reservation
  *
  */
 class Reservation extends BaseType implements ReservationContract, IntangibleContract, ThingContract
@@ -32,7 +32,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -61,7 +61,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/bookingAgent
+     * @see schema:bookingAgent
      */
     public function bookingAgent($bookingAgent)
     {
@@ -75,7 +75,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/bookingTime
+     * @see schema:bookingTime
      */
     public function bookingTime($bookingTime)
     {
@@ -92,7 +92,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -106,7 +106,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -123,7 +123,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -141,7 +141,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -156,7 +156,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -172,7 +172,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -186,7 +186,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/modifiedTime
+     * @see schema:modifiedTime
      */
     public function modifiedTime($modifiedTime)
     {
@@ -200,7 +200,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -215,7 +215,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -238,7 +238,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -253,7 +253,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/programMembershipUsed
+     * @see schema:programMembershipUsed
      */
     public function programMembershipUsed($programMembershipUsed)
     {
@@ -269,7 +269,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -284,7 +284,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/reservationFor
+     * @see schema:reservationFor
      */
     public function reservationFor($reservationFor)
     {
@@ -298,7 +298,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/reservationId
+     * @see schema:reservationId
      */
     public function reservationId($reservationId)
     {
@@ -312,7 +312,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/reservationStatus
+     * @see schema:reservationStatus
      */
     public function reservationStatus($reservationStatus)
     {
@@ -326,7 +326,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/reservedTicket
+     * @see schema:reservedTicket
      */
     public function reservedTicket($reservedTicket)
     {
@@ -342,7 +342,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -356,7 +356,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -379,7 +379,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/totalPrice
+     * @see schema:totalPrice
      */
     public function totalPrice($totalPrice)
     {
@@ -393,7 +393,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/underName
+     * @see schema:underName
      */
     public function underName($underName)
     {
@@ -407,7 +407,7 @@ class Reservation extends BaseType implements ReservationContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

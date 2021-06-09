@@ -11,6 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A [[CampingPitch]] is an individual place for overnight stay in the outdoors,
  * typically being part of a larger camping site, or [[Campground]].
  * 
+ * 
  * In British English a campsite, or campground, is an area, usually divided
  * into a number of pitches, where people can camp overnight using tents or
  * camper vans or caravans; this British English use of the word is synonymous
@@ -18,13 +19,14 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * campsite generally means an area where an individual, family, group, or
  * military unit can pitch a tent or park a camper; a campground may contain
  * many campsites.
- * (Source: Wikipedia see <a
- * href="https://en.wikipedia.org/wiki/Campsite">https://en.wikipedia.org/wiki/Campsite</a>).
+ * (Source: Wikipedia see
+ * [https://en.wikipedia.org/wiki/Campsite](https://en.wikipedia.org/wiki/Campsite)).
  * 
- * See also the dedicated <a href="/docs/hotels.html">document on the use of
- * schema.org for marking up hotels and other forms of accommodations</a>.
+ * 
+ * See also the dedicated [document on the use of schema.org for marking up
+ * hotels and other forms of accommodations](/docs/hotels.html).
  *
- * @see https://schema.org/CampingPitch
+ * @see schema:CampingPitch
  * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
  *
  */
@@ -42,8 +44,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/accommodationCategory
-     * @see http://pending.schema.org
+     * @see schema:accommodationCategory
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function accommodationCategory($accommodationCategory)
@@ -58,8 +60,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/accommodationFloorPlan
-     * @see http://pending.schema.org
+     * @see schema:accommodationFloorPlan
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function accommodationFloorPlan($accommodationFloorPlan)
@@ -82,7 +84,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -101,7 +103,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -115,7 +117,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -130,7 +132,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -144,7 +146,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -161,7 +163,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/amenityFeature
+     * @see schema:amenityFeature
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function amenityFeature($amenityFeature)
@@ -182,7 +184,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/branchCode
+     * @see schema:branchCode
      */
     public function branchCode($branchCode)
     {
@@ -196,7 +198,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/containedIn
+     * @see schema:containedIn
      */
     public function containedIn($containedIn)
     {
@@ -210,7 +212,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/containedInPlace
+     * @see schema:containedInPlace
      */
     public function containedInPlace($containedInPlace)
     {
@@ -225,7 +227,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/containsPlace
+     * @see schema:containsPlace
      */
     public function containsPlace($containsPlace)
     {
@@ -239,7 +241,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -256,7 +258,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -271,7 +273,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -285,7 +287,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/events
+     * @see schema:events
      */
     public function events($events)
     {
@@ -299,7 +301,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -317,8 +319,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/floorLevel
-     * @see http://pending.schema.org
+     * @see schema:floorLevel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function floorLevel($floorLevel)
@@ -335,7 +337,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/floorSize
+     * @see schema:floorSize
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function floorSize($floorSize)
@@ -350,7 +352,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geo
+     * @see schema:geo
      */
     public function geo($geo)
     {
@@ -368,7 +370,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoContains
+     * @see schema:geoContains
      */
     public function geoContains($geoContains)
     {
@@ -384,7 +386,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoCoveredBy
+     * @see schema:geoCoveredBy
      */
     public function geoCoveredBy($geoCoveredBy)
     {
@@ -401,7 +403,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoCovers
+     * @see schema:geoCovers
      */
     public function geoCovers($geoCovers)
     {
@@ -419,7 +421,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoCrosses
+     * @see schema:geoCrosses
      */
     public function geoCrosses($geoCrosses)
     {
@@ -436,7 +438,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoDisjoint
+     * @see schema:geoDisjoint
      */
     public function geoDisjoint($geoDisjoint)
     {
@@ -455,7 +457,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoEquals
+     * @see schema:geoEquals
      */
     public function geoEquals($geoEquals)
     {
@@ -471,7 +473,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoIntersects
+     * @see schema:geoIntersects
      */
     public function geoIntersects($geoIntersects)
     {
@@ -488,7 +490,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoOverlaps
+     * @see schema:geoOverlaps
      */
     public function geoOverlaps($geoOverlaps)
     {
@@ -505,7 +507,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoTouches
+     * @see schema:geoTouches
      */
     public function geoTouches($geoTouches)
     {
@@ -522,7 +524,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/geoWithin
+     * @see schema:geoWithin
      */
     public function geoWithin($geoWithin)
     {
@@ -539,7 +541,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -558,8 +560,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/hasDriveThroughService
-     * @see http://pending.schema.org
+     * @see schema:hasDriveThroughService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function hasDriveThroughService($hasDriveThroughService)
@@ -574,7 +576,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/hasMap
+     * @see schema:hasMap
      */
     public function hasMap($hasMap)
     {
@@ -592,7 +594,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -607,7 +609,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -621,7 +623,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -637,7 +639,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -653,7 +655,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/latitude
+     * @see schema:latitude
      */
     public function latitude($latitude)
     {
@@ -668,8 +670,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/leaseLength
-     * @see http://pending.schema.org
+     * @see schema:leaseLength
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function leaseLength($leaseLength)
@@ -684,7 +686,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -700,7 +702,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/longitude
+     * @see schema:longitude
      */
     public function longitude($longitude)
     {
@@ -716,7 +718,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -730,7 +732,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/map
+     * @see schema:map
      */
     public function map($map)
     {
@@ -744,7 +746,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/maps
+     * @see schema:maps
      */
     public function maps($maps)
     {
@@ -758,7 +760,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/maximumAttendeeCapacity
+     * @see schema:maximumAttendeeCapacity
      */
     public function maximumAttendeeCapacity($maximumAttendeeCapacity)
     {
@@ -772,7 +774,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -791,8 +793,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/numberOfBathroomsTotal
-     * @see http://pending.schema.org
+     * @see schema:numberOfBathroomsTotal
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function numberOfBathroomsTotal($numberOfBathroomsTotal)
@@ -808,8 +810,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/numberOfBedrooms
-     * @see http://pending.schema.org
+     * @see schema:numberOfBedrooms
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function numberOfBedrooms($numberOfBedrooms)
@@ -826,8 +828,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/numberOfFullBathrooms
-     * @see http://pending.schema.org
+     * @see schema:numberOfFullBathrooms
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function numberOfFullBathrooms($numberOfFullBathrooms)
@@ -844,8 +846,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/numberOfPartialBathrooms
-     * @see http://pending.schema.org
+     * @see schema:numberOfPartialBathrooms
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function numberOfPartialBathrooms($numberOfPartialBathrooms)
@@ -863,7 +865,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/numberOfRooms
+     * @see schema:numberOfRooms
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function numberOfRooms($numberOfRooms)
@@ -878,7 +880,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/openingHoursSpecification
+     * @see schema:openingHoursSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function openingHoursSpecification($openingHoursSpecification)
@@ -893,7 +895,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/permittedUsage
+     * @see schema:permittedUsage
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function permittedUsage($permittedUsage)
@@ -909,7 +911,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/petsAllowed
+     * @see schema:petsAllowed
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function petsAllowed($petsAllowed)
@@ -924,7 +926,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/photo
+     * @see schema:photo
      */
     public function photo($photo)
     {
@@ -938,7 +940,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/photos
+     * @see schema:photos
      */
     public function photos($photos)
     {
@@ -953,7 +955,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -968,7 +970,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/publicAccess
+     * @see schema:publicAccess
      */
     public function publicAccess($publicAccess)
     {
@@ -982,7 +984,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -996,7 +998,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1012,7 +1014,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1026,7 +1028,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -1041,7 +1043,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/smokingAllowed
+     * @see schema:smokingAllowed
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function smokingAllowed($smokingAllowed)
@@ -1059,7 +1061,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/specialOpeningHoursSpecification
+     * @see schema:specialOpeningHoursSpecification
      */
     public function specialOpeningHoursSpecification($specialOpeningHoursSpecification)
     {
@@ -1073,7 +1075,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1088,7 +1090,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -1104,8 +1106,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/tourBookingPage
-     * @see http://pending.schema.org
+     * @see schema:tourBookingPage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function tourBookingPage($tourBookingPage)
@@ -1120,7 +1122,7 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1136,8 +1138,8 @@ class CampingPitch extends BaseType implements CampingPitchContract, Accommodati
      *
      * @return static
      *
-     * @see https://schema.org/yearBuilt
-     * @see http://pending.schema.org
+     * @see schema:yearBuilt
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function yearBuilt($yearBuilt)

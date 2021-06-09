@@ -78,6 +78,8 @@ interface ImageObjectContract
 
     public function copyrightHolder($copyrightHolder);
 
+    public function copyrightNotice($copyrightNotice);
+
     public function copyrightYear($copyrightYear);
 
     public function correction($correction);
@@ -85,6 +87,8 @@ interface ImageObjectContract
     public function creativeWorkStatus($creativeWorkStatus);
 
     public function creator($creator);
+
+    public function creditText($creditText);
 
     public function dateCreated($dateCreated);
 
@@ -145,6 +149,8 @@ interface ImageObjectContract
     public function image($image);
 
     public function inLanguage($inLanguage);
+
+    public function ineligibleRegion($ineligibleRegion);
 
     public function interactionStatistic($interactionStatistic);
 

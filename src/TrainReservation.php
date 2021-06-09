@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * confirmation emails or HTML pages with individual confirmations of
  * reservations. For offers of tickets, use [[Offer]].
  *
- * @see https://schema.org/TrainReservation
+ * @see schema:TrainReservation
  *
  */
 class TrainReservation extends BaseType implements TrainReservationContract, IntangibleContract, ReservationContract, ThingContract
@@ -31,7 +31,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,7 +60,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/bookingAgent
+     * @see schema:bookingAgent
      */
     public function bookingAgent($bookingAgent)
     {
@@ -74,7 +74,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/bookingTime
+     * @see schema:bookingTime
      */
     public function bookingTime($bookingTime)
     {
@@ -91,7 +91,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -105,7 +105,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -122,7 +122,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -140,7 +140,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -155,7 +155,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -171,7 +171,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -185,7 +185,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/modifiedTime
+     * @see schema:modifiedTime
      */
     public function modifiedTime($modifiedTime)
     {
@@ -199,7 +199,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -214,7 +214,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -237,7 +237,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -252,7 +252,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/programMembershipUsed
+     * @see schema:programMembershipUsed
      */
     public function programMembershipUsed($programMembershipUsed)
     {
@@ -268,7 +268,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -283,7 +283,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/reservationFor
+     * @see schema:reservationFor
      */
     public function reservationFor($reservationFor)
     {
@@ -297,7 +297,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/reservationId
+     * @see schema:reservationId
      */
     public function reservationId($reservationId)
     {
@@ -311,7 +311,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/reservationStatus
+     * @see schema:reservationStatus
      */
     public function reservationStatus($reservationStatus)
     {
@@ -325,7 +325,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/reservedTicket
+     * @see schema:reservedTicket
      */
     public function reservedTicket($reservedTicket)
     {
@@ -341,7 +341,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -355,7 +355,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -378,7 +378,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/totalPrice
+     * @see schema:totalPrice
      */
     public function totalPrice($totalPrice)
     {
@@ -392,7 +392,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/underName
+     * @see schema:underName
      */
     public function underName($underName)
     {
@@ -406,7 +406,7 @@ class TrainReservation extends BaseType implements TrainReservationContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

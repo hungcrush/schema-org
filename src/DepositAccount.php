@@ -14,7 +14,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A type of Bank Account with a main purpose of depositing funds to gain
  * interest or other benefits.
  *
- * @see https://schema.org/DepositAccount
+ * @see schema:DepositAccount
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
  *
  */
@@ -27,8 +27,8 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/accountMinimumInflow
-     * @see http://pending.schema.org
+     * @see schema:accountMinimumInflow
+     * @see https://pending.schema.org
      */
     public function accountMinimumInflow($accountMinimumInflow)
     {
@@ -45,8 +45,8 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/accountOverdraftLimit
-     * @see http://pending.schema.org
+     * @see schema:accountOverdraftLimit
+     * @see https://pending.schema.org
      */
     public function accountOverdraftLimit($accountOverdraftLimit)
     {
@@ -65,7 +65,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -80,7 +80,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -94,7 +94,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -108,7 +108,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/amount
+     * @see schema:amount
      */
     public function amount($amount)
     {
@@ -125,7 +125,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/annualPercentageRate
+     * @see schema:annualPercentageRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function annualPercentageRate($annualPercentageRate)
@@ -140,7 +140,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -154,7 +154,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -169,7 +169,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -183,7 +183,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -197,8 +197,8 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/bankAccountType
-     * @see http://pending.schema.org
+     * @see schema:bankAccountType
+     * @see https://pending.schema.org
      */
     public function bankAccountType($bankAccountType)
     {
@@ -213,7 +213,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -230,7 +230,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -245,7 +245,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -259,7 +259,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -276,7 +276,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -291,7 +291,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/feesAndCommissionsSpecification
+     * @see schema:feesAndCommissionsSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function feesAndCommissionsSpecification($feesAndCommissionsSpecification)
@@ -307,7 +307,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -321,7 +321,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -339,7 +339,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -354,7 +354,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -369,7 +369,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/interestRate
+     * @see schema:interestRate
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO
      */
     public function interestRate($interestRate)
@@ -384,7 +384,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -400,7 +400,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -415,7 +415,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -432,7 +432,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -446,7 +446,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -467,7 +467,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -483,7 +483,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -498,7 +498,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -514,7 +514,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -529,7 +529,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -543,7 +543,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -559,7 +559,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -573,7 +573,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -587,7 +587,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -602,7 +602,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -617,7 +617,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -631,7 +631,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -645,7 +645,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -660,8 +660,8 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -676,7 +676,7 @@ class DepositAccount extends BaseType implements DepositAccountContract, BankAcc
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

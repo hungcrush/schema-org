@@ -13,8 +13,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A patient is any person recipient of health care services.
  *
- * @see https://schema.org/Patient
- * @see http://health-lifesci.schema.org
+ * @see schema:Patient
+ * @see https://health-lifesci.schema.org
  *
  */
 class Patient extends BaseType implements PatientContract, AudienceContract, IntangibleContract, MedicalAudienceContract, PeopleAudienceContract, PersonContract, ThingContract
@@ -26,7 +26,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalName
+     * @see schema:additionalName
      */
     public function additionalName($additionalName)
     {
@@ -45,7 +45,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -59,7 +59,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -74,7 +74,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/affiliation
+     * @see schema:affiliation
      */
     public function affiliation($affiliation)
     {
@@ -88,7 +88,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -102,7 +102,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alumniOf
+     * @see schema:alumniOf
      */
     public function alumniOf($alumniOf)
     {
@@ -117,7 +117,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/audienceType
+     * @see schema:audienceType
      */
     public function audienceType($audienceType)
     {
@@ -131,7 +131,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -145,7 +145,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -159,7 +159,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/birthDate
+     * @see schema:birthDate
      */
     public function birthDate($birthDate)
     {
@@ -173,7 +173,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/birthPlace
+     * @see schema:birthPlace
      */
     public function birthPlace($birthPlace)
     {
@@ -188,7 +188,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -204,8 +204,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/callSign
-     * @see http://pending.schema.org
+     * @see schema:callSign
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2109
      */
     public function callSign($callSign)
@@ -220,7 +220,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/children
+     * @see schema:children
      */
     public function children($children)
     {
@@ -234,7 +234,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/colleague
+     * @see schema:colleague
      */
     public function colleague($colleague)
     {
@@ -248,7 +248,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/colleagues
+     * @see schema:colleagues
      */
     public function colleagues($colleagues)
     {
@@ -262,7 +262,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/contactPoint
+     * @see schema:contactPoint
      */
     public function contactPoint($contactPoint)
     {
@@ -276,7 +276,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/contactPoints
+     * @see schema:contactPoints
      */
     public function contactPoints($contactPoints)
     {
@@ -290,7 +290,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/deathDate
+     * @see schema:deathDate
      */
     public function deathDate($deathDate)
     {
@@ -304,7 +304,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/deathPlace
+     * @see schema:deathPlace
      */
     public function deathPlace($deathPlace)
     {
@@ -318,7 +318,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -333,8 +333,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/diagnosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:diagnosis
+     * @see https://health-lifesci.schema.org
      */
     public function diagnosis($diagnosis)
     {
@@ -351,7 +351,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -359,14 +359,14 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * Specifying a drug or medicine used in a medication procedure
+     * Specifying a drug or medicine used in a medication procedure.
      *
      * @param \Spatie\SchemaOrg\Contracts\DrugContract|\Spatie\SchemaOrg\Contracts\DrugContract[] $drug
      *
      * @return static
      *
-     * @see https://schema.org/drug
-     * @see http://health-lifesci.schema.org
+     * @see schema:drug
+     * @see https://health-lifesci.schema.org
      */
     public function drug($drug)
     {
@@ -381,7 +381,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/duns
+     * @see schema:duns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function duns($duns)
@@ -396,7 +396,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/email
+     * @see schema:email
      */
     public function email($email)
     {
@@ -404,14 +404,13 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * Family name. In the U.S., the last name of an Person. This can be used
-     * along with givenName instead of the name property.
+     * Family name. In the U.S., the last name of a Person.
      *
      * @param string|string[] $familyName
      *
      * @return static
      *
-     * @see https://schema.org/familyName
+     * @see schema:familyName
      */
     public function familyName($familyName)
     {
@@ -425,7 +424,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -439,7 +438,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/follows
+     * @see schema:follows
      */
     public function follows($follows)
     {
@@ -454,7 +453,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -475,8 +474,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/gender
-     * @see http://pending.schema.org
+     * @see schema:gender
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2341
      */
     public function gender($gender)
@@ -491,7 +490,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/geographicArea
+     * @see schema:geographicArea
      */
     public function geographicArea($geographicArea)
     {
@@ -499,14 +498,13 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * Given name. In the U.S., the first name of a Person. This can be used
-     * along with familyName instead of the name property.
+     * Given name. In the U.S., the first name of a Person.
      *
      * @param string|string[] $givenName
      *
      * @return static
      *
-     * @see https://schema.org/givenName
+     * @see schema:givenName
      */
     public function givenName($givenName)
     {
@@ -523,7 +521,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -538,8 +536,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hasCredential
-     * @see http://pending.schema.org
+     * @see schema:hasCredential
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function hasCredential($hasCredential)
@@ -555,7 +553,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hasOccupation
+     * @see schema:hasOccupation
      * @link https://github.com/schemaorg/schemaorg/issues/1698
      */
     public function hasOccupation($hasOccupation)
@@ -571,7 +569,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -585,7 +583,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/hasPOS
+     * @see schema:hasPOS
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function hasPOS($hasPOS)
@@ -601,8 +599,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/healthCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:healthCondition
+     * @see https://health-lifesci.schema.org
      */
     public function healthCondition($healthCondition)
     {
@@ -616,7 +614,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/height
+     * @see schema:height
      */
     public function height($height)
     {
@@ -630,7 +628,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/homeLocation
+     * @see schema:homeLocation
      */
     public function homeLocation($homeLocation)
     {
@@ -644,7 +642,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/honorificPrefix
+     * @see schema:honorificPrefix
      */
     public function honorificPrefix($honorificPrefix)
     {
@@ -652,13 +650,13 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW.
+     * An honorific suffix following a Person's name such as M.D. /PhD/MSCSW.
      *
      * @param string|string[] $honorificSuffix
      *
      * @return static
      *
-     * @see https://schema.org/honorificSuffix
+     * @see schema:honorificSuffix
      */
     public function honorificSuffix($honorificSuffix)
     {
@@ -676,7 +674,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -691,7 +689,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -707,7 +705,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -724,7 +722,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -739,8 +737,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/jobTitle
-     * @see http://pending.schema.org
+     * @see schema:jobTitle
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2192
      */
     public function jobTitle($jobTitle)
@@ -755,7 +753,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/knows
+     * @see schema:knows
      */
     public function knows($knows)
     {
@@ -772,8 +770,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/knowsAbout
-     * @see http://pending.schema.org
+     * @see schema:knowsAbout
+     * @see https://pending.schema.org
      */
     public function knowsAbout($knowsAbout)
     {
@@ -790,8 +788,8 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/knowsLanguage
-     * @see http://pending.schema.org
+     * @see schema:knowsLanguage
+     * @see https://pending.schema.org
      */
     public function knowsLanguage($knowsLanguage)
     {
@@ -807,7 +805,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -821,7 +819,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/makesOffer
+     * @see schema:makesOffer
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function makesOffer($makesOffer)
@@ -837,7 +835,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/memberOf
+     * @see schema:memberOf
      */
     public function memberOf($memberOf)
     {
@@ -852,7 +850,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/naics
+     * @see schema:naics
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function naics($naics)
@@ -867,7 +865,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -881,7 +879,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/nationality
+     * @see schema:nationality
      */
     public function nationality($nationality)
     {
@@ -896,7 +894,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/netWorth
+     * @see schema:netWorth
      */
     public function netWorth($netWorth)
     {
@@ -910,7 +908,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/owns
+     * @see schema:owns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function owns($owns)
@@ -925,7 +923,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/parent
+     * @see schema:parent
      */
     public function parent($parent)
     {
@@ -939,7 +937,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/parents
+     * @see schema:parents
      */
     public function parents($parents)
     {
@@ -953,7 +951,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/performerIn
+     * @see schema:performerIn
      */
     public function performerIn($performerIn)
     {
@@ -968,7 +966,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -992,7 +990,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -1006,7 +1004,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/relatedTo
+     * @see schema:relatedTo
      */
     public function relatedTo($relatedTo)
     {
@@ -1020,7 +1018,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/requiredGender
+     * @see schema:requiredGender
      */
     public function requiredGender($requiredGender)
     {
@@ -1034,7 +1032,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/requiredMaxAge
+     * @see schema:requiredMaxAge
      */
     public function requiredMaxAge($requiredMaxAge)
     {
@@ -1048,7 +1046,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/requiredMinAge
+     * @see schema:requiredMinAge
      */
     public function requiredMinAge($requiredMinAge)
     {
@@ -1064,7 +1062,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1079,7 +1077,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/seeks
+     * @see schema:seeks
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function seeks($seeks)
@@ -1094,7 +1092,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sibling
+     * @see schema:sibling
      */
     public function sibling($sibling)
     {
@@ -1108,7 +1106,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/siblings
+     * @see schema:siblings
      */
     public function siblings($siblings)
     {
@@ -1124,7 +1122,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1138,7 +1136,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/spouse
+     * @see schema:spouse
      */
     public function spouse($spouse)
     {
@@ -1152,7 +1150,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1161,13 +1159,31 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * The gender of the person or audience.
+     * The age or age range for the intended audience or person, for example
+     * 3-12 months for infants, 1-5 years for toddlers.
      *
-     * @param string|string[] $suggestedGender
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $suggestedAge
      *
      * @return static
      *
-     * @see https://schema.org/suggestedGender
+     * @see schema:suggestedAge
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2811
+     */
+    public function suggestedAge($suggestedAge)
+    {
+        return $this->setProperty('suggestedAge', $suggestedAge);
+    }
+
+    /**
+     * The suggested gender of the intended person or audience, for example
+     * "male", "female", or "unisex".
+     *
+     * @param \Spatie\SchemaOrg\Contracts\GenderTypeContract|\Spatie\SchemaOrg\Contracts\GenderTypeContract[]|string|string[] $suggestedGender
+     *
+     * @return static
+     *
+     * @see schema:suggestedGender
      */
     public function suggestedGender($suggestedGender)
     {
@@ -1175,13 +1191,13 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * Maximal age recommended for viewing content.
+     * Maximum recommended age in years for the audience or user.
      *
      * @param float|float[]|int|int[] $suggestedMaxAge
      *
      * @return static
      *
-     * @see https://schema.org/suggestedMaxAge
+     * @see schema:suggestedMaxAge
      */
     public function suggestedMaxAge($suggestedMaxAge)
     {
@@ -1189,13 +1205,31 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
     }
 
     /**
-     * Minimal age recommended for viewing content.
+     * A suggested range of body measurements for the intended audience or
+     * person, for example inseam between 32 and 34 inches or height between 170
+     * and 190 cm. Typically found on a size chart for wearable products.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $suggestedMeasurement
+     *
+     * @return static
+     *
+     * @see schema:suggestedMeasurement
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2811
+     */
+    public function suggestedMeasurement($suggestedMeasurement)
+    {
+        return $this->setProperty('suggestedMeasurement', $suggestedMeasurement);
+    }
+
+    /**
+     * Minimum recommended age in years for the audience or user.
      *
      * @param float|float[]|int|int[] $suggestedMinAge
      *
      * @return static
      *
-     * @see https://schema.org/suggestedMinAge
+     * @see schema:suggestedMinAge
      */
     public function suggestedMinAge($suggestedMinAge)
     {
@@ -1210,7 +1244,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/taxID
+     * @see schema:taxID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function taxID($taxID)
@@ -1225,7 +1259,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -1239,7 +1273,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1253,7 +1287,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/vatID
+     * @see schema:vatID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function vatID($vatID)
@@ -1268,7 +1302,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/weight
+     * @see schema:weight
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function weight($weight)
@@ -1283,7 +1317,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/workLocation
+     * @see schema:workLocation
      */
     public function workLocation($workLocation)
     {
@@ -1297,7 +1331,7 @@ class Patient extends BaseType implements PatientContract, AudienceContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/worksFor
+     * @see schema:worksFor
      */
     public function worksFor($worksFor)
     {

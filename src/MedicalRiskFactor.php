@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A risk factor is anything that increases a person's likelihood of developing
  * or contracting a disease, medical condition, or complication.
  *
- * @see https://schema.org/MedicalRiskFactor
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalRiskFactor
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, MedicalEntityContract, ThingContract
@@ -28,7 +28,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -72,7 +72,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,7 +89,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -103,8 +103,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -122,7 +122,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -137,7 +137,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -151,8 +151,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/increasesRiskOf
-     * @see http://health-lifesci.schema.org
+     * @see schema:increasesRiskOf
+     * @see https://health-lifesci.schema.org
      */
     public function increasesRiskOf($increasesRiskOf)
     {
@@ -167,8 +167,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -184,7 +184,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -199,8 +199,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -214,7 +214,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -229,7 +229,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -244,8 +244,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -259,8 +259,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -276,7 +276,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -290,8 +290,8 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -305,7 +305,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -320,7 +320,7 @@ class MedicalRiskFactor extends BaseType implements MedicalRiskFactorContract, M
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

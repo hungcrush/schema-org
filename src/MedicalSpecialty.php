@@ -15,8 +15,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * their respective disease states, as well as allied health specialties.
  * Enumerated type.
  *
- * @see https://schema.org/MedicalSpecialty
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalSpecialty
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -26,221 +26,221 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      * A specific branch of medical science that pertains to study of
      * anesthetics and their application.
      *
-     * @see https://schema.org/Anesthesia
-     * @see http://health-lifesci.schema.org
+     * @see schema:Anesthesia
+     * @see https://health-lifesci.schema.org
      */
-     const Anesthesia = 'https://schema.org/Anesthesia';
+     const Anesthesia = 'schema:Anesthesia';
 
     /**
      * A specific branch of medical science that pertains to diagnosis and
      * treatment of disorders of heart and vasculature.
      *
-     * @see https://schema.org/Cardiovascular
-     * @see http://health-lifesci.schema.org
+     * @see schema:Cardiovascular
+     * @see https://health-lifesci.schema.org
      */
-     const Cardiovascular = 'https://schema.org/Cardiovascular';
+     const Cardiovascular = 'schema:Cardiovascular';
 
     /**
      * A field of public health focusing on improving health characteristics of
      * a defined population in relation with their geographical or environment
-     * areas
+     * areas.
      *
-     * @see https://schema.org/CommunityHealth
-     * @see http://health-lifesci.schema.org
+     * @see schema:CommunityHealth
+     * @see https://health-lifesci.schema.org
      */
-     const CommunityHealth = 'https://schema.org/CommunityHealth';
+     const CommunityHealth = 'schema:CommunityHealth';
 
     /**
      * A branch of medicine that is involved in the dental care.
      *
-     * @see https://schema.org/Dentistry
-     * @see http://health-lifesci.schema.org
+     * @see schema:Dentistry
+     * @see https://health-lifesci.schema.org
      */
-     const Dentistry = 'https://schema.org/Dentistry';
+     const Dentistry = 'schema:Dentistry';
 
     /**
-     * Something relating to or practicing dermatology
+     * Something relating to or practicing dermatology.
      *
-     * @see https://schema.org/Dermatologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Dermatologic
+     * @see https://health-lifesci.schema.org
      */
-     const Dermatologic = 'https://schema.org/Dermatologic';
+     const Dermatologic = 'schema:Dermatologic';
 
     /**
      * A specific branch of medical science that pertains to diagnosis and
      * treatment of disorders of skin.
      *
-     * @see https://schema.org/Dermatology
-     * @see http://health-lifesci.schema.org
+     * @see schema:Dermatology
+     * @see https://health-lifesci.schema.org
      */
-     const Dermatology = 'https://schema.org/Dermatology';
+     const Dermatology = 'schema:Dermatology';
 
     /**
-     * Dietetic and nutrition as a medical speciality.
+     * Dietetic and nutrition as a medical specialty.
      *
-     * @see https://schema.org/DietNutrition
-     * @see http://health-lifesci.schema.org
+     * @see schema:DietNutrition
+     * @see https://health-lifesci.schema.org
      */
-     const DietNutrition = 'https://schema.org/DietNutrition';
+     const DietNutrition = 'schema:DietNutrition';
 
     /**
      * A specific branch of medical science that deals with the evaluation and
      * initial treatment of medical conditions caused by trauma or sudden
      * illness.
      *
-     * @see https://schema.org/Emergency
-     * @see http://health-lifesci.schema.org
+     * @see schema:Emergency
+     * @see https://health-lifesci.schema.org
      */
-     const Emergency = 'https://schema.org/Emergency';
+     const Emergency = 'schema:Emergency';
 
     /**
      * A specific branch of medical science that pertains to diagnosis and
      * treatment of disorders of endocrine glands and their secretions.
      *
-     * @see https://schema.org/Endocrine
-     * @see http://health-lifesci.schema.org
+     * @see schema:Endocrine
+     * @see https://health-lifesci.schema.org
      */
-     const Endocrine = 'https://schema.org/Endocrine';
+     const Endocrine = 'schema:Endocrine';
 
     /**
      * A specific branch of medical science that pertains to diagnosis and
      * treatment of disorders of digestive system.
      *
-     * @see https://schema.org/Gastroenterologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Gastroenterologic
+     * @see https://health-lifesci.schema.org
      */
-     const Gastroenterologic = 'https://schema.org/Gastroenterologic';
+     const Gastroenterologic = 'schema:Gastroenterologic';
 
     /**
      * A specific branch of medical science that pertains to hereditary
      * transmission and the variation of inherited characteristics and
      * disorders.
      *
-     * @see https://schema.org/Genetic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Genetic
+     * @see https://health-lifesci.schema.org
      */
-     const Genetic = 'https://schema.org/Genetic';
+     const Genetic = 'schema:Genetic';
 
     /**
      * A specific branch of medical science that is concerned with the diagnosis
      * and treatment of diseases, debilities and provision of care to the aged.
      *
-     * @see https://schema.org/Geriatric
-     * @see http://health-lifesci.schema.org
+     * @see schema:Geriatric
+     * @see https://health-lifesci.schema.org
      */
-     const Geriatric = 'https://schema.org/Geriatric';
+     const Geriatric = 'schema:Geriatric';
 
     /**
      * A specific branch of medical science that pertains to the health care of
      * women, particularly in the diagnosis and treatment of disorders affecting
      * the female reproductive system.
      *
-     * @see https://schema.org/Gynecologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Gynecologic
+     * @see https://health-lifesci.schema.org
      */
-     const Gynecologic = 'https://schema.org/Gynecologic';
+     const Gynecologic = 'schema:Gynecologic';
 
     /**
      * A specific branch of medical science that pertains to diagnosis and
      * treatment of disorders of blood and blood producing organs.
      *
-     * @see https://schema.org/Hematologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Hematologic
+     * @see https://health-lifesci.schema.org
      */
-     const Hematologic = 'https://schema.org/Hematologic';
+     const Hematologic = 'schema:Hematologic';
 
     /**
      * Something in medical science that pertains to infectious diseases i.e
      * caused by bacterial, viral, fungal or parasitic infections.
      *
-     * @see https://schema.org/Infectious
-     * @see http://health-lifesci.schema.org
+     * @see schema:Infectious
+     * @see https://health-lifesci.schema.org
      */
-     const Infectious = 'https://schema.org/Infectious';
+     const Infectious = 'schema:Infectious';
 
     /**
      * A medical science pertaining to chemical, hematological, immunologic,
-     * microscopic, or bacteriological diagnostic analyses or research
+     * microscopic, or bacteriological diagnostic analyses or research.
      *
-     * @see https://schema.org/LaboratoryScience
-     * @see http://health-lifesci.schema.org
+     * @see schema:LaboratoryScience
+     * @see https://health-lifesci.schema.org
      */
-     const LaboratoryScience = 'https://schema.org/LaboratoryScience';
+     const LaboratoryScience = 'schema:LaboratoryScience';
 
     /**
      * A nurse-like health profession that deals with pregnancy, childbirth, and
      * the postpartum period (including care of the newborn), besides sexual and
      * reproductive health of women throughout their lives.
      *
-     * @see https://schema.org/Midwifery
-     * @see http://health-lifesci.schema.org
+     * @see schema:Midwifery
+     * @see https://health-lifesci.schema.org
      */
-     const Midwifery = 'https://schema.org/Midwifery';
+     const Midwifery = 'schema:Midwifery';
 
     /**
      * A specific branch of medical science that pertains to diagnosis and
      * treatment of disorders of muscles, ligaments and skeletal system.
      *
-     * @see https://schema.org/Musculoskeletal
-     * @see http://health-lifesci.schema.org
+     * @see schema:Musculoskeletal
+     * @see https://health-lifesci.schema.org
      */
-     const Musculoskeletal = 'https://schema.org/Musculoskeletal';
+     const Musculoskeletal = 'schema:Musculoskeletal';
 
     /**
      * A specific branch of medical science that studies the nerves and nervous
      * system and its respective disease states.
      *
-     * @see https://schema.org/Neurologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Neurologic
+     * @see https://health-lifesci.schema.org
      */
-     const Neurologic = 'https://schema.org/Neurologic';
+     const Neurologic = 'schema:Neurologic';
 
     /**
      * A health profession of a person formally educated and trained in the care
      * of the sick or infirm person.
      *
-     * @see https://schema.org/Nursing
-     * @see http://health-lifesci.schema.org
+     * @see schema:Nursing
+     * @see https://health-lifesci.schema.org
      */
-     const Nursing = 'https://schema.org/Nursing';
+     const Nursing = 'schema:Nursing';
 
     /**
      * A specific branch of medical science that specializes in the care of
      * women during the prenatal and postnatal care and with the delivery of the
      * child.
      *
-     * @see https://schema.org/Obstetric
-     * @see http://health-lifesci.schema.org
+     * @see schema:Obstetric
+     * @see https://health-lifesci.schema.org
      */
-     const Obstetric = 'https://schema.org/Obstetric';
+     const Obstetric = 'schema:Obstetric';
 
     /**
      * A specific branch of medical science that deals with benign and malignant
      * tumors, including the study of their development, diagnosis, treatment
      * and prevention.
      *
-     * @see https://schema.org/Oncologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Oncologic
+     * @see https://health-lifesci.schema.org
      */
-     const Oncologic = 'https://schema.org/Oncologic';
+     const Oncologic = 'schema:Oncologic';
 
     /**
      * The science or practice of testing visual acuity and prescribing
      * corrective lenses.
      *
-     * @see https://schema.org/Optometric
-     * @see http://health-lifesci.schema.org
+     * @see schema:Optometric
+     * @see https://health-lifesci.schema.org
      */
-     const Optometric = 'https://schema.org/Optometric';
+     const Optometric = 'schema:Optometric';
 
     /**
      * A specific branch of medical science that is concerned with the ear, nose
      * and throat and their respective disease states.
      *
-     * @see https://schema.org/Otolaryngologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Otolaryngologic
+     * @see https://health-lifesci.schema.org
      */
-     const Otolaryngologic = 'https://schema.org/Otolaryngologic';
+     const Otolaryngologic = 'schema:Otolaryngologic';
 
     /**
      * A specific branch of medical science that is concerned with the study of
@@ -249,162 +249,162 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      * care, the term is used to designate a branch of medicine using laboratory
      * tests to diagnose and determine the prognostic significance of illness.
      *
-     * @see https://schema.org/Pathology
-     * @see http://health-lifesci.schema.org
+     * @see schema:Pathology
+     * @see https://health-lifesci.schema.org
      */
-     const Pathology = 'https://schema.org/Pathology';
+     const Pathology = 'schema:Pathology';
 
     /**
      * A specific branch of medical science that specializes in the care of
      * infants, children and adolescents.
      *
-     * @see https://schema.org/Pediatric
-     * @see http://health-lifesci.schema.org
+     * @see schema:Pediatric
+     * @see https://health-lifesci.schema.org
      */
-     const Pediatric = 'https://schema.org/Pediatric';
+     const Pediatric = 'schema:Pediatric';
 
     /**
      * The practice or art and science of preparing and dispensing drugs and
      * medicines.
      *
-     * @see https://schema.org/PharmacySpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:PharmacySpecialty
+     * @see https://health-lifesci.schema.org
      */
-     const PharmacySpecialty = 'https://schema.org/PharmacySpecialty';
+     const PharmacySpecialty = 'schema:PharmacySpecialty';
 
     /**
      * The practice of treatment of disease, injury, or deformity by physical
      * methods such as massage, heat treatment, and exercise rather than by
      * drugs or surgery..
      *
-     * @see https://schema.org/Physiotherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:Physiotherapy
+     * @see https://health-lifesci.schema.org
      */
-     const Physiotherapy = 'https://schema.org/Physiotherapy';
+     const Physiotherapy = 'schema:Physiotherapy';
 
     /**
      * A specific branch of medical science that pertains to therapeutic or
      * cosmetic repair or re-formation of missing, injured or malformed tissues
      * or body parts by manual and instrumental means.
      *
-     * @see https://schema.org/PlasticSurgery
-     * @see http://health-lifesci.schema.org
+     * @see schema:PlasticSurgery
+     * @see https://health-lifesci.schema.org
      */
-     const PlasticSurgery = 'https://schema.org/PlasticSurgery';
+     const PlasticSurgery = 'schema:PlasticSurgery';
 
     /**
      * Podiatry is the care of the human foot, especially the diagnosis and
      * treatment of foot disorders.
      *
-     * @see https://schema.org/Podiatric
-     * @see http://health-lifesci.schema.org
+     * @see schema:Podiatric
+     * @see https://health-lifesci.schema.org
      */
-     const Podiatric = 'https://schema.org/Podiatric';
+     const Podiatric = 'schema:Podiatric';
 
     /**
      * The medical care by a physician, or other health-care professional, who
      * is the patient's first contact with the health-care system and who may
      * recommend a specialist if necessary.
      *
-     * @see https://schema.org/PrimaryCare
-     * @see http://health-lifesci.schema.org
+     * @see schema:PrimaryCare
+     * @see https://health-lifesci.schema.org
      */
-     const PrimaryCare = 'https://schema.org/PrimaryCare';
+     const PrimaryCare = 'schema:PrimaryCare';
 
     /**
      * A specific branch of medical science that is concerned with the study,
      * treatment, and prevention of mental illness, using both medical and
      * psychological therapies.
      *
-     * @see https://schema.org/Psychiatric
-     * @see http://health-lifesci.schema.org
+     * @see schema:Psychiatric
+     * @see https://health-lifesci.schema.org
      */
-     const Psychiatric = 'https://schema.org/Psychiatric';
+     const Psychiatric = 'schema:Psychiatric';
 
     /**
      * Branch of medicine that pertains to the health services to improve and
      * protect community health, especially epidemiology, sanitation,
      * immunization, and preventive medicine.
      *
-     * @see https://schema.org/PublicHealth
-     * @see http://health-lifesci.schema.org
+     * @see schema:PublicHealth
+     * @see https://health-lifesci.schema.org
      */
-     const PublicHealth = 'https://schema.org/PublicHealth';
+     const PublicHealth = 'schema:PublicHealth';
 
     /**
      * A specific branch of medical science that pertains to the study of the
      * respiratory system and its respective disease states.
      *
-     * @see https://schema.org/Pulmonary
-     * @see http://health-lifesci.schema.org
+     * @see schema:Pulmonary
+     * @see https://health-lifesci.schema.org
      */
-     const Pulmonary = 'https://schema.org/Pulmonary';
+     const Pulmonary = 'schema:Pulmonary';
 
     /**
      * A specific branch of medical science that pertains to the study of the
      * kidneys and its respective disease states.
      *
-     * @see https://schema.org/Renal
-     * @see http://health-lifesci.schema.org
+     * @see schema:Renal
+     * @see https://health-lifesci.schema.org
      */
-     const Renal = 'https://schema.org/Renal';
+     const Renal = 'schema:Renal';
 
     /**
      * The therapy that is concerned with the maintenance or improvement of
      * respiratory function (as in patients with pulmonary disease).
      *
-     * @see https://schema.org/RespiratoryTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:RespiratoryTherapy
+     * @see https://health-lifesci.schema.org
      */
-     const RespiratoryTherapy = 'https://schema.org/RespiratoryTherapy';
+     const RespiratoryTherapy = 'schema:RespiratoryTherapy';
 
     /**
      * A specific branch of medical science that deals with the study and
      * treatment of rheumatic, autoimmune or joint diseases.
      *
-     * @see https://schema.org/Rheumatologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Rheumatologic
+     * @see https://health-lifesci.schema.org
      */
-     const Rheumatologic = 'https://schema.org/Rheumatologic';
+     const Rheumatologic = 'schema:Rheumatologic';
 
     /**
      * The scientific study and treatment of defects, disorders, and
      * malfunctions of speech and voice, as stuttering, lisping, or lalling, and
      * of language disturbances, as aphasia or delayed language acquisition.
      *
-     * @see https://schema.org/SpeechPathology
-     * @see http://health-lifesci.schema.org
+     * @see schema:SpeechPathology
+     * @see https://health-lifesci.schema.org
      */
-     const SpeechPathology = 'https://schema.org/SpeechPathology';
+     const SpeechPathology = 'schema:SpeechPathology';
 
     /**
      * A specific branch of medical science that pertains to treating diseases,
      * injuries and deformities by manual and instrumental means.
      *
-     * @see https://schema.org/Surgical
-     * @see http://health-lifesci.schema.org
+     * @see schema:Surgical
+     * @see https://health-lifesci.schema.org
      */
-     const Surgical = 'https://schema.org/Surgical';
+     const Surgical = 'schema:Surgical';
 
     /**
      * A specific branch of medical science that is concerned with poisons,
      * their nature, effects and detection and involved in the treatment of
      * poisoning.
      *
-     * @see https://schema.org/Toxicologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Toxicologic
+     * @see https://health-lifesci.schema.org
      */
-     const Toxicologic = 'https://schema.org/Toxicologic';
+     const Toxicologic = 'schema:Toxicologic';
 
     /**
      * A specific branch of medical science that is concerned with the diagnosis
      * and treatment of diseases pertaining to the urinary tract and the
      * urogenital system.
      *
-     * @see https://schema.org/Urologic
-     * @see http://health-lifesci.schema.org
+     * @see schema:Urologic
+     * @see https://health-lifesci.schema.org
      */
-     const Urologic = 'https://schema.org/Urologic';
+     const Urologic = 'schema:Urologic';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -418,7 +418,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -432,7 +432,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -446,7 +446,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -463,7 +463,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -481,7 +481,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -496,7 +496,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -512,7 +512,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -526,7 +526,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -541,7 +541,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -557,7 +557,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -571,7 +571,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -586,7 +586,7 @@ class MedicalSpecialty extends BaseType implements MedicalSpecialtyContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

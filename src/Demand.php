@@ -12,7 +12,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * certain type of goods or services. For describing demand using this type, the
  * very same properties used for Offer apply.
  *
- * @see https://schema.org/Demand
+ * @see schema:Demand
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -25,7 +25,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/acceptedPaymentMethod
+     * @see schema:acceptedPaymentMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function acceptedPaymentMethod($acceptedPaymentMethod)
@@ -45,7 +45,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -60,7 +60,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/advanceBookingRequirement
+     * @see schema:advanceBookingRequirement
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function advanceBookingRequirement($advanceBookingRequirement)
@@ -75,7 +75,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -89,7 +89,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -104,7 +104,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/availability
+     * @see schema:availability
      */
     public function availability($availability)
     {
@@ -119,7 +119,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/availabilityEnds
+     * @see schema:availabilityEnds
      */
     public function availabilityEnds($availabilityEnds)
     {
@@ -134,7 +134,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/availabilityStarts
+     * @see schema:availabilityStarts
      */
     public function availabilityStarts($availabilityStarts)
     {
@@ -148,7 +148,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/availableAtOrFrom
+     * @see schema:availableAtOrFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function availableAtOrFrom($availableAtOrFrom)
@@ -163,7 +163,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/availableDeliveryMethod
+     * @see schema:availableDeliveryMethod
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function availableDeliveryMethod($availableDeliveryMethod)
@@ -180,7 +180,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/businessFunction
+     * @see schema:businessFunction
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function businessFunction($businessFunction)
@@ -197,7 +197,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/deliveryLeadTime
+     * @see schema:deliveryLeadTime
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function deliveryLeadTime($deliveryLeadTime)
@@ -212,7 +212,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -229,7 +229,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -243,7 +243,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/eligibleCustomerType
+     * @see schema:eligibleCustomerType
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleCustomerType($eligibleCustomerType)
@@ -258,7 +258,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/eligibleDuration
+     * @see schema:eligibleDuration
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleDuration($eligibleDuration)
@@ -275,7 +275,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/eligibleQuantity
+     * @see schema:eligibleQuantity
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleQuantity($eligibleQuantity)
@@ -294,7 +294,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/eligibleRegion
+     * @see schema:eligibleRegion
      */
     public function eligibleRegion($eligibleRegion)
     {
@@ -311,7 +311,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/eligibleTransactionVolume
+     * @see schema:eligibleTransactionVolume
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function eligibleTransactionVolume($eligibleTransactionVolume)
@@ -323,21 +323,17 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      * A Global Trade Item Number
      * ([GTIN](https://www.gs1.org/standards/id-keys/gtin)). GTINs identify
      * trade items, including products and services, using numeric
-     * identification codes. The [[gtin]] property generalizes the earlier <a
-     * class="localLink" href="https://schema.org/gtin8">gtin8</a>, <a
-     * class="localLink" href="https://schema.org/gtin12">gtin12</a>, <a
-     * class="localLink" href="https://schema.org/gtin13">gtin13</a>, and <a
-     * class="localLink" href="https://schema.org/gtin14">gtin14</a> properties.
-     * The GS1 [digital link
+     * identification codes. The [[gtin]] property generalizes the earlier
+     * [[gtin8]], [[gtin12]], [[gtin13]], and [[gtin14]] properties. The GS1
+     * [digital link
      * specifications](https://www.gs1.org/standards/Digital-Link/) express
      * GTINs as URLs. A correct [[gtin]] value should be a valid GTIN, which
      * means that it should be an all-numeric string of either 8, 12, 13 or 14
      * digits, or a "GS1 Digital Link" URL based on such a string. The numeric
      * component should also have a [valid GS1 check
      * digit](https://www.gs1.org/services/check-digit-calculator) and meet the
-     * other rules for valid GTINs. See also <a
-     * href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1's GTIN
-     * Summary</a> and
+     * other rules for valid GTINs. See also [GS1's GTIN
+     * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) and
      * [Wikipedia](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) for
      * more details. Left-padding of the gtin values is not required or
      * encouraged.
@@ -346,8 +342,8 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/gtin
-     * @see http://pending.schema.org
+     * @see schema:gtin
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function gtin($gtin)
@@ -367,7 +363,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/gtin12
+     * @see schema:gtin12
      */
     public function gtin12($gtin12)
     {
@@ -378,7 +374,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      * The GTIN-13 code of the product, or the product to which the offer
      * refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former
      * 12-digit UPC codes can be converted into a GTIN-13 code by simply adding
-     * a preceeding zero. See [GS1 GTIN
+     * a preceding zero. See [GS1 GTIN
      * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more
      * details.
      *
@@ -386,7 +382,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/gtin13
+     * @see schema:gtin13
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin13($gtin13)
@@ -404,7 +400,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/gtin14
+     * @see schema:gtin14
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin14($gtin14)
@@ -413,9 +409,8 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
     }
 
     /**
-     * The [GTIN-8](http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx) code of
-     * the product, or the product to which the offer refers. This code is also
-     * known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN
+     * The GTIN-8 code of the product, or the product to which the offer refers.
+     * This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN
      * Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more
      * details.
      *
@@ -423,7 +418,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/gtin8
+     * @see schema:gtin8
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function gtin8($gtin8)
@@ -442,7 +437,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -457,7 +452,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -472,7 +467,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/includesObject
+     * @see schema:includesObject
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function includesObject($includesObject)
@@ -492,8 +487,8 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/ineligibleRegion
-     * @see http://pending.schema.org
+     * @see schema:ineligibleRegion
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2242
      */
     public function ineligibleRegion($ineligibleRegion)
@@ -508,7 +503,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/inventoryLevel
+     * @see schema:inventoryLevel
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function inventoryLevel($inventoryLevel)
@@ -525,7 +520,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/itemCondition
+     * @see schema:itemCondition
      */
     public function itemCondition($itemCondition)
     {
@@ -543,7 +538,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/itemOffered
+     * @see schema:itemOffered
      */
     public function itemOffered($itemOffered)
     {
@@ -559,7 +554,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -574,7 +569,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/mpn
+     * @see schema:mpn
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function mpn($mpn)
@@ -589,7 +584,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -604,7 +599,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -619,7 +614,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/priceSpecification
+     * @see schema:priceSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function priceSpecification($priceSpecification)
@@ -636,7 +631,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -651,7 +646,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/seller
+     * @see schema:seller
      */
     public function seller($seller)
     {
@@ -667,7 +662,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/serialNumber
+     * @see schema:serialNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function serialNumber($serialNumber)
@@ -683,7 +678,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/sku
+     * @see schema:sku
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function sku($sku)
@@ -698,7 +693,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -713,7 +708,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -727,7 +722,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -743,7 +738,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -758,7 +753,7 @@ class Demand extends BaseType implements DemandContract, IntangibleContract, Thi
      *
      * @return static
      *
-     * @see https://schema.org/warranty
+     * @see schema:warranty
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function warranty($warranty)

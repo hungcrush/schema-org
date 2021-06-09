@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Server that provides game interaction in a multiplayer game.
  *
- * @see https://schema.org/GameServer
+ * @see schema:GameServer
  *
  */
 class GameServer extends BaseType implements GameServerContract, IntangibleContract, ThingContract
@@ -26,7 +26,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -54,7 +54,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -71,7 +71,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -85,7 +85,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/game
+     * @see schema:game
      */
     public function game($game)
     {
@@ -103,7 +103,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -118,7 +118,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -134,7 +134,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -148,7 +148,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -162,7 +162,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/playersOnline
+     * @see schema:playersOnline
      */
     public function playersOnline($playersOnline)
     {
@@ -177,7 +177,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -193,7 +193,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -207,7 +207,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/serverStatus
+     * @see schema:serverStatus
      */
     public function serverStatus($serverStatus)
     {
@@ -221,7 +221,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -236,7 +236,7 @@ class GameServer extends BaseType implements GameServerContract, IntangibleContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

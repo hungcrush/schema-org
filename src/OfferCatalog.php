@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * An OfferCatalog is an ItemList that contains related Offers and/or further
  * OfferCatalogs that are offeredBy the same provider.
  *
- * @see https://schema.org/OfferCatalog
+ * @see schema:OfferCatalog
  *
  */
 class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleContract, ItemListContract, ThingContract
@@ -28,7 +28,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -73,7 +73,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -91,7 +91,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -106,7 +106,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -131,7 +131,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/itemListElement
+     * @see schema:itemListElement
      */
     public function itemListElement($itemListElement)
     {
@@ -145,7 +145,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/itemListOrder
+     * @see schema:itemListOrder
      */
     public function itemListOrder($itemListOrder)
     {
@@ -161,7 +161,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -175,7 +175,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -191,7 +191,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/numberOfItems
+     * @see schema:numberOfItems
      */
     public function numberOfItems($numberOfItems)
     {
@@ -206,7 +206,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -222,7 +222,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -236,7 +236,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -251,7 +251,7 @@ class OfferCatalog extends BaseType implements OfferCatalogContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

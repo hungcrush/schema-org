@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * well as other language-like computer representations. Natural languages are
  * best represented with the [[Language]] type.
  *
- * @see https://schema.org/ComputerLanguage
+ * @see schema:ComputerLanguage
  *
  */
 class ComputerLanguage extends BaseType implements ComputerLanguageContract, IntangibleContract, ThingContract
@@ -28,7 +28,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -56,7 +56,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -73,7 +73,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -91,7 +91,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -106,7 +106,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -122,7 +122,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -136,7 +136,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -151,7 +151,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -167,7 +167,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -181,7 +181,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -196,7 +196,7 @@ class ComputerLanguage extends BaseType implements ComputerLanguageContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

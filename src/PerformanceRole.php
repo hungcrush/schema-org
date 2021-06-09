@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A PerformanceRole is a Role that some entity places with regard to a
  * theatrical performance, e.g. in a Movie, TVSeries etc.
  *
- * @see https://schema.org/PerformanceRole
+ * @see schema:PerformanceRole
  *
  */
 class PerformanceRole extends BaseType implements PerformanceRoleContract, IntangibleContract, RoleContract, ThingContract
@@ -28,7 +28,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/characterName
+     * @see schema:characterName
      */
     public function characterName($characterName)
     {
@@ -71,7 +71,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -88,7 +88,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -103,7 +103,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -122,7 +122,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -137,7 +137,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -153,7 +153,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -167,7 +167,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -183,7 +183,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/namedPosition
+     * @see schema:namedPosition
      */
     public function namedPosition($namedPosition)
     {
@@ -198,7 +198,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -215,7 +215,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/roleName
+     * @see schema:roleName
      */
     public function roleName($roleName)
     {
@@ -231,7 +231,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -246,7 +246,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -261,7 +261,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -276,7 +276,7 @@ class PerformanceRole extends BaseType implements PerformanceRoleContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

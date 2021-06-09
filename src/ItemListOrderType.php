@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Enumerated for values for itemListOrder for indicating how an ordered
  * ItemList is organized.
  *
- * @see https://schema.org/ItemListOrderType
+ * @see schema:ItemListOrderType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -20,23 +20,23 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
     /**
      * An ItemList ordered with lower values listed first.
      *
-     * @see https://schema.org/ItemListOrderAscending
+     * @see schema:ItemListOrderAscending
      */
-     const ItemListOrderAscending = 'https://schema.org/ItemListOrderAscending';
+     const ItemListOrderAscending = 'schema:ItemListOrderAscending';
 
     /**
      * An ItemList ordered with higher values listed first.
      *
-     * @see https://schema.org/ItemListOrderDescending
+     * @see schema:ItemListOrderDescending
      */
-     const ItemListOrderDescending = 'https://schema.org/ItemListOrderDescending';
+     const ItemListOrderDescending = 'schema:ItemListOrderDescending';
 
     /**
      * An ItemList ordered with no explicit order.
      *
-     * @see https://schema.org/ItemListUnordered
+     * @see schema:ItemListUnordered
      */
-     const ItemListUnordered = 'https://schema.org/ItemListUnordered';
+     const ItemListUnordered = 'schema:ItemListUnordered';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -50,7 +50,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -64,7 +64,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -78,7 +78,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -95,7 +95,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -113,7 +113,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -128,7 +128,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -144,7 +144,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -158,7 +158,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -173,7 +173,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -189,7 +189,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -203,7 +203,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -218,7 +218,7 @@ class ItemListOrderType extends BaseType implements ItemListOrderTypeContract, E
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

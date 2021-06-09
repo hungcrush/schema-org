@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A value indicating a special usage of a car, e.g. commercial rental, driving
  * school, or as a taxi.
  *
- * @see https://schema.org/CarUsageType
- * @see http://auto.schema.org
+ * @see schema:CarUsageType
+ * @see https://auto.schema.org
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -22,29 +22,29 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
     /**
      * Indicates the usage of the vehicle for driving school.
      *
-     * @see https://schema.org/DrivingSchoolVehicleUsage
-     * @see http://auto.schema.org
+     * @see schema:DrivingSchoolVehicleUsage
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const DrivingSchoolVehicleUsage = 'https://schema.org/DrivingSchoolVehicleUsage';
+     const DrivingSchoolVehicleUsage = 'schema:DrivingSchoolVehicleUsage';
 
     /**
      * Indicates the usage of the vehicle as a rental car.
      *
-     * @see https://schema.org/RentalVehicleUsage
-     * @see http://auto.schema.org
+     * @see schema:RentalVehicleUsage
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const RentalVehicleUsage = 'https://schema.org/RentalVehicleUsage';
+     const RentalVehicleUsage = 'schema:RentalVehicleUsage';
 
     /**
      * Indicates the usage of the car as a taxi.
      *
-     * @see https://schema.org/TaxiVehicleUsage
-     * @see http://auto.schema.org
+     * @see schema:TaxiVehicleUsage
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
-     const TaxiVehicleUsage = 'https://schema.org/TaxiVehicleUsage';
+     const TaxiVehicleUsage = 'schema:TaxiVehicleUsage';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -58,7 +58,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -72,7 +72,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -86,7 +86,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -103,7 +103,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -121,7 +121,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -136,7 +136,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -152,7 +152,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -166,7 +166,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -181,7 +181,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -197,7 +197,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -211,7 +211,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -226,7 +226,7 @@ class CarUsageType extends BaseType implements CarUsageTypeContract, Enumeration
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

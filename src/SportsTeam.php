@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Organization: Sports team.
  *
- * @see https://schema.org/SportsTeam
+ * @see schema:SportsTeam
  *
  */
 class SportsTeam extends BaseType implements SportsTeamContract, OrganizationContract, SportsOrganizationContract, ThingContract
@@ -25,8 +25,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/actionableFeedbackPolicy
-     * @see http://pending.schema.org
+     * @see schema:actionableFeedbackPolicy
+     * @see https://pending.schema.org
      */
     public function actionableFeedbackPolicy($actionableFeedbackPolicy)
     {
@@ -45,7 +45,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -59,7 +59,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -74,7 +74,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -88,7 +88,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -102,7 +102,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/alumni
+     * @see schema:alumni
      */
     public function alumni($alumni)
     {
@@ -116,7 +116,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -131,7 +131,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/athlete
+     * @see schema:athlete
      */
     public function athlete($athlete)
     {
@@ -145,7 +145,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -159,7 +159,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -174,7 +174,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -188,7 +188,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/coach
+     * @see schema:coach
      */
     public function coach($coach)
     {
@@ -202,7 +202,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/contactPoint
+     * @see schema:contactPoint
      */
     public function contactPoint($contactPoint)
     {
@@ -216,7 +216,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/contactPoints
+     * @see schema:contactPoints
      */
     public function contactPoints($contactPoints)
     {
@@ -232,8 +232,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/correctionsPolicy
-     * @see http://pending.schema.org
+     * @see schema:correctionsPolicy
+     * @see https://pending.schema.org
      */
     public function correctionsPolicy($correctionsPolicy)
     {
@@ -250,7 +250,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/department
+     * @see schema:department
      */
     public function department($department)
     {
@@ -264,7 +264,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -281,7 +281,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -295,7 +295,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/dissolutionDate
+     * @see schema:dissolutionDate
      */
     public function dissolutionDate($dissolutionDate)
     {
@@ -312,8 +312,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/diversityPolicy
-     * @see http://pending.schema.org
+     * @see schema:diversityPolicy
+     * @see https://pending.schema.org
      */
     public function diversityPolicy($diversityPolicy)
     {
@@ -330,8 +330,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/diversityStaffingReport
-     * @see http://pending.schema.org
+     * @see schema:diversityStaffingReport
+     * @see https://pending.schema.org
      */
     public function diversityStaffingReport($diversityStaffingReport)
     {
@@ -346,7 +346,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/duns
+     * @see schema:duns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function duns($duns)
@@ -361,7 +361,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/email
+     * @see schema:email
      */
     public function email($email)
     {
@@ -375,7 +375,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/employee
+     * @see schema:employee
      */
     public function employee($employee)
     {
@@ -389,7 +389,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/employees
+     * @see schema:employees
      */
     public function employees($employees)
     {
@@ -408,8 +408,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/ethicsPolicy
-     * @see http://pending.schema.org
+     * @see schema:ethicsPolicy
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1525
      */
     public function ethicsPolicy($ethicsPolicy)
@@ -425,7 +425,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -439,7 +439,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/events
+     * @see schema:events
      */
     public function events($events)
     {
@@ -453,7 +453,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -467,7 +467,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/founder
+     * @see schema:founder
      */
     public function founder($founder)
     {
@@ -481,7 +481,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/founders
+     * @see schema:founders
      */
     public function founders($founders)
     {
@@ -495,7 +495,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/foundingDate
+     * @see schema:foundingDate
      */
     public function foundingDate($foundingDate)
     {
@@ -509,7 +509,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/foundingLocation
+     * @see schema:foundingLocation
      */
     public function foundingLocation($foundingLocation)
     {
@@ -524,7 +524,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -545,8 +545,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/gender
-     * @see http://pending.schema.org
+     * @see schema:gender
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2341
      */
     public function gender($gender)
@@ -564,7 +564,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -579,8 +579,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/hasCredential
-     * @see http://pending.schema.org
+     * @see schema:hasCredential
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function hasCredential($hasCredential)
@@ -595,8 +595,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/hasMerchantReturnPolicy
-     * @see http://pending.schema.org
+     * @see schema:hasMerchantReturnPolicy
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function hasMerchantReturnPolicy($hasMerchantReturnPolicy)
@@ -612,7 +612,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -626,7 +626,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/hasPOS
+     * @see schema:hasPOS
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function hasPOS($hasPOS)
@@ -641,8 +641,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/hasProductReturnPolicy
-     * @see http://attic.schema.org
+     * @see schema:hasProductReturnPolicy
+     * @see https://attic.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2288
      */
     public function hasProductReturnPolicy($hasProductReturnPolicy)
@@ -661,7 +661,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -676,7 +676,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -692,7 +692,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -709,7 +709,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -727,8 +727,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/knowsAbout
-     * @see http://pending.schema.org
+     * @see schema:knowsAbout
+     * @see https://pending.schema.org
      */
     public function knowsAbout($knowsAbout)
     {
@@ -745,8 +745,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/knowsLanguage
-     * @see http://pending.schema.org
+     * @see schema:knowsLanguage
+     * @see https://pending.schema.org
      */
     public function knowsLanguage($knowsLanguage)
     {
@@ -760,7 +760,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/legalName
+     * @see schema:legalName
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function legalName($legalName)
@@ -776,7 +776,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/leiCode
+     * @see schema:leiCode
      */
     public function leiCode($leiCode)
     {
@@ -784,14 +784,14 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -805,7 +805,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -822,7 +822,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -836,7 +836,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/makesOffer
+     * @see schema:makesOffer
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function makesOffer($makesOffer)
@@ -852,7 +852,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/member
+     * @see schema:member
      */
     public function member($member)
     {
@@ -867,7 +867,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/memberOf
+     * @see schema:memberOf
      */
     public function memberOf($memberOf)
     {
@@ -881,7 +881,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/members
+     * @see schema:members
      */
     public function members($members)
     {
@@ -896,7 +896,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/naics
+     * @see schema:naics
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function naics($naics)
@@ -911,7 +911,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -926,8 +926,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/nonprofitStatus
-     * @see http://pending.schema.org
+     * @see schema:nonprofitStatus
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2543
      */
     public function nonprofitStatus($nonprofitStatus)
@@ -942,7 +942,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/numberOfEmployees
+     * @see schema:numberOfEmployees
      */
     public function numberOfEmployees($numberOfEmployees)
     {
@@ -961,8 +961,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/ownershipFundingInfo
-     * @see http://pending.schema.org
+     * @see schema:ownershipFundingInfo
+     * @see https://pending.schema.org
      */
     public function ownershipFundingInfo($ownershipFundingInfo)
     {
@@ -976,7 +976,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/owns
+     * @see schema:owns
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function owns($owns)
@@ -992,7 +992,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/parentOrganization
+     * @see schema:parentOrganization
      */
     public function parentOrganization($parentOrganization)
     {
@@ -1007,7 +1007,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -1031,7 +1031,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -1045,7 +1045,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -1059,7 +1059,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1075,7 +1075,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1090,7 +1090,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/seeks
+     * @see schema:seeks
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function seeks($seeks)
@@ -1105,7 +1105,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -1119,7 +1119,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -1135,7 +1135,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1149,8 +1149,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/sport
-     * @see http://pending.schema.org
+     * @see schema:sport
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1951
      */
     public function sport($sport)
@@ -1167,7 +1167,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/subOrganization
+     * @see schema:subOrganization
      */
     public function subOrganization($subOrganization)
     {
@@ -1181,7 +1181,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1197,7 +1197,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/taxID
+     * @see schema:taxID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function taxID($taxID)
@@ -1212,7 +1212,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -1228,8 +1228,8 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/unnamedSourcesPolicy
-     * @see http://pending.schema.org
+     * @see schema:unnamedSourcesPolicy
+     * @see https://pending.schema.org
      */
     public function unnamedSourcesPolicy($unnamedSourcesPolicy)
     {
@@ -1243,7 +1243,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -1257,7 +1257,7 @@ class SportsTeam extends BaseType implements SportsTeamContract, OrganizationCon
      *
      * @return static
      *
-     * @see https://schema.org/vatID
+     * @see schema:vatID
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function vatID($vatID)

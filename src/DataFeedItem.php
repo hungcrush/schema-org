@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A single item within a larger data feed.
  *
- * @see https://schema.org/DataFeedItem
+ * @see schema:DataFeedItem
  *
  */
 class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleContract, ThingContract
@@ -26,7 +26,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/dateCreated
+     * @see schema:dateCreated
      */
     public function dateCreated($dateCreated)
     {
@@ -69,7 +69,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/dateDeleted
+     * @see schema:dateDeleted
      */
     public function dateDeleted($dateDeleted)
     {
@@ -84,7 +84,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/dateModified
+     * @see schema:dateModified
      */
     public function dateModified($dateModified)
     {
@@ -98,7 +98,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -115,7 +115,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -133,7 +133,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -148,7 +148,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -163,7 +163,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/item
+     * @see schema:item
      */
     public function item($item)
     {
@@ -179,7 +179,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -193,7 +193,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -208,7 +208,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -224,7 +224,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -238,7 +238,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -253,7 +253,7 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

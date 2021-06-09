@@ -72,6 +72,8 @@ interface TVEpisodeContract
 
     public function copyrightHolder($copyrightHolder);
 
+    public function copyrightNotice($copyrightNotice);
+
     public function copyrightYear($copyrightYear);
 
     public function correction($correction);
@@ -81,6 +83,8 @@ interface TVEpisodeContract
     public function creativeWorkStatus($creativeWorkStatus);
 
     public function creator($creator);
+
+    public function creditText($creditText);
 
     public function dateCreated($dateCreated);
 
@@ -97,6 +101,8 @@ interface TVEpisodeContract
     public function disambiguatingDescription($disambiguatingDescription);
 
     public function discussionUrl($discussionUrl);
+
+    public function duration($duration);
 
     public function editEIDR($editEIDR);
 

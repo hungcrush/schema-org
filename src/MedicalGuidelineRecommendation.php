@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A guideline recommendation that is regarded as efficacious and where quality
  * of the data supporting the recommendation is sound.
  *
- * @see https://schema.org/MedicalGuidelineRecommendation
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalGuidelineRecommendation
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelineRecommendationContract, MedicalEntityContract, MedicalGuidelineContract, ThingContract
@@ -29,7 +29,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -58,8 +58,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -73,7 +73,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -90,7 +90,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -105,8 +105,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/evidenceLevel
-     * @see http://health-lifesci.schema.org
+     * @see schema:evidenceLevel
+     * @see https://health-lifesci.schema.org
      */
     public function evidenceLevel($evidenceLevel)
     {
@@ -121,8 +121,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/evidenceOrigin
-     * @see http://health-lifesci.schema.org
+     * @see schema:evidenceOrigin
+     * @see https://health-lifesci.schema.org
      */
     public function evidenceOrigin($evidenceOrigin)
     {
@@ -136,8 +136,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -151,8 +151,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/guidelineDate
-     * @see http://health-lifesci.schema.org
+     * @see schema:guidelineDate
+     * @see https://health-lifesci.schema.org
      */
     public function guidelineDate($guidelineDate)
     {
@@ -167,8 +167,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/guidelineSubject
-     * @see http://health-lifesci.schema.org
+     * @see schema:guidelineSubject
+     * @see https://health-lifesci.schema.org
      */
     public function guidelineSubject($guidelineSubject)
     {
@@ -186,7 +186,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -201,7 +201,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -216,8 +216,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -233,7 +233,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -248,8 +248,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -263,7 +263,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -278,7 +278,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -293,8 +293,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -308,8 +308,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/recommendationStrength
-     * @see http://health-lifesci.schema.org
+     * @see schema:recommendationStrength
+     * @see https://health-lifesci.schema.org
      */
     public function recommendationStrength($recommendationStrength)
     {
@@ -323,8 +323,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -340,7 +340,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -354,8 +354,8 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -369,7 +369,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -384,7 +384,7 @@ class MedicalGuidelineRecommendation extends BaseType implements MedicalGuidelin
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

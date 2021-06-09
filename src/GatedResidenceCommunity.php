@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Residence type: Gated community.
  *
- * @see https://schema.org/GatedResidenceCommunity
+ * @see schema:GatedResidenceCommunity
  *
  */
 class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunityContract, PlaceContract, ResidenceContract, ThingContract
@@ -22,8 +22,8 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/accommodationFloorPlan
-     * @see http://pending.schema.org
+     * @see schema:accommodationFloorPlan
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function accommodationFloorPlan($accommodationFloorPlan)
@@ -46,7 +46,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/additionalProperty
+     * @see schema:additionalProperty
      */
     public function additionalProperty($additionalProperty)
     {
@@ -65,7 +65,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -79,7 +79,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -94,7 +94,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -108,7 +108,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -125,7 +125,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/amenityFeature
+     * @see schema:amenityFeature
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function amenityFeature($amenityFeature)
@@ -146,7 +146,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/branchCode
+     * @see schema:branchCode
      */
     public function branchCode($branchCode)
     {
@@ -160,7 +160,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/containedIn
+     * @see schema:containedIn
      */
     public function containedIn($containedIn)
     {
@@ -174,7 +174,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/containedInPlace
+     * @see schema:containedInPlace
      */
     public function containedInPlace($containedInPlace)
     {
@@ -189,7 +189,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/containsPlace
+     * @see schema:containsPlace
      */
     public function containsPlace($containsPlace)
     {
@@ -203,7 +203,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -220,7 +220,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -235,7 +235,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/event
+     * @see schema:event
      */
     public function event($event)
     {
@@ -249,7 +249,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/events
+     * @see schema:events
      */
     public function events($events)
     {
@@ -263,7 +263,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/faxNumber
+     * @see schema:faxNumber
      */
     public function faxNumber($faxNumber)
     {
@@ -277,7 +277,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geo
+     * @see schema:geo
      */
     public function geo($geo)
     {
@@ -295,7 +295,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoContains
+     * @see schema:geoContains
      */
     public function geoContains($geoContains)
     {
@@ -311,7 +311,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoCoveredBy
+     * @see schema:geoCoveredBy
      */
     public function geoCoveredBy($geoCoveredBy)
     {
@@ -328,7 +328,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoCovers
+     * @see schema:geoCovers
      */
     public function geoCovers($geoCovers)
     {
@@ -346,7 +346,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoCrosses
+     * @see schema:geoCrosses
      */
     public function geoCrosses($geoCrosses)
     {
@@ -363,7 +363,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoDisjoint
+     * @see schema:geoDisjoint
      */
     public function geoDisjoint($geoDisjoint)
     {
@@ -382,7 +382,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoEquals
+     * @see schema:geoEquals
      */
     public function geoEquals($geoEquals)
     {
@@ -398,7 +398,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoIntersects
+     * @see schema:geoIntersects
      */
     public function geoIntersects($geoIntersects)
     {
@@ -415,7 +415,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoOverlaps
+     * @see schema:geoOverlaps
      */
     public function geoOverlaps($geoOverlaps)
     {
@@ -432,7 +432,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoTouches
+     * @see schema:geoTouches
      */
     public function geoTouches($geoTouches)
     {
@@ -449,7 +449,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/geoWithin
+     * @see schema:geoWithin
      */
     public function geoWithin($geoWithin)
     {
@@ -466,7 +466,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/globalLocationNumber
+     * @see schema:globalLocationNumber
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function globalLocationNumber($globalLocationNumber)
@@ -485,8 +485,8 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/hasDriveThroughService
-     * @see http://pending.schema.org
+     * @see schema:hasDriveThroughService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2490
      */
     public function hasDriveThroughService($hasDriveThroughService)
@@ -501,7 +501,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/hasMap
+     * @see schema:hasMap
      */
     public function hasMap($hasMap)
     {
@@ -519,7 +519,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -534,7 +534,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -548,7 +548,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -564,7 +564,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/isicV4
+     * @see schema:isicV4
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isicV4($isicV4)
@@ -580,7 +580,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/latitude
+     * @see schema:latitude
      */
     public function latitude($latitude)
     {
@@ -594,7 +594,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -610,7 +610,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/longitude
+     * @see schema:longitude
      */
     public function longitude($longitude)
     {
@@ -626,7 +626,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -640,7 +640,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/map
+     * @see schema:map
      */
     public function map($map)
     {
@@ -654,7 +654,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/maps
+     * @see schema:maps
      */
     public function maps($maps)
     {
@@ -668,7 +668,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/maximumAttendeeCapacity
+     * @see schema:maximumAttendeeCapacity
      */
     public function maximumAttendeeCapacity($maximumAttendeeCapacity)
     {
@@ -682,7 +682,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -696,7 +696,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/openingHoursSpecification
+     * @see schema:openingHoursSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function openingHoursSpecification($openingHoursSpecification)
@@ -711,7 +711,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/photo
+     * @see schema:photo
      */
     public function photo($photo)
     {
@@ -725,7 +725,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/photos
+     * @see schema:photos
      */
     public function photos($photos)
     {
@@ -740,7 +740,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -755,7 +755,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/publicAccess
+     * @see schema:publicAccess
      */
     public function publicAccess($publicAccess)
     {
@@ -769,7 +769,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -783,7 +783,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -799,7 +799,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -813,7 +813,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -828,7 +828,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/smokingAllowed
+     * @see schema:smokingAllowed
      * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
      */
     public function smokingAllowed($smokingAllowed)
@@ -846,7 +846,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/specialOpeningHoursSpecification
+     * @see schema:specialOpeningHoursSpecification
      */
     public function specialOpeningHoursSpecification($specialOpeningHoursSpecification)
     {
@@ -860,7 +860,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -875,7 +875,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/telephone
+     * @see schema:telephone
      */
     public function telephone($telephone)
     {
@@ -891,8 +891,8 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/tourBookingPage
-     * @see http://pending.schema.org
+     * @see schema:tourBookingPage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function tourBookingPage($tourBookingPage)
@@ -907,7 +907,7 @@ class GatedResidenceCommunity extends BaseType implements GatedResidenceCommunit
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

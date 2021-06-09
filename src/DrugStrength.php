@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A specific strength in which a medical drug is available in a specific
  * country.
  *
- * @see https://schema.org/DrugStrength
- * @see http://health-lifesci.schema.org
+ * @see schema:DrugStrength
+ * @see https://health-lifesci.schema.org
  *
  */
 class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEntityContract, MedicalIntangibleContract, ThingContract
@@ -25,8 +25,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/activeIngredient
-     * @see http://health-lifesci.schema.org
+     * @see schema:activeIngredient
+     * @see https://health-lifesci.schema.org
      */
     public function activeIngredient($activeIngredient)
     {
@@ -45,7 +45,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -59,7 +59,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -73,8 +73,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/availableIn
-     * @see http://health-lifesci.schema.org
+     * @see schema:availableIn
+     * @see https://health-lifesci.schema.org
      */
     public function availableIn($availableIn)
     {
@@ -89,8 +89,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -104,7 +104,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -121,7 +121,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -135,8 +135,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -154,7 +154,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -169,7 +169,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -184,8 +184,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -201,7 +201,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -216,8 +216,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/maximumIntake
-     * @see http://health-lifesci.schema.org
+     * @see schema:maximumIntake
+     * @see https://health-lifesci.schema.org
      */
     public function maximumIntake($maximumIntake)
     {
@@ -232,8 +232,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -247,7 +247,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -262,7 +262,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -277,8 +277,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -292,8 +292,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -309,7 +309,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -323,8 +323,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/strengthUnit
-     * @see http://health-lifesci.schema.org
+     * @see schema:strengthUnit
+     * @see https://health-lifesci.schema.org
      */
     public function strengthUnit($strengthUnit)
     {
@@ -338,8 +338,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/strengthValue
-     * @see http://health-lifesci.schema.org
+     * @see schema:strengthValue
+     * @see https://health-lifesci.schema.org
      */
     public function strengthValue($strengthValue)
     {
@@ -353,8 +353,8 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -368,7 +368,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -383,7 +383,7 @@ class DrugStrength extends BaseType implements DrugStrengthContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

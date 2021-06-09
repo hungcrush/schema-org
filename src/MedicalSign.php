@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Any physical manifestation of a person's medical condition discoverable by
  * objective diagnostic tests or physical examination.
  *
- * @see https://schema.org/MedicalSign
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalSign
+ * @see https://health-lifesci.schema.org
  *
  */
 class MedicalSign extends BaseType implements MedicalSignContract, MedicalConditionContract, MedicalEntityContract, MedicalSignOrSymptomContract, ThingContract
@@ -30,7 +30,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -44,7 +44,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,8 +59,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/associatedAnatomy
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedAnatomy
+     * @see https://health-lifesci.schema.org
      */
     public function associatedAnatomy($associatedAnatomy)
     {
@@ -75,8 +75,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -90,7 +90,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -109,8 +109,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/differentialDiagnosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:differentialDiagnosis
+     * @see https://health-lifesci.schema.org
      */
     public function differentialDiagnosis($differentialDiagnosis)
     {
@@ -127,7 +127,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -135,14 +135,14 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
     }
 
     /**
-     * Specifying a drug or medicine used in a medication procedure
+     * Specifying a drug or medicine used in a medication procedure.
      *
      * @param \Spatie\SchemaOrg\Contracts\DrugContract|\Spatie\SchemaOrg\Contracts\DrugContract[] $drug
      *
      * @return static
      *
-     * @see https://schema.org/drug
-     * @see http://health-lifesci.schema.org
+     * @see schema:drug
+     * @see https://health-lifesci.schema.org
      */
     public function drug($drug)
     {
@@ -157,8 +157,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/epidemiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:epidemiology
+     * @see https://health-lifesci.schema.org
      */
     public function epidemiology($epidemiology)
     {
@@ -173,8 +173,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/expectedPrognosis
-     * @see http://health-lifesci.schema.org
+     * @see schema:expectedPrognosis
+     * @see https://health-lifesci.schema.org
      */
     public function expectedPrognosis($expectedPrognosis)
     {
@@ -188,8 +188,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -207,7 +207,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -221,8 +221,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/identifyingExam
-     * @see http://health-lifesci.schema.org
+     * @see schema:identifyingExam
+     * @see https://health-lifesci.schema.org
      */
     public function identifyingExam($identifyingExam)
     {
@@ -236,8 +236,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/identifyingTest
-     * @see http://health-lifesci.schema.org
+     * @see schema:identifyingTest
+     * @see https://health-lifesci.schema.org
      */
     public function identifyingTest($identifyingTest)
     {
@@ -252,7 +252,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -267,8 +267,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -284,7 +284,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -299,8 +299,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -314,7 +314,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -329,8 +329,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/naturalProgression
-     * @see http://health-lifesci.schema.org
+     * @see schema:naturalProgression
+     * @see https://health-lifesci.schema.org
      */
     public function naturalProgression($naturalProgression)
     {
@@ -345,8 +345,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/pathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:pathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function pathophysiology($pathophysiology)
     {
@@ -362,8 +362,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/possibleComplication
-     * @see http://health-lifesci.schema.org
+     * @see schema:possibleComplication
+     * @see https://health-lifesci.schema.org
      */
     public function possibleComplication($possibleComplication)
     {
@@ -377,8 +377,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/possibleTreatment
-     * @see http://health-lifesci.schema.org
+     * @see schema:possibleTreatment
+     * @see https://health-lifesci.schema.org
      */
     public function possibleTreatment($possibleTreatment)
     {
@@ -393,7 +393,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -408,8 +408,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/primaryPrevention
-     * @see http://health-lifesci.schema.org
+     * @see schema:primaryPrevention
+     * @see https://health-lifesci.schema.org
      */
     public function primaryPrevention($primaryPrevention)
     {
@@ -424,8 +424,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -439,8 +439,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -455,8 +455,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/riskFactor
-     * @see http://health-lifesci.schema.org
+     * @see schema:riskFactor
+     * @see https://health-lifesci.schema.org
      */
     public function riskFactor($riskFactor)
     {
@@ -472,7 +472,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -487,8 +487,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/secondaryPrevention
-     * @see http://health-lifesci.schema.org
+     * @see schema:secondaryPrevention
+     * @see https://health-lifesci.schema.org
      */
     public function secondaryPrevention($secondaryPrevention)
     {
@@ -504,8 +504,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/signOrSymptom
-     * @see http://health-lifesci.schema.org
+     * @see schema:signOrSymptom
+     * @see https://health-lifesci.schema.org
      */
     public function signOrSymptom($signOrSymptom)
     {
@@ -519,8 +519,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/stage
-     * @see http://health-lifesci.schema.org
+     * @see schema:stage
+     * @see https://health-lifesci.schema.org
      */
     public function stage($stage)
     {
@@ -534,8 +534,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/status
-     * @see http://health-lifesci.schema.org
+     * @see schema:status
+     * @see https://health-lifesci.schema.org
      */
     public function status($status)
     {
@@ -549,8 +549,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -564,7 +564,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -579,8 +579,8 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/typicalTest
-     * @see http://health-lifesci.schema.org
+     * @see schema:typicalTest
+     * @see https://health-lifesci.schema.org
      */
     public function typicalTest($typicalTest)
     {
@@ -594,7 +594,7 @@ class MedicalSign extends BaseType implements MedicalSignContract, MedicalCondit
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -7,8 +7,8 @@ use \Spatie\SchemaOrg\Contracts\XPathTypeContract;
 /**
  * Text representing an XPath (typically but not necessarily version 1.0).
  *
- * @see https://schema.org/XPathType
- * @see http://pending.schema.org
+ * @see schema:XPathType
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1672
  *
  */

@@ -14,8 +14,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * occurrences can be published, distinguished and matched (i.e.
  * identified/referenced) by their different values for [[shippingLabel]].
  *
- * @see https://schema.org/ShippingRateSettings
- * @see http://pending.schema.org
+ * @see schema:ShippingRateSettings
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2506
  *
  */
@@ -33,7 +33,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,7 +47,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -61,7 +61,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -78,7 +78,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -93,8 +93,8 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/doesNotShip
-     * @see http://pending.schema.org
+     * @see schema:doesNotShip
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function doesNotShip($doesNotShip)
@@ -111,8 +111,8 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/freeShippingThreshold
-     * @see http://pending.schema.org
+     * @see schema:freeShippingThreshold
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function freeShippingThreshold($freeShippingThreshold)
@@ -131,7 +131,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -146,7 +146,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -167,8 +167,8 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/isUnlabelledFallback
-     * @see http://pending.schema.org
+     * @see schema:isUnlabelledFallback
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function isUnlabelledFallback($isUnlabelledFallback)
@@ -185,7 +185,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -199,7 +199,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -214,7 +214,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -230,7 +230,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -245,8 +245,8 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingDestination
-     * @see http://pending.schema.org
+     * @see schema:shippingDestination
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingDestination($shippingDestination)
@@ -263,8 +263,8 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingLabel
-     * @see http://pending.schema.org
+     * @see schema:shippingLabel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingLabel($shippingLabel)
@@ -281,8 +281,8 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/shippingRate
-     * @see http://pending.schema.org
+     * @see schema:shippingRate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function shippingRate($shippingRate)
@@ -297,7 +297,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -312,7 +312,7 @@ class ShippingRateSettings extends BaseType implements ShippingRateSettingsContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

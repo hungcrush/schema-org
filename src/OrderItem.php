@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * An order item is a line of an order. It includes the quantity and shipping
  * details of a bought offer.
  *
- * @see https://schema.org/OrderItem
+ * @see schema:OrderItem
  *
  */
 class OrderItem extends BaseType implements OrderItemContract, IntangibleContract, ThingContract
@@ -27,7 +27,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -72,7 +72,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -90,7 +90,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -105,7 +105,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -121,7 +121,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -135,7 +135,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -149,7 +149,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/orderDelivery
+     * @see schema:orderDelivery
      */
     public function orderDelivery($orderDelivery)
     {
@@ -163,7 +163,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/orderItemNumber
+     * @see schema:orderItemNumber
      */
     public function orderItemNumber($orderItemNumber)
     {
@@ -177,7 +177,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/orderItemStatus
+     * @see schema:orderItemStatus
      */
     public function orderItemStatus($orderItemStatus)
     {
@@ -192,7 +192,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/orderQuantity
+     * @see schema:orderQuantity
      */
     public function orderQuantity($orderQuantity)
     {
@@ -206,7 +206,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/orderedItem
+     * @see schema:orderedItem
      */
     public function orderedItem($orderedItem)
     {
@@ -221,7 +221,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -237,7 +237,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -251,7 +251,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -266,7 +266,7 @@ class OrderItem extends BaseType implements OrderItemContract, IntangibleContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

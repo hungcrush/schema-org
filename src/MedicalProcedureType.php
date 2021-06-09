@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * An enumeration that describes different types of medical procedures.
  *
- * @see https://schema.org/MedicalProcedureType
- * @see http://health-lifesci.schema.org
+ * @see schema:MedicalProcedureType
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,20 +21,20 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
     /**
      * A type of medical procedure that involves noninvasive techniques.
      *
-     * @see https://schema.org/NoninvasiveProcedure
-     * @see http://health-lifesci.schema.org
+     * @see schema:NoninvasiveProcedure
+     * @see https://health-lifesci.schema.org
      */
-     const NoninvasiveProcedure = 'https://schema.org/NoninvasiveProcedure';
+     const NoninvasiveProcedure = 'schema:NoninvasiveProcedure';
 
     /**
      * A type of medical procedure that involves percutaneous techniques, where
      * access to organs or tissue is achieved via needle-puncture of the skin.
      * For example, catheter-based procedures like stent delivery.
      *
-     * @see https://schema.org/PercutaneousProcedure
-     * @see http://health-lifesci.schema.org
+     * @see schema:PercutaneousProcedure
+     * @see https://health-lifesci.schema.org
      */
-     const PercutaneousProcedure = 'https://schema.org/PercutaneousProcedure';
+     const PercutaneousProcedure = 'schema:PercutaneousProcedure';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -48,7 +48,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -62,7 +62,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -76,7 +76,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -93,7 +93,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -111,7 +111,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -126,7 +126,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -142,7 +142,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -156,7 +156,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -171,7 +171,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -187,7 +187,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -201,7 +201,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -216,7 +216,7 @@ class MedicalProcedureType extends BaseType implements MedicalProcedureTypeContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

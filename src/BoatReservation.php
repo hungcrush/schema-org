@@ -14,8 +14,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * confirmation emails or HTML pages with individual confirmations of
  * reservations. For offers of tickets, use [[Offer]].
  *
- * @see https://schema.org/BoatReservation
- * @see http://pending.schema.org
+ * @see schema:BoatReservation
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1755
  *
  */
@@ -33,7 +33,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,7 +47,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -62,7 +62,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/bookingAgent
+     * @see schema:bookingAgent
      */
     public function bookingAgent($bookingAgent)
     {
@@ -76,7 +76,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/bookingTime
+     * @see schema:bookingTime
      */
     public function bookingTime($bookingTime)
     {
@@ -93,7 +93,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -107,7 +107,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -124,7 +124,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -142,7 +142,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -157,7 +157,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -173,7 +173,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -187,7 +187,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/modifiedTime
+     * @see schema:modifiedTime
      */
     public function modifiedTime($modifiedTime)
     {
@@ -201,7 +201,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -216,7 +216,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -239,7 +239,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -254,7 +254,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/programMembershipUsed
+     * @see schema:programMembershipUsed
      */
     public function programMembershipUsed($programMembershipUsed)
     {
@@ -270,7 +270,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -285,7 +285,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/reservationFor
+     * @see schema:reservationFor
      */
     public function reservationFor($reservationFor)
     {
@@ -299,7 +299,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/reservationId
+     * @see schema:reservationId
      */
     public function reservationId($reservationId)
     {
@@ -313,7 +313,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/reservationStatus
+     * @see schema:reservationStatus
      */
     public function reservationStatus($reservationStatus)
     {
@@ -327,7 +327,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/reservedTicket
+     * @see schema:reservedTicket
      */
     public function reservedTicket($reservedTicket)
     {
@@ -343,7 +343,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -357,7 +357,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -380,7 +380,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/totalPrice
+     * @see schema:totalPrice
      */
     public function totalPrice($totalPrice)
     {
@@ -394,7 +394,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/underName
+     * @see schema:underName
      */
     public function underName($underName)
     {
@@ -408,7 +408,7 @@ class BoatReservation extends BaseType implements BoatReservationContract, Intan
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

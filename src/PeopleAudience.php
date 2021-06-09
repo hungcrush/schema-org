@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A set of characteristics belonging to people, e.g. who compose an item's
  * target audience.
  *
- * @see https://schema.org/PeopleAudience
+ * @see schema:PeopleAudience
  *
  */
 class PeopleAudience extends BaseType implements PeopleAudienceContract, AudienceContract, IntangibleContract, ThingContract
@@ -28,7 +28,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/audienceType
+     * @see schema:audienceType
      */
     public function audienceType($audienceType)
     {
@@ -71,7 +71,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -88,7 +88,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -102,7 +102,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/geographicArea
+     * @see schema:geographicArea
      */
     public function geographicArea($geographicArea)
     {
@@ -117,8 +117,8 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/healthCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:healthCondition
+     * @see https://health-lifesci.schema.org
      */
     public function healthCondition($healthCondition)
     {
@@ -136,7 +136,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -151,7 +151,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -167,7 +167,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -181,7 +181,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -196,7 +196,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -210,7 +210,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/requiredGender
+     * @see schema:requiredGender
      */
     public function requiredGender($requiredGender)
     {
@@ -224,7 +224,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/requiredMaxAge
+     * @see schema:requiredMaxAge
      */
     public function requiredMaxAge($requiredMaxAge)
     {
@@ -238,7 +238,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/requiredMinAge
+     * @see schema:requiredMinAge
      */
     public function requiredMinAge($requiredMinAge)
     {
@@ -254,7 +254,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -268,7 +268,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -277,13 +277,31 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
     }
 
     /**
-     * The gender of the person or audience.
+     * The age or age range for the intended audience or person, for example
+     * 3-12 months for infants, 1-5 years for toddlers.
      *
-     * @param string|string[] $suggestedGender
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $suggestedAge
      *
      * @return static
      *
-     * @see https://schema.org/suggestedGender
+     * @see schema:suggestedAge
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2811
+     */
+    public function suggestedAge($suggestedAge)
+    {
+        return $this->setProperty('suggestedAge', $suggestedAge);
+    }
+
+    /**
+     * The suggested gender of the intended person or audience, for example
+     * "male", "female", or "unisex".
+     *
+     * @param \Spatie\SchemaOrg\Contracts\GenderTypeContract|\Spatie\SchemaOrg\Contracts\GenderTypeContract[]|string|string[] $suggestedGender
+     *
+     * @return static
+     *
+     * @see schema:suggestedGender
      */
     public function suggestedGender($suggestedGender)
     {
@@ -291,13 +309,13 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
     }
 
     /**
-     * Maximal age recommended for viewing content.
+     * Maximum recommended age in years for the audience or user.
      *
      * @param float|float[]|int|int[] $suggestedMaxAge
      *
      * @return static
      *
-     * @see https://schema.org/suggestedMaxAge
+     * @see schema:suggestedMaxAge
      */
     public function suggestedMaxAge($suggestedMaxAge)
     {
@@ -305,13 +323,31 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
     }
 
     /**
-     * Minimal age recommended for viewing content.
+     * A suggested range of body measurements for the intended audience or
+     * person, for example inseam between 32 and 34 inches or height between 170
+     * and 190 cm. Typically found on a size chart for wearable products.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[] $suggestedMeasurement
+     *
+     * @return static
+     *
+     * @see schema:suggestedMeasurement
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2811
+     */
+    public function suggestedMeasurement($suggestedMeasurement)
+    {
+        return $this->setProperty('suggestedMeasurement', $suggestedMeasurement);
+    }
+
+    /**
+     * Minimum recommended age in years for the audience or user.
      *
      * @param float|float[]|int|int[] $suggestedMinAge
      *
      * @return static
      *
-     * @see https://schema.org/suggestedMinAge
+     * @see schema:suggestedMinAge
      */
     public function suggestedMinAge($suggestedMinAge)
     {
@@ -325,7 +361,7 @@ class PeopleAudience extends BaseType implements PeopleAudienceContract, Audienc
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

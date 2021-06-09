@@ -14,8 +14,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * and transition to a new occupational opportunity (e.g., a job), or sometimes
  * a higher educational opportunity (e.g., an advanced degree).
  *
- * @see https://schema.org/EducationalOccupationalProgram
- * @see http://pending.schema.org
+ * @see schema:EducationalOccupationalProgram
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2289
  *
  */
@@ -33,7 +33,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,7 +47,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -62,8 +62,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/applicationDeadline
-     * @see http://pending.schema.org
+     * @see schema:applicationDeadline
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function applicationDeadline($applicationDeadline)
@@ -79,8 +79,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/applicationStartDate
-     * @see http://pending.schema.org
+     * @see schema:applicationStartDate
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function applicationStartDate($applicationStartDate)
@@ -95,7 +95,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/dayOfWeek
+     * @see schema:dayOfWeek
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function dayOfWeek($dayOfWeek)
@@ -110,7 +110,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -127,7 +127,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -143,7 +143,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/educationalCredentialAwarded
+     * @see schema:educationalCredentialAwarded
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function educationalCredentialAwarded($educationalCredentialAwarded)
@@ -162,8 +162,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/educationalProgramMode
-     * @see http://pending.schema.org
+     * @see schema:educationalProgramMode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function educationalProgramMode($educationalProgramMode)
@@ -179,7 +179,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/endDate
+     * @see schema:endDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function endDate($endDate)
@@ -195,13 +195,33 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/financialAidEligible
-     * @see http://pending.schema.org
+     * @see schema:financialAidEligible
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2418
      */
     public function financialAidEligible($financialAidEligible)
     {
         return $this->setProperty('financialAidEligible', $financialAidEligible);
+    }
+
+    /**
+     * A course or class that is one of the learning opportunities that
+     * constitute an educational / occupational program. No information is
+     * implied about whether the course is mandatory or optional; no guarantee
+     * is implied about whether the course will be available to everyone on the
+     * program.
+     *
+     * @param \Spatie\SchemaOrg\Contracts\CourseContract|\Spatie\SchemaOrg\Contracts\CourseContract[] $hasCourse
+     *
+     * @return static
+     *
+     * @see schema:hasCourse
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2483
+     */
+    public function hasCourse($hasCourse)
+    {
+        return $this->setProperty('hasCourse', $hasCourse);
     }
 
     /**
@@ -215,7 +235,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -230,7 +250,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -246,7 +266,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -260,8 +280,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/maximumEnrollment
-     * @see http://pending.schema.org
+     * @see schema:maximumEnrollment
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function maximumEnrollment($maximumEnrollment)
@@ -276,7 +296,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -291,8 +311,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/numberOfCredits
-     * @see http://pending.schema.org
+     * @see schema:numberOfCredits
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function numberOfCredits($numberOfCredits)
@@ -302,8 +322,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
 
     /**
      * A category describing the job, preferably using a term from a taxonomy
-     * such as <a href="http://www.onetcenter.org/taxonomy.html">BLS
-     * O*NET-SOC</a>,
+     * such as [BLS O*NET-SOC](http://www.onetcenter.org/taxonomy.html),
      * [ISCO-08](https://www.ilo.org/public/english/bureau/stat/isco/isco08/) or
      * similar, with the property repeated for each applicable value. Ideally
      * the taxonomy should be identified, and both the textual label and formal
@@ -316,8 +335,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/occupationalCategory
-     * @see http://pending.schema.org
+     * @see schema:occupationalCategory
+     * @see https://pending.schema.org
      */
     public function occupationalCategory($occupationalCategory)
     {
@@ -333,8 +352,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/occupationalCredentialAwarded
-     * @see http://pending.schema.org
+     * @see schema:occupationalCredentialAwarded
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function occupationalCredentialAwarded($occupationalCredentialAwarded)
@@ -356,7 +375,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -372,7 +391,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -386,8 +405,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/programPrerequisites
-     * @see http://pending.schema.org
+     * @see schema:programPrerequisites
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function programPrerequisites($programPrerequisites)
@@ -403,8 +422,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/programType
-     * @see http://pending.schema.org
+     * @see schema:programType
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2460
      */
     public function programType($programType)
@@ -421,7 +440,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -436,8 +455,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/salaryUponCompletion
-     * @see http://pending.schema.org
+     * @see schema:salaryUponCompletion
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function salaryUponCompletion($salaryUponCompletion)
@@ -454,7 +473,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -469,7 +488,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/startDate
+     * @see schema:startDate
      * @link https://github.com/schemaorg/schemaorg/issues/2486
      */
     public function startDate($startDate)
@@ -484,7 +503,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -501,8 +520,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/termDuration
-     * @see http://pending.schema.org
+     * @see schema:termDuration
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function termDuration($termDuration)
@@ -520,8 +539,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/termsPerYear
-     * @see http://pending.schema.org
+     * @see schema:termsPerYear
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function termsPerYear($termsPerYear)
@@ -536,8 +555,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/timeOfDay
-     * @see http://pending.schema.org
+     * @see schema:timeOfDay
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function timeOfDay($timeOfDay)
@@ -553,8 +572,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/timeToComplete
-     * @see http://pending.schema.org
+     * @see schema:timeToComplete
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function timeToComplete($timeToComplete)
@@ -569,8 +588,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/trainingSalary
-     * @see http://pending.schema.org
+     * @see schema:trainingSalary
+     * @see https://pending.schema.org
      */
     public function trainingSalary($trainingSalary)
     {
@@ -585,8 +604,8 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/typicalCreditsPerTerm
-     * @see http://pending.schema.org
+     * @see schema:typicalCreditsPerTerm
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2419
      */
     public function typicalCreditsPerTerm($typicalCreditsPerTerm)
@@ -601,7 +620,7 @@ class EducationalOccupationalProgram extends BaseType implements EducationalOccu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

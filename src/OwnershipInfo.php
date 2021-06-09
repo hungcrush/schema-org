@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A structured value providing information about when a certain organization or
  * person owned a certain product.
  *
- * @see https://schema.org/OwnershipInfo
+ * @see schema:OwnershipInfo
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass
  *
  */
@@ -24,7 +24,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/acquiredFrom
+     * @see schema:acquiredFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function acquiredFrom($acquiredFrom)
@@ -44,7 +44,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -58,7 +58,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -72,7 +72,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,7 +89,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -107,7 +107,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -122,7 +122,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -138,7 +138,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -152,7 +152,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -166,7 +166,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/ownedFrom
+     * @see schema:ownedFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function ownedFrom($ownedFrom)
@@ -181,7 +181,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/ownedThrough
+     * @see schema:ownedThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function ownedThrough($ownedThrough)
@@ -197,7 +197,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -213,7 +213,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -227,7 +227,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -242,7 +242,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/typeOfGood
+     * @see schema:typeOfGood
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function typeOfGood($typeOfGood)
@@ -257,7 +257,7 @@ class OwnershipInfo extends BaseType implements OwnershipInfoContract, Intangibl
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

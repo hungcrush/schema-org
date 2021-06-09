@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A list of possible statuses for the legal force of a legislation.
  *
- * @see https://schema.org/LegalForceStatus
- * @see http://pending.schema.org
+ * @see schema:LegalForceStatus
+ * @see https://pending.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -21,26 +21,26 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
     /**
      * Indicates that a legislation is in force.
      *
-     * @see https://schema.org/InForce
-     * @see http://pending.schema.org
+     * @see schema:InForce
+     * @see https://pending.schema.org
      */
-     const InForce = 'https://schema.org/InForce';
+     const InForce = 'schema:InForce';
 
     /**
      * Indicates that a legislation is currently not in force.
      *
-     * @see https://schema.org/NotInForce
-     * @see http://pending.schema.org
+     * @see schema:NotInForce
+     * @see https://pending.schema.org
      */
-     const NotInForce = 'https://schema.org/NotInForce';
+     const NotInForce = 'schema:NotInForce';
 
     /**
      * Indicates that parts of the legislation are in force, and parts are not.
      *
-     * @see https://schema.org/PartiallyInForce
-     * @see http://pending.schema.org
+     * @see schema:PartiallyInForce
+     * @see https://pending.schema.org
      */
-     const PartiallyInForce = 'https://schema.org/PartiallyInForce';
+     const PartiallyInForce = 'schema:PartiallyInForce';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -54,7 +54,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -68,7 +68,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -82,7 +82,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -99,7 +99,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -117,7 +117,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -132,7 +132,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -148,7 +148,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -162,7 +162,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -177,7 +177,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -193,7 +193,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -207,7 +207,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -222,7 +222,7 @@ class LegalForceStatus extends BaseType implements LegalForceStatusContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

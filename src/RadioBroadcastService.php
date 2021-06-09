@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A delivery service through which radio content is provided via broadcast over
  * the air or online.
  *
- * @see https://schema.org/RadioBroadcastService
- * @see http://pending.schema.org
+ * @see schema:RadioBroadcastService
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2109
  *
  */
@@ -31,7 +31,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -60,7 +60,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -74,7 +74,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/area
+     * @see schema:area
      */
     public function area($area)
     {
@@ -88,7 +88,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/areaServed
+     * @see schema:areaServed
      */
     public function areaServed($areaServed)
     {
@@ -102,7 +102,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -117,7 +117,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/availableChannel
+     * @see schema:availableChannel
      */
     public function availableChannel($availableChannel)
     {
@@ -131,7 +131,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -146,7 +146,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/brand
+     * @see schema:brand
      */
     public function brand($brand)
     {
@@ -160,7 +160,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/broadcastAffiliateOf
+     * @see schema:broadcastAffiliateOf
      */
     public function broadcastAffiliateOf($broadcastAffiliateOf)
     {
@@ -175,7 +175,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/broadcastDisplayName
+     * @see schema:broadcastDisplayName
      */
     public function broadcastDisplayName($broadcastDisplayName)
     {
@@ -191,7 +191,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/broadcastFrequency
+     * @see schema:broadcastFrequency
      * @link https://github.com/schemaorg/schemaorg/issues/1004
      */
     public function broadcastFrequency($broadcastFrequency)
@@ -207,7 +207,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/broadcastTimezone
+     * @see schema:broadcastTimezone
      */
     public function broadcastTimezone($broadcastTimezone)
     {
@@ -221,7 +221,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/broadcaster
+     * @see schema:broadcaster
      */
     public function broadcaster($broadcaster)
     {
@@ -238,7 +238,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/broker
+     * @see schema:broker
      */
     public function broker($broker)
     {
@@ -254,8 +254,8 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/callSign
-     * @see http://pending.schema.org
+     * @see schema:callSign
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2109
      */
     public function callSign($callSign)
@@ -271,7 +271,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/category
+     * @see schema:category
      */
     public function category($category)
     {
@@ -285,7 +285,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -302,7 +302,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -316,7 +316,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/hasBroadcastChannel
+     * @see schema:hasBroadcastChannel
      * @link https://github.com/schemaorg/schemaorg/issues/1004
      */
     public function hasBroadcastChannel($hasBroadcastChannel)
@@ -332,7 +332,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/hasOfferCatalog
+     * @see schema:hasOfferCatalog
      */
     public function hasOfferCatalog($hasOfferCatalog)
     {
@@ -346,7 +346,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -364,7 +364,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -379,7 +379,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -396,7 +396,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -411,7 +411,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/isRelatedTo
+     * @see schema:isRelatedTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isRelatedTo($isRelatedTo)
@@ -427,7 +427,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/isSimilarTo
+     * @see schema:isSimilarTo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function isSimilarTo($isSimilarTo)
@@ -442,7 +442,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/logo
+     * @see schema:logo
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function logo($logo)
@@ -459,7 +459,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -473,7 +473,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -494,7 +494,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -510,7 +510,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/parentService
+     * @see schema:parentService
      */
     public function parentService($parentService)
     {
@@ -525,7 +525,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -540,7 +540,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/produces
+     * @see schema:produces
      */
     public function produces($produces)
     {
@@ -556,7 +556,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -571,7 +571,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/providerMobility
+     * @see schema:providerMobility
      */
     public function providerMobility($providerMobility)
     {
@@ -585,7 +585,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -601,7 +601,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -615,7 +615,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/serviceArea
+     * @see schema:serviceArea
      */
     public function serviceArea($serviceArea)
     {
@@ -629,7 +629,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/serviceAudience
+     * @see schema:serviceAudience
      */
     public function serviceAudience($serviceAudience)
     {
@@ -644,7 +644,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/serviceOutput
+     * @see schema:serviceOutput
      */
     public function serviceOutput($serviceOutput)
     {
@@ -659,7 +659,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/serviceType
+     * @see schema:serviceType
      */
     public function serviceType($serviceType)
     {
@@ -673,7 +673,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/slogan
+     * @see schema:slogan
      */
     public function slogan($slogan)
     {
@@ -687,7 +687,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -702,8 +702,8 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/termsOfService
-     * @see http://pending.schema.org
+     * @see schema:termsOfService
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1423
      */
     public function termsOfService($termsOfService)
@@ -718,7 +718,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -733,7 +733,7 @@ class RadioBroadcastService extends BaseType implements RadioBroadcastServiceCon
      *
      * @return static
      *
-     * @see https://schema.org/videoFormat
+     * @see schema:videoFormat
      */
     public function videoFormat($videoFormat)
     {

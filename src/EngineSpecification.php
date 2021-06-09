@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Information about the engine of the vehicle. A vehicle can have multiple
  * engines represented by multiple engine specification entities.
  *
- * @see https://schema.org/EngineSpecification
+ * @see schema:EngineSpecification
  * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
  *
  */
@@ -29,7 +29,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -95,8 +95,8 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/engineDisplacement
-     * @see http://auto.schema.org
+     * @see schema:engineDisplacement
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function engineDisplacement($engineDisplacement)
@@ -110,8 +110,8 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      * for metric horsepower (PS, with 1 PS = 735,49875 W)
      * 
      * * Note 1: There are many different ways of measuring an engine's power.
-     * For an overview, see  <a
-     * href="http://en.wikipedia.org/wiki/Horsepower#Engine_power_test_codes">http://en.wikipedia.org/wiki/Horsepower#Engine*power*test_codes</a>.
+     * For an overview, see 
+     * [http://en.wikipedia.org/wiki/Horsepower#Engine_power_test_codes](http://en.wikipedia.org/wiki/Horsepower#Engine_power_test_codes).
      * * Note 2: You can link to information about how the given value has been
      * determined using the [[valueReference]] property.
      * * Note 3: You can use [[minValue]] and [[maxValue]] to indicate ranges.
@@ -120,8 +120,8 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/enginePower
-     * @see http://auto.schema.org
+     * @see schema:enginePower
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function enginePower($enginePower)
@@ -136,8 +136,8 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/engineType
-     * @see http://auto.schema.org
+     * @see schema:engineType
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function engineType($engineType)
@@ -154,7 +154,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/fuelType
+     * @see schema:fuelType
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function fuelType($fuelType)
@@ -173,7 +173,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -188,7 +188,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -204,7 +204,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -218,7 +218,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -233,7 +233,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -249,7 +249,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -263,7 +263,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -285,8 +285,8 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/torque
-     * @see http://auto.schema.org
+     * @see schema:torque
+     * @see https://auto.schema.org
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group
      */
     public function torque($torque)
@@ -301,7 +301,7 @@ class EngineSpecification extends BaseType implements EngineSpecificationContrac
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

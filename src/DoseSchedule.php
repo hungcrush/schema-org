@@ -10,8 +10,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A specific dosing schedule for a drug or supplement.
  *
- * @see https://schema.org/DoseSchedule
- * @see http://health-lifesci.schema.org
+ * @see schema:DoseSchedule
+ * @see https://health-lifesci.schema.org
  *
  */
 class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEntityContract, MedicalIntangibleContract, ThingContract
@@ -28,7 +28,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -42,7 +42,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -72,7 +72,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -89,7 +89,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -103,8 +103,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/doseUnit
-     * @see http://health-lifesci.schema.org
+     * @see schema:doseUnit
+     * @see https://health-lifesci.schema.org
      */
     public function doseUnit($doseUnit)
     {
@@ -118,8 +118,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/doseValue
-     * @see http://health-lifesci.schema.org
+     * @see schema:doseValue
+     * @see https://health-lifesci.schema.org
      */
     public function doseValue($doseValue)
     {
@@ -133,8 +133,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/frequency
-     * @see http://health-lifesci.schema.org
+     * @see schema:frequency
+     * @see https://health-lifesci.schema.org
      */
     public function frequency($frequency)
     {
@@ -148,8 +148,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -167,7 +167,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -182,7 +182,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -197,8 +197,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -214,7 +214,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -229,8 +229,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -244,7 +244,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -259,7 +259,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -274,8 +274,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -289,8 +289,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -306,7 +306,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -320,8 +320,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -335,7 +335,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -351,8 +351,8 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/targetPopulation
-     * @see http://health-lifesci.schema.org
+     * @see schema:targetPopulation
+     * @see https://health-lifesci.schema.org
      */
     public function targetPopulation($targetPopulation)
     {
@@ -366,7 +366,7 @@ class DoseSchedule extends BaseType implements DoseScheduleContract, MedicalEnti
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

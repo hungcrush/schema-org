@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * A permit issued by a government agency.
  *
- * @see https://schema.org/GovernmentPermit
+ * @see schema:GovernmentPermit
  *
  */
 class GovernmentPermit extends BaseType implements GovernmentPermitContract, IntangibleContract, PermitContract, ThingContract
@@ -27,7 +27,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -41,7 +41,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -55,7 +55,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -72,7 +72,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -90,7 +90,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -105,7 +105,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -119,7 +119,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/issuedBy
+     * @see schema:issuedBy
      */
     public function issuedBy($issuedBy)
     {
@@ -133,7 +133,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/issuedThrough
+     * @see schema:issuedThrough
      */
     public function issuedThrough($issuedThrough)
     {
@@ -149,7 +149,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -163,7 +163,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -177,7 +177,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/permitAudience
+     * @see schema:permitAudience
      */
     public function permitAudience($permitAudience)
     {
@@ -192,7 +192,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -208,7 +208,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -222,7 +222,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -237,7 +237,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -251,7 +251,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/validFor
+     * @see schema:validFor
      * @link https://github.com/schemaorg/schemaorg/issues/1779
      */
     public function validFor($validFor)
@@ -266,7 +266,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -281,7 +281,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/validIn
+     * @see schema:validIn
      * @link https://github.com/schemaorg/schemaorg/issues/1779
      */
     public function validIn($validIn)
@@ -296,7 +296,7 @@ class GovernmentPermit extends BaseType implements GovernmentPermitContract, Int
      *
      * @return static
      *
-     * @see https://schema.org/validUntil
+     * @see schema:validUntil
      */
     public function validUntil($validUntil)
     {

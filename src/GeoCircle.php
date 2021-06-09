@@ -16,7 +16,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  *           The center of the circle can be indicated via the 'geoMidpoint'
  * property, or more approximately using 'address', 'postalCode'.
  *
- * @see https://schema.org/GeoCircle
+ * @see schema:GeoCircle
  *
  */
 class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract, IntangibleContract, StructuredValueContract, ThingContract
@@ -33,7 +33,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -47,7 +47,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/address
+     * @see schema:address
      */
     public function address($address)
     {
@@ -62,7 +62,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/addressCountry
+     * @see schema:addressCountry
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function addressCountry($addressCountry)
@@ -77,7 +77,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -93,7 +93,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/box
+     * @see schema:box
      */
     public function box($box)
     {
@@ -109,7 +109,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/circle
+     * @see schema:circle
      */
     public function circle($circle)
     {
@@ -123,7 +123,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -140,7 +140,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -150,14 +150,14 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
     /**
      * The elevation of a location ([WGS
      * 84](https://en.wikipedia.org/wiki/World_Geodetic_System)). Values may be
-     * of the form 'NUMBER UNIT*OF*MEASUREMENT' (e.g., '1,000 m', '3,200 ft')
+     * of the form 'NUMBER UNIT_OF_MEASUREMENT' (e.g., '1,000 m', '3,200 ft')
      * while numbers alone should be assumed to be a value in meters.
      *
      * @param float|float[]|int|int[]|string|string[] $elevation
      *
      * @return static
      *
-     * @see https://schema.org/elevation
+     * @see schema:elevation
      */
     public function elevation($elevation)
     {
@@ -171,7 +171,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoMidpoint
+     * @see schema:geoMidpoint
      */
     public function geoMidpoint($geoMidpoint)
     {
@@ -186,7 +186,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/geoRadius
+     * @see schema:geoRadius
      */
     public function geoRadius($geoRadius)
     {
@@ -204,7 +204,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -219,7 +219,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -234,7 +234,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/line
+     * @see schema:line
      */
     public function line($line)
     {
@@ -250,7 +250,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -264,7 +264,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -281,7 +281,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/polygon
+     * @see schema:polygon
      */
     public function polygon($polygon)
     {
@@ -295,7 +295,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/postalCode
+     * @see schema:postalCode
      * @link https://github.com/schemaorg/schemaorg/issues/2506
      */
     public function postalCode($postalCode)
@@ -311,7 +311,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -327,7 +327,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -341,7 +341,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -356,7 +356,7 @@ class GeoCircle extends BaseType implements GeoCircleContract, GeoShapeContract,
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -13,7 +13,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * feature of an accommodation as a property-value pair of varying degrees of
  * formality.
  *
- * @see https://schema.org/LocationFeatureSpecification
+ * @see schema:LocationFeatureSpecification
  * @link https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology
  *
  */
@@ -31,7 +31,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -45,7 +45,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -59,7 +59,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -76,7 +76,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -90,7 +90,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/hoursAvailable
+     * @see schema:hoursAvailable
      */
     public function hoursAvailable($hoursAvailable)
     {
@@ -108,7 +108,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -123,7 +123,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -139,7 +139,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -153,7 +153,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/maxValue
+     * @see schema:maxValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function maxValue($maxValue)
@@ -186,8 +186,8 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/measurementTechnique
-     * @see http://pending.schema.org
+     * @see schema:measurementTechnique
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1425
      */
     public function measurementTechnique($measurementTechnique)
@@ -202,7 +202,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/minValue
+     * @see schema:minValue
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function minValue($minValue)
@@ -217,7 +217,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -232,7 +232,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -256,7 +256,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/propertyID
+     * @see schema:propertyID
      */
     public function propertyID($propertyID)
     {
@@ -272,7 +272,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -286,7 +286,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -303,7 +303,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/unitCode
+     * @see schema:unitCode
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function unitCode($unitCode)
@@ -320,7 +320,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/unitText
+     * @see schema:unitText
      */
     public function unitText($unitText)
     {
@@ -334,7 +334,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -348,7 +348,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/validFrom
+     * @see schema:validFrom
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validFrom($validFrom)
@@ -364,7 +364,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/validThrough
+     * @see schema:validThrough
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function validThrough($validThrough)
@@ -388,7 +388,7 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
      *
      * @return static
      *
-     * @see https://schema.org/value
+     * @see schema:value
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function value($value)
@@ -397,14 +397,14 @@ class LocationFeatureSpecification extends BaseType implements LocationFeatureSp
     }
 
     /**
-     * A pointer to a secondary value that provides additional information on
-     * the original value, e.g. a reference temperature.
+     * A secondary value that provides additional information on the original
+     * value, e.g. a reference temperature or a type of measurement.
      *
-     * @param \Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[] $valueReference
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\EnumerationContract|\Spatie\SchemaOrg\Contracts\EnumerationContract[]|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract|\Spatie\SchemaOrg\Contracts\MeasurementTypeEnumerationContract[]|\Spatie\SchemaOrg\Contracts\PropertyValueContract|\Spatie\SchemaOrg\Contracts\PropertyValueContract[]|\Spatie\SchemaOrg\Contracts\QualitativeValueContract|\Spatie\SchemaOrg\Contracts\QualitativeValueContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\StructuredValueContract|\Spatie\SchemaOrg\Contracts\StructuredValueContract[]|string|string[] $valueReference
      *
      * @return static
      *
-     * @see https://schema.org/valueReference
+     * @see schema:valueReference
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function valueReference($valueReference)

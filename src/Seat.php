@@ -9,7 +9,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Used to describe a seat, such as a reserved seat in an event reservation.
  *
- * @see https://schema.org/Seat
+ * @see schema:Seat
  *
  */
 class Seat extends BaseType implements SeatContract, IntangibleContract, ThingContract
@@ -26,7 +26,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -40,7 +40,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -54,7 +54,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -71,7 +71,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -89,7 +89,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -104,7 +104,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -120,7 +120,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -134,7 +134,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -149,7 +149,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -165,7 +165,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -179,7 +179,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/seatNumber
+     * @see schema:seatNumber
      */
     public function seatNumber($seatNumber)
     {
@@ -193,7 +193,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/seatRow
+     * @see schema:seatRow
      */
     public function seatRow($seatRow)
     {
@@ -207,7 +207,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/seatSection
+     * @see schema:seatSection
      */
     public function seatSection($seatSection)
     {
@@ -221,7 +221,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/seatingType
+     * @see schema:seatingType
      */
     public function seatingType($seatingType)
     {
@@ -235,7 +235,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -250,7 +250,7 @@ class Seat extends BaseType implements SeatContract, IntangibleContract, ThingCo
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

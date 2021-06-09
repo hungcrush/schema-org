@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A muscle is an anatomical structure consisting of a contractile form of
  * tissue that animals use to effect movement.
  *
- * @see https://schema.org/Muscle
- * @see http://health-lifesci.schema.org
+ * @see schema:Muscle
+ * @see https://health-lifesci.schema.org
  *
  */
 class Muscle extends BaseType implements MuscleContract, AnatomicalStructureContract, MedicalEntityContract, ThingContract
@@ -29,7 +29,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,8 +57,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/antagonist
-     * @see http://health-lifesci.schema.org
+     * @see schema:antagonist
+     * @see https://health-lifesci.schema.org
      */
     public function antagonist($antagonist)
     {
@@ -74,8 +74,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/associatedPathophysiology
-     * @see http://health-lifesci.schema.org
+     * @see schema:associatedPathophysiology
+     * @see https://health-lifesci.schema.org
      */
     public function associatedPathophysiology($associatedPathophysiology)
     {
@@ -89,8 +89,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/bloodSupply
-     * @see http://health-lifesci.schema.org
+     * @see schema:bloodSupply
+     * @see https://health-lifesci.schema.org
      */
     public function bloodSupply($bloodSupply)
     {
@@ -104,8 +104,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/bodyLocation
-     * @see http://health-lifesci.schema.org
+     * @see schema:bodyLocation
+     * @see https://health-lifesci.schema.org
      */
     public function bodyLocation($bodyLocation)
     {
@@ -120,8 +120,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/code
-     * @see http://health-lifesci.schema.org
+     * @see schema:code
+     * @see https://health-lifesci.schema.org
      */
     public function code($code)
     {
@@ -135,8 +135,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/connectedTo
-     * @see http://health-lifesci.schema.org
+     * @see schema:connectedTo
+     * @see https://health-lifesci.schema.org
      */
     public function connectedTo($connectedTo)
     {
@@ -150,7 +150,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -165,8 +165,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/diagram
-     * @see http://health-lifesci.schema.org
+     * @see schema:diagram
+     * @see https://health-lifesci.schema.org
      */
     public function diagram($diagram)
     {
@@ -183,7 +183,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -197,8 +197,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/guideline
-     * @see http://health-lifesci.schema.org
+     * @see schema:guideline
+     * @see https://health-lifesci.schema.org
      */
     public function guideline($guideline)
     {
@@ -216,7 +216,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -231,7 +231,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -245,8 +245,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/insertion
-     * @see http://health-lifesci.schema.org
+     * @see schema:insertion
+     * @see https://health-lifesci.schema.org
      */
     public function insertion($insertion)
     {
@@ -261,8 +261,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/legalStatus
-     * @see http://health-lifesci.schema.org
+     * @see schema:legalStatus
+     * @see https://health-lifesci.schema.org
      */
     public function legalStatus($legalStatus)
     {
@@ -278,7 +278,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -293,8 +293,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/medicineSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:medicineSystem
+     * @see https://health-lifesci.schema.org
      */
     public function medicineSystem($medicineSystem)
     {
@@ -308,8 +308,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/muscleAction
-     * @see http://health-lifesci.schema.org
+     * @see schema:muscleAction
+     * @see https://health-lifesci.schema.org
      */
     public function muscleAction($muscleAction)
     {
@@ -323,7 +323,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -337,8 +337,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/nerve
-     * @see http://health-lifesci.schema.org
+     * @see schema:nerve
+     * @see https://health-lifesci.schema.org
      */
     public function nerve($nerve)
     {
@@ -352,8 +352,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/partOfSystem
-     * @see http://health-lifesci.schema.org
+     * @see schema:partOfSystem
+     * @see https://health-lifesci.schema.org
      */
     public function partOfSystem($partOfSystem)
     {
@@ -368,7 +368,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -383,8 +383,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/recognizingAuthority
-     * @see http://health-lifesci.schema.org
+     * @see schema:recognizingAuthority
+     * @see https://health-lifesci.schema.org
      */
     public function recognizingAuthority($recognizingAuthority)
     {
@@ -398,8 +398,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/relatedCondition
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedCondition
+     * @see https://health-lifesci.schema.org
      */
     public function relatedCondition($relatedCondition)
     {
@@ -413,8 +413,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/relatedTherapy
-     * @see http://health-lifesci.schema.org
+     * @see schema:relatedTherapy
+     * @see https://health-lifesci.schema.org
      */
     public function relatedTherapy($relatedTherapy)
     {
@@ -428,8 +428,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/relevantSpecialty
-     * @see http://health-lifesci.schema.org
+     * @see schema:relevantSpecialty
+     * @see https://health-lifesci.schema.org
      */
     public function relevantSpecialty($relevantSpecialty)
     {
@@ -445,7 +445,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -459,8 +459,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/study
-     * @see http://health-lifesci.schema.org
+     * @see schema:study
+     * @see https://health-lifesci.schema.org
      */
     public function study($study)
     {
@@ -474,8 +474,8 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/subStructure
-     * @see http://health-lifesci.schema.org
+     * @see schema:subStructure
+     * @see https://health-lifesci.schema.org
      */
     public function subStructure($subStructure)
     {
@@ -489,7 +489,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -504,7 +504,7 @@ class Muscle extends BaseType implements MuscleContract, AnatomicalStructureCont
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -12,7 +12,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * A tool used (but not consumed) when performing instructions for how to
  * achieve a result.
  *
- * @see https://schema.org/HowToTool
+ * @see schema:HowToTool
  *
  */
 class HowToTool extends BaseType implements HowToToolContract, HowToItemContract, IntangibleContract, ListItemContract, ThingContract
@@ -29,7 +29,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -92,7 +92,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -107,7 +107,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -122,7 +122,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/item
+     * @see schema:item
      */
     public function item($item)
     {
@@ -138,7 +138,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -152,7 +152,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -166,7 +166,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/nextItem
+     * @see schema:nextItem
      */
     public function nextItem($nextItem)
     {
@@ -180,7 +180,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/position
+     * @see schema:position
      */
     public function position($position)
     {
@@ -195,7 +195,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -209,7 +209,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/previousItem
+     * @see schema:previousItem
      */
     public function previousItem($previousItem)
     {
@@ -223,7 +223,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/requiredQuantity
+     * @see schema:requiredQuantity
      */
     public function requiredQuantity($requiredQuantity)
     {
@@ -239,7 +239,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -253,7 +253,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -268,7 +268,7 @@ class HowToTool extends BaseType implements HowToToolContract, HowToItemContract
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

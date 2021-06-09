@@ -34,6 +34,8 @@ interface AnswerContract
 
     public function alternativeHeadline($alternativeHeadline);
 
+    public function answerExplanation($answerExplanation);
+
     public function assesses($assesses);
 
     public function associatedMedia($associatedMedia);
@@ -68,6 +70,8 @@ interface AnswerContract
 
     public function copyrightHolder($copyrightHolder);
 
+    public function copyrightNotice($copyrightNotice);
+
     public function copyrightYear($copyrightYear);
 
     public function correction($correction);
@@ -75,6 +79,8 @@ interface AnswerContract
     public function creativeWorkStatus($creativeWorkStatus);
 
     public function creator($creator);
+
+    public function creditText($creditText);
 
     public function dateCreated($dateCreated);
 

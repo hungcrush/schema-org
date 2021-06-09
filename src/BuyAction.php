@@ -12,7 +12,7 @@ use \Spatie\SchemaOrg\Contracts\TradeActionContract;
  * rendered. An agent buys an object, product, or service from a seller for a
  * price. Reciprocal of SellAction.
  *
- * @see https://schema.org/BuyAction
+ * @see schema:BuyAction
  *
  */
 class BuyAction extends BaseType implements BuyActionContract, ActionContract, ThingContract, TradeActionContract
@@ -24,7 +24,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/actionStatus
+     * @see schema:actionStatus
      */
     public function actionStatus($actionStatus)
     {
@@ -43,7 +43,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -58,7 +58,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/agent
+     * @see schema:agent
      */
     public function agent($agent)
     {
@@ -72,7 +72,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -86,7 +86,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -103,7 +103,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -126,7 +126,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/endTime
+     * @see schema:endTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function endTime($endTime)
@@ -141,7 +141,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/error
+     * @see schema:error
      */
     public function error($error)
     {
@@ -159,7 +159,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -174,7 +174,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -189,7 +189,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/instrument
+     * @see schema:instrument
      */
     public function instrument($instrument)
     {
@@ -197,14 +197,14 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
     }
 
     /**
-     * The location of for example where the event is happening, an organization
-     * is located, or where an action takes place.
+     * The location of, for example, where an event is happening, where an
+     * organization is located, or where an action takes place.
      *
      * @param \Spatie\SchemaOrg\Contracts\PlaceContract|\Spatie\SchemaOrg\Contracts\PlaceContract[]|\Spatie\SchemaOrg\Contracts\PostalAddressContract|\Spatie\SchemaOrg\Contracts\PostalAddressContract[]|\Spatie\SchemaOrg\Contracts\VirtualLocationContract|\Spatie\SchemaOrg\Contracts\VirtualLocationContract[]|string|string[] $location
      *
      * @return static
      *
-     * @see https://schema.org/location
+     * @see schema:location
      */
     public function location($location)
     {
@@ -220,7 +220,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -234,7 +234,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -251,7 +251,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/object
+     * @see schema:object
      */
     public function object($object)
     {
@@ -266,7 +266,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/participant
+     * @see schema:participant
      */
     public function participant($participant)
     {
@@ -281,7 +281,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -318,7 +318,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/price
+     * @see schema:price
      */
     public function price($price)
     {
@@ -341,7 +341,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/priceCurrency
+     * @see schema:priceCurrency
      */
     public function priceCurrency($priceCurrency)
     {
@@ -356,7 +356,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/priceSpecification
+     * @see schema:priceSpecification
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms
      */
     public function priceSpecification($priceSpecification)
@@ -371,7 +371,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/result
+     * @see schema:result
      */
     public function result($result)
     {
@@ -387,7 +387,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -402,7 +402,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/seller
+     * @see schema:seller
      */
     public function seller($seller)
     {
@@ -425,7 +425,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/startTime
+     * @see schema:startTime
      * @link https://github.com/schemaorg/schemaorg/issues/2493
      */
     public function startTime($startTime)
@@ -440,7 +440,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -455,7 +455,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/target
+     * @see schema:target
      */
     public function target($target)
     {
@@ -469,7 +469,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -483,7 +483,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/vendor
+     * @see schema:vendor
      */
     public function vendor($vendor)
     {
@@ -497,7 +497,7 @@ class BuyAction extends BaseType implements BuyActionContract, ActionContract, T
      *
      * @return static
      *
-     * @see https://schema.org/warrantyPromise
+     * @see schema:warrantyPromise
      */
     public function warrantyPromise($warrantyPromise)
     {

@@ -10,7 +10,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
 /**
  * Lists or enumerations dealing with status types.
  *
- * @see https://schema.org/StatusEnumeration
+ * @see schema:StatusEnumeration
  * @link https://github.com/schemaorg/schemaorg/issues/2604
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -29,7 +29,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -43,7 +43,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -57,7 +57,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -74,7 +74,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -92,7 +92,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -107,7 +107,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -123,7 +123,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -137,7 +137,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -152,7 +152,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -168,7 +168,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -182,7 +182,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -197,7 +197,7 @@ class StatusEnumeration extends BaseType implements StatusEnumerationContract, E
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

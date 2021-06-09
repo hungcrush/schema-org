@@ -11,8 +11,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * An EventAttendanceModeEnumeration value is one of potentially several modes
  * of organising an event, relating to whether it is online or offline.
  *
- * @see https://schema.org/EventAttendanceModeEnumeration
- * @see http://pending.schema.org
+ * @see schema:EventAttendanceModeEnumeration
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/1842
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
@@ -23,30 +23,30 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      * MixedEventAttendanceMode - an event that is conducted as a combination of
      * both offline and online modes.
      *
-     * @see https://schema.org/MixedEventAttendanceMode
-     * @see http://pending.schema.org
+     * @see schema:MixedEventAttendanceMode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1842
      */
-     const MixedEventAttendanceMode = 'https://schema.org/MixedEventAttendanceMode';
+     const MixedEventAttendanceMode = 'schema:MixedEventAttendanceMode';
 
     /**
      * OfflineEventAttendanceMode - an event that is primarily conducted
      * offline.
      *
-     * @see https://schema.org/OfflineEventAttendanceMode
-     * @see http://pending.schema.org
+     * @see schema:OfflineEventAttendanceMode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1842
      */
-     const OfflineEventAttendanceMode = 'https://schema.org/OfflineEventAttendanceMode';
+     const OfflineEventAttendanceMode = 'schema:OfflineEventAttendanceMode';
 
     /**
      * OnlineEventAttendanceMode - an event that is primarily conducted online.
      *
-     * @see https://schema.org/OnlineEventAttendanceMode
-     * @see http://pending.schema.org
+     * @see schema:OnlineEventAttendanceMode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1842
      */
-     const OnlineEventAttendanceMode = 'https://schema.org/OnlineEventAttendanceMode';
+     const OnlineEventAttendanceMode = 'schema:OnlineEventAttendanceMode';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -60,7 +60,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -74,7 +74,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -88,7 +88,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -105,7 +105,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -123,7 +123,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -138,7 +138,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -154,7 +154,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -168,7 +168,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -183,7 +183,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -199,7 +199,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -213,7 +213,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -228,7 +228,7 @@ class EventAttendanceModeEnumeration extends BaseType implements EventAttendance
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

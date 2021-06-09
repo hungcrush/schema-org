@@ -14,8 +14,8 @@ use \Spatie\SchemaOrg\Contracts\WebPageContract;
  *   The [[RealEstateListing]] type itself represents the overall listing, as
  * manifested in some [[WebPage]].
  *
- * @see https://schema.org/RealEstateListing
- * @see http://pending.schema.org
+ * @see schema:RealEstateListing
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/2348
  *
  */
@@ -28,7 +28,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/about
+     * @see schema:about
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function about($about)
@@ -43,8 +43,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/abstract
-     * @see http://pending.schema.org
+     * @see schema:abstract
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/276
      */
     public function abstract($abstract)
@@ -62,7 +62,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessMode
+     * @see schema:accessMode
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessMode($accessMode)
@@ -79,7 +79,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessModeSufficient
+     * @see schema:accessModeSufficient
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessModeSufficient($accessModeSufficient)
@@ -96,7 +96,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityAPI
+     * @see schema:accessibilityAPI
      */
     public function accessibilityAPI($accessibilityAPI)
     {
@@ -112,7 +112,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityControl
+     * @see schema:accessibilityControl
      */
     public function accessibilityControl($accessibilityControl)
     {
@@ -128,7 +128,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityFeature
+     * @see schema:accessibilityFeature
      */
     public function accessibilityFeature($accessibilityFeature)
     {
@@ -145,7 +145,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessibilityHazard
+     * @see schema:accessibilityHazard
      */
     public function accessibilityHazard($accessibilityHazard)
     {
@@ -163,7 +163,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accessibilitySummary
+     * @see schema:accessibilitySummary
      * @link https://github.com/schemaorg/schemaorg/issues/1100
      */
     public function accessibilitySummary($accessibilitySummary)
@@ -178,7 +178,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/accountablePerson
+     * @see schema:accountablePerson
      */
     public function accountablePerson($accountablePerson)
     {
@@ -193,8 +193,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/acquireLicensePage
-     * @see http://pending.schema.org
+     * @see schema:acquireLicensePage
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2454
      */
     public function acquireLicensePage($acquireLicensePage)
@@ -214,7 +214,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -229,7 +229,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/aggregateRating
+     * @see schema:aggregateRating
      */
     public function aggregateRating($aggregateRating)
     {
@@ -243,7 +243,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -257,7 +257,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/alternativeHeadline
+     * @see schema:alternativeHeadline
      */
     public function alternativeHeadline($alternativeHeadline)
     {
@@ -272,8 +272,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/assesses
-     * @see http://pending.schema.org
+     * @see schema:assesses
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2427
      */
     public function assesses($assesses)
@@ -289,7 +289,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/associatedMedia
+     * @see schema:associatedMedia
      */
     public function associatedMedia($associatedMedia)
     {
@@ -303,7 +303,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/audience
+     * @see schema:audience
      */
     public function audience($audience)
     {
@@ -317,7 +317,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/audio
+     * @see schema:audio
      * @link https://github.com/schemaorg/schemaorg/issues/2420
      */
     public function audio($audio)
@@ -334,7 +334,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/author
+     * @see schema:author
      */
     public function author($author)
     {
@@ -348,7 +348,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/award
+     * @see schema:award
      */
     public function award($award)
     {
@@ -362,7 +362,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/awards
+     * @see schema:awards
      */
     public function awards($awards)
     {
@@ -377,7 +377,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/breadcrumb
+     * @see schema:breadcrumb
      */
     public function breadcrumb($breadcrumb)
     {
@@ -391,7 +391,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/character
+     * @see schema:character
      */
     public function character($character)
     {
@@ -406,7 +406,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/citation
+     * @see schema:citation
      */
     public function citation($citation)
     {
@@ -420,7 +420,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/comment
+     * @see schema:comment
      */
     public function comment($comment)
     {
@@ -436,7 +436,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/commentCount
+     * @see schema:commentCount
      */
     public function commentCount($commentCount)
     {
@@ -457,8 +457,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/conditionsOfAccess
-     * @see http://pending.schema.org
+     * @see schema:conditionsOfAccess
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2173
      */
     public function conditionsOfAccess($conditionsOfAccess)
@@ -474,7 +474,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/contentLocation
+     * @see schema:contentLocation
      */
     public function contentLocation($contentLocation)
     {
@@ -488,7 +488,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/contentRating
+     * @see schema:contentRating
      */
     public function contentRating($contentRating)
     {
@@ -503,8 +503,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/contentReferenceTime
-     * @see http://pending.schema.org
+     * @see schema:contentReferenceTime
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1050
      */
     public function contentReferenceTime($contentReferenceTime)
@@ -519,7 +519,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/contributor
+     * @see schema:contributor
      */
     public function contributor($contributor)
     {
@@ -533,11 +533,29 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/copyrightHolder
+     * @see schema:copyrightHolder
      */
     public function copyrightHolder($copyrightHolder)
     {
         return $this->setProperty('copyrightHolder', $copyrightHolder);
+    }
+
+    /**
+     * Text of a notice appropriate for describing the copyright aspects of this
+     * Creative Work, ideally indicating the owner of the copyright for the
+     * Work.
+     *
+     * @param string|string[] $copyrightNotice
+     *
+     * @return static
+     *
+     * @see schema:copyrightNotice
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2659
+     */
+    public function copyrightNotice($copyrightNotice)
+    {
+        return $this->setProperty('copyrightNotice', $copyrightNotice);
     }
 
     /**
@@ -548,7 +566,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/copyrightYear
+     * @see schema:copyrightYear
      */
     public function copyrightYear($copyrightYear)
     {
@@ -563,8 +581,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/correction
-     * @see http://pending.schema.org
+     * @see schema:correction
+     * @see https://pending.schema.org
      */
     public function correction($correction)
     {
@@ -581,8 +599,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/creativeWorkStatus
-     * @see http://pending.schema.org
+     * @see schema:creativeWorkStatus
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/987
      */
     public function creativeWorkStatus($creativeWorkStatus)
@@ -598,11 +616,28 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/creator
+     * @see schema:creator
      */
     public function creator($creator)
     {
         return $this->setProperty('creator', $creator);
+    }
+
+    /**
+     * Text that can be used to credit person(s) and/or organization(s)
+     * associated with a published Creative Work.
+     *
+     * @param string|string[] $creditText
+     *
+     * @return static
+     *
+     * @see schema:creditText
+     * @see https://pending.schema.org
+     * @link https://github.com/schemaorg/schemaorg/issues/2659
+     */
+    public function creditText($creditText)
+    {
+        return $this->setProperty('creditText', $creditText);
     }
 
     /**
@@ -613,7 +648,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/dateCreated
+     * @see schema:dateCreated
      */
     public function dateCreated($dateCreated)
     {
@@ -628,7 +663,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/dateModified
+     * @see schema:dateModified
      */
     public function dateModified($dateModified)
     {
@@ -642,7 +677,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/datePosted
+     * @see schema:datePosted
      */
     public function datePosted($datePosted)
     {
@@ -656,7 +691,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/datePublished
+     * @see schema:datePublished
      */
     public function datePublished($datePublished)
     {
@@ -670,7 +705,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -687,7 +722,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -701,7 +736,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/discussionUrl
+     * @see schema:discussionUrl
      */
     public function discussionUrl($discussionUrl)
     {
@@ -727,8 +762,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/editEIDR
-     * @see http://pending.schema.org
+     * @see schema:editEIDR
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2469
      */
     public function editEIDR($editEIDR)
@@ -743,7 +778,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/editor
+     * @see schema:editor
      */
     public function editor($editor)
     {
@@ -761,7 +796,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/educationalAlignment
+     * @see schema:educationalAlignment
      */
     public function educationalAlignment($educationalAlignment)
     {
@@ -777,8 +812,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/educationalLevel
-     * @see http://pending.schema.org
+     * @see schema:educationalLevel
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1779
      */
     public function educationalLevel($educationalLevel)
@@ -790,11 +825,11 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      * The purpose of a work in the context of education; for example,
      * 'assignment', 'group work'.
      *
-     * @param string|string[] $educationalUse
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $educationalUse
      *
      * @return static
      *
-     * @see https://schema.org/educationalUse
+     * @see schema:educationalUse
      */
     public function educationalUse($educationalUse)
     {
@@ -809,7 +844,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/encoding
+     * @see schema:encoding
      */
     public function encoding($encoding)
     {
@@ -836,7 +871,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/encodingFormat
+     * @see schema:encodingFormat
      */
     public function encodingFormat($encodingFormat)
     {
@@ -850,7 +885,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/encodings
+     * @see schema:encodings
      */
     public function encodings($encodings)
     {
@@ -865,7 +900,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/exampleOfWork
+     * @see schema:exampleOfWork
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function exampleOfWork($exampleOfWork)
@@ -884,7 +919,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/expires
+     * @see schema:expires
      */
     public function expires($expires)
     {
@@ -905,7 +940,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/fileFormat
+     * @see schema:fileFormat
      */
     public function fileFormat($fileFormat)
     {
@@ -920,7 +955,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/funder
+     * @see schema:funder
      */
     public function funder($funder)
     {
@@ -934,7 +969,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/genre
+     * @see schema:genre
      */
     public function genre($genre)
     {
@@ -949,7 +984,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/hasPart
+     * @see schema:hasPart
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function hasPart($hasPart)
@@ -964,7 +999,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/headline
+     * @see schema:headline
      */
     public function headline($headline)
     {
@@ -982,7 +1017,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -997,7 +1032,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -1014,7 +1049,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/inLanguage
+     * @see schema:inLanguage
      * @link https://github.com/schemaorg/schemaorg/issues/2382
      */
     public function inLanguage($inLanguage)
@@ -1031,7 +1066,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/interactionStatistic
+     * @see schema:interactionStatistic
      * @link https://github.com/schemaorg/schemaorg/issues/2421
      */
     public function interactionStatistic($interactionStatistic)
@@ -1047,7 +1082,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/interactivityType
+     * @see schema:interactivityType
      */
     public function interactivityType($interactivityType)
     {
@@ -1061,7 +1096,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/isAccessibleForFree
+     * @see schema:isAccessibleForFree
      */
     public function isAccessibleForFree($isAccessibleForFree)
     {
@@ -1076,7 +1111,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/isBasedOn
+     * @see schema:isBasedOn
      */
     public function isBasedOn($isBasedOn)
     {
@@ -1092,7 +1127,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/isBasedOnUrl
+     * @see schema:isBasedOnUrl
      */
     public function isBasedOnUrl($isBasedOnUrl)
     {
@@ -1106,7 +1141,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/isFamilyFriendly
+     * @see schema:isFamilyFriendly
      */
     public function isFamilyFriendly($isFamilyFriendly)
     {
@@ -1121,7 +1156,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/isPartOf
+     * @see schema:isPartOf
      */
     public function isPartOf($isPartOf)
     {
@@ -1132,11 +1167,11 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      * Keywords or tags used to describe this content. Multiple entries in a
      * keywords list are typically delimited by commas.
      *
-     * @param string|string[] $keywords
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $keywords
      *
      * @return static
      *
-     * @see https://schema.org/keywords
+     * @see schema:keywords
      */
     public function keywords($keywords)
     {
@@ -1151,7 +1186,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/lastReviewed
+     * @see schema:lastReviewed
      */
     public function lastReviewed($lastReviewed)
     {
@@ -1162,11 +1197,11 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      * The predominant type or kind characterizing the learning resource. For
      * example, 'presentation', 'handout'.
      *
-     * @param string|string[] $learningResourceType
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|string|string[] $learningResourceType
      *
      * @return static
      *
-     * @see https://schema.org/learningResourceType
+     * @see schema:learningResourceType
      */
     public function learningResourceType($learningResourceType)
     {
@@ -1181,8 +1216,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/leaseLength
-     * @see http://pending.schema.org
+     * @see schema:leaseLength
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2373
      */
     public function leaseLength($leaseLength)
@@ -1198,7 +1233,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/license
+     * @see schema:license
      */
     public function license($license)
     {
@@ -1213,7 +1248,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/locationCreated
+     * @see schema:locationCreated
      */
     public function locationCreated($locationCreated)
     {
@@ -1227,7 +1262,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/mainContentOfPage
+     * @see schema:mainContentOfPage
      */
     public function mainContentOfPage($mainContentOfPage)
     {
@@ -1242,7 +1277,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/mainEntity
+     * @see schema:mainEntity
      */
     public function mainEntity($mainEntity)
     {
@@ -1258,7 +1293,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -1284,8 +1319,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/maintainer
-     * @see http://pending.schema.org
+     * @see schema:maintainer
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2311
      */
     public function maintainer($maintainer)
@@ -1301,7 +1336,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/material
+     * @see schema:material
      */
     public function material($material)
     {
@@ -1316,8 +1351,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/materialExtent
-     * @see http://pending.schema.org
+     * @see schema:materialExtent
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1759
      */
     public function materialExtent($materialExtent)
@@ -1333,7 +1368,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/mentions
+     * @see schema:mentions
      */
     public function mentions($mentions)
     {
@@ -1347,7 +1382,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -1368,7 +1403,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/offers
+     * @see schema:offers
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function offers($offers)
@@ -1385,8 +1420,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/pattern
-     * @see http://pending.schema.org
+     * @see schema:pattern
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function pattern($pattern)
@@ -1401,7 +1436,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/position
+     * @see schema:position
      */
     public function position($position)
     {
@@ -1416,7 +1451,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -1430,7 +1465,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/primaryImageOfPage
+     * @see schema:primaryImageOfPage
      */
     public function primaryImageOfPage($primaryImageOfPage)
     {
@@ -1445,7 +1480,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/producer
+     * @see schema:producer
      */
     public function producer($producer)
     {
@@ -1461,7 +1496,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/provider
+     * @see schema:provider
      * @link https://github.com/schemaorg/schemaorg/issues/2289
      */
     public function provider($provider)
@@ -1476,7 +1511,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/publication
+     * @see schema:publication
      */
     public function publication($publication)
     {
@@ -1490,7 +1525,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/publisher
+     * @see schema:publisher
      */
     public function publisher($publisher)
     {
@@ -1504,8 +1539,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/publisherImprint
-     * @see http://bib.schema.org
+     * @see schema:publisherImprint
+     * @see https://bib.schema.org
      */
     public function publisherImprint($publisherImprint)
     {
@@ -1529,7 +1564,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/publishingPrinciples
+     * @see schema:publishingPrinciples
      */
     public function publishingPrinciples($publishingPrinciples)
     {
@@ -1544,7 +1579,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/recordedAt
+     * @see schema:recordedAt
      */
     public function recordedAt($recordedAt)
     {
@@ -1558,7 +1593,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/relatedLink
+     * @see schema:relatedLink
      */
     public function relatedLink($relatedLink)
     {
@@ -1573,7 +1608,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/releasedEvent
+     * @see schema:releasedEvent
      */
     public function releasedEvent($releasedEvent)
     {
@@ -1587,7 +1622,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/review
+     * @see schema:review
      */
     public function review($review)
     {
@@ -1602,7 +1637,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/reviewedBy
+     * @see schema:reviewedBy
      */
     public function reviewedBy($reviewedBy)
     {
@@ -1616,7 +1651,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/reviews
+     * @see schema:reviews
      */
     public function reviews($reviews)
     {
@@ -1632,7 +1667,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -1641,15 +1676,20 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
 
     /**
      * Indicates (by URL or string) a particular version of a schema used in
-     * some CreativeWork. For example, a document could declare a schemaVersion
-     * using an URL such as https://schema.org/version/2.0/ if precise
-     * indication of schema version was required by some application.
+     * some CreativeWork. This property was created primarily to
+     *     indicate the use of a specific schema.org release, e.g. ```10.0``` as
+     * a simple string, or more explicitly via URL,
+     * ```https://schema.org/docs/releases.html#v10.0```. There may be
+     * situations in which other schemas might usefully be referenced this way,
+     * e.g.
+     * ```http://dublincore.org/specifications/dublin-core/dces/1999-07-02/```
+     * but this has not been carefully explored in the community.
      *
      * @param string|string[] $schemaVersion
      *
      * @return static
      *
-     * @see https://schema.org/schemaVersion
+     * @see schema:schemaVersion
      */
     public function schemaVersion($schemaVersion)
     {
@@ -1664,8 +1704,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sdDatePublished
-     * @see http://pending.schema.org
+     * @see schema:sdDatePublished
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdDatePublished($sdDatePublished)
@@ -1681,8 +1721,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sdLicense
-     * @see http://pending.schema.org
+     * @see schema:sdLicense
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdLicense($sdLicense)
@@ -1703,8 +1743,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sdPublisher
-     * @see http://pending.schema.org
+     * @see schema:sdPublisher
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1886
      */
     public function sdPublisher($sdPublisher)
@@ -1720,7 +1760,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/significantLink
+     * @see schema:significantLink
      */
     public function significantLink($significantLink)
     {
@@ -1735,7 +1775,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/significantLinks
+     * @see schema:significantLinks
      */
     public function significantLinks($significantLinks)
     {
@@ -1743,19 +1783,18 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
     }
 
     /**
-     * A standardized size of a product or creative work, often simplifying
-     * richer information into a simple textual string, either through referring
-     * to named sizes or (in the case of product markup), by adopting
-     * conventional simplifications. Use of QuantitativeValue with a unitCode or
-     * unitText can add more structure; in other cases, the /width, /height,
-     * /depth and /weight properties may be more applicable.
+     * A standardized size of a product or creative work, specified either
+     * through a simple textual string (for example 'XL', '32Wx34L'), a 
+     * QuantitativeValue with a unitCode, or a comprehensive and structured
+     * [[SizeSpecification]]; in other cases, the [[width]], [[height]],
+     * [[depth]] and [[weight]] properties may be more applicable.
      *
-     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|string|string[] $size
+     * @param \Spatie\SchemaOrg\Contracts\DefinedTermContract|\Spatie\SchemaOrg\Contracts\DefinedTermContract[]|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract|\Spatie\SchemaOrg\Contracts\QuantitativeValueContract[]|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract|\Spatie\SchemaOrg\Contracts\SizeSpecificationContract[]|string|string[] $size
      *
      * @return static
      *
-     * @see https://schema.org/size
-     * @see http://pending.schema.org
+     * @see schema:size
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/1797
      */
     public function size($size)
@@ -1770,7 +1809,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sourceOrganization
+     * @see schema:sourceOrganization
      */
     public function sourceOrganization($sourceOrganization)
     {
@@ -1786,7 +1825,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/spatial
+     * @see schema:spatial
      */
     public function spatial($spatial)
     {
@@ -1805,7 +1844,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/spatialCoverage
+     * @see schema:spatialCoverage
      */
     public function spatialCoverage($spatialCoverage)
     {
@@ -1833,6 +1872,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      * 3.)  XPaths - addresses content via XPaths (assuming an XML view of the
      * content). Use the [[xpath]] property.
      * 
+     * 
      * For more sophisticated markup of speakable sections beyond simple ID
      * references, either CSS selectors or XPath expressions to pick out
      * document section(s) as speakable. For this
@@ -1843,7 +1883,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/speakable
+     * @see schema:speakable
      * @link https://github.com/schemaorg/schemaorg/issues/1389
      */
     public function speakable($speakable)
@@ -1858,7 +1898,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/specialty
+     * @see schema:specialty
      */
     public function specialty($specialty)
     {
@@ -1874,7 +1914,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/sponsor
+     * @see schema:sponsor
      */
     public function sponsor($sponsor)
     {
@@ -1888,7 +1928,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -1904,8 +1944,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/teaches
-     * @see http://pending.schema.org
+     * @see schema:teaches
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2427
      */
     public function teaches($teaches)
@@ -1923,7 +1963,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/temporal
+     * @see schema:temporal
      */
     public function temporal($temporal)
     {
@@ -1953,7 +1993,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/temporalCoverage
+     * @see schema:temporalCoverage
      */
     public function temporalCoverage($temporalCoverage)
     {
@@ -1967,7 +2007,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/text
+     * @see schema:text
      */
     public function text($text)
     {
@@ -1981,7 +2021,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/thumbnailUrl
+     * @see schema:thumbnailUrl
      */
     public function thumbnailUrl($thumbnailUrl)
     {
@@ -1997,7 +2037,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/timeRequired
+     * @see schema:timeRequired
      */
     public function timeRequired($timeRequired)
     {
@@ -2012,8 +2052,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/translationOfWork
-     * @see http://bib.schema.org
+     * @see schema:translationOfWork
+     * @see https://bib.schema.org
      */
     public function translationOfWork($translationOfWork)
     {
@@ -2029,7 +2069,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/translator
+     * @see schema:translator
      */
     public function translator($translator)
     {
@@ -2043,7 +2083,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/typicalAgeRange
+     * @see schema:typicalAgeRange
      */
     public function typicalAgeRange($typicalAgeRange)
     {
@@ -2057,7 +2097,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
@@ -2083,8 +2123,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/usageInfo
-     * @see http://pending.schema.org
+     * @see schema:usageInfo
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2454
      */
     public function usageInfo($usageInfo)
@@ -2099,7 +2139,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/version
+     * @see schema:version
      */
     public function version($version)
     {
@@ -2113,7 +2153,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/video
+     * @see schema:video
      */
     public function video($video)
     {
@@ -2128,7 +2168,7 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/workExample
+     * @see schema:workExample
      * @link http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex
      */
     public function workExample($workExample)
@@ -2146,8 +2186,8 @@ class RealEstateListing extends BaseType implements RealEstateListingContract, C
      *
      * @return static
      *
-     * @see https://schema.org/workTranslation
-     * @see http://bib.schema.org
+     * @see schema:workTranslation
+     * @see https://bib.schema.org
      */
     public function workTranslation($workTranslation)
     {

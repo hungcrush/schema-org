@@ -13,8 +13,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * the term being defined, use termCode if the term has an alpha-numeric code
  * allocated, use description to provide the definition of the term.
  *
- * @see https://schema.org/DefinedTerm
- * @see http://pending.schema.org
+ * @see schema:DefinedTerm
+ * @see https://pending.schema.org
  * @link https://github.com/schemaorg/schemaorg/issues/894
  *
  */
@@ -32,7 +32,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -46,7 +46,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -60,7 +60,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -77,7 +77,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -95,7 +95,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -110,7 +110,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -124,8 +124,8 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/inDefinedTermSet
-     * @see http://pending.schema.org
+     * @see schema:inDefinedTermSet
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/894
      */
     public function inDefinedTermSet($inDefinedTermSet)
@@ -142,7 +142,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -156,7 +156,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -171,7 +171,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -187,7 +187,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -201,7 +201,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -216,8 +216,8 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/termCode
-     * @see http://pending.schema.org
+     * @see schema:termCode
+     * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/894
      */
     public function termCode($termCode)
@@ -232,7 +232,7 @@ class DefinedTerm extends BaseType implements DefinedTermContract, IntangibleCon
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

@@ -12,8 +12,8 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * Classes of agents or pathogens that transmit infectious diseases. Enumerated
  * type.
  *
- * @see https://schema.org/InfectiousAgentClass
- * @see http://health-lifesci.schema.org
+ * @see schema:InfectiousAgentClass
+ * @see https://health-lifesci.schema.org
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -22,50 +22,50 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
     /**
      * Pathogenic bacteria that cause bacterial infection.
      *
-     * @see https://schema.org/Bacteria
-     * @see http://health-lifesci.schema.org
+     * @see schema:Bacteria
+     * @see https://health-lifesci.schema.org
      */
-     const Bacteria = 'https://schema.org/Bacteria';
+     const Bacteria = 'schema:Bacteria';
 
     /**
      * Pathogenic fungus.
      *
-     * @see https://schema.org/Fungus
-     * @see http://health-lifesci.schema.org
+     * @see schema:Fungus
+     * @see https://health-lifesci.schema.org
      */
-     const Fungus = 'https://schema.org/Fungus';
+     const Fungus = 'schema:Fungus';
 
     /**
      * Multicellular parasite that causes an infection.
      *
-     * @see https://schema.org/MulticellularParasite
-     * @see http://health-lifesci.schema.org
+     * @see schema:MulticellularParasite
+     * @see https://health-lifesci.schema.org
      */
-     const MulticellularParasite = 'https://schema.org/MulticellularParasite';
+     const MulticellularParasite = 'schema:MulticellularParasite';
 
     /**
      * A prion is an infectious agent composed of protein in a misfolded form.
      *
-     * @see https://schema.org/Prion
-     * @see http://health-lifesci.schema.org
+     * @see schema:Prion
+     * @see https://health-lifesci.schema.org
      */
-     const Prion = 'https://schema.org/Prion';
+     const Prion = 'schema:Prion';
 
     /**
      * Single-celled organism that causes an infection.
      *
-     * @see https://schema.org/Protozoa
-     * @see http://health-lifesci.schema.org
+     * @see schema:Protozoa
+     * @see https://health-lifesci.schema.org
      */
-     const Protozoa = 'https://schema.org/Protozoa';
+     const Protozoa = 'schema:Protozoa';
 
     /**
      * Pathogenic virus that causes viral infection.
      *
-     * @see https://schema.org/Virus
-     * @see http://health-lifesci.schema.org
+     * @see schema:Virus
+     * @see https://health-lifesci.schema.org
      */
-     const Virus = 'https://schema.org/Virus';
+     const Virus = 'schema:Virus';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -79,7 +79,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -93,7 +93,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -107,7 +107,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -124,7 +124,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -142,7 +142,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -157,7 +157,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -173,7 +173,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -187,7 +187,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -202,7 +202,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -218,7 +218,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -232,7 +232,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -247,7 +247,7 @@ class InfectiousAgentClass extends BaseType implements InfectiousAgentClassContr
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {

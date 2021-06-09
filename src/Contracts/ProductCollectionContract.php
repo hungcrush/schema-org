@@ -78,6 +78,8 @@ interface ProductCollectionContract
 
     public function copyrightHolder($copyrightHolder);
 
+    public function copyrightNotice($copyrightNotice);
+
     public function copyrightYear($copyrightYear);
 
     public function correction($correction);
@@ -85,6 +87,8 @@ interface ProductCollectionContract
     public function creativeWorkStatus($creativeWorkStatus);
 
     public function creator($creator);
+
+    public function creditText($creditText);
 
     public function dateCreated($dateCreated);
 
@@ -135,6 +139,10 @@ interface ProductCollectionContract
     public function gtin14($gtin14);
 
     public function gtin8($gtin8);
+
+    public function hasEnergyConsumptionDetails($hasEnergyConsumptionDetails);
+
+    public function hasMeasurement($hasMeasurement);
 
     public function hasMerchantReturnPolicy($hasMerchantReturnPolicy);
 

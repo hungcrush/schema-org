@@ -11,7 +11,7 @@ use \Spatie\SchemaOrg\Contracts\ThingContract;
  * RsvpResponseType is an enumeration type whose instances represent responding
  * to an RSVP request.
  *
- * @see https://schema.org/RsvpResponseType
+ * @see schema:RsvpResponseType
  *
  * @method static supersededBy($supersededBy) The value should be instance of pending types Class|Class[]|Enumeration|Enumeration[]|Property|Property[]
  */
@@ -20,23 +20,23 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
     /**
      * The invitee may or may not attend.
      *
-     * @see https://schema.org/RsvpResponseMaybe
+     * @see schema:RsvpResponseMaybe
      */
-     const RsvpResponseMaybe = 'https://schema.org/RsvpResponseMaybe';
+     const RsvpResponseMaybe = 'schema:RsvpResponseMaybe';
 
     /**
      * The invitee will not attend.
      *
-     * @see https://schema.org/RsvpResponseNo
+     * @see schema:RsvpResponseNo
      */
-     const RsvpResponseNo = 'https://schema.org/RsvpResponseNo';
+     const RsvpResponseNo = 'schema:RsvpResponseNo';
 
     /**
      * The invitee will attend.
      *
-     * @see https://schema.org/RsvpResponseYes
+     * @see schema:RsvpResponseYes
      */
-     const RsvpResponseYes = 'https://schema.org/RsvpResponseYes';
+     const RsvpResponseYes = 'schema:RsvpResponseYes';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -50,7 +50,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/additionalType
+     * @see schema:additionalType
      */
     public function additionalType($additionalType)
     {
@@ -64,7 +64,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/alternateName
+     * @see schema:alternateName
      */
     public function alternateName($alternateName)
     {
@@ -78,7 +78,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/description
+     * @see schema:description
      */
     public function description($description)
     {
@@ -95,7 +95,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/disambiguatingDescription
+     * @see schema:disambiguatingDescription
      */
     public function disambiguatingDescription($disambiguatingDescription)
     {
@@ -113,7 +113,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/identifier
+     * @see schema:identifier
      */
     public function identifier($identifier)
     {
@@ -128,7 +128,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/image
+     * @see schema:image
      */
     public function image($image)
     {
@@ -144,7 +144,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/mainEntityOfPage
+     * @see schema:mainEntityOfPage
      */
     public function mainEntityOfPage($mainEntityOfPage)
     {
@@ -158,7 +158,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/name
+     * @see schema:name
      */
     public function name($name)
     {
@@ -173,7 +173,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/potentialAction
+     * @see schema:potentialAction
      */
     public function potentialAction($potentialAction)
     {
@@ -189,7 +189,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/sameAs
+     * @see schema:sameAs
      */
     public function sameAs($sameAs)
     {
@@ -203,7 +203,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/subjectOf
+     * @see schema:subjectOf
      * @link https://github.com/schemaorg/schemaorg/issues/1670
      */
     public function subjectOf($subjectOf)
@@ -218,7 +218,7 @@ class RsvpResponseType extends BaseType implements RsvpResponseTypeContract, Enu
      *
      * @return static
      *
-     * @see https://schema.org/url
+     * @see schema:url
      */
     public function url($url)
     {
